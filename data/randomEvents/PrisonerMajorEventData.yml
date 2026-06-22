@@ -25,7 +25,7 @@ events:
       # index matches the response options presented to the player.
       - quality: RESPONSE_NEUTRAL
         # Can only include skill values from the SkillType class. Defaults to "", if not present.
-        skillCheckType: ""
+        skillCheckType: S_SMALL_ARMS
         # Can only include values from the SkillAttribute class. Defaults to "ATTRIBUTE_NONE", if not present.
         abilityCheckType: ATTRIBUTE_NONE
         # The effects caused by successfully resolving the event.
@@ -66,6 +66,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -99,6 +100,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: ESCAPE_PERCENT
             affectedPersonnelTypes:
@@ -115,6 +117,7 @@ events:
   - randomEventType: RIOT
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_MELEE_WEAPONS
         effectsSuccess:
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -142,6 +145,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -173,6 +177,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_NEG
         effectsSuccess:
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -199,6 +204,7 @@ events:
   - randomEventType: MURDER
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           - effect: DEATH
             affectedPersonnelTypes:
@@ -214,6 +220,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_ACTING
         effectsSuccess:
           - effect: DEATH
             affectedPersonnelTypes:
@@ -229,6 +236,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_MELEE_WEAPONS
         effectsSuccess:
           - effect: DEATH
             affectedPersonnelTypes:
@@ -255,6 +263,7 @@ events:
   - randomEventType: FIRE
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_ADMIN
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -298,6 +307,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -337,6 +347,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -387,6 +398,7 @@ events:
   - randomEventType: POISON
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
@@ -405,6 +417,7 @@ events:
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
@@ -434,6 +447,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
@@ -455,6 +469,7 @@ events:
   - randomEventType: HOSTAGE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_ACTING
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -490,6 +505,7 @@ events:
               - SECURITY_GUARD
             magnitude: 10
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -529,6 +545,7 @@ events:
               - SECURITY_GUARD
             magnitude: 10
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_LEADER
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -557,6 +574,7 @@ events:
   - randomEventType: BOMB
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: ESCAPE
             magnitude: 10
@@ -568,6 +586,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -585,6 +604,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_ADMIN
         effectsSuccess:
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -603,6 +623,7 @@ events:
   - randomEventType: EXECUTION
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_INVESTIGATION
         effectsSuccess:
           - effect: DEATH
             affectedPersonnelTypes:
@@ -628,6 +649,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_ADMIN
         effectsSuccess:
           - effect: DEATH
             affectedPersonnelTypes:
@@ -665,6 +687,7 @@ events:
   - randomEventType: ABANDONED_TO_DIE
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckType: S_ADMIN
         effectsSuccess:
           # Generate 2d6 new prisoners & xd6 crime
           - effect: UNIQUE
@@ -695,6 +718,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_NEG
         effectsSuccess:
           # Generate 2d6 new prisoners & xd6 crime
           - effect: UNIQUE
@@ -713,6 +737,7 @@ events:
   - randomEventType: UNITED
     responseEntries:
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_INTEREST_MILITARY
         effectsSuccess:
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -740,6 +765,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -779,6 +805,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
+        skillCheckType: S_SMALL_ARMS
         effectsSuccess:
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
