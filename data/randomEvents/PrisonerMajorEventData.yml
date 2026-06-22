@@ -374,16 +374,28 @@ events:
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             magnitude: 1
         effectsFailure:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
           - effect: INJURY
@@ -393,6 +405,10 @@ events:
         effectsFailure:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
           - effect: INJURY
@@ -405,10 +421,18 @@ events:
         effectsSuccess:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             magnitude: 1
         effectsFailure:
           # 'Poison' (xd6 Fatigue) 10% of personnel
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - CAMP_FOLLOWERS
+              - COMBAT_PERSONNEL
+              - SUPPORT_PERSONNEL
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 1
 

@@ -786,6 +786,8 @@ events:
         effectsSuccess:
           # Remove all combat skills from a random Prisoner
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - PRISONERS
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -1049,6 +1051,8 @@ events:
         effectsSuccess:
           # Change the origin faction of one prisoner to match employer
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - PRISONERS
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -1066,6 +1070,8 @@ events:
         effectsSuccess:
           # Change the origin faction of one prisoner to match employer
           - effect: UNIQUE
+            affectedPersonnelTypes:
+              - PRISONERS
           - effect: SUPPORT_POINT
             magnitude: 1
         effectsFailure:
