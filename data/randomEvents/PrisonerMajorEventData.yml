@@ -24,6 +24,10 @@ events:
       # Can only include values from the ResponseQuality enum. Must include three responses whose
       # index matches the response options presented to the player.
       - quality: RESPONSE_NEUTRAL
+        # Can only include skill values from the SkillType class. Defaults to "", if not present.
+        skillCheckType: ""
+        # Can only include values from the SkillAttribute class. Defaults to "ATTRIBUTE_NONE", if not present.
+        abilityCheckType: ATTRIBUTE_NONE
         # The effects caused by successfully resolving the event.
         effectsSuccess:
           # Can only include values from the EventResultEffect enum.
@@ -38,7 +42,7 @@ events:
             magnitude: 20
             # Can only include skill values from the SkillType class. Used by the 'SKILL'
             # EventResultEffect. Defaults to "", if not present.
-            skillType: SKILL_NONE
+            affectedSkill: ""
           - effect: PRISONER_CAPACITY
             magnitude: -25
         # The effects caused by failing to resolve the event successfully.

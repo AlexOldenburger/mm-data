@@ -39,7 +39,7 @@ events:
             magnitude: 5
             # Can only include skill values from the SkillType class. Used by the 'SKILL'
             # EventResultEffect. Defaults to "", if not present.
-            skillType: SKILL_NONE
+            affectedSkill: ""
         # The effects caused by failing to resolve the event successfully.
         effectsFailure:
           - effect: PRISONER_CAPACITY
@@ -87,7 +87,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: PRISONER_CAPACITY
@@ -99,7 +99,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
 
   - randomEventType: TAMPERING
     responseEntries:
@@ -255,7 +255,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -263,7 +263,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
@@ -272,7 +272,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -280,7 +280,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 2
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
@@ -292,7 +292,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
@@ -304,13 +304,13 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_TECH_MECHANIC
+            affectedSkill: S_TECH_MECHANIC
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_TECH_MECHANIC
+            affectedSkill: S_TECH_MECHANIC
           - effect: PRISONER_CAPACITY
             magnitude: -20
       - quality: RESPONSE_NEUTRAL
@@ -319,13 +319,13 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_TECH_MECHANIC
+            affectedSkill: S_TECH_MECHANIC
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_TECH_MECHANIC
+            affectedSkill: S_TECH_MECHANIC
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
@@ -334,7 +334,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_TECH_MECHANIC
+            affectedSkill: S_TECH_MECHANIC
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -422,7 +422,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -481,7 +481,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -489,7 +489,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
@@ -498,7 +498,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
@@ -506,7 +506,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
@@ -515,7 +515,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
@@ -523,7 +523,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
@@ -669,7 +669,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -677,7 +677,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
@@ -703,7 +703,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -711,7 +711,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
@@ -1251,7 +1251,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
         effectsFailure:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1265,7 +1265,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 10
         effectsFailure:
@@ -1273,7 +1273,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
@@ -1282,13 +1282,13 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            skillType: S_LEADER
+            affectedSkill: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
