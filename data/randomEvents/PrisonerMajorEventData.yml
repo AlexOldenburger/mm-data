@@ -30,9 +30,9 @@ events:
           # Any response with the UNIQUE enum requires separate code support.
           # Defaults to NONE, if not present.
           - effect: INJURY_PERCENT
-            # TRUE to affect guards, otherwise false. Used by some EventResultEffect values.
-            # Defaults to FALSE, if not present.
-            isGuard: TRUE
+            # Include one or more RandomEventEffectedPersonnelType
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             # Intensity of the effect. Affects different effects differently. See EventResultEffect
             # for more information. Defaults to 0, if not present.
             magnitude: 20
@@ -46,26 +46,32 @@ events:
           - effect: ESCAPE_PERCENT
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -73,13 +79,16 @@ events:
           - effect: ESCAPE
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
@@ -100,66 +109,81 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
         effectsFailure:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
         effectsFailure:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
@@ -169,45 +193,53 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -10
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -10
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
@@ -217,98 +249,121 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: ESCAPE_PERCENT
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -50
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: ESCAPE_PERCENT
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 40
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 40
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -50
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 40
           - effect: ESCAPE_PERCENT
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -15
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 40
           - effect: ESCAPE_PERCENT
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -50
@@ -332,7 +387,8 @@ events:
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
         effectsFailure:
           # 'Poison' (xd6 Fatigue) 10% of personnel
@@ -340,7 +396,8 @@ events:
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -15
@@ -360,59 +417,76 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 2
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: DEATH
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 3
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: DEATH
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -420,19 +494,24 @@ events:
             magnitude: -10
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: DEATH
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
 
   - prisonerEvent: BOMB
@@ -451,13 +530,15 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -25
         effectsFailure:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: ESCAPE
             magnitude: 20
@@ -466,7 +547,8 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: ESCAPE
             magnitude: 5
@@ -483,49 +565,59 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -15
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -15
@@ -583,81 +675,101 @@ events:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -10

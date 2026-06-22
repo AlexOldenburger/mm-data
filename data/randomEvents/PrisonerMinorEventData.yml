@@ -32,7 +32,8 @@ events:
           - effect: PRISONER_CAPACITY
             # TRUE to affect guards, otherwise false. Used by some EventResultEffect values.
             # Defaults to FALSE, if not present.
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             # Intensity of the effect. Affects different effects differently. See EventResultEffect
             # for more information. Defaults to 0, if not present.
             magnitude: 5
@@ -58,10 +59,12 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: INJURY
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 3
 
   - prisonerEvent: WILD_STORIES
@@ -81,7 +84,8 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
       - quality: RESPONSE_NEUTRAL
@@ -92,7 +96,8 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
 
@@ -103,13 +108,15 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: 5
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -136,11 +143,13 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -226,10 +235,12 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
           - effect: FATIGUE_ALL
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: LOYALTY_ALL
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: -2
 
   - prisonerEvent: RESCUE
@@ -237,14 +248,16 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -252,14 +265,16 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 2
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -270,7 +285,8 @@ events:
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -281,12 +297,14 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_TECH_MECHANIC
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_TECH_MECHANIC
           - effect: PRISONER_CAPACITY
@@ -294,12 +312,14 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_TECH_MECHANIC
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_TECH_MECHANIC
           - effect: PRISONER_CAPACITY
@@ -307,7 +327,8 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_TECH_MECHANIC
         effectsFailure:
@@ -336,10 +357,12 @@ events:
             magnitude: 5
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -15
@@ -351,10 +374,12 @@ events:
           - effect: NONE
         effectsFailure:
           - effect: INJURY
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -390,7 +415,8 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -448,14 +474,16 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -463,14 +491,16 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -478,14 +508,16 @@ events:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -508,7 +540,8 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -525,7 +558,8 @@ events:
           - effect: NONE
         effectsFailure:
           - effect: LOYALTY_ONE
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: -3
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -562,7 +596,8 @@ events:
             magnitude: 5
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -627,14 +662,16 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -659,14 +696,16 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -715,13 +754,15 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 2
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -788,10 +829,12 @@ events:
           - effect: NONE
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 5
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -800,10 +843,12 @@ events:
           - effect: NONE
         effectsFailure:
           - effect: DEATH_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 10
           - effect: DEATH_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -15
@@ -893,25 +938,31 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 2
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -950,25 +1001,31 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 2
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 2
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -1000,7 +1057,8 @@ events:
           - effect: NONE
         effectsFailure:
           - effect: DEATH
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -1019,37 +1077,43 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
         effectsFailure:
           - effect: LOYALTY_ONE
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: -5
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -1175,26 +1239,30 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
             magnitude: 10
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -1202,12 +1270,14 @@ events:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
         effectsFailure:
           - effect: SKILL
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
             skillType: S_LEADER
           - effect: PRISONER_CAPACITY
@@ -1263,13 +1333,15 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -1292,42 +1364,51 @@ events:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 1
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: INJURY_PERCENT
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: INJURY_PERCENT
-            isGuard: TRUE
+            affectedPersonnelTypes:
+              - SECURITY_GUARD
             magnitude: 1
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
         effectsFailure:
           - effect: INJURY
-            isGuard: FALSE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 3
           - effect: PRISONER_CAPACITY
             magnitude: -5
