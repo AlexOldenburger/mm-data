@@ -18,8 +18,8 @@
 # All events in this yml are considered 'minor' events
 events:
   # This is the internal identification enum for the event.
-  # Only acceptable values are in the PrisonerEvent enum.
-  - prisonerEvent: BREAKOUT
+  # Only acceptable values are in the RandomEventType enum.
+  - randomEventType: BREAKOUT
     responseEntries:
       # Can only include values from the ResponseQuality enum. Must include three responses whose
       # index matches the response options presented to the player.
@@ -108,7 +108,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -50
 
-  - prisonerEvent: RIOT
+  - randomEventType: RIOT
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -192,7 +192,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
 
-  - prisonerEvent: MURDER
+  - randomEventType: MURDER
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -248,7 +248,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
 
-  - prisonerEvent: FIRE
+  - randomEventType: FIRE
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -380,7 +380,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -50
 
-  - prisonerEvent: POISON
+  - randomEventType: POISON
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -448,7 +448,7 @@ events:
             # Magnitude 2, as the problem wasn't resolved
             magnitude: 2
 
-  - prisonerEvent: HOSTAGE
+  - randomEventType: HOSTAGE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -550,7 +550,7 @@ events:
               - SECURITY_GUARD
             magnitude: 10
 
-  - prisonerEvent: BOMB
+  - randomEventType: BOMB
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -596,7 +596,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -25
 
-  - prisonerEvent: EXECUTION
+  - randomEventType: EXECUTION
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -658,7 +658,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: ABANDONED_TO_DIE
+  - randomEventType: ABANDONED_TO_DIE
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -706,7 +706,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: UNITED
+  - randomEventType: UNITED
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:

@@ -18,8 +18,8 @@
 # All events in this yml are considered 'minor' events
 events:
   # This is the internal identification enum for the event.
-  # Only acceptable values are in the PrisonerEvent enum.
-  - prisonerEvent: ARGUMENT
+  # Only acceptable values are in the RandomEventType enum.
+  - randomEventType: ARGUMENT
     responseEntries:
       # Can only include values from the ResponseQuality enum. Must include three responses whose
       # index matches the response options presented to the player.
@@ -67,7 +67,7 @@ events:
               - SECURITY_GUARD
             magnitude: 3
 
-  - prisonerEvent: WILD_STORIES
+  - randomEventType: WILD_STORIES
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -101,7 +101,7 @@ events:
             magnitude: 1
             skillType: S_LEADER
 
-  - prisonerEvent: TAMPERING
+  - randomEventType: TAMPERING
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -132,7 +132,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: 10
 
-  - prisonerEvent: CONVERSATIONS
+  - randomEventType: CONVERSATIONS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -161,7 +161,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: RATIONS
+  - randomEventType: RATIONS
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -185,7 +185,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: TRADE
+  - randomEventType: TRADE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -216,7 +216,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: DRAINED
+  - randomEventType: DRAINED
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -247,7 +247,7 @@ events:
               - SECURITY_GUARD
             magnitude: -2
 
-  - prisonerEvent: RESCUE
+  - randomEventType: RESCUE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -296,7 +296,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: REPAIRS
+  - randomEventType: REPAIRS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -339,7 +339,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: SICKNESS
+  - randomEventType: SICKNESS
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -371,7 +371,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: VETERAN
+  - randomEventType: VETERAN
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -400,7 +400,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: GRAFFITI
+  - randomEventType: GRAFFITI
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -429,7 +429,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: PRAYER
+  - randomEventType: PRAYER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -451,7 +451,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: BARTERING
+  - randomEventType: BARTERING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -473,7 +473,7 @@ events:
           # The OpFor has their morale bumped by one level
           - effect: UNIQUE
 
-  - prisonerEvent: OFFICER
+  - randomEventType: OFFICER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -527,7 +527,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: DICE
+  - randomEventType: DICE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -555,7 +555,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: LOVERS
+  - randomEventType: LOVERS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -578,7 +578,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: SOBBING
+  - randomEventType: SOBBING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -606,7 +606,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: PROPAGANDA
+  - randomEventType: PROPAGANDA
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -630,7 +630,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: SONGS
+  - randomEventType: SONGS
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -654,7 +654,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: REFUSE_RATIONS
+  - randomEventType: REFUSE_RATIONS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -688,7 +688,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: PLOTTING
+  - randomEventType: PLOTTING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -722,7 +722,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: EQUIPMENT
+  - randomEventType: EQUIPMENT
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -745,7 +745,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: PLANNED_RESCUE
+  - randomEventType: PLANNED_RESCUE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -777,7 +777,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: MISTAKE
+  - randomEventType: MISTAKE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -804,7 +804,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: LETTER
+  - randomEventType: LETTER
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -827,7 +827,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: ILLNESS
+  - randomEventType: ILLNESS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -865,7 +865,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: DO_ANDROIDS_DREAM_OF_ELECTRONIC_SHEEP
+  - randomEventType: DO_ANDROIDS_DREAM_OF_ELECTRONIC_SHEEP
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -888,7 +888,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: HEAVY_METAL
+  - randomEventType: HEAVY_METAL
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -911,7 +911,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: PARANOIA
+  - randomEventType: PARANOIA
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -932,7 +932,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: TUNNEL
+  - randomEventType: TUNNEL
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -979,7 +979,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: PET_RODENT
+  - randomEventType: PET_RODENT
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1001,7 +1001,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: ESCAPE_ROPE
+  - randomEventType: ESCAPE_ROPE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1048,7 +1048,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: UNDERCOVER
+  - randomEventType: UNDERCOVER
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1081,7 +1081,7 @@ events:
           - effect: SUPPORT_POINT
             magnitude: -1
 
-  - prisonerEvent: BRAND
+  - randomEventType: BRAND
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1127,7 +1127,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: SILENCE
+  - randomEventType: SILENCE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1150,7 +1150,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: SINGING
+  - randomEventType: SINGING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1174,7 +1174,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: PAPER
+  - randomEventType: PAPER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1198,7 +1198,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: HOLIDAY
+  - randomEventType: HOLIDAY
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -1221,7 +1221,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: WHISPERS
+  - randomEventType: WHISPERS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1243,7 +1243,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: LEADER
+  - randomEventType: LEADER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1292,7 +1292,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: ARGUMENTS
+  - randomEventType: ARGUMENTS
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1314,7 +1314,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: SENTIMENTAL_ITEM
+  - randomEventType: SENTIMENTAL_ITEM
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1337,7 +1337,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
-  - prisonerEvent: MALNUTRITION
+  - randomEventType: MALNUTRITION
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1368,7 +1368,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: INJURIES
+  - randomEventType: INJURIES
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1422,7 +1422,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: TERROR
+  - randomEventType: TERROR
     responseEntries:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -1447,7 +1447,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: SCREAMING
+  - randomEventType: SCREAMING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
@@ -1470,7 +1470,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: PHOTO
+  - randomEventType: PHOTO
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1495,7 +1495,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
 
-  - prisonerEvent: GHOSTS
+  - randomEventType: GHOSTS
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
@@ -1518,7 +1518,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
-  - prisonerEvent: VOICES
+  - randomEventType: VOICES
     responseEntries:
       - quality: RESPONSE_POSITIVE
         effectsSuccess:
