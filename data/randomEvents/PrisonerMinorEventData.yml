@@ -192,11 +192,15 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: 5
           - effect: INJURY_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -15
           - effect: INJURY_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
@@ -728,7 +732,6 @@ events:
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
         effectsSuccess:
-          - effect: NONE
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:

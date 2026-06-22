@@ -44,6 +44,8 @@ events:
         # The effects caused by failing to resolve the event successfully.
         effectsFailure:
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -95,6 +97,8 @@ events:
       - quality: RESPONSE_NEGATIVE
         effectsSuccess:
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -257,6 +261,8 @@ events:
               - PRISONERS
             magnitude: 10
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -274,6 +280,8 @@ events:
               - PRISONERS
             magnitude: 20
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -335,6 +343,8 @@ events:
               - PRISONERS
             magnitude: 40
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -356,6 +366,8 @@ events:
               - PRISONERS
             magnitude: 40
           - effect: ESCAPE_PERCENT
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: DEATH_PERCENT
             affectedPersonnelTypes:
@@ -434,7 +446,7 @@ events:
               - COMBAT_PERSONNEL
               - SUPPORT_PERSONNEL
             # Magnitude 2, as the problem wasn't resolved
-            magnitude: 1
+            magnitude: 2
 
   - prisonerEvent: HOSTAGE
     responseEntries:
