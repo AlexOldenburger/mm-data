@@ -25,7 +25,7 @@ events:
       # index matches the response options presented to the player.
       - quality: RESPONSE_NEUTRAL
         # Can only include skill values from the SkillType class. Defaults to "", if not present.
-        skillCheckSkill: S_SMALL_ARMS
+        skillCheckSkill: Small Arms
         # Can only include values from the SkillAttribute class. Defaults to "ATTRIBUTE_NONE", if not present.
         abilityCheckType: ATTRIBUTE_NONE
         # The effects caused by successfully resolving the event.
@@ -81,7 +81,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_SMALL_ARMS
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -92,9 +92,9 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_CRYPTOGRAPHY
+        skillCheckSkill: Cryptography
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -105,12 +105,12 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
 
   - randomEventType: TAMPERING
     responseEntries:
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_MELEE_WEAPONS
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -142,14 +142,14 @@ events:
   - randomEventType: CONVERSATIONS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_CRYPTOGRAPHY
+        skillCheckSkill: Cryptography
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -187,7 +187,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -198,7 +198,7 @@ events:
   - randomEventType: TRADE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -230,14 +230,14 @@ events:
   - randomEventType: DRAINED
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_LEADER
+        skillCheckSkill: Leadership
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -268,7 +268,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -276,17 +276,17 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -294,7 +294,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 2
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
@@ -306,26 +306,26 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
   - randomEventType: REPAIRS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_PERCEPTION
+        skillCheckSkill: Perception
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_TECH_MECHANIC
+            affectedSkill: Tech/Mechanic
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_TECH_MECHANIC
+            affectedSkill: Tech/Mechanic
           - effect: PRISONER_CAPACITY
             magnitude: -20
       - quality: RESPONSE_NEUTRAL
@@ -334,23 +334,23 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_TECH_MECHANIC
+            affectedSkill: Tech/Mechanic
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_TECH_MECHANIC
+            affectedSkill: Tech/Mechanic
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_TECH_MECHANIC
+        skillCheckSkill: Tech/Mechanic
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_TECH_MECHANIC
+            affectedSkill: Tech/Mechanic
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -358,7 +358,7 @@ events:
   - randomEventType: SICKNESS
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_MEDTECH
+        skillCheckSkill: MedTech/Any
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -405,14 +405,14 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -436,13 +436,13 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -458,7 +458,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -475,14 +475,14 @@ events:
   - randomEventType: BARTERING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -504,7 +504,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -512,7 +512,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
@@ -521,7 +521,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
@@ -529,17 +529,17 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_INTEREST_POLITICS
+        skillCheckSkill: Interest/Politics
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
         effectsFailure:
@@ -547,7 +547,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
 
@@ -582,7 +582,7 @@ events:
   - randomEventType: LOVERS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_LEADER
+        skillCheckSkill: Leadership
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -591,14 +591,14 @@ events:
               - SECURITY_GUARD
             magnitude: -3
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -622,7 +622,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_MELEE_WEAPONS
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -644,7 +644,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -676,7 +676,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ART_SINGING
+        skillCheckSkill: Art/Singing
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -694,13 +694,13 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -708,11 +708,11 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_SMALL_ARMS
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -723,7 +723,7 @@ events:
   - randomEventType: PLOTTING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -731,13 +731,13 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 5
         effectsFailure:
@@ -745,7 +745,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 1
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
@@ -759,14 +759,14 @@ events:
   - randomEventType: EQUIPMENT
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ASTECH
+        skillCheckSkill: Astech
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -774,7 +774,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_MELEE_WEAPONS
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -785,7 +785,7 @@ events:
   - randomEventType: PLANNED_RESCUE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -793,7 +793,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -809,7 +809,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -826,7 +826,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           # Remove all combat skills from a random Prisoner
           - effect: UNIQUE
@@ -848,7 +848,7 @@ events:
   - randomEventType: LETTER
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_CRYPTOGRAPHY
+        skillCheckSkill: Cryptography
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -862,7 +862,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -15
@@ -873,7 +873,7 @@ events:
   - randomEventType: ILLNESS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -902,7 +902,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_MEDTECH
+        skillCheckSkill: MedTech/Any
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -919,7 +919,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -937,7 +937,7 @@ events:
   - randomEventType: HEAVY_METAL
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -10
@@ -951,7 +951,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_TRACKING
+        skillCheckSkill: Tracking/Any
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -962,7 +962,7 @@ events:
   - randomEventType: PARANOIA
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -984,14 +984,14 @@ events:
   - randomEventType: TUNNEL
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1023,7 +1023,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_STEALTH
+        skillCheckSkill: Stealth
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1041,14 +1041,14 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ANIMAL_HANDLING
+        skillCheckSkill: Animal Handling
         effectsSuccess:
           - effect: NONE
         effectsFailure:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1058,7 +1058,7 @@ events:
   - randomEventType: ESCAPE_ROPE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_MELEE_WEAPONS
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1090,7 +1090,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_LEADER
+        skillCheckSkill: Leadership
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1107,7 +1107,7 @@ events:
   - randomEventType: UNDERCOVER
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           # Change the origin faction of one prisoner to match employer
           - effect: UNIQUE
@@ -1127,7 +1127,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           # Change the origin faction of one prisoner to match employer
           - effect: UNIQUE
@@ -1142,7 +1142,7 @@ events:
   - randomEventType: BRAND
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: LOYALTY_ONE
             affectedPersonnelTypes:
@@ -1158,7 +1158,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_MEDTECH
+        skillCheckSkill: MedTech/Any
         effectsSuccess:
           - effect: LOYALTY_ONE
             affectedPersonnelTypes:
@@ -1190,7 +1190,7 @@ events:
   - randomEventType: SILENCE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1205,7 +1205,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_SECURITY_SYSTEMS_ELECTRONIC
+        skillCheckSkill: Security Systems/Electronic
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1222,7 +1222,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_SMALL_ARMS
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1230,7 +1230,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_CRYPTOGRAPHY
+        skillCheckSkill: Cryptography
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: -5
@@ -1241,7 +1241,7 @@ events:
   - randomEventType: PAPER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_CRYPTOGRAPHY
+        skillCheckSkill: Cryptography
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1266,7 +1266,7 @@ events:
   - randomEventType: HOLIDAY
     responseEntries:
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_SMALL_ARMS
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1280,7 +1280,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_ACTING
+        skillCheckSkill: Acting
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1297,7 +1297,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_SENSOR_OPERATIONS
+        skillCheckSkill: Sensor Operations
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1314,13 +1314,13 @@ events:
   - randomEventType: LEADER
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
         effectsFailure:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1329,13 +1329,13 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: 10
         effectsFailure:
@@ -1343,7 +1343,7 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
@@ -1352,20 +1352,20 @@ events:
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
         effectsFailure:
           - effect: SKILL
             affectedPersonnelTypes:
               - PRISONERS
             magnitude: 3
-            affectedSkill: S_LEADER
+            affectedSkill: Leadership
           - effect: PRISONER_CAPACITY
             magnitude: -10
 
   - randomEventType: ARGUMENTS
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1373,7 +1373,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1402,7 +1402,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1413,7 +1413,7 @@ events:
   - randomEventType: MALNUTRITION
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_MELEE_WEAPONS
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1445,7 +1445,7 @@ events:
   - randomEventType: INJURIES
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_INVESTIGATION
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1484,7 +1484,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: INJURY
             affectedPersonnelTypes:
@@ -1507,7 +1507,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1515,7 +1515,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_INTERROGATION
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: SUPPORT_POINT
             magnitude: 1
@@ -1528,7 +1528,7 @@ events:
   - randomEventType: SCREAMING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_MEDTECH
+        skillCheckSkill: MedTech/Any
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1552,7 +1552,7 @@ events:
   - randomEventType: PHOTO
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1566,7 +1566,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: S_NEG
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: SUPPORT_POINT
             magnitude: 1
@@ -1579,7 +1579,7 @@ events:
   - randomEventType: GHOSTS
     responseEntries:
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: S_MEDTECH
+        skillCheckSkill: MedTech/Any
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1617,7 +1617,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: S_ADMIN
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
