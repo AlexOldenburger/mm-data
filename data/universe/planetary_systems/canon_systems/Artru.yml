@@ -82,9 +82,9 @@ planet:
     density: 6.3437
     dayLength: 24
     yearLength: 1.3
-    temperature: 20
-    water: 79
-    lifeForm: BIRD
+    temperature: -20
+    water: 0
+    lifeForm: NONE
     landmass:
       - name: Wright I
         capital: New Saint-Pierre
