@@ -703,6 +703,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           # Generate 2d6 new prisoners & xd6 crime
           - effect: UNIQUE

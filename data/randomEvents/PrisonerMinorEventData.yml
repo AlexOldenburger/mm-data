@@ -25,9 +25,9 @@ events:
       # index matches the response options presented to the player.
       - quality: RESPONSE_NEUTRAL
         # Can only include skill values from the SkillType class. Defaults to "", if not present.
-        skillCheckSkill: Small Arms
+        skillCheckSkill: ""
         # Can only include values from the SkillAttribute class. Defaults to "ATTRIBUTE_NONE", if not present.
-        abilityCheckType: ATTRIBUTE_NONE
+        abilityCheckType: CHARISMA
         # The effects caused by successfully resolving the event.
         effectsSuccess:
           # Can only include values from the EventResultEffect enum.
@@ -49,6 +49,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -173,6 +174,7 @@ events:
   - randomEventType: RATIONS
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        abilityCheckType: CHARISMA
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -220,6 +222,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -15
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -237,7 +240,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
-        skillCheckSkill: Leadership
+        abilityCheckType: CHARISMA
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -245,6 +248,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Leadership
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -263,6 +267,7 @@ events:
   - randomEventType: RESCUE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
@@ -366,6 +371,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -422,6 +428,7 @@ events:
   - randomEventType: GRAFFITI
     responseEntries:
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -516,6 +523,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Negotiation
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
@@ -554,6 +562,7 @@ events:
   - randomEventType: DICE
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Melee Weapons
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -572,6 +581,7 @@ events:
               - PRISONERS
             magnitude: 5
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -615,6 +625,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_POSITIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -637,6 +648,7 @@ events:
   - randomEventType: PROPAGANDA
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Investigation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -662,6 +674,7 @@ events:
   - randomEventType: SONGS
     responseEntries:
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -838,6 +851,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -969,6 +983,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1048,7 +1063,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: Administration
+        skillCheckSkill: Animal Handling
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1090,7 +1105,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
-        skillCheckSkill: Leadership
+        abilityCheckType: CHARISMA
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1098,6 +1113,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Leadership
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1215,6 +1231,7 @@ events:
   - randomEventType: SINGING
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        abilityCheckType: CHARISMA
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1280,7 +1297,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
-        skillCheckSkill: Acting
+        skillCheckSkill: Interrogation
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1291,6 +1308,7 @@ events:
   - randomEventType: WHISPERS
     responseEntries:
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: NONE
         effectsFailure:
@@ -1347,6 +1365,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Stealth
         effectsSuccess:
           - effect: SKILL
             affectedPersonnelTypes:
@@ -1435,6 +1454,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -1536,6 +1556,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1593,6 +1614,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -10
       - quality: RESPONSE_NEUTRAL
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
@@ -1603,6 +1625,7 @@ events:
   - randomEventType: VOICES
     responseEntries:
       - quality: RESPONSE_POSITIVE
+        skillCheckSkill: Administration
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 5
@@ -1610,6 +1633,7 @@ events:
           - effect: PRISONER_CAPACITY
             magnitude: -5
       - quality: RESPONSE_NEGATIVE
+        skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: PRISONER_CAPACITY
             magnitude: 10
