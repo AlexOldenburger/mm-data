@@ -26,7 +26,7 @@ events:
       - quality: RESPONSE_NEUTRAL
         # Can only include skill values from the SkillType class. Defaults to "", if not present.
         skillCheckSkill: ""
-        # Can only include values from the SkillAttribute class. Defaults to "ATTRIBUTE_NONE", if not present.
+        # Can only include values from the SkillAttribute class. Defaults to "NO_ATTRIBUTE", if not present.
         abilityCheckType: CHARISMA
         # The effects caused by successfully resolving the event.
         effectsSuccess:
