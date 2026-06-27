@@ -17,8 +17,7 @@
 
 # All events in this yml are considered 'minor' events
 events:
-  # This is the internal identification enum for the event.
-  # Only acceptable values are in the RandomEventType enum.
+  # This is the internal identification enum for the event. Should be unique among entries in this file.
   - randomEventType: "BREAKOUT"
     responseEntries:
       # Can only include values from the ResponseQuality enum. Must include three responses whose
