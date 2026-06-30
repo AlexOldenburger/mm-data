@@ -23,6 +23,8 @@ events:
       # Can only include values from the ResponseQuality enum. Must include three responses whose
       # index matches the response options presented to the player.
       - quality: RESPONSE_NEUTRAL
+        # The randomEventType of the event that follows this. Must be in the same yml file. Defaults to ""
+        followOnEvent: ""
         # Can only include skill values from the SkillType class. Defaults to "", if not present.
         skillCheckSkill: Small Arms
         # Can only include values from the SkillAttribute class. Defaults to "NO_ATTRIBUTE", if not present.
