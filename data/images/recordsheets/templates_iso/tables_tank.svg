@@ -392,9 +392,9 @@
            fill="#000000"
            text-anchor="start"
            style="font-style:normal;font-weight:normal;font-size:5.7px;font-family:Eurostile"
-           textLength="53.280998"
+           textLength="250"
            lengthAdjust="spacingAndGlyphs"
-           id="text61">for more information).</text>
+           id="text61">for more information). Apply damage at the end of the phase in which the damage takes effect.</text>
         <text
            x="6"
            y="63"
