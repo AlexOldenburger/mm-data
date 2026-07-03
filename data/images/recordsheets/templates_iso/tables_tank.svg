@@ -142,6 +142,9 @@
            text-anchor="middle"
            style="font-style:normal;font-weight:bold;font-size:5.7px;font-family:Eurostile"
            id="text6"><tspan
+             x="31.063"
+             y="0"
+             id="tspan4">2D6 Roll</tspan><tspan
              x="93.189003"
              y="0"
              id="tspan4">FRONT</tspan><tspan
@@ -762,6 +765,9 @@
            text-anchor="middle"
            style="font-style:normal;font-weight:bold;font-size:7.2px;font-family:Eurostile"
            id="text113"><tspan
+             x="82.650002"
+             y="0"
+             id="tspan110">2D6 Roll</tspan><tspan
              x="148.77"
              y="0"
              id="tspan110">FRONT</tspan><tspan
