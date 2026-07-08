@@ -51,6 +51,7 @@
                 <objectiveScenario>Critical Convoy Escort.xml</objectiveScenario>
                 <objectiveScenario>Reconnaissance Interdiction.xml</objectiveScenario>
                 <objectiveScenario>VIP Defense.xml</objectiveScenario>
+                <objectiveScenario>Hold Until Relief.xml</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
                 <objectiveScenarioModifier>LiaisonGround.xml</objectiveScenarioModifier>

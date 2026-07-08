@@ -59,6 +59,7 @@
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
                 <objectiveScenario>DropShip Raid.xml</objectiveScenario>
                 <objectiveScenario>Isolated DropShip Defense.xml</objectiveScenario>
+                <objectiveScenario>Salvage Run.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

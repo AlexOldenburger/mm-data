@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -18,19 +18,23 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Annihilation</name>
-    <shortBriefing>Obliterate the enemy force.</shortBriefing>
-    <detailedBriefing><![CDATA[Your orders are clear. This is not a surgical strike, nor a precision raid—this is extermination. The enemy force in this sector must be wiped out, with 75% confirmed casualties before we consider this battlefield secured. Their continued presence is unacceptable, and we cannot afford to let even a remnant regroup for future operations.
+    <name>Convoy Hijack</name>
+    <shortBriefing>Capture the enemy convoy intact before it can escape.</shortBriefing>
+    <detailedBriefing><![CDATA[An enemy supply convoy is running through our area of operations, and command wants it intact—not scattered wreckage. Those vehicles and their cargo are worth far more captured than destroyed.
 
-The victor controls the field, and we will be the ones standing when the dust settles.]]></detailedBriefing>
+Immobilize the transports and hold them; do not simply blow them apart. The convoy will run for the far edge the moment it sees you, and its escort will fight to keep it moving. Cripple the escort, box in the transports, and take them before they slip off the map. Restraint is the hard part—it is easier to kill a convoy than to steal one.
+
+Capture as much of the convoy as you can and drive off its escort.]]></detailedBriefing>
     <battlefieldControl>VICTOR</battlefieldControl>
+    <isHostileFacility>false</isHostileFacility>
+    <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
             <allowedTerrainType>Plains</allowedTerrainType>
             <allowedTerrainType>Steppe</allowedTerrainType>
+            <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Badlands</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
-            <allowedTerrainType>Tundra</allowedTerrainType>
-            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -39,7 +43,7 @@ The victor controls the field, and we will be the ones standing when the dust se
         <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
         <additionalMapSheetTall>0</additionalMapSheetTall>
-        <additionalMapSheetWide>0</additionalMapSheetWide>
+        <additionalMapSheetWide>1</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -49,7 +53,7 @@ The victor controls the field, and we will be the ones standing when the dust se
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
                 <allowedUnitType>-2</allowedUnitType>
-                <arrivalTurn>0</arrivalTurn>
+                <arrivalTurn>1</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>true</contributesToBV>
                 <contributesToMapSize>true</contributesToMapSize>
@@ -67,10 +71,47 @@ The victor controls the field, and we will be the ones standing when the dust se
                 <generationOrder>1</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
                 <minWeightClass>0</minWeightClass>
+                <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
+            </value>
+        </entry>
+        <entry>
+            <key>Convoy</key>
+            <value>
+                <actualDeploymentZone>-1</actualDeploymentZone>
+                <allowAeroBombs>false</allowAeroBombs>
+                <allowedUnitType>1</allowedUnitType>
+                <arrivalTurn>0</arrivalTurn>
+                <canReinforceLinked>false</canReinforceLinked>
+                <contributesToBV>false</contributesToBV>
+                <contributesToMapSize>true</contributesToMapSize>
+                <contributesToUnitCount>false</contributesToUnitCount>
+                <deployOffboard>false</deployOffboard>
+                <deploymentZones>
+                    <deploymentZone>4</deploymentZone>
+                </deploymentZones>
+                <destinationZone>8</destinationZone>
+                <fixedUnitCount>0</fixedUnitCount>
+                <forceAlignment>2</forceAlignment>
+                <forceMultiplier>0.5</forceMultiplier>
+                <forceName>Convoy</forceName>
+                <generationMethod>1</generationMethod>
+                <generationOrder>3</generationOrder>
+                <maxWeightClass>4</maxWeightClass>
+                <minWeightClass>0</minWeightClass>
+                <objectiveLinkedForces />
+                <retreatThreshold>0</retreatThreshold>
+                <startingAltitude>0</startingAltitude>
+                <syncDeploymentType>None</syncDeploymentType>
+                <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>SUPPORT</forceRole>
+                    <forceRole>CARGO</forceRole>
+                    <forceRole>APC</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>
@@ -89,21 +130,60 @@ The victor controls the field, and we will be the ones standing when the dust se
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>1.0</forceMultiplier>
+                <forceMultiplier>0.75</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
-                <minWeightClass>3</minWeightClass>
+                <minWeightClass>0</minWeightClass>
+                <objectiveLinkedForces>
+                    <objectiveLinkedForce>Convoy</objectiveLinkedForce>
+                </objectiveLinkedForces>
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
-                <syncDeploymentType>OppositeArc</syncDeploymentType>
-                <syncedForceName>Player</syncedForceName>
+                <syncDeploymentType>SameEdge</syncDeploymentType>
+                <syncedForceName>Convoy</syncedForceName>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>CAVALRY</forceRole>
+                    <forceRole>SR_FIRE_SUPPORT</forceRole>
+                </roleChoices>
             </value>
         </entry>
     </scenarioForces>
     <scenarioObjectives>
+        <scenarioObjective>
+            <associatedForceNames>
+                <associatedForceName>Convoy</associatedForceName>
+            </associatedForceNames>
+            <associatedUnitIDs />
+            <successEffects>
+                <successEffect>
+                    <effectType>ScenarioVictory</effectType>
+                    <effectScaling>Fixed</effectScaling>
+                    <howMuch>2</howMuch>
+                </successEffect>
+                <successEffect>
+                    <effectType>SupplyCache</effectType>
+                    <effectScaling>Linear</effectScaling>
+                    <howMuch>1</howMuch>
+                </successEffect>
+            </successEffects>
+            <failureEffects>
+                <failureEffect>
+                    <effectType>ScenarioDefeat</effectType>
+                    <effectScaling>Fixed</effectScaling>
+                    <howMuch>2</howMuch>
+                </failureEffect>
+            </failureEffects>
+            <additionalDetails />
+            <description>Capture 50% of the following convoy intact. +2 SVP and bonus supplies if succeeded, -2 SVP if failed.</description>
+            <destinationEdge>NONE</destinationEdge>
+            <objectiveCriterion>Capture</objectiveCriterion>
+            <percentage>50</percentage>
+            <timeLimitAtMost>true</timeLimitAtMost>
+            <timeLimitType>None</timeLimitType>
+        </scenarioObjective>
         <scenarioObjective>
             <associatedForceNames>
                 <associatedForceName>OpFor</associatedForceName>
@@ -116,18 +196,12 @@ The victor controls the field, and we will be the ones standing when the dust se
                     <howMuch>1</howMuch>
                 </successEffect>
             </successEffects>
-            <failureEffects>
-                <failureEffect>
-                    <effectType>ScenarioDefeat</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
-                </failureEffect>
-            </failureEffects>
+            <failureEffects />
             <additionalDetails />
-            <description>Destroy or rout 75% of the following forces. +1 SVP if succeeded, -1 SVP if failed.</description>
+            <description>Destroy or rout 33% of the following escort. +1 SVP if succeeded.</description>
             <destinationEdge>NONE</destinationEdge>
             <objectiveCriterion>ForceWithdraw</objectiveCriterion>
-            <percentage>75</percentage>
+            <percentage>33</percentage>
             <timeLimitAtMost>true</timeLimitAtMost>
             <timeLimitType>None</timeLimitType>
         </scenarioObjective>

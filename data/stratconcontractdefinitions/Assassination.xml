@@ -46,6 +46,7 @@
                 <objectiveScenario>VIP Ambush.xml</objectiveScenario>
                 <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
                 <objectiveScenario>Assassination.xml</objectiveScenario>
+                <objectiveScenario>Decapitation Strike.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

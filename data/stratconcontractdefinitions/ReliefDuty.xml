@@ -50,5 +50,16 @@
                 <objectiveScenarioModifier>PreBattleDamageAllies.xml</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
+        <objectiveParameter>
+            <objectiveType>SpecificScenarioVictory</objectiveType>
+            <objectiveCount>-0.5</objectiveCount>
+            <objectiveScenarios>
+                <objectiveScenario>Relief Column.xml</objectiveScenario>
+                <objectiveScenario>Breakthrough.xml</objectiveScenario>
+                <objectiveScenario>Frontline Engagement.xml</objectiveScenario>
+                <objectiveScenario>Screening Action.xml</objectiveScenario>
+                <objectiveScenario>Hold Until Relief.xml</objectiveScenario>
+            </objectiveScenarios>
+        </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

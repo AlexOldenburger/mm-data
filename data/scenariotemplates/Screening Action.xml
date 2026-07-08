@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -18,18 +18,16 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Reconnaissance Interdiction</name>
-    <shortBriefing>Prevent hostile reconnaissance.</shortBriefing>
-    <detailedBriefing><![CDATA[DISCLAIMER: it is recommended that you play this scenario with Double Blind enabled and with Single Blind disabled.
+    <name>Screening Action</name>
+    <shortBriefing>Hold the line as a rearguard and stop the enemy from breaking through.</shortBriefing>
+    <detailedBriefing><![CDATA[The main body is pulling back, and you are the rearguard. A superior enemy force is pressing to break through and turn our withdrawal into a rout. You cannot stop them all—but you must stop enough of them, long enough, for the rest to get clear.
 
-Enemy reconnaissance units have been deployed to gather intelligence on our movements, threatening the security of our operations. Your mission is to eliminate them before they can complete their reconnaissance. If they succeed, our positions will be compromised, giving the enemy a critical advantage.
+Hold the line and deny them the breakthrough. This is a delaying fight, not a stand-up battle; trading ground for time is acceptable, letting them stream past you is not. Keep your formation between them and the open road behind you.
 
-Expect these forces to prioritize speed, evasion, and long-range observation tactics. They will attempt to avoid direct engagement and may have stealth capabilities or electronic warfare support to mask their presence. You must act quickly, intercept their units, and wipe them out before they can relay any useful data.
-
-We will control the battlefield at the end of the engagement, ensuring that any remaining enemy assets or reconnaissance equipment are in our hands. Hunt them down, erase all traces of their mission, and ensure our movements remain hidden.]]></detailedBriefing>
+Prevent the bulk of the enemy from breaking through. Buy the time, then get out yourself.]]></detailedBriefing>
+    <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
-    <battlefieldControl>PLAYER</battlefieldControl>
     <mapParameters>
         <allowedTerrainTypes>
             <allowedTerrainType>Hills</allowedTerrainType>
@@ -45,7 +43,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
         <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
         <additionalMapSheetTall>1</additionalMapSheetTall>
-        <additionalMapSheetWide>1</additionalMapSheetWide>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -62,7 +60,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <contributesToUnitCount>true</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>6</deploymentZone>
+                    <deploymentZone>10</deploymentZone>
                 </deploymentZones>
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
@@ -92,24 +90,26 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <contributesToMapSize>true</contributesToMapSize>
                 <contributesToUnitCount>false</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
-                <deploymentZones />
-                <destinationZone>5</destinationZone>
+                <deploymentZones>
+                    <deploymentZone>6</deploymentZone>
+                </deploymentZones>
+                <destinationZone>2</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>0.5</forceMultiplier>
+                <forceMultiplier>1.25</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
-                <maxWeightClass>2</maxWeightClass>
-                <minWeightClass>1</minWeightClass>
+                <maxWeightClass>4</maxWeightClass>
+                <minWeightClass>0</minWeightClass>
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
-                <syncDeploymentType>OppositeEdge</syncDeploymentType>
-                <syncedForceName>Player</syncedForceName>
+                <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
                 <roleChoices>
-                    <forceRole>RECON</forceRole>
+                    <forceRole>RAIDER</forceRole>
+                    <forceRole>CAVALRY</forceRole>
                 </roleChoices>
             </value>
         </entry>
@@ -124,24 +124,24 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <successEffect>
                     <effectType>ScenarioVictory</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
+                    <howMuch>2</howMuch>
                 </successEffect>
             </successEffects>
             <failureEffects>
                 <failureEffect>
                     <effectType>ScenarioDefeat</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
+                    <howMuch>2</howMuch>
                 </failureEffect>
             </failureEffects>
             <additionalDetails />
-            <description>Destroy 75% of the following force. +1 SVP if succeeded, -1 SVP if failed.</description>
-            <destinationEdge>NONE</destinationEdge>
-            <objectiveCriterion>Destroy</objectiveCriterion>
-            <percentage>75</percentage>
+            <description>Prevent 50% of the following forces from reaching the far edge. +2 SVP if succeeded, -2 SVP if failed.</description>
+            <destinationEdge>NORTH</destinationEdge>
+            <objectiveCriterion>PreventReachMapEdge</objectiveCriterion>
+            <percentage>50</percentage>
             <timeLimitAtMost>false</timeLimitAtMost>
-            <timeLimitScaleFactor>1</timeLimitScaleFactor>
-            <timeLimitType>ScaledToPrimaryUnitCount</timeLimitType>
+            <timeLimitScaleFactor>2</timeLimitScaleFactor>
+            <timeLimitType>None</timeLimitType>
         </scenarioObjective>
     </scenarioObjectives>
 </ScenarioTemplate>

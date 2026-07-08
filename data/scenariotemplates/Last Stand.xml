@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -18,18 +18,16 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Reconnaissance Interdiction</name>
-    <shortBriefing>Prevent hostile reconnaissance.</shortBriefing>
-    <detailedBriefing><![CDATA[DISCLAIMER: it is recommended that you play this scenario with Double Blind enabled and with Single Blind disabled.
+    <name>Last Stand</name>
+    <shortBriefing>Hold out against a superior force and keep enough of the unit intact to withdraw.</shortBriefing>
+    <detailedBriefing><![CDATA[There is no line behind us and no help coming in time. A superior enemy force is closing from a broad front, and we cannot hold this ground—only bleed them for it and get out with a fighting command still intact.
 
-Enemy reconnaissance units have been deployed to gather intelligence on our movements, threatening the security of our operations. Your mission is to eliminate them before they can complete their reconnaissance. If they succeed, our positions will be compromised, giving the enemy a critical advantage.
+This is not a battle to win; it is a battle to survive. Make the enemy pay for every meter, keep your formation together, and preserve enough of the unit to fight another day. A command wiped out here achieves nothing, no matter how many it took with it.
 
-Expect these forces to prioritize speed, evasion, and long-range observation tactics. They will attempt to avoid direct engagement and may have stealth capabilities or electronic warfare support to mask their presence. You must act quickly, intercept their units, and wipe them out before they can relay any useful data.
-
-We will control the battlefield at the end of the engagement, ensuring that any remaining enemy assets or reconnaissance equipment are in our hands. Hunt them down, erase all traces of their mission, and ensure our movements remain hidden.]]></detailedBriefing>
+Preserve the bulk of your force and, if you can, break their assault before you pull out. The enemy will hold this field when it is over—make sure enough of us are not on it.]]></detailedBriefing>
+    <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
-    <battlefieldControl>PLAYER</battlefieldControl>
     <mapParameters>
         <allowedTerrainTypes>
             <allowedTerrainType>Hills</allowedTerrainType>
@@ -44,8 +42,8 @@ We will control the battlefield at the end of the engagement, ensuring that any 
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
-        <additionalMapSheetTall>1</additionalMapSheetTall>
-        <additionalMapSheetWide>1</additionalMapSheetWide>
+        <additionalMapSheetTall>0</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -86,7 +84,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
                 <allowedUnitType>-2</allowedUnitType>
-                <arrivalTurn>0</arrivalTurn>
+                <arrivalTurn>1</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>false</contributesToBV>
                 <contributesToMapSize>true</contributesToMapSize>
@@ -96,25 +94,53 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>0.5</forceMultiplier>
+                <forceMultiplier>1.25</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
-                <maxWeightClass>2</maxWeightClass>
-                <minWeightClass>1</minWeightClass>
+                <maxWeightClass>4</maxWeightClass>
+                <minWeightClass>0</minWeightClass>
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
-                <syncDeploymentType>OppositeEdge</syncDeploymentType>
+                <syncDeploymentType>OppositeArc</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
                 <roleChoices>
-                    <forceRole>RECON</forceRole>
+                    <forceRole>SR_FIRE_SUPPORT</forceRole>
+                    <forceRole>CAVALRY</forceRole>
                 </roleChoices>
             </value>
         </entry>
     </scenarioForces>
     <scenarioObjectives>
+        <scenarioObjective>
+            <associatedForceNames>
+                <associatedForceName>Player</associatedForceName>
+            </associatedForceNames>
+            <associatedUnitIDs />
+            <successEffects>
+                <successEffect>
+                    <effectType>ScenarioVictory</effectType>
+                    <effectScaling>Fixed</effectScaling>
+                    <howMuch>2</howMuch>
+                </successEffect>
+            </successEffects>
+            <failureEffects>
+                <failureEffect>
+                    <effectType>ScenarioDefeat</effectType>
+                    <effectScaling>Fixed</effectScaling>
+                    <howMuch>2</howMuch>
+                </failureEffect>
+            </failureEffects>
+            <additionalDetails />
+            <description>Preserve 50% of the following forces. +2 SVP if succeeded, -2 SVP if failed.</description>
+            <destinationEdge>NONE</destinationEdge>
+            <objectiveCriterion>Preserve</objectiveCriterion>
+            <percentage>50</percentage>
+            <timeLimitAtMost>true</timeLimitAtMost>
+            <timeLimitType>None</timeLimitType>
+        </scenarioObjective>
         <scenarioObjective>
             <associatedForceNames>
                 <associatedForceName>OpFor</associatedForceName>
@@ -127,21 +153,14 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                     <howMuch>1</howMuch>
                 </successEffect>
             </successEffects>
-            <failureEffects>
-                <failureEffect>
-                    <effectType>ScenarioDefeat</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
-                </failureEffect>
-            </failureEffects>
+            <failureEffects />
             <additionalDetails />
-            <description>Destroy 75% of the following force. +1 SVP if succeeded, -1 SVP if failed.</description>
+            <description>Destroy or rout 33% of the following forces to break their assault. +1 SVP if succeeded.</description>
             <destinationEdge>NONE</destinationEdge>
-            <objectiveCriterion>Destroy</objectiveCriterion>
-            <percentage>75</percentage>
-            <timeLimitAtMost>false</timeLimitAtMost>
-            <timeLimitScaleFactor>1</timeLimitScaleFactor>
-            <timeLimitType>ScaledToPrimaryUnitCount</timeLimitType>
+            <objectiveCriterion>ForceWithdraw</objectiveCriterion>
+            <percentage>33</percentage>
+            <timeLimitAtMost>true</timeLimitAtMost>
+            <timeLimitType>None</timeLimitType>
         </scenarioObjective>
     </scenarioObjectives>
 </ScenarioTemplate>

@@ -137,10 +137,10 @@ The enemy will control the field at the end of the engagement, meaning there wil
                 </failureEffect>
             </failureEffects>
             <additionalDetails />
-            <description>Preserve 5% of the following forces. +1 SVP if succeeded, -1 SVP if failed.</description>
+            <description>Preserve 25% of the following forces. +1 SVP if succeeded, -1 SVP if failed.</description>
             <destinationEdge>NONE</destinationEdge>
             <objectiveCriterion>Preserve</objectiveCriterion>
-            <percentage>5</percentage>
+            <percentage>25</percentage>
             <timeLimitAtMost>false</timeLimitAtMost>
             <timeLimitScaleFactor>1</timeLimitScaleFactor>
             <timeLimitType>ScaledToPrimaryUnitCount</timeLimitType>

@@ -58,6 +58,7 @@
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid Defense.xml</objectiveScenario>
                 <objectiveScenario>Frontline Disruption.xml</objectiveScenario>
+                <objectiveScenario>Supply Denial.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

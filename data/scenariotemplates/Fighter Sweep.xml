@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -18,34 +18,26 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Reconnaissance Interdiction</name>
-    <shortBriefing>Prevent hostile reconnaissance.</shortBriefing>
-    <detailedBriefing><![CDATA[DISCLAIMER: it is recommended that you play this scenario with Double Blind enabled and with Single Blind disabled.
+    <name>Fighter Sweep</name>
+    <shortBriefing>Sweep the skies clear of enemy aerospace and win air superiority.</shortBriefing>
+    <detailedBriefing><![CDATA[This is not an interception—it is a hunt. Command wants the enemy's aerospace presence to break so thoroughly they cede the skies for the rest of the operation. Go out, find them, and shatter them.
 
-Enemy reconnaissance units have been deployed to gather intelligence on our movements, threatening the security of our operations. Your mission is to eliminate them before they can complete their reconnaissance. If they succeed, our positions will be compromised, giving the enemy a critical advantage.
+Air superiority is won by aggression. Force the engagement on your terms, run down anything that tries to disengage, and do not settle for driving them off—break the back of their formation. Half their strength on the deck is the mark of a sweep well flown.
 
-Expect these forces to prioritize speed, evasion, and long-range observation tactics. They will attempt to avoid direct engagement and may have stealth capabilities or electronic warfare support to mask their presence. You must act quickly, intercept their units, and wipe them out before they can relay any useful data.
-
-We will control the battlefield at the end of the engagement, ensuring that any remaining enemy assets or reconnaissance equipment are in our hands. Hunt them down, erase all traces of their mission, and ensure our movements remain hidden.]]></detailedBriefing>
+Destroy or rout half of the enemy aerospace force. Own the sky.]]></detailedBriefing>
+    <battlefieldControl>VICTOR</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
-    <battlefieldControl>PLAYER</battlefieldControl>
     <mapParameters>
-        <allowedTerrainTypes>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
-            <allowedTerrainType>HotHillsDry</allowedTerrainType>
-            <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-        </allowedTerrainTypes>
+        <allowedTerrainTypes />
         <allowRotation>false</allowRotation>
-        <baseHeight>0</baseHeight>
-        <baseWidth>0</baseWidth>
+        <baseHeight>50</baseHeight>
+        <baseWidth>50</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
-        <mapLocation>SpecificGroundTerrain</mapLocation>
+        <mapLocation>Space</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
         <additionalMapSheetTall>1</additionalMapSheetTall>
-        <additionalMapSheetWide>1</additionalMapSheetWide>
+        <additionalMapSheetWide>2</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -54,7 +46,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>-2</allowedUnitType>
+                <allowedUnitType>9</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>true</contributesToBV>
@@ -75,7 +67,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <minWeightClass>0</minWeightClass>
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
-                <startingAltitude>0</startingAltitude>
+                <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
             </value>
@@ -85,7 +77,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>-2</allowedUnitType>
+                <allowedUnitType>-3</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>false</contributesToBV>
@@ -96,21 +88,18 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>0.5</forceMultiplier>
+                <forceMultiplier>1.0</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
-                <maxWeightClass>2</maxWeightClass>
-                <minWeightClass>1</minWeightClass>
+                <maxWeightClass>4</maxWeightClass>
+                <minWeightClass>0</minWeightClass>
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
-                <startingAltitude>0</startingAltitude>
+                <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
-                <roleChoices>
-                    <forceRole>RECON</forceRole>
-                </roleChoices>
             </value>
         </entry>
     </scenarioForces>
@@ -124,24 +113,23 @@ We will control the battlefield at the end of the engagement, ensuring that any 
                 <successEffect>
                     <effectType>ScenarioVictory</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
+                    <howMuch>2</howMuch>
                 </successEffect>
             </successEffects>
             <failureEffects>
                 <failureEffect>
                     <effectType>ScenarioDefeat</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
+                    <howMuch>2</howMuch>
                 </failureEffect>
             </failureEffects>
             <additionalDetails />
-            <description>Destroy 75% of the following force. +1 SVP if succeeded, -1 SVP if failed.</description>
+            <description>Destroy or rout 50% of the following forces. +2 SVP if succeeded, -2 SVP if failed.</description>
             <destinationEdge>NONE</destinationEdge>
-            <objectiveCriterion>Destroy</objectiveCriterion>
-            <percentage>75</percentage>
-            <timeLimitAtMost>false</timeLimitAtMost>
-            <timeLimitScaleFactor>1</timeLimitScaleFactor>
-            <timeLimitType>ScaledToPrimaryUnitCount</timeLimitType>
+            <objectiveCriterion>ForceWithdraw</objectiveCriterion>
+            <percentage>50</percentage>
+            <timeLimitAtMost>true</timeLimitAtMost>
+            <timeLimitType>None</timeLimitType>
         </scenarioObjective>
     </scenarioObjectives>
 </ScenarioTemplate>

@@ -60,6 +60,10 @@
                 <objectiveScenario>Interception Defense.xml</objectiveScenario>
                 <objectiveScenario>Picket Line Breakthrough.xml</objectiveScenario>
                 <objectiveScenario>Pivotal Battle.xml</objectiveScenario>
+                <objectiveScenario>Combat Drop.xml</objectiveScenario>
+                <objectiveScenario>Meeting Engagement.xml</objectiveScenario>
+                <objectiveScenario>Rolling Thunder.xml</objectiveScenario>
+                <objectiveScenario>Escalation.xml</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
                 <objectiveScenarioModifier>HostileBVBudgetIncrease.xml</objectiveScenarioModifier>
