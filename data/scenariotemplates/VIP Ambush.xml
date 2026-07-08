@@ -27,12 +27,16 @@ Expect the enemy to stall for time, deploying fast-moving elements or defensive 
 The enemy will control the battlefield at the end of the engagement, meaning there will be no chance for recovery or salvage. This is a surgical strike—neutralize the target and withdraw before the enemy locks down the area.]]></detailedBriefing>
     <battlefieldControl>ENEMY</battlefieldControl>
     <mapParameters>
-        <allowedTerrainTypes />
+        <allowedTerrainTypes>
+            <allowedTerrainType>Urban</allowedTerrainType>
+            <allowedTerrainType>ColdUrban</allowedTerrainType>
+            <allowedTerrainType>HotUrban</allowedTerrainType>
+        </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
         <baseWidth>0</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
-        <mapLocation>AllGroundTerrain</mapLocation>
+        <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
         <additionalMapSheetTall>0</additionalMapSheetTall>
         <additionalMapSheetWide>0</additionalMapSheetWide>

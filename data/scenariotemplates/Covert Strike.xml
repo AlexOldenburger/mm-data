@@ -27,12 +27,18 @@ The enemy will not allow this to happen easily. Expect heavy resistance, tight s
 Be advised, the enemy will control the field at the end of the engagement. You will not be able to hold ground or claim battlefield salvage. This is an execution, not a siege. Kill the target and get out—nothing else matters.]]></detailedBriefing>
     <battlefieldControl>ENEMY</battlefieldControl>
     <mapParameters>
-        <allowedTerrainTypes />
+        <allowedTerrainTypes>
+            <allowedTerrainType>Forest</allowedTerrainType>
+            <allowedTerrainType>ColdForest</allowedTerrainType>
+            <allowedTerrainType>HotForest</allowedTerrainType>
+            <allowedTerrainType>Jungle</allowedTerrainType>
+            <allowedTerrainType>Swamp</allowedTerrainType>
+        </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
         <baseWidth>0</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
-        <mapLocation>AllGroundTerrain</mapLocation>
+        <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
         <additionalMapSheetTall>0</additionalMapSheetTall>
         <additionalMapSheetWide>0</additionalMapSheetWide>
