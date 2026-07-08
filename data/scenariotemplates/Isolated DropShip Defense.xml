@@ -175,13 +175,13 @@ The enemy will control the field at the end of the engagement, meaning no salvag
                 <failureEffect>
                     <effectType>ScenarioDefeat</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>2</howMuch>
+                    <howMuch>1</howMuch>
                 </failureEffect>
             </failureEffects>
             <additionalDetails>
                 <additionalDetail>If the DropShip cannot be deployed regenerate the map within MegaMek.</additionalDetail>
             </additionalDetails>
-            <description>Protect the following forces. +2 SVP if succeeded, -2 SVP if failed.</description>
+            <description>Protect the following forces. +2 SVP if succeeded, -1 SVP if failed.</description>
             <destinationEdge>NONE</destinationEdge>
             <objectiveCriterion>Preserve</objectiveCriterion>
             <percentage>100</percentage>
