@@ -50,6 +50,7 @@
                 <objectiveScenario>Covert Strike.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
                 <objectiveScenario>Breakthrough.xml</objectiveScenario>
+                <objectiveScenario>Convoy Hijack.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

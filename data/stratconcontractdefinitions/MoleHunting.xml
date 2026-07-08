@@ -50,7 +50,9 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
+                <objectiveScenario>Mole Hunt.xml</objectiveScenario>
                 <objectiveScenario>Assassination.xml</objectiveScenario>
+                <objectiveScenario>Decapitation Strike.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

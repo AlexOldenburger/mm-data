@@ -47,6 +47,10 @@
                 <objectiveScenario>Decoy Engagement.xml</objectiveScenario>
                 <objectiveScenario>Decoy Interception.xml</objectiveScenario>
                 <objectiveScenario>Diversion Engagement.xml</objectiveScenario>
+                <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
+                <objectiveScenario>Frontline Disruption.xml</objectiveScenario>
+                <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
+                <objectiveScenario>Ambush the Column.xml</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
                 <objectiveScenarioModifier>ReinforcementDelayReductionHostile.xml</objectiveScenarioModifier>

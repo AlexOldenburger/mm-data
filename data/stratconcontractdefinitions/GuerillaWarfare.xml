@@ -56,6 +56,10 @@
                 <objectiveScenario>Convoy Raid.xml</objectiveScenario>
                 <objectiveScenario>Intercept Engagement.xml</objectiveScenario>
                 <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
+                <objectiveScenario>Last Stand.xml</objectiveScenario>
+                <objectiveScenario>Enveloped.xml</objectiveScenario>
+                <objectiveScenario>Gauntlet Run.xml</objectiveScenario>
+                <objectiveScenario>Breakout.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>
