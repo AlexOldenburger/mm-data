@@ -33,6 +33,8 @@ The victor will control the battlefield at the end of the engagement, securing a
             <allowedTerrainType>ArcticDesert</allowedTerrainType>
             <allowedTerrainType>Desert</allowedTerrainType>
             <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>HotMountainsDry</allowedTerrainType>
+            <allowedTerrainType>HotMountainsWet</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -102,6 +104,10 @@ The victor will control the battlefield at the end of the engagement, securing a
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>RAIDER</forceRole>
+                    <forceRole>CAVALRY</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>

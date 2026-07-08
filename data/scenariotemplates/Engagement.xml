@@ -32,6 +32,7 @@ Strike hard, eliminate the opposition, and take control. Victory is absolute, or
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

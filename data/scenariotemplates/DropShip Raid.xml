@@ -30,11 +30,12 @@ Victory in this engagement will determine control of the battlefield. If we succ
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Mountain</allowedTerrainType>
-            <allowedTerrainType>ColdMountain</allowedTerrainType>
-            <allowedTerrainType>ArcticDesert</allowedTerrainType>
             <allowedTerrainType>Desert</allowedTerrainType>
             <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>ArcticDesert</allowedTerrainType>
+            <allowedTerrainType>Steppe</allowedTerrainType>
+            <allowedTerrainType>Plains</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

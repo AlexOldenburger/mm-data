@@ -32,6 +32,7 @@ The victor will control the battlefield at the end of the engagement, ensuring w
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -95,7 +96,7 @@ The victor will control the battlefield at the end of the engagement, ensuring w
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
-                <minWeightClass>2</minWeightClass>
+                <minWeightClass>3</minWeightClass>
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>OppositeArc</syncDeploymentType>

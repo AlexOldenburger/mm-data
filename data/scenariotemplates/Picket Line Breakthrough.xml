@@ -32,6 +32,7 @@ As you will be pushing into enemy territory, we will be unable to secure the bat
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>50</baseHeight>

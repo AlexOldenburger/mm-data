@@ -34,6 +34,7 @@ We will control the battlefield at the conclusion of this engagement, ensuring t
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>70</baseHeight>

@@ -31,11 +31,13 @@ We will control the battlefield at the end of the engagement, ensuring access to
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Forest</allowedTerrainType>
-            <allowedTerrainType>ColdForest</allowedTerrainType>
-            <allowedTerrainType>HotForest</allowedTerrainType>
-            <allowedTerrainType>Jungle</allowedTerrainType>
-            <allowedTerrainType>Swamp</allowedTerrainType>
+            <allowedTerrainType>Plains</allowedTerrainType>
+            <allowedTerrainType>Steppe</allowedTerrainType>
+            <allowedTerrainType>Savannah</allowedTerrainType>
+            <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

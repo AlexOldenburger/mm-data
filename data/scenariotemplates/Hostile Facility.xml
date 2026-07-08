@@ -137,6 +137,11 @@ The victor will control the battlefield at the end of the engagement. If the fac
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>FIRE_SUPPORT</forceRole>
+                    <forceRole>SR_FIRE_SUPPORT</forceRole>
+                    <forceRole>ARTILLERY</forceRole>
+                </roleChoices>
             </value>
         </entry>
     </scenarioForces>

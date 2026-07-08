@@ -30,11 +30,13 @@ This engagement takes place in enemy territory, meaning we will not control the 
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Forest</allowedTerrainType>
-            <allowedTerrainType>ColdForest</allowedTerrainType>
-            <allowedTerrainType>HotForest</allowedTerrainType>
-            <allowedTerrainType>Jungle</allowedTerrainType>
-            <allowedTerrainType>Swamp</allowedTerrainType>
+            <allowedTerrainType>Plains</allowedTerrainType>
+            <allowedTerrainType>Steppe</allowedTerrainType>
+            <allowedTerrainType>Savannah</allowedTerrainType>
+            <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -106,6 +108,11 @@ This engagement takes place in enemy territory, meaning we will not control the 
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>RECON</forceRole>
+                    <forceRole>RAIDER</forceRole>
+                    <forceRole>CAVALRY</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>

@@ -35,6 +35,7 @@ We will control the battlefield at the end of this engagement, allowing us to re
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Desert</allowedTerrainType>
             <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>50</baseHeight>

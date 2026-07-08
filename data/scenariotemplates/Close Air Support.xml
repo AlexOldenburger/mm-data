@@ -32,6 +32,7 @@ The winner of this battle will control the field when the engagement is over. Yo
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>40</baseHeight>
@@ -101,6 +102,9 @@ The winner of this battle will control the field when the engagement is over. Yo
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>ANTI_AIRCRAFT</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>
