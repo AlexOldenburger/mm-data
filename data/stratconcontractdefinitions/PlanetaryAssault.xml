@@ -45,7 +45,7 @@
         </objectiveParameter>
         <objectiveParameter>
             <objectiveCount>-0.5</objectiveCount>
-            <objectiveType>AnyScenarioVictory</objectiveType>
+            <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Annihilation.xml</objectiveScenario>
                 <objectiveScenario>Breakthrough.xml</objectiveScenario>
