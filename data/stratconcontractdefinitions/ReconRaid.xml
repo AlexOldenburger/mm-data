@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -31,32 +31,25 @@
         <scenarioOdds>42</scenarioOdds>
     </scenarioOdds>
     <deploymentTimes>
-        <!-- The value '4' is intentionally repeated three times to weight the probability of selecting 4 as a deployment time. -->
+        <!-- Fast, aggressive combat recon. The value '3' is intentionally repeated three times to weight the probability of selecting 3 as a deployment time. -->
+        <deploymentTimes>2</deploymentTimes>
+        <deploymentTimes>3</deploymentTimes>
+        <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>5</deploymentTimes>
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
-            <objectiveScenarios>
-                <objectiveScenario>Hostile Facility.xml</objectiveScenario>
-            </objectiveScenarios>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>FacilityHostileRecon.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
-        </objectiveParameter>
-        <objectiveParameter>
-            <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
                 <objectiveScenario>Recon Evasion.xml</objectiveScenario>
                 <objectiveScenario>Heavy Recon Evasion.xml</objectiveScenario>
                 <objectiveScenario>VIP Ambush.xml</objectiveScenario>
             </objectiveScenarios>
+            <objectiveScenarioModifiers>
+                <objectiveScenarioModifier>BadIntelAir.xml</objectiveScenarioModifier>
+            </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

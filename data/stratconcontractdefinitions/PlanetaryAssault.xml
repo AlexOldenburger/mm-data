@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -31,12 +31,12 @@
         <scenarioOdds>40</scenarioOdds>
     </scenarioOdds>
     <deploymentTimes>
-        <!-- The value '4' is intentionally repeated three times to weight the probability of selecting 4 as a deployment time. -->
-        <deploymentTimes>3</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
+        <!-- Sustained large-scale campaign. The value '6' is intentionally repeated three times to weight the probability of selecting 6 as a deployment time. -->
         <deploymentTimes>5</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
@@ -61,6 +61,9 @@
                 <objectiveScenario>Picket Line Breakthrough.xml</objectiveScenario>
                 <objectiveScenario>Pivotal Battle.xml</objectiveScenario>
             </objectiveScenarios>
+            <objectiveScenarioModifiers>
+                <objectiveScenarioModifier>HostileBVBudgetIncrease.xml</objectiveScenarioModifier>
+            </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

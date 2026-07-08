@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -47,12 +47,9 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
-                <objectiveScenario>Assassination.xml</objectiveScenario>
                 <objectiveScenario>Covert Strike.xml</objectiveScenario>
-                <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>
-                <objectiveScenario>Convoy Raid.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
+                <objectiveScenario>Breakthrough.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

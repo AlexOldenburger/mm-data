@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -32,20 +32,20 @@
         <scenarioOdds>48</scenarioOdds>
     </scenarioOdds>
     <deploymentTimes>
-        <!-- The value '4' is intentionally repeated three times to weight the probability of selecting 4 as a deployment time. -->
-        <deploymentTimes>3</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
-        <deploymentTimes>4</deploymentTimes>
+        <!-- Prolonged insurgency campaign. The value '6' is intentionally repeated three times to weight the probability of selecting 6 as a deployment time. -->
         <deploymentTimes>5</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>6</deploymentTimes>
+        <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>OverwhelmingEnemyGroundReinforcements.xml</objectiveScenarioModifier>
-                <objectiveScenarioModifier>OverwhelmingEnemyAirReinforcements.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>PiratesPresentGround.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>PiratesPresentAir.xml</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
@@ -54,7 +54,6 @@
             <objectiveScenarios>
                 <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>
                 <objectiveScenario>Convoy Raid.xml</objectiveScenario>
-                <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
                 <objectiveScenario>VIP Ambush.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
