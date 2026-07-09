@@ -238,6 +238,19 @@
             </value>
         </entry>
         <entry>
+            <!-- Synthetic terrain type used only by convoy scenario templates: every board here has ROADPROB 100, so a convoy always spawns with a road to travel. -->
+            <key>Convoy</key>
+            <value>
+                <mapTypes>Convoy</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>BaseHotJungle</mapTypes>
+            </value>
+        </entry>
+        <entry>
             <key>Desert</key>
             <value>
                 <mapTypes>Desert</mapTypes>

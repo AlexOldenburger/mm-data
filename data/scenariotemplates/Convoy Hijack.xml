@@ -30,11 +30,7 @@ Capture as much of the convoy as you can and drive off its escort.]]></detailedB
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Savannah</allowedTerrainType>
+            <allowedTerrainType>Convoy</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
