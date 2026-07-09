@@ -42,6 +42,7 @@ The victor controls the field, and we will be the ones standing when the dust se
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>Elites.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

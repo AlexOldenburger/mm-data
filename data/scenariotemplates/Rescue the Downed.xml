@@ -46,6 +46,7 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>PreBattleDamageAllies.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>
