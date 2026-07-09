@@ -44,6 +44,7 @@ The victor will control the battlefield at the end of the engagement, securing a
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>Rookies.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

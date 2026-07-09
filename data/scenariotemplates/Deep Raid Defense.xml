@@ -31,13 +31,7 @@ We will control the battlefield at the end of the engagement, ensuring access to
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Savannah</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Tundra</allowedTerrainType>
-            <allowedTerrainType>SnowField</allowedTerrainType>
+            <allowedTerrainType>DropZone</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

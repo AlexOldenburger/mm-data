@@ -43,10 +43,6 @@
         <objectiveParameter>
             <objectiveCount>-1</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>AlliedTraineesGround.xml</objectiveScenarioModifier>
-                <objectiveScenarioModifier>AlliedTraineesAir.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

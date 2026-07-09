@@ -33,8 +33,7 @@ Keep the bulk of your command intact. Reinforcements are inbound—survive until
             <allowedTerrainType>Hills</allowedTerrainType>
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
-            <allowedTerrainType>Forest</allowedTerrainType>
-            <allowedTerrainType>ColdForest</allowedTerrainType>
+            <allowedTerrainType>HotHillsWet</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -46,6 +45,7 @@ Keep the bulk of your command intact. Reinforcements are inbound—survive until
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>PreBattleDamageAllies.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

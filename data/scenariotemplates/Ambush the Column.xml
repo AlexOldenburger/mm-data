@@ -32,9 +32,8 @@ Shatter the column as it comes in. Rout the bulk of them before they can form up
         <allowedTerrainTypes>
             <allowedTerrainType>Hills</allowedTerrainType>
             <allowedTerrainType>ColdHills</allowedTerrainType>
-            <allowedTerrainType>Forest</allowedTerrainType>
-            <allowedTerrainType>ColdForest</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>HotHillsDry</allowedTerrainType>
+            <allowedTerrainType>HotHillsWet</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

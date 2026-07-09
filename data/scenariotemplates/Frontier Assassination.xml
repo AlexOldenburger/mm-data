@@ -30,9 +30,6 @@ The victor will control the battlefield at the end of the engagement, securing a
         <allowedTerrainTypes>
             <allowedTerrainType>Mountain</allowedTerrainType>
             <allowedTerrainType>ColdMountain</allowedTerrainType>
-            <allowedTerrainType>ArcticDesert</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
             <allowedTerrainType>HotMountainsDry</allowedTerrainType>
             <allowedTerrainType>HotMountainsWet</allowedTerrainType>
         </allowedTerrainTypes>

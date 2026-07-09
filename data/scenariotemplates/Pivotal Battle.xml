@@ -44,6 +44,7 @@ The victor will control the battlefield at the end of the engagement, ensuring w
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>Veterans.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

@@ -38,6 +38,7 @@
         <deploymentTimes>5</deploymentTimes>
         <deploymentTimes>6</deploymentTimes>
     </deploymentTimes>
+    <globalScenarioModifiers>PreBattleDamageHostiles.xml</globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>

@@ -33,8 +33,8 @@ Get the freed prisoners to safety and drive off the pursuit. Failing them will c
             <allowedTerrainType>Forest</allowedTerrainType>
             <allowedTerrainType>ColdForest</allowedTerrainType>
             <allowedTerrainType>HotForest</allowedTerrainType>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
+            <allowedTerrainType>Jungle</allowedTerrainType>
+            <allowedTerrainType>Swamp</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
