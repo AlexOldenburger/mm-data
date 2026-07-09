@@ -34,7 +34,6 @@ Preserve the bulk of your force and, if you can, break their assault before you 
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
             <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

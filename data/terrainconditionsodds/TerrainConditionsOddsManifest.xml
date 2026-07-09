@@ -50,6 +50,7 @@ can delete this file to reload defaults
             <terrain>Jungle</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Sea</terrain>
             <terrain>SnowField</terrain>
@@ -200,6 +201,7 @@ can delete this file to reload defaults
             <terrain>HotSea</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Sea</terrain>
             <terrain>SnowField</terrain>
@@ -249,6 +251,7 @@ can delete this file to reload defaults
             <terrain>Mountain</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Steppe</terrain>
             <terrain>TemperateFacility</terrain>
@@ -601,6 +604,7 @@ can delete this file to reload defaults
             <terrain>Jungle</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Steppe</terrain>
             <terrain>TemperateFacility</terrain>
@@ -709,6 +713,7 @@ can delete this file to reload defaults
             <terrain>Mountain</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Sea</terrain>
             <terrain>SnowField</terrain>
@@ -776,6 +781,7 @@ can delete this file to reload defaults
             <terrain>Mountain</terrain>
             <terrain>Plains</terrain>
             <terrain>Convoy</terrain>
+            <terrain>DropZone</terrain>
             <terrain>Savannah</terrain>
             <terrain>Sea</terrain>
             <terrain>SnowField</terrain>

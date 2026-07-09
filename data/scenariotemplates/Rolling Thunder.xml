@@ -32,9 +32,9 @@ Break all the way through and get the force off the far edge.]]></detailedBriefi
         <allowedTerrainTypes>
             <allowedTerrainType>Plains</allowedTerrainType>
             <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
+            <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

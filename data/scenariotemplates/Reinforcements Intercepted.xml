@@ -32,7 +32,6 @@ There is no time to secure the battlefield at the end of the engagement, meaning
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
             <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

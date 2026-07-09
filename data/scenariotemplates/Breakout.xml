@@ -30,11 +30,10 @@ Break out and get 50% of the force clear of the map edge.]]></detailedBriefing>
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Savannah</allowedTerrainType>
-            <allowedTerrainType>Tundra</allowedTerrainType>
-            <allowedTerrainType>SnowField</allowedTerrainType>
+            <allowedTerrainType>Mountain</allowedTerrainType>
+            <allowedTerrainType>ColdMountain</allowedTerrainType>
+            <allowedTerrainType>HotMountainsDry</allowedTerrainType>
+            <allowedTerrainType>HotMountainsWet</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
