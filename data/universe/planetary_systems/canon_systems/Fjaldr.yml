@@ -73,7 +73,7 @@ planet:
     dayLength: 23
     yearLength: 1.7
     temperature: -51
-    water: 0
+    water: 94
     lifeForm: FISH
     landmass:
       - name: Prè Saint Didier A
