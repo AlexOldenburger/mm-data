@@ -18,26 +18,25 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Space Blockade Run</name>
-    <shortBriefing>Break enemy blockade, escort DropShip.</shortBriefing>
-    <detailedBriefing><![CDATA[An allied DropShip must bypass an enemy space blockade, and you are its only chance at breaking through. Your mission is to escort the DropShip safely to the far edge of the engagement area, ensuring it can escape enemy interdiction. If a direct escort proves too difficult, an alternative objective is available—destroy at least 33% of the enemy forces to weaken their blockade and force them to disengage.
+    <name>Low-Atmosphere Interception</name>
+    <shortBriefing>Destroy hostile air forces.</shortBriefing>
+    <detailedBriefing><![CDATA[Your forces have been intercepted by enemy forces, cutting them off before they can complete their original mission. This is an intentional move to stall our operations and weaken our ability to project force. Your mission is to break free from the engagement by destroying at least 33% of the enemy force.
 
-The enemy will attempt to intercept, disable, or destroy the DropShip before it can escape. Expect interdiction fighters and AeroSpace superiority craft. Protect the DropShip at all costs—keep the enemy occupied, disrupt their formations, and eliminate high-threat targets before they can close in.
+The enemy will press hard to keep you contained, using aggressive maneuvers and potentially overwhelming numbers to delay your advance. Do not get bogged down in a prolonged engagement—focus fire, break their cohesion, and force them into retreat. Once their losses become unsustainable, the path forward will be clear.
 
-The enemy will control the battlefield at the end of the engagement, meaning there will be no chance for salvage or recovery. Your priority is to see the DropShip through or cripple enough enemy forces to force a retreat. Ensure the mission succeeds—our strategic mobility depends on it.]]></detailedBriefing>
+There will be no time to secure the battlefield at the end of the engagement, meaning any salvage will be lost. Speed is essential—eliminate the enemy and move out before reinforcements arrive.]]></detailedBriefing>
     <battlefieldControl>ENEMY</battlefieldControl>
-    <isHostileFacility>false</isHostileFacility>
-    <isAlliedFacility>false</isAlliedFacility>
     <isSuitedForAmbushes>true</isSuitedForAmbushes>
+    <isSuitedForBungledPatrols>true</isSuitedForBungledPatrols>
     <mapParameters>
         <allowedTerrainTypes />
         <allowRotation>false</allowRotation>
         <baseHeight>50</baseHeight>
         <baseWidth>50</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
-        <mapLocation>Space</mapLocation>
+        <mapLocation>LowAtmosphere</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
-        <additionalMapSheetTall>2</additionalMapSheetTall>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
         <additionalMapSheetWide>2</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
@@ -47,7 +46,7 @@ The enemy will control the battlefield at the end of the engagement, meaning the
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>9</allowedUnitType>
+                <allowedUnitType>-3</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>true</contributesToBV>
@@ -57,7 +56,7 @@ The enemy will control the battlefield at the end of the engagement, meaning the
                 <deploymentZones>
                     <deploymentZone>6</deploymentZone>
                 </deploymentZones>
-                <destinationZone>6</destinationZone>
+                <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>0</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
@@ -66,7 +65,6 @@ The enemy will control the battlefield at the end of the engagement, meaning the
                 <generationOrder>1</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
                 <minWeightClass>0</minWeightClass>
-                <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
@@ -74,50 +72,11 @@ The enemy will control the battlefield at the end of the engagement, meaning the
             </value>
         </entry>
         <entry>
-            <key>DropShip</key>
-            <value>
-                <actualDeploymentZone>-1</actualDeploymentZone>
-                <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>11</allowedUnitType>
-                <arrivalTurn>0</arrivalTurn>
-                <canReinforceLinked>false</canReinforceLinked>
-                <contributesToBV>false</contributesToBV>
-                <contributesToMapSize>true</contributesToMapSize>
-                <contributesToUnitCount>false</contributesToUnitCount>
-                <deployOffboard>false</deployOffboard>
-                <deploymentZones />
-                <destinationZone>6</destinationZone>
-                <fixedUnitCount>1</fixedUnitCount>
-                <forceAlignment>1</forceAlignment>
-                <forceMultiplier>1.0</forceMultiplier>
-                <forceName>DropShip</forceName>
-                <generationMethod>4</generationMethod>
-                <generationOrder>4</generationOrder>
-                <maxWeightClass>4</maxWeightClass>
-                <minWeightClass>1</minWeightClass>
-                <objectiveLinkedForces />
-                <retreatThreshold>50</retreatThreshold>
-                <startingAltitude>5</startingAltitude>
-                <syncDeploymentType>SameEdge</syncDeploymentType>
-                <syncedForceName>Player</syncedForceName>
-                <useArtillery>false</useArtillery>
-                <roleChoices>
-                    <forceRole>MEK_CARRIER</forceRole>
-                    <forceRole>MEK_CARRIER</forceRole>
-                    <forceRole>ASF_CARRIER</forceRole>
-                    <forceRole>VEE_CARRIER</forceRole>
-                    <forceRole>INFANTRY_CARRIER</forceRole>
-                    <forceRole>TROOP_CARRIER</forceRole>
-                    <forceRole>CIVILIAN</forceRole>
-                </roleChoices>
-            </value>
-        </entry>
-        <entry>
             <key>OpFor</key>
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>9</allowedUnitType>
+                <allowedUnitType>-3</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>false</contributesToBV>
@@ -126,15 +85,14 @@ The enemy will control the battlefield at the end of the engagement, meaning the
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones />
                 <destinationZone>5</destinationZone>
-                <fixedUnitCount>1</fixedUnitCount>
+                <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
-                <minWeightClass>1</minWeightClass>
-                <objectiveLinkedForces />
+                <minWeightClass>0</minWeightClass>
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
@@ -149,40 +107,6 @@ The enemy will control the battlefield at the end of the engagement, meaning the
     <scenarioObjectives>
         <scenarioObjective>
             <associatedForceNames>
-                <associatedForceName>DropShip</associatedForceName>
-            </associatedForceNames>
-            <associatedUnitIDs />
-            <successEffects>
-                <successEffect>
-                    <effectType>ScenarioVictory</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>2</howMuch>
-                </successEffect>
-                <successEffect>
-                    <effectType>SupportPointUpdate</effectType>
-                    <effectScaling>Linear</effectScaling>
-                    <howMuch>2</howMuch>
-                </successEffect>
-            </successEffects>
-            <failureEffects>
-                <failureEffect>
-                    <effectType>ScenarioDefeat</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>1</howMuch>
-                </failureEffect>
-            </failureEffects>
-            <additionalDetails>
-                <additionalDetail>Crippled units do not count towards this objective.</additionalDetail>
-            </additionalDetails>
-            <description>Escort all of the following forces to the destination edge. +2 SVP if succeeded, -1 SVP if failed.</description>
-            <destinationEdge>NORTH</destinationEdge>
-            <objectiveCriterion>ReachMapEdge</objectiveCriterion>
-            <percentage>100</percentage>
-            <timeLimitAtMost>true</timeLimitAtMost>
-            <timeLimitType>None</timeLimitType>
-        </scenarioObjective>
-        <scenarioObjective>
-            <associatedForceNames>
                 <associatedForceName>OpFor</associatedForceName>
             </associatedForceNames>
             <associatedUnitIDs />
@@ -190,7 +114,7 @@ The enemy will control the battlefield at the end of the engagement, meaning the
                 <successEffect>
                     <effectType>ScenarioVictory</effectType>
                     <effectScaling>Fixed</effectScaling>
-                    <howMuch>2</howMuch>
+                    <howMuch>1</howMuch>
                 </successEffect>
             </successEffects>
             <failureEffects>
