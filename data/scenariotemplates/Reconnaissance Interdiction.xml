@@ -36,7 +36,6 @@ We will control the battlefield at the end of the engagement, ensuring that any 
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
             <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

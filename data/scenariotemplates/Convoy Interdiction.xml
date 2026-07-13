@@ -29,11 +29,7 @@ No distractions. No delays. No mercy. Execute the raid, cripple their supply lin
     <battlefieldControl>ENEMY</battlefieldControl>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
-            <allowedTerrainType>HotHillsDry</allowedTerrainType>
-            <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>Convoy</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

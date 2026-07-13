@@ -31,11 +31,7 @@ We will control the battlefield at the end of the engagement, ensuring that any 
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>SnowField</allowedTerrainType>
+            <allowedTerrainType>Convoy</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>50</baseHeight>

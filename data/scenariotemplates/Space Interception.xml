@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -18,43 +18,38 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <name>Rescue the Downed</name>
-    <shortBriefing>Reach an isolated downed unit and keep it alive against closing enemies.</shortBriefing>
-    <detailedBriefing><![CDATA[One of ours is down and stranded—crippled, alone, and directly in the enemy's path. They cannot extract themselves, and the enemy is closing to finish the job. Get to them and keep them alive.
+    <name>Space Interception</name>
+    <shortBriefing>Destroy hostile air forces.</shortBriefing>
+    <detailedBriefing><![CDATA[Your forces have been intercepted in space, cut off before they could reach their destination. There is nowhere to hide—this is a direct engagement where survival depends on decisive action. Your mission is to destroy at least 33% of the enemy forces.
 
-This is a race against a kill. Screen the downed unit, put your bodies between it and the enemy's guns, and hold until the engagement is decided. One unit does not sound like much to lose, but that is our pilot out there—and we do not leave people behind.
+The enemy will press the attack, seeking to pin your reinforcements down and eliminate them before they can regroup. Expect high-speed dogfights, coordinated fire from multiple vectors, and no room for retreat. Strike hard, cripple their numbers, and shatter their formation before they can overwhelm you.
 
-Keep the downed unit alive. Everything else is secondary to that.]]></detailedBriefing>
-    <battlefieldControl>VICTOR</battlefieldControl>
+There will be no time to secure the battlefield after the engagement, meaning any salvage or wreckage will be lost. This is about survival and operational integrity—break free, push forward, and ensure your reinforcements reach their objective.]]></detailedBriefing>
+    <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
+    <isSuitedForAmbushes>true</isSuitedForAmbushes>
+    <isSuitedForBungledPatrols>true</isSuitedForBungledPatrols>
     <mapParameters>
-        <allowedTerrainTypes>
-            <allowedTerrainType>Forest</allowedTerrainType>
-            <allowedTerrainType>ColdForest</allowedTerrainType>
-            <allowedTerrainType>HotForest</allowedTerrainType>
-            <allowedTerrainType>Jungle</allowedTerrainType>
-            <allowedTerrainType>Swamp</allowedTerrainType>
-        </allowedTerrainTypes>
+        <allowedTerrainTypes />
         <allowRotation>false</allowRotation>
-        <baseHeight>0</baseHeight>
-        <baseWidth>0</baseWidth>
+        <baseHeight>50</baseHeight>
+        <baseWidth>50</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
-        <mapLocation>SpecificGroundTerrain</mapLocation>
+        <mapLocation>Space</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
-        <additionalMapSheetTall>0</additionalMapSheetTall>
-        <additionalMapSheetWide>0</additionalMapSheetWide>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>2</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
-    <scenarioModifiers>PreBattleDamageAllies.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>-2</allowedUnitType>
-                <arrivalTurn>1</arrivalTurn>
+                <allowedUnitType>9</allowedUnitType>
+                <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>true</contributesToBV>
                 <contributesToMapSize>true</contributesToMapSize>
@@ -63,7 +58,7 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
                 <deploymentZones>
                     <deploymentZone>6</deploymentZone>
                 </deploymentZones>
-                <destinationZone>2</destinationZone>
+                <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>0</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
@@ -74,38 +69,7 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
                 <minWeightClass>0</minWeightClass>
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
-                <startingAltitude>0</startingAltitude>
-                <syncDeploymentType>None</syncDeploymentType>
-                <useArtillery>false</useArtillery>
-            </value>
-        </entry>
-        <entry>
-            <key>Downed Unit</key>
-            <value>
-                <actualDeploymentZone>-1</actualDeploymentZone>
-                <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>0</allowedUnitType>
-                <arrivalTurn>0</arrivalTurn>
-                <canReinforceLinked>false</canReinforceLinked>
-                <contributesToBV>false</contributesToBV>
-                <contributesToMapSize>true</contributesToMapSize>
-                <contributesToUnitCount>false</contributesToUnitCount>
-                <deployOffboard>false</deployOffboard>
-                <deploymentZones>
-                    <deploymentZone>10</deploymentZone>
-                </deploymentZones>
-                <destinationZone>6</destinationZone>
-                <fixedUnitCount>1</fixedUnitCount>
-                <forceAlignment>1</forceAlignment>
-                <forceMultiplier>1.0</forceMultiplier>
-                <forceName>Downed Unit</forceName>
-                <generationMethod>1</generationMethod>
-                <generationOrder>2</generationOrder>
-                <maxWeightClass>4</maxWeightClass>
-                <minWeightClass>0</minWeightClass>
-                <objectiveLinkedForces />
-                <retreatThreshold>0</retreatThreshold>
-                <startingAltitude>0</startingAltitude>
+                <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
             </value>
@@ -115,7 +79,7 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>-2</allowedUnitType>
+                <allowedUnitType>-3</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>true</canReinforceLinked>
                 <contributesToBV>false</contributesToBV>
@@ -132,49 +96,19 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
                 <minWeightClass>0</minWeightClass>
-                <objectiveLinkedForces>
-                    <objectiveLinkedForce>Downed Unit</objectiveLinkedForce>
-                </objectiveLinkedForces>
+                <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
-                <startingAltitude>0</startingAltitude>
+                <startingAltitude>5</startingAltitude>
                 <syncDeploymentType>OppositeEdge</syncDeploymentType>
                 <syncedForceName>Player</syncedForceName>
                 <useArtillery>false</useArtillery>
                 <roleChoices>
-                    <forceRole>RAIDER</forceRole>
-                    <forceRole>CAVALRY</forceRole>
+                    <forceRole>INTERCEPTOR</forceRole>
                 </roleChoices>
             </value>
         </entry>
     </scenarioForces>
     <scenarioObjectives>
-        <scenarioObjective>
-            <associatedForceNames>
-                <associatedForceName>Downed Unit</associatedForceName>
-            </associatedForceNames>
-            <associatedUnitIDs />
-            <successEffects>
-                <successEffect>
-                    <effectType>ScenarioVictory</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>2</howMuch>
-                </successEffect>
-            </successEffects>
-            <failureEffects>
-                <failureEffect>
-                    <effectType>ScenarioDefeat</effectType>
-                    <effectScaling>Fixed</effectScaling>
-                    <howMuch>2</howMuch>
-                </failureEffect>
-            </failureEffects>
-            <additionalDetails />
-            <description>Preserve 100% of the following force. +2 SVP if succeeded, -2 SVP if failed.</description>
-            <destinationEdge>NONE</destinationEdge>
-            <objectiveCriterion>Preserve</objectiveCriterion>
-            <percentage>100</percentage>
-            <timeLimitAtMost>true</timeLimitAtMost>
-            <timeLimitType>None</timeLimitType>
-        </scenarioObjective>
         <scenarioObjective>
             <associatedForceNames>
                 <associatedForceName>OpFor</associatedForceName>
@@ -187,9 +121,15 @@ Keep the downed unit alive. Everything else is secondary to that.]]></detailedBr
                     <howMuch>1</howMuch>
                 </successEffect>
             </successEffects>
-            <failureEffects />
+            <failureEffects>
+                <failureEffect>
+                    <effectType>ScenarioDefeat</effectType>
+                    <effectScaling>Fixed</effectScaling>
+                    <howMuch>1</howMuch>
+                </failureEffect>
+            </failureEffects>
             <additionalDetails />
-            <description>Destroy or rout 33% of the following forces. +1 SVP if succeeded.</description>
+            <description>Destroy or rout 33% of the following forces. +1 SVP if succeeded, -1 SVP if failed.</description>
             <destinationEdge>NONE</destinationEdge>
             <objectiveCriterion>ForceWithdraw</objectiveCriterion>
             <percentage>33</percentage>

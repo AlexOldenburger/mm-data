@@ -44,6 +44,7 @@ Be advised, the enemy will control the field at the end of the engagement. You w
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>GoodIntel.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

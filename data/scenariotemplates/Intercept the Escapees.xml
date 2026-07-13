@@ -37,7 +37,6 @@ Execute with precision. The enemy must leave empty-handed.]]></detailedBriefing>
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
             <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>25</baseHeight>

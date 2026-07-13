@@ -33,8 +33,8 @@ Get the VIP safely off the map. That single unit is the mission.]]></detailedBri
             <allowedTerrainType>Forest</allowedTerrainType>
             <allowedTerrainType>ColdForest</allowedTerrainType>
             <allowedTerrainType>HotForest</allowedTerrainType>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
+            <allowedTerrainType>Jungle</allowedTerrainType>
+            <allowedTerrainType>Swamp</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -83,7 +83,7 @@ Get the VIP safely off the map. That single unit is the mission.]]></detailedBri
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
-                <allowedUnitType>-2</allowedUnitType>
+                <allowedUnitType>1</allowedUnitType>
                 <arrivalTurn>0</arrivalTurn>
                 <canReinforceLinked>false</canReinforceLinked>
                 <contributesToBV>false</contributesToBV>
@@ -98,7 +98,7 @@ Get the VIP safely off the map. That single unit is the mission.]]></detailedBri
                 <forceAlignment>1</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
                 <forceName>VIP</forceName>
-                <generationMethod>1</generationMethod>
+                <generationMethod>2</generationMethod>
                 <generationOrder>2</generationOrder>
                 <maxWeightClass>3</maxWeightClass>
                 <minWeightClass>0</minWeightClass>
@@ -107,6 +107,9 @@ Get the VIP safely off the map. That single unit is the mission.]]></detailedBri
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>APC</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>

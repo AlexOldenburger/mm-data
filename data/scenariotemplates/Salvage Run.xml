@@ -30,11 +30,10 @@ Secure the salvage and break the rival team. The victor holds the field—and th
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Savannah</allowedTerrainType>
             <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>ArcticDesert</allowedTerrainType>
+            <allowedTerrainType>Glacier</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
@@ -79,7 +78,7 @@ Secure the salvage and break the rival team. The victor holds the field—and th
             </value>
         </entry>
         <entry>
-            <key>Salvage</key>
+            <key>SalvageConvoy</key>
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
@@ -97,7 +96,7 @@ Secure the salvage and break the rival team. The victor holds the field—and th
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
                 <forceMultiplier>0.5</forceMultiplier>
-                <forceName>Salvage Crew</forceName>
+                <forceName>Salvage Convoy</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>3</generationOrder>
                 <maxWeightClass>2</maxWeightClass>
@@ -150,7 +149,7 @@ Secure the salvage and break the rival team. The victor holds the field—and th
     <scenarioObjectives>
         <scenarioObjective>
             <associatedForceNames>
-                <associatedForceName>Salvage</associatedForceName>
+                <associatedForceName>Salvage Convoy</associatedForceName>
             </associatedForceNames>
             <associatedUnitIDs />
             <successEffects>

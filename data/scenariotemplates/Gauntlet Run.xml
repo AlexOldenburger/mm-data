@@ -28,13 +28,14 @@ Get 50% of the force to the far edge. Speed is survival.]]></detailedBriefing>
     <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
+    <isSuitedForAmbushes>true</isSuitedForAmbushes>
+    <isSuitedForBungledPatrols>true</isSuitedForBungledPatrols>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Mountain</allowedTerrainType>
+            <allowedTerrainType>ColdMountain</allowedTerrainType>
+            <allowedTerrainType>HotMountainsDry</allowedTerrainType>
+            <allowedTerrainType>HotMountainsWet</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

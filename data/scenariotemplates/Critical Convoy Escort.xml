@@ -31,11 +31,7 @@ We will control the field at the end of the battle, giving you full authority to
     <isAlliedFacility>false</isAlliedFacility>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Plains</allowedTerrainType>
-            <allowedTerrainType>Steppe</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>SnowField</allowedTerrainType>
+            <allowedTerrainType>Convoy</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

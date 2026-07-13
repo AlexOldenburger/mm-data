@@ -33,8 +33,8 @@ Once you are down, drive the defenders off and hold the ground. This is a high-r
             <allowedTerrainType>Plains</allowedTerrainType>
             <allowedTerrainType>Steppe</allowedTerrainType>
             <allowedTerrainType>Savannah</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
-            <allowedTerrainType>Desert</allowedTerrainType>
+            <allowedTerrainType>Tundra</allowedTerrainType>
+            <allowedTerrainType>SnowField</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

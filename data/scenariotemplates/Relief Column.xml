@@ -46,6 +46,7 @@ Preserve the beleaguered detachment and break the enemy's assault. Losing the de
         <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>PreBattleDamageAllies.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

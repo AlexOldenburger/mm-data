@@ -30,6 +30,7 @@ The enemy will control the field at the end of the engagement, meaning there wil
     <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
+    <isSuitedForBungledPatrols>true</isSuitedForBungledPatrols>
     <mapParameters>
         <allowedTerrainTypes>
             <allowedTerrainType>Forest</allowedTerrainType>
@@ -48,6 +49,7 @@ The enemy will control the field at the end of the engagement, meaning there wil
         <additionalMapSheetWide>1</additionalMapSheetWide>
         <widthScalingIncrement>10</widthScalingIncrement>
     </mapParameters>
+    <scenarioModifiers>GoodIntel.xml</scenarioModifiers>
     <scenarioForces>
         <entry>
             <key>Player</key>

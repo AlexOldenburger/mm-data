@@ -38,6 +38,9 @@
         <deploymentTimes>6</deploymentTimes>
         <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>HostileBVBudgetIncrease.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>
@@ -65,9 +68,6 @@
                 <objectiveScenario>Rolling Thunder.xml</objectiveScenario>
                 <objectiveScenario>Escalation.xml</objectiveScenario>
             </objectiveScenarios>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>HostileBVBudgetIncrease.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

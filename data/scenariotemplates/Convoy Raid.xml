@@ -29,11 +29,7 @@ The more convoy units that survive, the greater the spoils. Disabling transports
     <battlefieldControl>ENEMY</battlefieldControl>
     <mapParameters>
         <allowedTerrainTypes>
-            <allowedTerrainType>Hills</allowedTerrainType>
-            <allowedTerrainType>ColdHills</allowedTerrainType>
-            <allowedTerrainType>HotHillsDry</allowedTerrainType>
-            <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
+            <allowedTerrainType>Convoy</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>

@@ -39,6 +39,9 @@
         <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>ReinforcementDelayReductionHostile.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1.0</objectiveCount>
@@ -52,9 +55,6 @@
                 <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
                 <objectiveScenario>Ambush the Column.xml</objectiveScenario>
             </objectiveScenarios>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>ReinforcementDelayReductionHostile.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

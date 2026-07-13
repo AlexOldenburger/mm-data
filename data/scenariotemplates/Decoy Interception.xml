@@ -34,7 +34,6 @@ Stand firm, draw them in, and ensure they never reach their goal. If they break,
             <allowedTerrainType>ColdHills</allowedTerrainType>
             <allowedTerrainType>HotHillsDry</allowedTerrainType>
             <allowedTerrainType>HotHillsWet</allowedTerrainType>
-            <allowedTerrainType>Badlands</allowedTerrainType>
         </allowedTerrainTypes>
         <allowRotation>false</allowRotation>
         <baseHeight>0</baseHeight>
