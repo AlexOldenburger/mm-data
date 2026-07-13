@@ -85,6 +85,8 @@ events:
             magnitude: -10
         effectsFailure:
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: INJURY_PERCENT
             affectedPersonnelTypes:
@@ -111,6 +113,8 @@ events:
             magnitude: -10
         effectsFailure:
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 40
           - effect: PRISONER_CAPACITY
             magnitude: -50
@@ -578,11 +582,15 @@ events:
         skillCheckSkill: Small Arms
         effectsSuccess:
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -15
         effectsFailure:
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
@@ -601,6 +609,8 @@ events:
               - PRISONERS
             magnitude: 5
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 20
           - effect: PRISONER_CAPACITY
             magnitude: -25
@@ -612,11 +622,15 @@ events:
               - PRISONERS
             magnitude: 5
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 5
           - effect: PRISONER_CAPACITY
             magnitude: -15
         effectsFailure:
           - effect: ESCAPE
+            affectedPersonnelTypes:
+              - PRISONERS
             magnitude: 10
           - effect: PRISONER_CAPACITY
             magnitude: -25
