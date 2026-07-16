@@ -60,7 +60,7 @@ Capture as much of the convoy as you can by driving off its escort.]]></detailed
                 <deploymentZones />
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
-                <forceAlignment>0</forceAlignment>evg
+                <forceAlignment>0</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
                 <forceName>Player</forceName>
                 <generationMethod>0</generationMethod>
