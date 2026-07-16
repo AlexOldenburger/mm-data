@@ -22,7 +22,7 @@ Vengeance (3056),3
 Arondight Pocket WarShip (SCC),4
 Claymore (3054),5
 Avenger (3048),6
-Arondight Pocket WarShip (Standard),5
+Arondight Pocket WarShip,5
 Arondight Pocket WarShip (Refit),4
 Avenger (3048),3
 Excalibur 'Pocket Warship',2
