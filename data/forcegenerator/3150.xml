@@ -221,7 +221,7 @@
             <upgradeMargin>13</upgradeMargin>
             <salvage pct='5'>FWL:1,FR:1,DA:10</salvage>
         </faction>
-        <faction key='MalCon'>
+        <faction key='MALC'>
             <omniMargin>16</omniMargin>
             <techMargin>16</techMargin>
             <upgradeMargin>13</upgradeMargin>
