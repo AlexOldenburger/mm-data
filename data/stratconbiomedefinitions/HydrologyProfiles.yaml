@@ -1,0 +1,61 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+#
+# StratCon improved-sector-generation hydrology profiles. Each profile is chosen for a planet by Gaussian weighting on
+# its water coverage: weight = exp(-(water - gaussianCenter)^2 / (2 * sigma^2)). A larger sigma spreads the choice
+# across more profiles (more variety). The actual ocean coverage is then rolled uniformly within the profile's band.
+# The 'type' must match a HydrologyProfileType constant, which also selects the ocean-shape algorithm.
+
+sigma: 18
+
+profiles:
+  - type: INLAND
+    minOceanPercent: 0
+    maxOceanPercent: 10
+    gaussianCenter: 5
+  - type: RIVERLANDS
+    minOceanPercent: 10
+    maxOceanPercent: 25
+    gaussianCenter: 16
+  - type: LAKELANDS
+    minOceanPercent: 15
+    maxOceanPercent: 30
+    gaussianCenter: 22
+  - type: MARSHLANDS
+    minOceanPercent: 25
+    maxOceanPercent: 40
+    gaussianCenter: 32
+  - type: COASTAL
+    minOceanPercent: 25
+    maxOceanPercent: 45
+    gaussianCenter: 35
+  - type: INLAND_SEA
+    minOceanPercent: 30
+    maxOceanPercent: 50
+    gaussianCenter: 40
+  - type: PENINSULA
+    minOceanPercent: 40
+    maxOceanPercent: 55
+    gaussianCenter: 48
+  - type: ISLAND
+    minOceanPercent: 50
+    maxOceanPercent: 70
+    gaussianCenter: 60
+  - type: ARCHIPELAGO
+    minOceanPercent: 60
+    maxOceanPercent: 80
+    gaussianCenter: 70
