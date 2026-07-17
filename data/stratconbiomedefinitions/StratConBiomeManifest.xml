@@ -239,7 +239,7 @@
     </terrainType>
     <terrainType>
         <name>HotHillsWet</name>
-        <category>VEGETATION</category>
+        <category>HILLS</category>
     </terrainType>
     <terrainType>
         <name>Desert</name>
@@ -271,15 +271,15 @@
     </terrainType>
     <terrainType>
         <name>HotHillsDry</name>
-        <category>BARREN</category>
+        <category>HILLS</category>
     </terrainType>
     <terrainType>
         <name>Hills</name>
-        <category>NEUTRAL</category>
+        <category>HILLS</category>
     </terrainType>
     <terrainType>
         <name>ColdHills</name>
-        <category>NEUTRAL</category>
+        <category>HILLS</category>
     </terrainType>
     <!-- Theoretically: Lunar/Facility, Martian/Facility, Purple/Facility -->
     <biomeMapTypes>
