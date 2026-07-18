@@ -1,0 +1,49 @@
+#Saved from version 0.51.01 on 2026-07-17
+<UUID>
+019f72cf-297d-7a24-a518-e96673653042
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Support Platoon
+</Name>
+
+<Model>
+
+</Model>
+
+<year>
+2300
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Clothing, Fatigues/Civilian/Non-Armored
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+Blade (Dagger/Knife/Bayonet)
+</Primary>
+
+

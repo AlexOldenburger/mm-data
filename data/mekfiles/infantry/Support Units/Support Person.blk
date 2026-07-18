@@ -1,0 +1,49 @@
+#Saved from version 0.51.01 on 2026-07-17
+<UUID>
+019f72d4-35f2-7dd3-8a0e-a8bb2331ee9f
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Support Person
+</Name>
+
+<Model>
+
+</Model>
+
+<year>
+2300
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Clothing, Fatigues/Civilian/Non-Armored
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+1
+</squad_size>
+
+<squadn>
+1
+</squadn>
+
+<Primary>
+Blade (Dagger/Knife/Bayonet)
+</Primary>
+
+
