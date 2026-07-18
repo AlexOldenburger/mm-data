@@ -683,6 +683,106 @@
                 <mapTypes>Sea-CoastalRoads</mapTypes>
             </value>
         </entry>
+
+        <!--
+            Category-keyed fallback pools. StratConRulesManager.setScenarioParametersFromBiome resolves a scenario's
+            battle-map pool by exact terrain name first, then by the terrain's category name (the keys below), so any
+            terrain without its own pool - and any terrain added later - still lands on an appropriate board. Keys must
+            match StratConTerrainCategory constant names. Ocean is omitted because scenarios never spawn on water.
+        -->
+        <entry>
+            <key>NEUTRAL</key>
+            <value>
+                <mapTypes>PlainsTown</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>Town-generic</mapTypes>
+                <mapTypes>Some-trees</mapTypes>
+                <mapTypes>Town-ruin</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>VEGETATION</key>
+            <value>
+                <mapTypes>Woods-medium</mapTypes>
+                <mapTypes>Wooded-hills</mapTypes>
+                <mapTypes>Woods-river</mapTypes>
+                <mapTypes>Wooded-valley</mapTypes>
+                <mapTypes>Some-trees</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>BARREN</key>
+            <value>
+                <mapTypes>Dust-bowl</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
+                <mapTypes>Sandy-valley</mapTypes>
+                <mapTypes>Sandy-hills</mapTypes>
+                <mapTypes>Light-craters</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HILLS</key>
+            <value>
+                <mapTypes>Hills</mapTypes>
+                <mapTypes>Wooded-hills</mapTypes>
+                <mapTypes>Hills-River</mapTypes>
+                <mapTypes>Town-hills</mapTypes>
+                <mapTypes>Hills-pastoral</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>MOUNTAIN</key>
+            <value>
+                <mapTypes>Mountain-medium</mapTypes>
+                <mapTypes>Mountain-high</mapTypes>
+                <mapTypes>Cliffs</mapTypes>
+                <mapTypes>Rubble-mountain</mapTypes>
+                <mapTypes>Mountain-river</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>URBAN</key>
+            <value>
+                <mapTypes>City-dense</mapTypes>
+                <mapTypes>City-high</mapTypes>
+                <mapTypes>Town-concrete</mapTypes>
+                <mapTypes>Fortress-City</mapTypes>
+                <mapTypes>Town-generic</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Farmland and any other cultivated terrain: rural, worked-land boards. -->
+            <key>AGRICULTURE</key>
+            <value>
+                <mapTypes>Town-farming</mapTypes>
+                <mapTypes>Hills-pastoral</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>PlainsTown</mapTypes>
+                <mapTypes>Some-trees</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Volcano: no dedicated lava mapgen theme exists yet, so proxy with rugged, cratered, scorched ground. -->
+            <key>VOLCANIC</key>
+            <value>
+                <mapTypes>Rubble-mountain</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
+                <mapTypes>Heavy-craters</mapTypes>
+                <mapTypes>Dust-bowl</mapTypes>
+                <mapTypes>Rubble-river</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Mars and GrayLunar (airless/lunar worlds): cratered, barren, rocky ground. -->
+            <key>LUNAR</key>
+            <value>
+                <mapTypes>Heavy-craters</mapTypes>
+                <mapTypes>Light-craters</mapTypes>
+                <mapTypes>Hills-craters</mapTypes>
+                <mapTypes>Rubble-mountain</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
+            </value>
+        </entry>
     </biomeMapTypes>
     <biomeImages>
         <entry>
