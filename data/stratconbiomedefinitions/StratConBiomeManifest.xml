@@ -837,6 +837,11 @@
             <value>data/images/stratcon/Stratcon_Urban_Temperate.png</value>
         </entry>
         <entry>
+            <!-- Generic city overlay sprite, drawn on top of any non-ocean base terrain. -->
+            <key>City</key>
+            <value>data/images/stratcon/Stratcon_Urban.png</value>
+        </entry>
+        <entry>
             <key>Volcano</key>
             <value>data/images/stratcon/Stratcon_Volcanic.png</value>
         </entry>
