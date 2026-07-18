@@ -232,14 +232,17 @@
     <terrainType>
         <name>Savannah</name>
         <category>VEGETATION</category>
+        <arable>true</arable>
     </terrainType>
     <terrainType>
         <name>Plains</name>
         <category>VEGETATION</category>
+        <arable>true</arable>
     </terrainType>
     <terrainType>
         <name>HotHillsWet</name>
         <category>HILLS</category>
+        <arable>true</arable>
     </terrainType>
     <terrainType>
         <name>Desert</name>
@@ -252,6 +255,7 @@
     <terrainType>
         <name>Steppe</name>
         <category>BARREN</category>
+        <arable>true</arable>
     </terrainType>
     <terrainType>
         <name>ArcticDesert</name>
@@ -276,10 +280,15 @@
     <terrainType>
         <name>Hills</name>
         <category>HILLS</category>
+        <arable>true</arable>
     </terrainType>
     <terrainType>
         <name>ColdHills</name>
         <category>HILLS</category>
+    </terrainType>
+    <terrainType>
+        <name>Farmland</name>
+        <category>AGRICULTURE</category>
     </terrainType>
     <!-- Theoretically: Lunar/Facility, Martian/Facility, Purple/Facility -->
     <biomeMapTypes>
@@ -682,7 +691,7 @@
         </entry>
         <entry>
             <key>Badlands</key>
-            <value>data/images/stratcon/Stratcon_Mars.png</value>
+            <value>data/images/hexes/mars/mars_rough_3.gif</value>
         </entry>
         <entry>
             <key>ColdFacility</key>
@@ -840,6 +849,11 @@
             <!-- Generic city overlay sprite, drawn on top of any non-ocean base terrain. -->
             <key>City</key>
             <value>data/images/stratcon/Stratcon_Urban.png</value>
+        </entry>
+        <entry>
+            <!-- Cultivated farmland hex, placed as a catchment around cities over arable land. -->
+            <key>Farmland</key>
+            <value>data/images/hexes/saxarba/field_0.png</value>
         </entry>
         <entry>
             <key>Volcano</key>
