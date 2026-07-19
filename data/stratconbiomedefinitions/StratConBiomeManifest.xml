@@ -149,6 +149,16 @@
         <allowedTemperatureUpperBound>90000</allowedTemperatureUpperBound>
         <allowedTerrainTypes>HotFacility</allowedTerrainTypes>
     </biomes>
+    <!-- Airless biome: worlds with no atmosphere. One band across all temperatures; the improved terrain generator
+         fills airless sectors from these terrains instead of a hardcoded list. -->
+    <biomes>
+        <biomeCategory>Airless</biomeCategory>
+        <allowedTemperatureLowerBound>0</allowedTemperatureLowerBound>
+        <allowedTemperatureUpperBound>90000</allowedTemperatureUpperBound>
+        <allowedTerrainTypes>GrayLunar</allowedTerrainTypes>
+        <allowedTerrainTypes>Mars</allowedTerrainTypes>
+        <allowedTerrainTypes>Volcano</allowedTerrainTypes>
+    </biomes>
     <!-- Terrain definitions: classify each terrain type by category so StratCon code reasons about terrain by
          category rather than by matching terrain-name strings. Images continue to be looked up from biomeImages
          below unless an <image> is declared here. Categories:
