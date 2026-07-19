@@ -324,10 +324,11 @@
         <entry>
             <key>ColdFacility</key>
             <value>
-                <mapTypes>ColdSeaCoastalFort</mapTypes>
-                <mapTypes>CityCold</mapTypes>
-                <mapTypes>TownCold</mapTypes>
                 <mapTypes>BaseCold</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>ColdSeaCoastalFort</mapTypes>
+                <mapTypes>TownCold</mapTypes>
             </value>
         </entry>
         <entry>
@@ -502,8 +503,10 @@
             <value>
                 <mapTypes>BaseHotDesert</mapTypes>
                 <mapTypes>BaseHotJungle</mapTypes>
-                <mapTypes>CityHotDesert</mapTypes>
-                <mapTypes>CityHotJungle</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>TownHotDesert</mapTypes>
+                <mapTypes>TownHotJungle</mapTypes>
             </value>
         </entry>
         <entry>
@@ -667,16 +670,13 @@
         <entry>
             <key>TemperateFacility</key>
             <value>
-                <mapTypes>City-dense</mapTypes>
-                <mapTypes>City-high</mapTypes>
-                <mapTypes>Fortress-City</mapTypes>
-                <mapTypes>Town-concrete</mapTypes>
-                <mapTypes>Town-generic</mapTypes>
-                <mapTypes>Town-ruin</mapTypes>
                 <mapTypes>PlainsOutpost</mapTypes>
-                <mapTypes>PlainsTown</mapTypes>
+                <mapTypes>Town-mining</mapTypes>
+                <mapTypes>Town-farming</mapTypes>
+                <mapTypes>Town-generic</mapTypes>
                 <mapTypes>Town-wooded</mapTypes>
                 <mapTypes>Sea-CoastalFort</mapTypes>
+                <mapTypes>Fortress-City</mapTypes>
             </value>
         </entry>
         <entry>
@@ -691,6 +691,261 @@
                 <mapTypes>Seaport</mapTypes>
                 <mapTypes>Town-mining</mapTypes>
                 <mapTypes>Sea-CoastalRoads</mapTypes>
+            </value>
+        </entry>
+
+        <!--
+            Facility pools, keyed by "<terrain name>Facility". When a scenario is fought at a facility,
+            StratConBiomeManifest.getFacilityPoolKey looks for the pool named after the hex's own terrain before falling
+            back to the generic temperature-banded pools (FrozenFacility/ColdFacility/TemperateFacility/HotFacility)
+            above. That matters because the generic pools know only the temperature, which is how a base on a volcano
+            used to end up fighting on a temperate town board.
+
+            Terrain names already carry their climate (ColdForest vs Forest vs HotForest), so these pools capture both
+            the ground and the weather. They lean deliberately toward outposts, bases, and rural holdings: a facility is
+            an installation, not a metropolis. Dense-city boards are reserved for genuinely urban terrain, and a
+            facility that happens to sit in a city hex still gets its urban dressing from the separate stratConUrban
+            flag, which is set from the hex rather than from the facility.
+
+            Deliberately NOT defining category-level "<CATEGORY>Facility" pools: getFacilityPoolKey would prefer them
+            over the temperature-banded fallback, and a climate-blind category pool is a worse match for an unrecognized
+            terrain than a climate-aware generic one. Add an exact terrain pool here instead when a new terrain needs
+            one.
+        -->
+        <entry>
+            <key>VolcanoFacility</key>
+            <value>
+                <mapTypes>StratconVolcanic</mapTypes>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>MountainHotDesert</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>GlacierFacility</key>
+            <value>
+                <mapTypes>IceOutpost</mapTypes>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>SnowFieldFacility</key>
+            <value>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>IceOutpost</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ArcticDesertFacility</key>
+            <value>
+                <mapTypes>IceOutpost</mapTypes>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>TundraFacility</key>
+            <value>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>TundraTownSnow</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ColdForestFacility</key>
+            <value>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>Wooded-tundra</mapTypes>
+                <mapTypes>TownCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ColdHillsFacility</key>
+            <value>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>TownCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ColdMountainFacility</key>
+            <value>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>SnowOutpost</mapTypes>
+                <mapTypes>Mountain-RuinedTrenches-snow</mapTypes>
+                <mapTypes>Mountain-town-snow</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ColdUrbanFacility</key>
+            <value>
+                <mapTypes>TownCold</mapTypes>
+                <mapTypes>CityCold</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>DesertFacility</key>
+            <value>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>TownHotDesert</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>BadlandsFacility</key>
+            <value>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>Sandy-hills</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>JungleFacility</key>
+            <value>
+                <mapTypes>BaseHotJungle</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>TownHotJungle</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotForestFacility</key>
+            <value>
+                <mapTypes>BaseHotJungle</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>TownHotJungle</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotHillsDryFacility</key>
+            <value>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>HillsHotDesert</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotHillsWetFacility</key>
+            <value>
+                <mapTypes>BaseHotJungle</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>HillsHotJungle</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotMountainsDryFacility</key>
+            <value>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>MountainHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotMountainsWetFacility</key>
+            <value>
+                <mapTypes>BaseHotJungle</mapTypes>
+                <mapTypes>MountainHotJungle</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HotUrbanFacility</key>
+            <value>
+                <mapTypes>TownHotDesert</mapTypes>
+                <mapTypes>TownHotJungle</mapTypes>
+                <mapTypes>CityHotDesert</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>SavannahFacility</key>
+            <value>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>SteppeFacility</key>
+            <value>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>Town-farming</mapTypes>
+                <mapTypes>Town-mining</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>PlainsFacility</key>
+            <value>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>Town-farming</mapTypes>
+                <mapTypes>Town-generic</mapTypes>
+                <mapTypes>PlainsTown</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>FarmlandFacility</key>
+            <value>
+                <mapTypes>Town-farming</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>Hills-pastoral</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>ForestFacility</key>
+            <value>
+                <mapTypes>Town-wooded</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+                <mapTypes>Woods-medium</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>HillsFacility</key>
+            <value>
+                <mapTypes>Town-hills</mapTypes>
+                <mapTypes>Hills-Residential</mapTypes>
+                <mapTypes>Hills-pastoral</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>MountainFacility</key>
+            <value>
+                <mapTypes>Mountain-town</mapTypes>
+                <mapTypes>Town-mountain</mapTypes>
+                <mapTypes>Mountain-RuinedTrenches</mapTypes>
+                <mapTypes>Mountain-TouristTown</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>SwampFacility</key>
+            <value>
+                <mapTypes>Wooded-swamp</mapTypes>
+                <mapTypes>Muddy-swamp</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>UrbanFacility</key>
+            <value>
+                <mapTypes>Fortress-City</mapTypes>
+                <mapTypes>Town-concrete</mapTypes>
+                <mapTypes>Town-generic</mapTypes>
+                <mapTypes>Town-ruin</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>GrayLunarFacility</key>
+            <value>
+                <mapTypes>StratconLunar</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <key>MarsFacility</key>
+            <value>
+                <mapTypes>StratconMars</mapTypes>
             </value>
         </entry>
 
