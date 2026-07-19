@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-aa4f-7486-9517-7bad7767d7e7
 </UUID>
@@ -91,7 +91,7 @@ ejectionseats:20.0:0:-1::-1:0
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+7
 </armor_tech_level>
 
 <armor>

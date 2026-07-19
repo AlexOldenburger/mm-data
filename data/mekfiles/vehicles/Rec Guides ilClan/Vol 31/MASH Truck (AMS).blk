@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-ea0b-788c-a59f-fd68b1b4a7df
 </UUID>
@@ -65,7 +65,7 @@ Wheeled
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+5
 </armor_tech_level>
 
 <armor>

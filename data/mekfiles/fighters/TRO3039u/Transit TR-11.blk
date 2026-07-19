@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-ad92-702c-9fd6-c9a3b14f76a6
 </UUID>
@@ -85,7 +85,7 @@ Aerodyne
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+7
 </armor_tech_level>
 
 <armor>

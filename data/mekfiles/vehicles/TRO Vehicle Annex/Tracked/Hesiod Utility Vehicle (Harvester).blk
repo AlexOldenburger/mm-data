@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-eaff-7230-9148-e755ed804af8
 </UUID>
@@ -70,7 +70,7 @@ BattleArmorHandles - troopers:-1
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+5
 </armor_tech_level>
 
 <omni>

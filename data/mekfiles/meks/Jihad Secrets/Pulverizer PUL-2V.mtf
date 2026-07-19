@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 uuid:019f583e-d6ef-7345-abda-b5a4a0df1e58
-generator:MegaMek Suite 0.51.01 on 2026-07-12
+generator:MegaMek Suite 0.51.01 on 2026-07-20
 chassis:Pulverizer
 model:PUL-2V
 mul id:2590
@@ -55,9 +55,10 @@ RTL armor:8
 RTR armor:8
 RTC armor:12
 
-Weapons:4
+Weapons:5
 Large Laser, Left Arm
 Large Laser, Right Arm
+LRM 10, Left Torso
 LRM 10, Left Torso
 Enhanced PPC, Right Torso
 
@@ -93,8 +94,8 @@ Left Torso:
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-LRM 10
-LRM 10
+CLLRM10
+CLLRM10
 IS Ammo LRM-10
 ISCASE
 IS Ferro-Fibrous

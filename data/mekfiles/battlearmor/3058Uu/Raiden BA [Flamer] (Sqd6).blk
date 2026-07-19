@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-a318-788f-8d18-f35b1a70b375
 </UUID>
@@ -61,7 +61,7 @@ Jump
 </armor_type>
 
 <armor_tech>
-3
+1
 </armor_tech>
 
 <Squad Equipment>

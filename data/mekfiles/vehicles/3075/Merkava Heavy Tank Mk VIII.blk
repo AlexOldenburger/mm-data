@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-e61b-7656-9c4f-1561db750bc0
 </UUID>
@@ -69,7 +69,7 @@ Tracked
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+0
 </armor_tech_level>
 
 <internal_type>

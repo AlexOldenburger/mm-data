@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-eb7e-7909-b38f-56cc78308a5a
 </UUID>
@@ -78,7 +78,7 @@ cargobay:1.383:1:2::-1:0
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+5
 </armor_tech_level>
 
 <armor>

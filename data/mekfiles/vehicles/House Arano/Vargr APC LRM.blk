@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-e932-79ed-b0e1-53d84232a3cf
 </UUID>
@@ -73,7 +73,7 @@ troopspace:7.0
 </armor_tech_rating>
 
 <armor_tech_level>
-1
+0
 </armor_tech_level>
 
 <armor>

@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-12
+#Saved from version 0.51.01 on 2026-07-20
 <UUID>
 019f583e-a8f2-77f4-bf6d-2f866764dff5
 </UUID>
@@ -61,7 +61,7 @@ Leg
 </armor_type>
 
 <armor_tech>
--1
+1
 </armor_tech>
 
 <Squad Equipment>
