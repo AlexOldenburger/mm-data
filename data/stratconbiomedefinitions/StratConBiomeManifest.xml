@@ -707,10 +707,11 @@
             facility that happens to sit in a city hex still gets its urban dressing from the separate stratConUrban
             flag, which is set from the hex rather than from the facility.
 
-            Deliberately NOT defining category-level "<CATEGORY>Facility" pools: getFacilityPoolKey would prefer them
-            over the temperature-banded fallback, and a climate-blind category pool is a worse match for an unrecognized
-            terrain than a climate-aware generic one. Add an exact terrain pool here instead when a new terrain needs
-            one.
+            Matching is by exact terrain name only - there is no category-level fallback here, unlike the ordinary
+            terrain pools below. A category pool could only be climate-blind, which is a worse match for an
+            unrecognized terrain than the climate-aware temperature-banded pools. So when a new terrain is added, give
+            it an entry here; if it has none it falls through to the generic pools above and is matched on temperature
+            alone.
         -->
         <entry>
             <key>VolcanoFacility</key>
