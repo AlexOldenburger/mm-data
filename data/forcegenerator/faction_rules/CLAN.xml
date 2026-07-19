@@ -113,6 +113,11 @@
                 <option weight="2" />
             </subforceOption>
         </subforces>
+
+        <!-- Galaxy-level engineer support: a combined-arms Engineer Binary (two Engineer Stars). -->
+        <attachedForces>
+            <subforce unitType="Infantry" role="engineer" name="Engineers">%BINARY%</subforce>
+        </attachedForces>
     </force>
 
     <force echelon="%CLUSTER%" eschName="Cluster">
@@ -448,6 +453,8 @@
                 </option>
                 <option weight="11" />
             </subforceOption>
+            <!-- Cluster-level engineer support: a combined-arms Engineer Star. -->
+            <subforce unitType="Infantry" role="engineer" name="Engineers">%STAR%</subforce>
         </attachedForces>
     </force>
 
@@ -946,6 +953,38 @@
                 <option weightClass="M,L,L">%STAR%</option>
                 <option weightClass="L,L,L">%STAR%</option>
             </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- =====================================================================
+         Combat engineer formations (Clan). Clans rarely field dedicated combat
+         engineers - engineering is laborer/technician-caste work rather than a
+         warrior specialty - so these appear only as attached support: an Engineer
+         Star at Cluster level and an Engineer Binary at Galaxy level. Combined
+         arms, using the umbrella engineer role because Clan engineer-tagged units
+         are too sparse to split by specialization. Placed ahead of the generic
+         Binary/Star rules so the engineer rules match first for engineer nodes.
+         ===================================================================== -->
+    <force echelon="%BINARY%" eschName="Engineer Binary" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Binary</name>
+        <co>%STAR_CAPTAIN%</co>
+
+        <subforces>
+            <subforce num="2">%STAR%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%STAR%" eschName="Engineer Star" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Star</name>
+        <co>%STAR_CMDR%</co>
+
+        <!-- Five Points, combined arms: three infantry engineer Points (5 squads each), one vehicle
+             engineer Point (2 vehicles) and one Mek engineer Point (1 Mek). Each Point resolves through
+             the generic Point rule, which rolls its own unit(s) for its type. -->
+        <subforces>
+            <subforce unitType="Infantry" role="engineer" num="3">%POINT%</subforce>
+            <subforce unitType="Tank" role="engineer">%POINT%</subforce>
+            <subforce unitType="Mek" role="engineer">%POINT%</subforce>
         </subforces>
     </force>
 
