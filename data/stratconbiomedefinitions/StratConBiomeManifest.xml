@@ -762,25 +762,38 @@
             </value>
         </entry>
         <entry>
-            <!-- Volcano: no dedicated lava mapgen theme exists yet, so proxy with rugged, cratered, scorched ground. -->
+            <!-- Volcanic fallback: the dedicated volcanic mapgen theme (active magma peak amid rough/rubble/craters). -->
             <key>VOLCANIC</key>
             <value>
-                <mapTypes>Rubble-mountain</mapTypes>
-                <mapTypes>Rocky-valley</mapTypes>
-                <mapTypes>Heavy-craters</mapTypes>
-                <mapTypes>Dust-bowl</mapTypes>
-                <mapTypes>Rubble-river</mapTypes>
+                <mapTypes>StratconVolcanic</mapTypes>
             </value>
         </entry>
         <entry>
-            <!-- Mars and GrayLunar (airless/lunar worlds): cratered, barren, rocky ground. -->
+            <!-- Lunar fallback: the dedicated gray-moonscape mapgen theme (heavy craters). -->
             <key>LUNAR</key>
             <value>
-                <mapTypes>Heavy-craters</mapTypes>
-                <mapTypes>Light-craters</mapTypes>
-                <mapTypes>Hills-craters</mapTypes>
-                <mapTypes>Rubble-mountain</mapTypes>
-                <mapTypes>Rocky-valley</mapTypes>
+                <mapTypes>StratconLunar</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Volcano terrain: active volcano with a magma peak. -->
+            <key>Volcano</key>
+            <value>
+                <mapTypes>StratconVolcanic</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Mars terrain: dusty red rocky world. -->
+            <key>Mars</key>
+            <value>
+                <mapTypes>StratconMars</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- GrayLunar terrain: cratered gray moonscape. -->
+            <key>GrayLunar</key>
+            <value>
+                <mapTypes>StratconLunar</mapTypes>
             </value>
         </entry>
     </biomeMapTypes>
