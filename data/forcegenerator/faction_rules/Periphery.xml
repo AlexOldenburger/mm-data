@@ -616,6 +616,81 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
+    <!-- =====================================================================
+         Combat engineer formations (faction-agnostic).
+
+         Rolls engineer units by the specialization facets derived from their
+         equipment (bridge layers, bulldozers/backhoes, saws, minesweepers) and
+         the infantry Combat Engineer specializations. Rooted at Infantry with
+         the engineer role so the same structure also serves as the engineer
+         support attached to combat regiments. Placed ahead of the generic
+         Infantry battalion/company/platoon rules so the more specific engineer
+         rules match first.
+         ===================================================================== -->
+    <force echelon="%BATTALION%" eschName="Engineer Battalion" ifUnitType="Infantry" ifRole="engineer">
+        <name>{ordinal} Engineer Battalion</name>
+        <co>%MAJOR%</co>
+
+        <subforces>
+            <subforce num="4">%COMPANY%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%COMPANY%" eschName="Engineer Company" ifUnitType="Infantry" ifRole="engineer">
+        <name>{alpha} Engineer Company</name>
+        <co>%CAPTAIN%</co>
+
+        <!-- A mix of specialized engineer lances. Each lance subforce sets a single facet role (which
+             clears the inherited engineer role), routing it to the matching named lance rule below.
+             Bridging depends on bridge-layer equipment (2470+); in earlier eras that slot is a second
+             fieldworks lance. -->
+        <subforces>
+            <subforce role="fieldworks">%LANCE%</subforce>
+            <subforceOption>
+                <option role="bridge_layer" ifDateBetween="2470,">%LANCE%</option>
+                <option role="fieldworks" ifDateBetween=",2469">%LANCE%</option>
+            </subforceOption>
+            <subforce role="demolition">%LANCE%</subforce>
+        </subforces>
+    </force>
+
+    <!-- Specialized engineer lances. Each is themed by one facet (the specialist vehicle/Mek/infantry
+         that defines it) and padded with reliable fieldworks engineer infantry so the lance fills even
+         where a facet is thin. Slots are %ELEMENT% (echelon 1) so a fieldworks infantry slot inside a
+         fieldworks lance does not recurse into the lance rule (LANCE and PLATOON are both echelon 3).
+         No generate="model": each slot is a leaf that rolls its own unit for its own unitType+role. -->
+    <force echelon="%LANCE%" eschName="Fieldworks Lance" ifUnitType="Infantry" ifRole="fieldworks">
+        <name>Fieldworks Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+            <subforce unitType="Tank" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%LANCE%" eschName="Bridging Engineer Lance" ifUnitType="Infantry" ifRole="bridge_layer">
+        <name>Bridging Engineer Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Tank" role="bridge_layer">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="bridge_layer">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%LANCE%" eschName="Demolition Lance" ifUnitType="Infantry" ifRole="demolition">
+        <name>Demolition Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Mek" role="demolition">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="demolition">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
+    </force>
+
     <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
@@ -661,18 +736,6 @@ Infantry are poorly trained and equipped. -->
                 <option weight="3" ifWeightClass="H" />
             </subforceOption>
         </attachedForces>
-    </force>
-
-    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
-        <name>{alpha} Engineer Company</name>
-        <co>%CAPTAIN%</co>
-
-        <subforces generate="group">
-            <subforce num="3">%PLATOON%</subforce>
-        </subforces>
-        <subforces>
-            <subforce unitType="Tank">%LANCE%</subforce>
-        </subforces>
     </force>
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="field_gun">
@@ -821,15 +884,6 @@ Infantry are poorly trained and equipped. -->
             </subforceOption>
             <subforce ifUnitType="Conventional Fighter" num="3">%SQUADRON%</subforce>
         </subforces>
-
-        <attachedForces>
-            <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
-                        role="engineer">%COMPANY%
-                </option>
-                <option weight="1" />
-            </subforceOption>
-        </attachedForces>
     </force>
 
     <force echelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
