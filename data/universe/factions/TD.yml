@@ -25,7 +25,7 @@ sucsCodes:
   - TD
 capital: Tortuga Prime
 yearsActive:
-  - start: 2785
+  - start: 2596
 tags:
   - PIRATE
   - PERIPHERY
@@ -101,12 +101,6 @@ factionLeaders:
   - title: "King"
     firstName: "Ravannion"
     surname: ""
-    gender: "MALE"
-    startYear: 3080
-    endYear: 3080
-  - title: "King"
-    firstName: "Kevin"
-    surname: "Langstrom"
     gender: "MALE"
     startYear: 3080
     endYear: 3080
