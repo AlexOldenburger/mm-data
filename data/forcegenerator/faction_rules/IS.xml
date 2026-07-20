@@ -82,19 +82,19 @@
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace Support">%SQUADRON%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%BATTALION%
+                      name="Armor Support">%COMPANY%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry Support">%BATTALION%
             </subforce>
-            <!-- Optional ground engineer support (combat engineer company). Attached here at the
+            <!-- Optional ground engineer support (combat engineer platoon). Attached here at the
                  regiment's ground level rather than under the aerospace wing, where it does not belong. -->
             <subforceOption>
                 <option weight="2" unitType="Infantry" name="Engineers"
-                        role="engineer">%COMPANY%
+                        role="engineer">%PLATOON%
                 </option>
                 <option weight="1" />
             </subforceOption>
