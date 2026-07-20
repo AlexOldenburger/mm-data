@@ -150,6 +150,15 @@ Infantry are poorly trained and equipped. -->
             <subforce unitType="Infantry"
                       name="Infantry Support">%REGIMENT%
             </subforce>
+            <!-- A standalone battalion gets a single combat Engineer Platoon (four subunits). The whole
+                 block is already top-level gated, so a battalion inside a larger force does not attach
+                 one - the parent's Engineer Company covers those. -->
+            <subforceOption>
+                <option weight="2" unitType="Infantry" name="Engineers"
+                        role="engineer">%PLATOON%
+                </option>
+                <option weight="1" />
+            </subforceOption>
         </attachedForces>
     </force>
 
@@ -651,6 +660,29 @@ Infantry are poorly trained and equipped. -->
                 <option role="fieldworks" ifDateBetween=",2469">%LANCE%</option>
             </subforceOption>
             <subforce role="demolition">%LANCE%</subforce>
+        </subforces>
+    </force>
+
+    <!-- A battalion's engineer support: one combined-arms Engineer Platoon of four subunits - a Combat
+         Engineer (fieldworks) squad, an earthmoving vehicle, a bridge-layer vehicle (2470+) and an
+         engineer IndustrialMek (2520+). Four subunits make it a proper formation (not a loose single
+         leaf that would orphan). Each slot is an %ELEMENT% leaf that rolls its own unit for its facet;
+         the date ranges are mutually exclusive so exactly one option fills per era. -->
+    <force echelon="%PLATOON%" eschName="Engineer Platoon" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Platoon</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Infantry" role="fieldworks">%ELEMENT%</subforce>
+            <subforce unitType="Tank" role="fieldworks">%ELEMENT%</subforce>
+            <subforceOption>
+                <option unitType="Tank" role="bridge_layer" ifDateBetween="2470,">%ELEMENT%</option>
+                <option unitType="Tank" role="fieldworks" ifDateBetween=",2469">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption>
+                <option unitType="Mek" role="engineer" ifDateBetween="2520,">%ELEMENT%</option>
+                <option unitType="Tank" role="engineer" ifDateBetween=",2519">%ELEMENT%</option>
+            </subforceOption>
         </subforces>
     </force>
 
