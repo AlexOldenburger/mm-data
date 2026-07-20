@@ -55,10 +55,9 @@ RTL armor:8
 RTR armor:8
 RTC armor:12
 
-Weapons:5
+Weapons:4
 Large Laser, Left Arm
 Large Laser, Right Arm
-LRM 10, Left Torso
 LRM 10, Left Torso
 Enhanced PPC, Right Torso
 
@@ -94,8 +93,8 @@ Left Torso:
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-CLLRM10
-CLLRM10
+LRM 10
+LRM 10
 IS Ammo LRM-10
 ISCASE
 IS Ferro-Fibrous

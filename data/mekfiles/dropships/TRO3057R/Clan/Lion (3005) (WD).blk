@@ -109,8 +109,8 @@ false
 ISERLargeLaser
 ISERMediumLaser
 ISERMediumLaser
-(B) CLLRM20
-CLLRM20
+(B) LRM 20
+LRM 20
 IS Ammo LRM-20 Artemis-capable:48
 ISArtemisIV
 ISArtemisIV
@@ -128,8 +128,8 @@ ISAMS Ammo:96
 ISERLargeLaser
 ISERMediumLaser
 ISERMediumLaser
-(B) CLLRM20
-CLLRM20
+(B) LRM 20
+LRM 20
 IS Ammo LRM-20 Artemis-capable:48
 ISArtemisIV
 ISArtemisIV
@@ -140,8 +140,8 @@ ISMediumPulseLaser
 (B) ISAntiMissileSystem
 ISAntiMissileSystem
 ISAMS Ammo:96
-(R) (B) CLLRM15
-(R) CLLRM15
+(R) (B) LRM 15
+(R) LRM 15
 (R) IS Ammo LRM-20 Artemis-capable:64
 (R) ISArtemisIV
 (R) ISArtemisIV
@@ -163,8 +163,8 @@ ISAMS Ammo:96
 ISERLargeLaser
 ISERMediumLaser
 ISERMediumLaser
-(B) CLLRM20
-CLLRM20
+(B) LRM 20
+LRM 20
 IS Ammo LRM-20 Artemis-capable:48
 ISArtemisIV
 ISArtemisIV
@@ -175,8 +175,8 @@ ISMediumPulseLaser
 (B) ISAntiMissileSystem
 ISAntiMissileSystem
 ISAMS Ammo:96
-(R) (B) CLLRM15
-(R) CLLRM15
+(R) (B) LRM 15
+(R) LRM 15
 (R) IS Ammo LRM-20 Artemis-capable:64
 (R) ISArtemisIV
 (R) ISArtemisIV
@@ -194,8 +194,8 @@ ISAMS Ammo:96
 </Right Side Equipment>
 
 <Aft Equipment>
-(B) CLLRM15
-CLLRM15
+(B) LRM 15
+LRM 15
 IS Ammo LRM-15 Artemis-capable:64
 ISArtemisIV
 ISArtemisIV
