@@ -28,11 +28,12 @@
 
     <toc>
         <unitType>
-            <option ifDateBetween="3051,">Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
-            <option>Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
+            <option ifDateBetween="3051,">null,Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
+            <option>null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
         <echelon>
+            <option ifUnitType="">%BRIGADE%</option>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
@@ -43,6 +44,37 @@
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
+
+    <!-- Planetary Militia: a combined-arms garrison, and the fallback organization for any MILITIA faction.
+         Because <force> rule lookup walks parent factions, a militia whose own ruleset defines no garrison rule
+         resolves this one. Infantry-heavy with armor support and a small Mek contingent, approximating the
+         Random Garrisons Table; each contingent delegates to the standard regiment/battalion rules. -->
+    <force echelon="%BRIGADE%" eschName="Planetary Militia">
+        <co>%COLONEL%</co>
+
+        <subforces>
+            <subforceOption>
+                <option num="2" weight="1" unitType="Infantry">%REGIMENT%</option>
+                <option num="3" weight="2" unitType="Infantry">%REGIMENT%</option>
+                <option num="4" weight="3" unitType="Infantry">%REGIMENT%</option>
+                <option num="5" weight="2" unitType="Infantry">%REGIMENT%</option>
+                <option num="6" weight="1" unitType="Infantry">%REGIMENT%</option>
+            </subforceOption>
+            <subforceOption>
+                <option num="1" weight="1" unitType="Tank">%BATTALION%</option>
+                <option num="2" weight="2" unitType="Tank">%BATTALION%</option>
+                <option num="3" weight="3" unitType="Tank">%BATTALION%</option>
+                <option num="4" weight="2" unitType="Tank">%BATTALION%</option>
+                <option num="5" weight="1" unitType="Tank">%BATTALION%</option>
+            </subforceOption>
+            <subforceOption>
+                <option num="0" weight="2"/> <!-- no Mek battalions -->
+                <option num="1" weight="3" unitType="Mek">%BATTALION%</option>
+                <option num="2" weight="2" unitType="Mek">%BATTALION%</option>
+                <option num="3" weight="1" unitType="Mek">%BATTALION%</option>
+            </subforceOption>
+        </subforces>
+    </force>
 
     <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co>%COLONEL%</co>
