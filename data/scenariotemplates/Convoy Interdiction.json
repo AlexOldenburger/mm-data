@@ -135,7 +135,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Destroy",
-            "description": "Destroy or rout 75% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 75,
             "fixedAmount": null,

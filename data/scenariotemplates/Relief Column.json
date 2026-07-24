@@ -134,7 +134,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Preserve",
-            "description": "Preserve 50% of the following forces. +2 SVP if succeeded, -2 SVP if failed. Losing the detachment also incurs a -1 CVP penalty (StratCon Only).",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,
@@ -164,7 +164,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces to break their assault. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

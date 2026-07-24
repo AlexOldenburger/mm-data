@@ -136,7 +136,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Preserve",
-            "description": "Preserve 100% of the following force. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 100,
             "fixedAmount": null,
@@ -166,7 +166,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces. +1 SVP if succeeded.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

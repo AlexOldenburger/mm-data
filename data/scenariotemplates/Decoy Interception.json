@@ -132,7 +132,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 50% of the following forces.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,

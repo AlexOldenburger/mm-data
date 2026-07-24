@@ -133,7 +133,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "PreventReachMapEdge",
-            "description": "Prevent the following forces from reaching the far map edge. +2 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,
@@ -163,7 +163,7 @@
         },
         {
             "objectiveCriterion": "Capture",
-            "description": "Capture intact units from the following force(s) for additional supplies.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 1,
             "fixedAmount": 1,
@@ -187,7 +187,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces to force convoy surrender. +2 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

@@ -133,7 +133,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Preserve",
-            "description": "Preserve 50% of the following forces until relief arrives. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,

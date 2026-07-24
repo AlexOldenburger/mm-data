@@ -102,7 +102,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Preserve",
-            "description": "Preserve 25% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 25,
             "fixedAmount": null,

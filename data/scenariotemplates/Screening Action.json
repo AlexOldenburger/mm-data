@@ -100,7 +100,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "PreventReachMapEdge",
-            "description": "Prevent 50% of the following forces from reaching the far edge. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,

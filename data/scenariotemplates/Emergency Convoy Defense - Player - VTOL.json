@@ -129,7 +129,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces. +1 SVP if succeeded, -1 SVP if failed. Failure also incurs a -1 CVP penalty (StratCon Only).",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,
@@ -159,7 +159,7 @@
         },
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Reach the destination edge with 50% of the following forces. This objective does not award SVP.",
+            "description": "",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,

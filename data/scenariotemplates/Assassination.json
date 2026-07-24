@@ -132,7 +132,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Destroy",
-            "description": "Assassinate the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 100,
             "fixedAmount": null,

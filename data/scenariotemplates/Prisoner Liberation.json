@@ -132,7 +132,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 50% of the following forces to the destination edge. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "SOUTH",
             "percentage": 50,
             "fixedAmount": null,
@@ -162,7 +162,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces to drive off the pursuit. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

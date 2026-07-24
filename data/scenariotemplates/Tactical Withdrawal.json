@@ -100,7 +100,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Reach the far edge of the map with at least 50% of the following force. +2 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,
@@ -132,7 +132,7 @@
         },
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces. +2 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

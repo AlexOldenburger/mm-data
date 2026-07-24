@@ -98,7 +98,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy, cripple or force the withdrawal of 20% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 20,
             "fixedAmount": null,

@@ -96,7 +96,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Destroy",
-            "description": "Destroy 33% of the following forces before they can reach the destination edge. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "",
             "destinationEdge": "NONE",
             "percentage": 33,
             "fixedAmount": null,

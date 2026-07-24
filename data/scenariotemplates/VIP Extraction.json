@@ -136,7 +136,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 100% of the following force to the destination edge. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "SOUTH",
             "percentage": 100,
             "fixedAmount": null,

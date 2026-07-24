@@ -136,7 +136,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 50% of the following forces to the North edge. +2 SVP if succeeded, -1 SVP if failed. Do not end the scenario until all player-controlled units have left the field.",
+            "description": "",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,
@@ -166,7 +166,7 @@
         },
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 50% of the following forces to the South edge. +2 SVP if succeeded, -1 SVP if failed. Do not end the scenario until all player-controlled units have left the field.",
+            "description": "",
             "destinationEdge": "SOUTH",
             "percentage": 50,
             "fixedAmount": null,

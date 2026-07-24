@@ -131,7 +131,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 50% of the following forces to the far edge. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,
