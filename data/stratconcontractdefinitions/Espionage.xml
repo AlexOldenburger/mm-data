@@ -43,15 +43,15 @@
             <objectiveCount>-1</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>ReinforcementDelayReductionHostile.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>ReinforcementDelayReductionHostile.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Recon Evasion.xml</objectiveScenario>
-                <objectiveScenario>Heavy Recon Evasion.xml</objectiveScenario>
+                <objectiveScenario>Recon Evasion.json</objectiveScenario>
+                <objectiveScenario>Heavy Recon Evasion.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

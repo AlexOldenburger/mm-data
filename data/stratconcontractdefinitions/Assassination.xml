@@ -43,10 +43,10 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>VIP Ambush.xml</objectiveScenario>
-                <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
-                <objectiveScenario>Assassination.xml</objectiveScenario>
-                <objectiveScenario>Decapitation Strike.xml</objectiveScenario>
+                <objectiveScenario>VIP Ambush.json</objectiveScenario>
+                <objectiveScenario>Frontier Assassination.json</objectiveScenario>
+                <objectiveScenario>Assassination.json</objectiveScenario>
+                <objectiveScenario>Decapitation Strike.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

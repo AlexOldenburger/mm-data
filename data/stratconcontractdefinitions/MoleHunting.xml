@@ -43,16 +43,16 @@
             <objectiveCount>-1.0</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>BadIntelGround.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>BadIntelGround.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Mole Hunt.xml</objectiveScenario>
-                <objectiveScenario>Assassination.xml</objectiveScenario>
-                <objectiveScenario>Decapitation Strike.xml</objectiveScenario>
+                <objectiveScenario>Mole Hunt.json</objectiveScenario>
+                <objectiveScenario>Assassination.json</objectiveScenario>
+                <objectiveScenario>Decapitation Strike.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

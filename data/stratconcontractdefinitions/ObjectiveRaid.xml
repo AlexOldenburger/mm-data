@@ -47,10 +47,10 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Covert Strike.xml</objectiveScenario>
-                <objectiveScenario>Deep Raid.xml</objectiveScenario>
-                <objectiveScenario>Breakthrough.xml</objectiveScenario>
-                <objectiveScenario>Convoy Hijack.xml</objectiveScenario>
+                <objectiveScenario>Covert Strike.json</objectiveScenario>
+                <objectiveScenario>Deep Raid.json</objectiveScenario>
+                <objectiveScenario>Breakthrough.json</objectiveScenario>
+                <objectiveScenario>Convoy Hijack.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

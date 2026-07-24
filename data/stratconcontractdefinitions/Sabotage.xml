@@ -43,8 +43,8 @@
             <objectiveCount>-1</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>EnemyHotDrop.xml</objectiveScenarioModifier>
-                <objectiveScenarioModifier>BadEvent.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>EnemyHotDrop.json</objectiveScenarioModifier>
+                <objectiveScenarioModifier>BadEvent.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
@@ -55,10 +55,10 @@
             <objectiveCount>-0.5</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Deep Raid.xml</objectiveScenario>
-                <objectiveScenario>Deep Raid Defense.xml</objectiveScenario>
-                <objectiveScenario>Frontline Disruption.xml</objectiveScenario>
-                <objectiveScenario>Supply Denial.xml</objectiveScenario>
+                <objectiveScenario>Deep Raid.json</objectiveScenario>
+                <objectiveScenario>Deep Raid Defense.json</objectiveScenario>
+                <objectiveScenario>Frontline Disruption.json</objectiveScenario>
+                <objectiveScenario>Supply Denial.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

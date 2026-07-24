@@ -40,8 +40,8 @@
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
     <globalScenarioModifiers>
-        <globalScenarioModifier>OverwhelmingEnemyGroundReinforcements.xml</globalScenarioModifier>
-        <globalScenarioModifier>OverwhelmingEnemyAirReinforcements.xml</globalScenarioModifier>
+        <globalScenarioModifier>OverwhelmingEnemyGroundReinforcements.json</globalScenarioModifier>
+        <globalScenarioModifier>OverwhelmingEnemyAirReinforcements.json</globalScenarioModifier>
     </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
@@ -52,14 +52,14 @@
             <objectiveCount>-0.5</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>
-                <objectiveScenario>Convoy Raid.xml</objectiveScenario>
-                <objectiveScenario>Intercept Engagement.xml</objectiveScenario>
-                <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
-                <objectiveScenario>Last Stand.xml</objectiveScenario>
-                <objectiveScenario>Enveloped.xml</objectiveScenario>
-                <objectiveScenario>Gauntlet Run.xml</objectiveScenario>
-                <objectiveScenario>Breakout.xml</objectiveScenario>
+                <objectiveScenario>Convoy Interdiction.json</objectiveScenario>
+                <objectiveScenario>Convoy Raid.json</objectiveScenario>
+                <objectiveScenario>Intercept Engagement.json</objectiveScenario>
+                <objectiveScenario>Tactical Withdrawal.json</objectiveScenario>
+                <objectiveScenario>Last Stand.json</objectiveScenario>
+                <objectiveScenario>Enveloped.json</objectiveScenario>
+                <objectiveScenario>Gauntlet Run.json</objectiveScenario>
+                <objectiveScenario>Breakout.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

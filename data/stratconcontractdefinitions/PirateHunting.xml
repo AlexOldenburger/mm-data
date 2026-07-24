@@ -39,8 +39,8 @@
         <deploymentTimes>6</deploymentTimes>
     </deploymentTimes>
     <globalScenarioModifiers>
-        <globalScenarioModifier>PreBattleDamageHostiles.xml</globalScenarioModifier>
-        <globalScenarioModifier>BadEquipment.xml</globalScenarioModifier>
+        <globalScenarioModifier>PreBattleDamageHostiles.json</globalScenarioModifier>
+        <globalScenarioModifier>BadEquipment.json</globalScenarioModifier>
     </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
@@ -55,12 +55,12 @@
             <objectiveCount>-0.33</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Convoy Escort.xml</objectiveScenario>
-                <objectiveScenario>Critical Convoy Escort.xml</objectiveScenario>
-                <objectiveScenario>Deep Raid.xml</objectiveScenario>
-                <objectiveScenario>DropShip Raid.xml</objectiveScenario>
-                <objectiveScenario>Isolated DropShip Defense.xml</objectiveScenario>
-                <objectiveScenario>Salvage Run.xml</objectiveScenario>
+                <objectiveScenario>Convoy Escort.json</objectiveScenario>
+                <objectiveScenario>Critical Convoy Escort.json</objectiveScenario>
+                <objectiveScenario>Deep Raid.json</objectiveScenario>
+                <objectiveScenario>DropShip Raid.json</objectiveScenario>
+                <objectiveScenario>Isolated DropShip Defense.json</objectiveScenario>
+                <objectiveScenario>Salvage Run.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

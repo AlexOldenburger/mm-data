@@ -40,20 +40,20 @@
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
     <globalScenarioModifiers>
-        <globalScenarioModifier>ReinforcementDelayReductionHostile.xml</globalScenarioModifier>
+        <globalScenarioModifier>ReinforcementDelayReductionHostile.json</globalScenarioModifier>
     </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1.0</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Decoy Engagement.xml</objectiveScenario>
-                <objectiveScenario>Decoy Interception.xml</objectiveScenario>
-                <objectiveScenario>Diversion Engagement.xml</objectiveScenario>
-                <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
-                <objectiveScenario>Frontline Disruption.xml</objectiveScenario>
-                <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
-                <objectiveScenario>Ambush the Column.xml</objectiveScenario>
+                <objectiveScenario>Decoy Engagement.json</objectiveScenario>
+                <objectiveScenario>Decoy Interception.json</objectiveScenario>
+                <objectiveScenario>Diversion Engagement.json</objectiveScenario>
+                <objectiveScenario>Frontier Assassination.json</objectiveScenario>
+                <objectiveScenario>Frontline Disruption.json</objectiveScenario>
+                <objectiveScenario>Tactical Withdrawal.json</objectiveScenario>
+                <objectiveScenario>Ambush the Column.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

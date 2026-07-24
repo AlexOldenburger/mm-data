@@ -47,18 +47,18 @@
             <objectiveType>AlliedFacilityControl</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>PreBattleDamageAllies.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>PreBattleDamageAllies.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Relief Column.xml</objectiveScenario>
-                <objectiveScenario>Breakthrough.xml</objectiveScenario>
-                <objectiveScenario>Frontline Engagement.xml</objectiveScenario>
-                <objectiveScenario>Screening Action.xml</objectiveScenario>
-                <objectiveScenario>Hold Until Relief.xml</objectiveScenario>
+                <objectiveScenario>Relief Column.json</objectiveScenario>
+                <objectiveScenario>Breakthrough.json</objectiveScenario>
+                <objectiveScenario>Frontline Engagement.json</objectiveScenario>
+                <objectiveScenario>Screening Action.json</objectiveScenario>
+                <objectiveScenario>Hold Until Relief.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

@@ -39,7 +39,7 @@
         <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
     <globalScenarioModifiers>
-        <globalScenarioModifier>HostileBVBudgetIncrease.xml</globalScenarioModifier>
+        <globalScenarioModifier>HostileBVBudgetIncrease.json</globalScenarioModifier>
     </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
@@ -50,23 +50,23 @@
             <objectiveCount>-0.5</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Annihilation.xml</objectiveScenario>
-                <objectiveScenario>Breakthrough.xml</objectiveScenario>
-                <objectiveScenario>Decoy Engagement.xml</objectiveScenario>
-                <objectiveScenario>Decoy Interception.xml</objectiveScenario>
-                <objectiveScenario>Deep Raid.xml</objectiveScenario>
-                <objectiveScenario>Deep Raid Defense.xml</objectiveScenario>
-                <objectiveScenario>Frontline Breakthrough.xml</objectiveScenario>
-                <objectiveScenario>Frontline Disruption.xml</objectiveScenario>
-                <objectiveScenario>Frontline Engagement.xml</objectiveScenario>
-                <objectiveScenario>Intercept Engagement.xml</objectiveScenario>
-                <objectiveScenario>Interception Defense.xml</objectiveScenario>
-                <objectiveScenario>Picket Line Breakthrough.xml</objectiveScenario>
-                <objectiveScenario>Pivotal Battle.xml</objectiveScenario>
-                <objectiveScenario>Combat Drop.xml</objectiveScenario>
-                <objectiveScenario>Meeting Engagement.xml</objectiveScenario>
-                <objectiveScenario>Rolling Thunder.xml</objectiveScenario>
-                <objectiveScenario>Escalation.xml</objectiveScenario>
+                <objectiveScenario>Annihilation.json</objectiveScenario>
+                <objectiveScenario>Breakthrough.json</objectiveScenario>
+                <objectiveScenario>Decoy Engagement.json</objectiveScenario>
+                <objectiveScenario>Decoy Interception.json</objectiveScenario>
+                <objectiveScenario>Deep Raid.json</objectiveScenario>
+                <objectiveScenario>Deep Raid Defense.json</objectiveScenario>
+                <objectiveScenario>Frontline Breakthrough.json</objectiveScenario>
+                <objectiveScenario>Frontline Disruption.json</objectiveScenario>
+                <objectiveScenario>Frontline Engagement.json</objectiveScenario>
+                <objectiveScenario>Intercept Engagement.json</objectiveScenario>
+                <objectiveScenario>Interception Defense.json</objectiveScenario>
+                <objectiveScenario>Picket Line Breakthrough.json</objectiveScenario>
+                <objectiveScenario>Pivotal Battle.json</objectiveScenario>
+                <objectiveScenario>Combat Drop.json</objectiveScenario>
+                <objectiveScenario>Meeting Engagement.json</objectiveScenario>
+                <objectiveScenario>Rolling Thunder.json</objectiveScenario>
+                <objectiveScenario>Escalation.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

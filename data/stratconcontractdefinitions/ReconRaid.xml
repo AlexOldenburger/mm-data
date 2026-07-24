@@ -43,12 +43,12 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Recon Evasion.xml</objectiveScenario>
-                <objectiveScenario>Heavy Recon Evasion.xml</objectiveScenario>
-                <objectiveScenario>VIP Ambush.xml</objectiveScenario>
+                <objectiveScenario>Recon Evasion.json</objectiveScenario>
+                <objectiveScenario>Heavy Recon Evasion.json</objectiveScenario>
+                <objectiveScenario>VIP Ambush.json</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>BadIntelAir.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>BadIntelAir.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>

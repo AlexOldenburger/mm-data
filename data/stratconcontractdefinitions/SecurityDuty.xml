@@ -47,14 +47,14 @@
             <objectiveCount>-1</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
-                <objectiveScenario>Convoy Escort.xml</objectiveScenario>
-                <objectiveScenario>Critical Convoy Escort.xml</objectiveScenario>
-                <objectiveScenario>Reconnaissance Interdiction.xml</objectiveScenario>
-                <objectiveScenario>VIP Defense.xml</objectiveScenario>
-                <objectiveScenario>Hold Until Relief.xml</objectiveScenario>
+                <objectiveScenario>Convoy Escort.json</objectiveScenario>
+                <objectiveScenario>Critical Convoy Escort.json</objectiveScenario>
+                <objectiveScenario>Reconnaissance Interdiction.json</objectiveScenario>
+                <objectiveScenario>VIP Defense.json</objectiveScenario>
+                <objectiveScenario>Hold Until Relief.json</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>LiaisonGround.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>LiaisonGround.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>

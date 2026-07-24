@@ -43,24 +43,24 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Hostile Facility.xml</objectiveScenario>
+                <objectiveScenario>Hostile Facility.json</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>FacilityHostileExtract.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>FacilityHostileExtract.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Covert Strike.xml</objectiveScenario>
-                <objectiveScenario>DropShip Raid.xml</objectiveScenario>
-                <objectiveScenario>Isolated DropShip Defense.xml</objectiveScenario>
-                <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>
-                <objectiveScenario>Convoy Raid.xml</objectiveScenario>
-                <objectiveScenario>Prisoner Liberation.xml</objectiveScenario>
-                <objectiveScenario>Rescue the Downed.xml</objectiveScenario>
-                <objectiveScenario>VIP Extraction.xml</objectiveScenario>
+                <objectiveScenario>Covert Strike.json</objectiveScenario>
+                <objectiveScenario>DropShip Raid.json</objectiveScenario>
+                <objectiveScenario>Isolated DropShip Defense.json</objectiveScenario>
+                <objectiveScenario>Convoy Interdiction.json</objectiveScenario>
+                <objectiveScenario>Convoy Raid.json</objectiveScenario>
+                <objectiveScenario>Prisoner Liberation.json</objectiveScenario>
+                <objectiveScenario>Rescue the Downed.json</objectiveScenario>
+                <objectiveScenario>VIP Extraction.json</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

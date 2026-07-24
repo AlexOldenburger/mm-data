@@ -43,11 +43,11 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-0.5</objectiveCount>
             <objectiveScenarios>
-                <objectiveScenario>Hostile Facility.xml</objectiveScenario>
+                <objectiveScenario>Hostile Facility.json</objectiveScenario>
             </objectiveScenarios>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>FacilityHostileRecon.xml</objectiveScenarioModifier>
-                <objectiveScenarioModifier>GoodIntel.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>FacilityHostileRecon.json</objectiveScenarioModifier>
+                <objectiveScenarioModifier>GoodIntel.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>

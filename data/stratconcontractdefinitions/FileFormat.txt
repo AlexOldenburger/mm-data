@@ -27,7 +27,7 @@ The following is an example contract definition file:
 		<objectiveCount>-0.25</objectiveCount>
 		<objectiveType>SpecificScenarioVictory</objectiveType>
 		<objectiveScenarios>
-                	<objectiveScenario>Irregular Forces.xml</objectiveScenario>
+                	<objectiveScenario>Irregular Forces.json</objectiveScenario>
 		</objectiveScenarios>
         </objectiveParameter>
 	<objectiveParameter>
@@ -38,8 +38,8 @@ The following is an example contract definition file:
 		<objectiveCount>-0.25</objectiveCount>
 		<objectiveType>AnyScenarioVictory</objectiveType>
 		<objectiveScenarioModifiers>
-                	<objectiveScenarioModifier>AlliedTraineesGround.xml</objectiveScenarioModifier>
-                	<objectiveScenarioModifier>AlliedTraineesAir.xml</objectiveScenarioModifier>
+                	<objectiveScenarioModifier>AlliedTraineesGround.json</objectiveScenarioModifier>
+                	<objectiveScenarioModifier>AlliedTraineesAir.json</objectiveScenarioModifier>
 		</objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>

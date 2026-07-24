@@ -43,7 +43,7 @@
             <objectiveType>AlliedFacilityControl</objectiveType>
             <objectiveCount>-1</objectiveCount>
             <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>LocalGarrisonTurrets.xml</objectiveScenarioModifier>
+                <objectiveScenarioModifier>LocalGarrisonTurrets.json</objectiveScenarioModifier>
             </objectiveScenarioModifiers>
         </objectiveParameter>
     </objectiveParameters>
