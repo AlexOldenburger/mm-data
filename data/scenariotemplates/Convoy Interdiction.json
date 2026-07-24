@@ -2,7 +2,7 @@
     "name": "Convoy Interdiction",
     "stratConScenarioType": "CONVOY",
     "shortBriefing": "Intercept and neutralize enemy convoy.",
-    "detailedBriefing": "An enemy convoy is on the move, and your orders are simple—hit them hard and stop at least 50% of their forces from reaching the far edge of the engagement zone. This is a direct strike, not a prolonged engagement. Destroy or cripple the convoy units with no regard for salvage or escort interference. Speed and overwhelming firepower are your greatest assets.\n\nThere is no need to concern yourself with minimizing damage or securing the spoils. We do not have the luxury of holding the field, and enemy reinforcements will arrive quickly. Do not waste time engaging the escorts unless necessary—focus all efforts on neutralizing the convoy itself. Once the job is done, withdraw immediately.\n\nNo distractions. No delays. No mercy. Execute the raid, cripple their supply line, and get out before the enemy can mount a counterattack.",
+    "detailedBriefing": "An enemy convoy is on the move, and your orders are simple—hit them hard and stop at least 50% of their forces from reaching the far edge of the engagement zone. This is a direct strike, not a prolonged engagement. Destroy or cripple the convoy units with no regard for salvage or escort interference. Speed and overwhelming firepower are your greatest assets.\n\nThere is no need to concern yourself with minimizing damage or securing the spoils. We do not have the luxury of holding the field, and enemy reinforcements will arrive quickly. Do not waste time engaging the escorts unless necessary—focus all efforts on neutralizing the convoy itself. Once the job is done, withdraw immediately.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": false,
@@ -17,29 +17,29 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
             "Convoy"
         ]
     },
-    "scenarioModifiers": [],
+    "scenarioModifiers": [
+        "OverwhelmingEnemyGroundReinforcements.xml"
+    ],
     "scenarioForces": {
         "Player": {
             "forceAlignment": 0,
             "generationMethod": 0,
             "forceMultiplier": 1.0,
-            "deploymentZones": [
-                10
-            ],
+            "deploymentZones": [],
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": true,
             "contributesToUnitCount": true,
             "forceName": "Player",
-            "syncedForceName": null,
-            "syncDeploymentType": "None",
+            "syncedForceName": "Convoy",
+            "syncDeploymentType": "OppositeEdge",
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
             "maxWeightClass": 4,
@@ -53,7 +53,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -65,7 +65,7 @@
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "OpFor",
@@ -74,7 +74,7 @@
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
             "maxWeightClass": 4,
-            "minWeightClass": 3,
+            "minWeightClass": 0,
             "contributesToMapSize": true,
             "actualDeploymentZone": -1,
             "fixedUnitCount": 0,
@@ -86,19 +86,21 @@
             "objectiveLinkedForces": [],
             "subjectToRandomRemoval": true,
             "fixedMul": null,
-            "forceRoleStrings": []
+            "forceRoleStrings": [
+                "CAVALRY"
+            ]
         },
         "Convoy": {
             "forceAlignment": 2,
             "generationMethod": 1,
-            "forceMultiplier": 0.5,
+            "forceMultiplier": 0.25,
             "deploymentZones": [
-                2
+                11
             ],
             "destinationZone": 6,
             "retreatThreshold": 0,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "Convoy",
@@ -132,10 +134,10 @@
     },
     "scenarioObjectives": [
         {
-            "objectiveCriterion": "PreventReachMapEdge",
-            "description": "Prevent the following forces from reaching the far map edge. +2 SVP if succeeded, -1 SVP if failed.",
+            "objectiveCriterion": "Destroy",
+            "description": "Destroy or rout 75% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
             "destinationEdge": "NONE",
-            "percentage": 50,
+            "percentage": 75,
             "fixedAmount": null,
             "timeLimitType": "None",
             "timeLimitAtMost": true,
@@ -149,7 +151,7 @@
                 {
                     "effectType": "ScenarioVictory",
                     "effectScaling": "Fixed",
-                    "howMuch": 2
+                    "howMuch": 1
                 }
             ],
             "failureEffects": [
@@ -159,30 +161,6 @@
                     "howMuch": 1
                 }
             ],
-            "additionalDetails": []
-        },
-        {
-            "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 33% of the following forces to force convoy surrender. +2 SVP if succeeded, -1 SVP if failed.",
-            "destinationEdge": "NONE",
-            "percentage": 33,
-            "fixedAmount": null,
-            "timeLimitType": "None",
-            "timeLimitAtMost": true,
-            "timeLimit": null,
-            "timeLimitScaleFactor": null,
-            "associatedForceNames": [
-                "Convoy"
-            ],
-            "associatedUnitIDs": [],
-            "successEffects": [
-                {
-                    "effectType": "ScenarioVictory",
-                    "effectScaling": "Fixed",
-                    "howMuch": 2
-                }
-            ],
-            "failureEffects": [],
             "additionalDetails": []
         }
     ]
