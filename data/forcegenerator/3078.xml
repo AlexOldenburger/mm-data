@@ -1013,22 +1013,6 @@
             <omniMargin>2</omniMargin>
             <techMargin>2</techMargin>
         </faction>
-        <faction key='FS.PMG'>
-            <pctOmni>24</pctOmni>
-            <pctClan>12</pctClan>
-            <pctSL>75</pctSL>
-            <omniMargin>2</omniMargin>
-            <techMargin>2</techMargin>
-            <salvage pct='6'></salvage>
-        </faction>
-        <faction key='FS.PMM'>
-            <pctOmni>18</pctOmni>
-            <pctClan>6</pctClan>
-            <pctSL>60</pctSL>
-            <omniMargin>2</omniMargin>
-            <techMargin>2</techMargin>
-            <salvage pct='6'></salvage>
-        </faction>
         <faction key='DC.PR'>
             <pctOmni>22</pctOmni>
             <pctClan>5</pctClan>
@@ -1136,14 +1120,6 @@
             <omniMargin>2</omniMargin>
             <techMargin>2</techMargin>
             <salvage pct='6'>SC:0,DTA:2,MOC:0,CC:8,LA:8,MH:0,DA:2,RCM:0,CIR:0</salvage>
-        </faction>
-        <faction key='FS.RMB'>
-            <pctOmni>26</pctOmni>
-            <pctClan>10</pctClan>
-            <pctSL>87</pctSL>
-            <omniMargin>2</omniMargin>
-            <techMargin>2</techMargin>
-            <salvage pct='5'></salvage>
         </faction>
         <faction key='FS.RR'>
             <pctOmni>21</pctOmni>
