@@ -97,7 +97,7 @@
             "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
-            "forceName": "OpFor DropShip",
+            "forceName": "DropShip",
             "syncedForceName": "Player",
             "syncDeploymentType": "OppositeEdge",
             "syncRetreatThreshold": false,

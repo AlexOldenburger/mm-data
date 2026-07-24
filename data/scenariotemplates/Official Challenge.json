@@ -72,7 +72,7 @@
             "canReinforceLinked": true,
             "contributesToBV": false,
             "contributesToUnitCount": false,
-            "forceName": "Officer",
+            "forceName": "OpFor",
             "syncedForceName": "Player",
             "syncDeploymentType": "OppositeEdge",
             "syncRetreatThreshold": false,

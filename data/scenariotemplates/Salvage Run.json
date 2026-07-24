@@ -73,7 +73,7 @@
             "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
-            "forceName": "Salvage Convoy",
+            "forceName": "SalvageConvoy",
             "syncedForceName": null,
             "syncDeploymentType": "None",
             "syncRetreatThreshold": false,
