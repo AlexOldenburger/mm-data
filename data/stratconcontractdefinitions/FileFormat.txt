@@ -1,49 +1,32 @@
-The following is an example contract definition file:
+Contract definition files are JSON. (Legacy XML files are still read for backward compatibility, but the game writes
+JSON.) The following is an example contract definition file:
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ScenarioTemplate>
-    <alliedFacilityCount>-0.3</alliedFacilityCount>
-    <briefing>Protect attached trainees.</briefing>
-    <contractTypeName>Cadre Duty</contractTypeName>
-    <hostileFacilityCount>0</hostileFacilityCount>
-	<scenarioOdds>
-		<scenarioOdds>10</scenarioOdds>
-		<scenarioOdds>10</scenarioOdds>
-		<scenarioOdds>10</scenarioOdds>
-		<scenarioOdds>10</scenarioOdds>
-	</scenarioOdds>
-	<deploymentTimes>
-		<deploymentTimes>0</deploymentTimes>
-		<deploymentTimes>1</deploymentTimes>
-		<deploymentTimes>2</deploymentTimes>
-		<deploymentTimes>3</deploymentTimes>
-	</deploymentTimes>
-    <objectiveParameters>
-	<objectiveParameter>
-		<objectiveType>AlliedFacilityControl</objectiveType>
-		<objectiveCount>-0.25</objectiveCount>
-        </objectiveParameter>
-	<objectiveParameter>
-		<objectiveCount>-0.25</objectiveCount>
-		<objectiveType>SpecificScenarioVictory</objectiveType>
-		<objectiveScenarios>
-                	<objectiveScenario>Irregular Forces.json</objectiveScenario>
-		</objectiveScenarios>
-        </objectiveParameter>
-	<objectiveParameter>
-		<objectiveType>FacilityDestruction</objectiveType>
-		<objectiveCount>-0.25</objectiveCount>
-        </objectiveParameter>
-        <objectiveParameter>
-		<objectiveCount>-0.25</objectiveCount>
-		<objectiveType>AnyScenarioVictory</objectiveType>
-		<objectiveScenarioModifiers>
-                	<objectiveScenarioModifier>AlliedTraineesGround.json</objectiveScenarioModifier>
-                	<objectiveScenarioModifier>AlliedTraineesAir.json</objectiveScenarioModifier>
-		</objectiveScenarioModifiers>
-        </objectiveParameter>
-    </objectiveParameters>
-</ScenarioTemplate>
+{
+  "contractTypeName" : "Cadre Duty",
+  "briefing" : "Protect attached trainees.",
+  "alliedFacilityCount" : -0.3,
+  "hostileFacilityCount" : 0.0,
+  "scenarioOdds" : [ 10, 10, 10, 10 ],
+  "deploymentTimes" : [ 0, 1, 2, 3 ],
+  "objectiveParameters" : [ {
+    "objectiveType" : "AlliedFacilityControl",
+    "objectiveCount" : -0.25
+  }, {
+    "objectiveType" : "SpecificScenarioVictory",
+    "objectiveCount" : -0.25,
+    "objectiveScenarios" : [ "Irregular Forces.json" ]
+  }, {
+    "objectiveType" : "FacilityDestruction",
+    "objectiveCount" : -0.25
+  }, {
+    "objectiveType" : "AnyScenarioVictory",
+    "objectiveCount" : -0.25,
+    "objectiveScenarioModifiers" : [ "AlliedTraineesGround.json", "AlliedTraineesAir.json" ]
+  } ]
+}
+
+Saved files also carry a leading "_license" array holding the MegaMek Data legal notice; it is informational only and
+is ignored when the file is read.
 
 Let's break it down.
 
