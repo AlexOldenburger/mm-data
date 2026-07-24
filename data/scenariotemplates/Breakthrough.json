@@ -2,7 +2,7 @@
     "name": "Breakthrough",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Break through or destroy enemy.",
-    "detailedBriefing": "Your objective is to break through enemy lines and reach the far side of the engagement zone. At least 50% of your forces must reach the destination, and only fully operational units will count.\n\nIf the enemy resistance proves too strong, you have an alternative path to victory: destroy at least 33% of enemy forces to force them into disarray and open the way.\n\nBe advised: the enemy will control the field when this is over. Move fast, strike hard, and don’t look back.",
+    "detailedBriefing": "Your objective is to break through enemy lines and reach the far side of the engagement zone. At least 50% of your forces must reach the destination, and only fully operational units will count.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": true,
@@ -17,13 +17,13 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
             "Plains",
-            "Steppe",
             "Savannah",
-            "Tundra",
-            "SnowField"
+            "SnowField",
+            "Steppe",
+            "Tundra"
         ]
     },
     "scenarioModifiers": [],
@@ -33,12 +33,12 @@
             "generationMethod": 0,
             "forceMultiplier": 1.0,
             "deploymentZones": [
-                6
+                11
             ],
             "destinationZone": 6,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": true,
             "contributesToUnitCount": true,
             "forceName": "Player",
@@ -65,9 +65,7 @@
             "forceAlignment": 2,
             "generationMethod": 1,
             "forceMultiplier": 1.0,
-            "deploymentZones": [
-                10
-            ],
+            "deploymentZones": [],
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
@@ -75,11 +73,11 @@
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "OpFor",
-            "syncedForceName": null,
-            "syncDeploymentType": "None",
+            "syncedForceName": "Player",
+            "syncDeploymentType": "OppositeEdge",
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
-            "maxWeightClass": 4,
+            "maxWeightClass": 3,
             "minWeightClass": 1,
             "contributesToMapSize": true,
             "actualDeploymentZone": -1,
@@ -98,8 +96,8 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Reach the destination edge with 50% of the following forces. +2 SVP if succeeded, -1 SVP if failed.",
-            "destinationEdge": "NORTH",
+            "description": "Reach the destination edge with 50% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,
             "timeLimitType": "None",
@@ -114,7 +112,7 @@
                 {
                     "effectType": "ScenarioVictory",
                     "effectScaling": "Fixed",
-                    "howMuch": 2
+                    "howMuch": 1
                 }
             ],
             "failureEffects": [
@@ -127,36 +125,6 @@
             "additionalDetails": [
                 "Crippled units do not count towards this objective."
             ]
-        },
-        {
-            "objectiveCriterion": "Destroy",
-            "description": "Destroy or rout 33% the following forces. +2 SVP if succeeded, -1 SVP if failed.",
-            "destinationEdge": "NONE",
-            "percentage": 33,
-            "fixedAmount": null,
-            "timeLimitType": "None",
-            "timeLimitAtMost": true,
-            "timeLimit": 0,
-            "timeLimitScaleFactor": null,
-            "associatedForceNames": [
-                "OpFor"
-            ],
-            "associatedUnitIDs": [],
-            "successEffects": [
-                {
-                    "effectType": "ScenarioVictory",
-                    "effectScaling": "Fixed",
-                    "howMuch": 2
-                }
-            ],
-            "failureEffects": [
-                {
-                    "effectType": "ScenarioDefeat",
-                    "effectScaling": "Fixed",
-                    "howMuch": 1
-                }
-            ],
-            "additionalDetails": []
         }
     ]
 }

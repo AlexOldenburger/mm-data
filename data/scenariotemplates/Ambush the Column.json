@@ -2,7 +2,7 @@
     "name": "Ambush the Column",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Hit a strung-out enemy column and defeat it piecemeal before it can concentrate.",
-    "detailedBriefing": "An enemy column is moving through the area strung out on the march, its units arriving piecemeal rather than as a formed battle line. We are in position first. This is the moment to defeat them in detail—before they can pull together into a single fist.\n\nSet your positions and hit each element hard as it arrives, then reset before the next one is on you. If you let them concentrate, their full strength will outweigh yours; if you break them piece by piece, you win. Aggression and tempo are everything here.\n\nShatter the column as it comes in. Rout the bulk of them before they can form up.",
+    "detailedBriefing": "An enemy column is moving through the area strung out on the march, its units arriving piecemeal rather than as a formed battle line. We are in position first. This is the moment to defeat them in detail, before they can pull together into a single fist.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": false,
@@ -17,10 +17,10 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
-            "Hills",
             "ColdHills",
+            "Hills",
             "HotHillsDry",
             "HotHillsWet"
         ]
@@ -56,7 +56,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -64,16 +64,21 @@
             "forceAlignment": 2,
             "generationMethod": 1,
             "forceMultiplier": 1.25,
-            "deploymentZones": [],
+            "deploymentZones": [
+                2,
+                4,
+                6,
+                8
+            ],
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "OpFor",
-            "syncedForceName": "Player",
-            "syncDeploymentType": "OppositeEdge",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
             "syncRetreatThreshold": false,
             "arrivalTurn": -1,
             "maxWeightClass": 4,
@@ -86,20 +91,18 @@
             "startingAltitude": 0,
             "useArtillery": false,
             "deployOffBoard": false,
-            "objectiveLinkedForces": [],
+            "objectiveLinkedForces": [
+                "OpFor"
+            ],
             "subjectToRandomRemoval": true,
             "fixedMul": null,
-            "forceRoleStrings": [
-                "SUPPORT",
-                "CARGO",
-                "SR_FIRE_SUPPORT"
-            ]
+            "forceRoleStrings": []
         }
     },
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 50% of the following column. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "Destroy or Force Withdraw 50% of the following column. +1 SVP if succeeded, -1 SVP if failed.",
             "destinationEdge": "NONE",
             "percentage": 50,
             "fixedAmount": null,
@@ -115,17 +118,19 @@
                 {
                     "effectType": "ScenarioVictory",
                     "effectScaling": "Fixed",
-                    "howMuch": 2
+                    "howMuch": 1
                 }
             ],
             "failureEffects": [
                 {
                     "effectType": "ScenarioDefeat",
                     "effectScaling": "Fixed",
-                    "howMuch": 2
+                    "howMuch": -1
                 }
             ],
-            "additionalDetails": []
+            "additionalDetails": [
+                ""
+            ]
         }
     ]
 }

@@ -2,7 +2,7 @@
     "name": "Assassination",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Eliminate VIP, minimize own losses.",
-    "detailedBriefing": "This is a precision strike inside an active warzone. The enemy dominates the field, but we’re not here for a prolonged engagement—we’re here for a kill mission. Your primary objective is to assassinate a high-value target before they can escape. This individual is critical to the enemy’s war effort, and their elimination will shift the balance in our favor.\n\nWe expect a fierce but contained battle. Your forces will be operating behind enemy lines, deep within hostile territory. Extraction is not a priority—the enemy will retain control of the battlefield when the dust settles. Your task is to neutralize the VIP, no other considerations are of value.",
+    "detailedBriefing": "This is a precision strike inside an active warzone. The enemy dominates the field, but we’re not here for a prolonged engagement—we’re here for a kill mission. Your primary objective is to assassinate a high-value target before they can escape. This individual is critical to the enemy’s war effort, and their elimination will shift the balance in our favor.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": false,
@@ -13,15 +13,15 @@
         "baseHeight": 0,
         "widthScalingIncrement": 5,
         "heightScalingIncrement": 5,
-        "additionalMapSheetTall": 0,
+        "additionalMapSheetTall": 1,
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
-            "Urban",
             "ColdUrban",
-            "HotUrban"
+            "HotUrban",
+            "Urban"
         ]
     },
     "scenarioModifiers": [],
@@ -55,7 +55,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -64,7 +64,7 @@
             "generationMethod": 1,
             "forceMultiplier": 1.0,
             "deploymentZones": [],
-            "destinationZone": 5,
+            "destinationZone": 1,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
             "canReinforceLinked": true,
@@ -97,20 +97,22 @@
             "forceAlignment": 2,
             "generationMethod": 3,
             "forceMultiplier": 1.0,
-            "deploymentZones": [],
-            "destinationZone": 5,
-            "retreatThreshold": 50,
-            "allowedUnitType": -2,
+            "deploymentZones": [
+                10
+            ],
+            "destinationZone": 0,
+            "retreatThreshold": 0,
+            "allowedUnitType": 0,
             "canReinforceLinked": true,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "VIP",
-            "syncedForceName": "Player",
-            "syncDeploymentType": "OppositeEdge",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
             "maxWeightClass": 4,
-            "minWeightClass": 3,
+            "minWeightClass": 2,
             "contributesToMapSize": false,
             "actualDeploymentZone": -1,
             "fixedUnitCount": 1,
@@ -122,13 +124,15 @@
             "objectiveLinkedForces": [],
             "subjectToRandomRemoval": false,
             "fixedMul": null,
-            "forceRoleStrings": []
+            "forceRoleStrings": [
+                "COMMAND"
+            ]
         }
     },
     "scenarioObjectives": [
         {
             "objectiveCriterion": "Destroy",
-            "description": "Destroy the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "Assassinate the following forces. +1 SVP if succeeded, -1 SVP if failed.",
             "destinationEdge": "NONE",
             "percentage": 100,
             "fixedAmount": null,

@@ -56,7 +56,7 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Convoy Interdiction.json</objectiveScenario>
-                <objectiveScenario>Convoy Raid.json</objectiveScenario>
+                <objectiveScenario>Convoy Ambush.json</objectiveScenario>
                 <objectiveScenario>VIP Ambush.json</objectiveScenario>
                 <objectiveScenario>Supply Denial.json</objectiveScenario>
             </objectiveScenarios>

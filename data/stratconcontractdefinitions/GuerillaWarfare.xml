@@ -53,7 +53,7 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Convoy Interdiction.json</objectiveScenario>
-                <objectiveScenario>Convoy Raid.json</objectiveScenario>
+                <objectiveScenario>Convoy Ambush.json</objectiveScenario>
                 <objectiveScenario>Intercept Engagement.json</objectiveScenario>
                 <objectiveScenario>Tactical Withdrawal.json</objectiveScenario>
                 <objectiveScenario>Last Stand.json</objectiveScenario>

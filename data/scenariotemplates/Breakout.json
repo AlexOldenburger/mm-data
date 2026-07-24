@@ -2,7 +2,7 @@
     "name": "Breakout",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Surrounded—punch through the ring and get the force out.",
-    "detailedBriefing": "We are encircled. The enemy has closed a ring around your position and is tightening it. Staying put means annihilation; the only answer is to pick a direction, mass everything against it, and break out.\n\nDo not try to fight the whole ring—you cannot. Concentrate against one arc, blow a hole in it, and drive the force through to open ground before the rest of the cordon can collapse in on you. Speed and shock, not attrition.\n\nBreak out and get 50% of the force clear of the North map edge.\n\nAlternatively, you can break out of any direction. However, if you choose to go this route MekHQ will incorrectly flag you as having failed the scenario. This can be manually corrected during scenario resolution.",
+    "detailedBriefing": "We are encircled. The enemy has closed a ring around your position and is tightening it. Staying put means annihilation; the only answer is to pick a direction, mass everything against it, and break out.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": true,
@@ -17,12 +17,12 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
-            "Mountain",
             "ColdMountain",
             "HotMountainsDry",
-            "HotMountainsWet"
+            "HotMountainsWet",
+            "Mountain"
         ]
     },
     "scenarioModifiers": [],
@@ -34,7 +34,7 @@
             "deploymentZones": [
                 10
             ],
-            "destinationZone": 2,
+            "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
             "canReinforceLinked": true,
@@ -56,7 +56,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -136,7 +136,7 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ReachMapEdge",
-            "description": "Get 50% of the following forces to the North edge. +2 SVP if succeeded, -2 SVP if failed.",
+            "description": "Get 50% of the following forces to the North edge. +2 SVP if succeeded, -1 SVP if failed. Do not end the scenario until all player-controlled units have left the field.",
             "destinationEdge": "NORTH",
             "percentage": 50,
             "fixedAmount": null,
@@ -159,7 +159,37 @@
                 {
                     "effectType": "ScenarioDefeat",
                     "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "additionalDetails": []
+        },
+        {
+            "objectiveCriterion": "ReachMapEdge",
+            "description": "Get 50% of the following forces to the South edge. +2 SVP if succeeded, -1 SVP if failed. Do not end the scenario until all player-controlled units have left the field.",
+            "destinationEdge": "SOUTH",
+            "percentage": 50,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": null,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "Player"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
                     "howMuch": 2
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
                 }
             ],
             "additionalDetails": []

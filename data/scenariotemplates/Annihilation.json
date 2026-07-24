@@ -2,7 +2,7 @@
     "name": "Annihilation",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Obliterate the enemy force.",
-    "detailedBriefing": "Your orders are clear. This is not a surgical strike, nor a precision raid—this is extermination. The enemy force in this sector must be wiped out, with 75% confirmed casualties before we consider this battlefield secured. Their continued presence is unacceptable, and we cannot afford to let even a remnant regroup for future operations.\n\nThe victor controls the field, and we will be the ones standing when the dust settles.",
+    "detailedBriefing": "Your orders are clear. This is not a surgical strike, nor a precision raid—this is extermination. The enemy force in this sector must be wiped out, with 50% confirmed casualties before we consider this battlefield secured. Their continued presence is unacceptable, and we cannot afford to let even a remnant regroup for future operations.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": false,
@@ -17,13 +17,13 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
             "Plains",
-            "Steppe",
             "Savannah",
-            "Tundra",
-            "SnowField"
+            "SnowField",
+            "Steppe",
+            "Tundra"
         ]
     },
     "scenarioModifiers": [
@@ -35,12 +35,15 @@
             "generationMethod": 0,
             "forceMultiplier": 1.0,
             "deploymentZones": [
-                6
+                2,
+                4,
+                6,
+                8
             ],
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": true,
             "contributesToUnitCount": true,
             "forceName": "Player",
@@ -58,8 +61,10 @@
             "startingAltitude": 0,
             "useArtillery": false,
             "deployOffBoard": false,
-            "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "objectiveLinkedForces": [
+                "Player"
+            ],
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -71,12 +76,12 @@
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "OpFor",
             "syncedForceName": "Player",
-            "syncDeploymentType": "OppositeArc",
+            "syncDeploymentType": "OppositeEdge",
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
             "maxWeightClass": 4,
@@ -98,9 +103,9 @@
     "scenarioObjectives": [
         {
             "objectiveCriterion": "ForceWithdraw",
-            "description": "Destroy or rout 75% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "description": "Destroy or rout 50% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
             "destinationEdge": "NONE",
-            "percentage": 75,
+            "percentage": 50,
             "fixedAmount": null,
             "timeLimitType": "None",
             "timeLimitAtMost": true,

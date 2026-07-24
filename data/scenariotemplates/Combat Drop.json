@@ -2,7 +2,7 @@
     "name": "Combat Drop",
     "stratConScenarioType": "NONE",
     "shortBriefing": "Make a combat drop into a defended zone and break the OpFor.",
-    "detailedBriefing": "There is no time for a conventional landing. You are going in the hard way—a combat drop straight onto the objective, dropping through fire into the middle of a defended zone.\n\nYou will come down scattered and exposed, with the OpFor already in position around you. Land, form up fast, and break them before they can concentrate on your descending units. Every second spent reorganizing under their guns is a second they use to pick you apart.\n\nOnce you are down, drive the defenders off and hold the ground. This is a high-risk insertion—the reward is that they never saw you coming.",
+    "detailedBriefing": "There is no time for a conventional landing. You are going in the hard way—a combat drop straight onto the objective, dropping through fire into the middle of a defended zone.\n\nYou will come down scattered and exposed, with the OpFor already in position around you. Land, form up fast, and break them before they can concentrate on your descending units.",
     "isHostileFacility": false,
     "isAlliedFacility": false,
     "isSuitedForAmbushes": false,
@@ -17,13 +17,13 @@
         "additionalMapSheetWide": 0,
         "allowRotation": false,
         "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
+        "mapLocation": "AllGroundTerrain",
         "allowedTerrainTypes": [
             "Plains",
-            "Steppe",
             "Savannah",
-            "Tundra",
-            "SnowField"
+            "SnowField",
+            "Steppe",
+            "Tundra"
         ]
     },
     "scenarioModifiers": [],
@@ -57,7 +57,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": []
         },
@@ -71,7 +71,7 @@
             "destinationZone": 5,
             "retreatThreshold": 50,
             "allowedUnitType": -2,
-            "canReinforceLinked": true,
+            "canReinforceLinked": false,
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "OpFor",
@@ -92,14 +92,11 @@
             "objectiveLinkedForces": [],
             "subjectToRandomRemoval": true,
             "fixedMul": null,
-            "forceRoleStrings": [
-                "FIRE_SUPPORT",
-                "ANTI_AIRCRAFT"
-            ]
+            "forceRoleStrings": []
         },
         "DropShip": {
             "forceAlignment": 1,
-            "generationMethod": 4,
+            "generationMethod": 3,
             "forceMultiplier": 1.0,
             "deploymentZones": [
                 10
@@ -111,13 +108,13 @@
             "contributesToBV": false,
             "contributesToUnitCount": false,
             "forceName": "DropShip",
-            "syncedForceName": "Player",
-            "syncDeploymentType": "SameEdge",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
             "syncRetreatThreshold": false,
             "arrivalTurn": 0,
             "maxWeightClass": 4,
             "minWeightClass": 1,
-            "contributesToMapSize": true,
+            "contributesToMapSize": false,
             "actualDeploymentZone": -1,
             "fixedUnitCount": 1,
             "generationOrder": 4,
@@ -126,7 +123,7 @@
             "useArtillery": false,
             "deployOffBoard": false,
             "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
+            "subjectToRandomRemoval": false,
             "fixedMul": null,
             "forceRoleStrings": [
                 "MEK_CARRIER"
