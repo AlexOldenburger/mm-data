@@ -1,0 +1,192 @@
+{
+    "name": "Convoy Hijack",
+    "stratConScenarioType": "NONE",
+    "shortBriefing": "Capture the enemy convoy intact before it can escape.",
+    "detailedBriefing": "An enemy supply convoy is running through our area of operations, and command wants it intact—not scattered wreckage. Those vehicles and their cargo are worth far more captured than destroyed.\n\nImmobilize the transports and hold them; do not simply blow them apart. The convoy will run for the far edge the moment it sees you, and its escort will fight to keep it moving.\n\nCripple the escort, box in the transports, and take them before they slip off the map. Restraint is the hard part—it is easier to kill a convoy than to steal one.\n\nCapture as much of the convoy as you can by driving off its escort.",
+    "isHostileFacility": false,
+    "isAlliedFacility": false,
+    "isSuitedForAmbushes": false,
+    "isSuitedForBungledPatrols": false,
+    "battlefieldControl": "VICTOR",
+    "mapParameters": {
+        "baseWidth": 0,
+        "baseHeight": 0,
+        "widthScalingIncrement": 5,
+        "heightScalingIncrement": 5,
+        "additionalMapSheetTall": 0,
+        "additionalMapSheetWide": 1,
+        "allowRotation": false,
+        "useStandardAtBSizing": true,
+        "mapLocation": "SpecificGroundTerrain",
+        "allowedTerrainTypes": [
+            "Convoy"
+        ]
+    },
+    "scenarioModifiers": [],
+    "scenarioForces": {
+        "Player": {
+            "forceAlignment": 0,
+            "generationMethod": 0,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": true,
+            "contributesToUnitCount": true,
+            "forceName": "Player",
+            "syncedForceName": "Convoy",
+            "syncDeploymentType": "OppositeEdge",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 1,
+            "maxWeightClass": 4,
+            "minWeightClass": 0,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 1,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": []
+        },
+        "OpFor": {
+            "forceAlignment": 2,
+            "generationMethod": 1,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": false,
+            "contributesToUnitCount": false,
+            "forceName": "OpFor",
+            "syncedForceName": "Convoy",
+            "syncDeploymentType": "SameEdge",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 0,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 5,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": [
+                "CAVALRY",
+                "SR_FIRE_SUPPORT"
+            ]
+        },
+        "Convoy": {
+            "forceAlignment": 2,
+            "generationMethod": 1,
+            "forceMultiplier": 0.5,
+            "deploymentZones": [
+                2,
+                6
+            ],
+            "destinationZone": 6,
+            "retreatThreshold": 0,
+            "allowedUnitType": 1,
+            "canReinforceLinked": false,
+            "contributesToBV": false,
+            "contributesToUnitCount": false,
+            "forceName": "Convoy",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 0,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 3,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": [
+                "SUPPORT",
+                "CARGO",
+                "APC"
+            ]
+        }
+    },
+    "scenarioObjectives": [
+        {
+            "objectiveCriterion": "Capture",
+            "description": "Capture 50% of the following convoy intact. +2 SVP and bonus supplies if succeeded, -2 SVP if failed.",
+            "destinationEdge": "NONE",
+            "percentage": 50,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": null,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "Convoy"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 2
+                },
+                {
+                    "effectType": "SupplyCache",
+                    "effectScaling": "Linear",
+                    "howMuch": 1
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 2
+                }
+            ],
+            "additionalDetails": []
+        },
+        {
+            "objectiveCriterion": "ForceWithdraw",
+            "description": "Destroy or rout 33% of the following escort. +1 SVP if succeeded.",
+            "destinationEdge": "NONE",
+            "percentage": 33,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": null,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "OpFor"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "failureEffects": [],
+            "additionalDetails": []
+        }
+    ]
+}

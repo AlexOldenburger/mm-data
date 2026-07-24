@@ -1,0 +1,161 @@
+{
+    "name": "Decoy Engagement",
+    "stratConScenarioType": "NONE",
+    "shortBriefing": "Engage enemy, act as decoy.",
+    "detailedBriefing": "Your mission is to serve as a decoy, drawing the attention of a large enemy force while our allies carry out critical objectives elsewhere in the sector. The enemy must believe you are the primary threat, forcing them to commit their forces fully to your position. Your task is to survive for the designated duration or, if possible, eliminate 50% of the enemy forces to break their will.\n\nThis engagement is about endurance, misdirection, and tactical maneuvering. The enemy will press hard, believing you to be the key target, but you must endure. Use the terrain to your advantage, control the pace of the battle, and engage only when necessary. If you hold them long enough, our allies will complete their objectives uncontested.\n\nShould you succeed in routing 50% of the enemy force, they will lose cohesion, and we will control the battlefield at the end of the engagement. This will allow us full access to any salvageable assets left behind. Victory here will not only ensure the success of our allies but also give us a chance to recover valuable battlefield resources.\n\nHold the line, weather the storm, and outlast them. If they break, the field is ours.",
+    "isHostileFacility": false,
+    "isAlliedFacility": false,
+    "isSuitedForAmbushes": false,
+    "isSuitedForBungledPatrols": false,
+    "battlefieldControl": "VICTOR",
+    "mapParameters": {
+        "baseWidth": 0,
+        "baseHeight": 0,
+        "widthScalingIncrement": 5,
+        "heightScalingIncrement": 5,
+        "additionalMapSheetTall": 0,
+        "additionalMapSheetWide": 0,
+        "allowRotation": false,
+        "useStandardAtBSizing": true,
+        "mapLocation": "SpecificGroundTerrain",
+        "allowedTerrainTypes": [
+            "Hills",
+            "ColdHills",
+            "HotHillsDry",
+            "HotHillsWet"
+        ]
+    },
+    "scenarioModifiers": [],
+    "scenarioForces": {
+        "Player": {
+            "forceAlignment": 0,
+            "generationMethod": 0,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [
+                6
+            ],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": true,
+            "contributesToUnitCount": true,
+            "forceName": "Player",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 0,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 1,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": []
+        },
+        "OpFor": {
+            "forceAlignment": 2,
+            "generationMethod": 1,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": false,
+            "contributesToUnitCount": false,
+            "forceName": "OpFor",
+            "syncedForceName": "Player",
+            "syncDeploymentType": "OppositeEdge",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 2,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 5,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": [
+                "RECON",
+                "RAIDER",
+                "CAVALRY"
+            ]
+        }
+    },
+    "scenarioObjectives": [
+        {
+            "objectiveCriterion": "Custom",
+            "description": "Engage the following enemy forces. +2 SVP if succeeded, -1 SVP if failed.",
+            "destinationEdge": "NONE",
+            "percentage": 1,
+            "fixedAmount": null,
+            "timeLimitType": "ScaledToPrimaryUnitCount",
+            "timeLimitAtMost": false,
+            "timeLimit": null,
+            "timeLimitScaleFactor": 2,
+            "associatedForceNames": [
+                "OpFor"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 2
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "additionalDetails": []
+        },
+        {
+            "objectiveCriterion": "ForceWithdraw",
+            "description": "Destroy or rout 50% of the following forces. +2 SVP if succeeded, -1 SVP if failed.",
+            "destinationEdge": "NONE",
+            "percentage": 50,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": null,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "OpFor"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 2
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "additionalDetails": []
+        }
+    ]
+}

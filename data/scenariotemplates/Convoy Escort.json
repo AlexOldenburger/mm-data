@@ -1,0 +1,222 @@
+{
+    "name": "Convoy Escort",
+    "stratConScenarioType": "CONVOY",
+    "shortBriefing": "Escort supply convoy or defeat attackers.",
+    "detailedBriefing": "An allied convoy carrying critical supplies is moving through hostile territory, and enemy forces are preparing to intercept. Your mission is to ensure that the convoy reaches its destination. At least 50% of the convoy must reach the far edge of the engagement area intact. These supplies are vital to sustaining our operations, and failure is not an option.\n\nShould the enemy resistance prove too strong for a full escort, you have an alternative means to secure victory. If at least 50% of the convoy survives while you destroy or rout 33% of the enemy forces, the mission will be considered a success. Breaking the enemy’s will to fight will give the convoy a clear path forward.\n\nWe will control the field at the conclusion of the battle. This means you have full authority to dictate the engagement on your terms. Use the terrain, control the tempo, and eliminate threats efficiently. Hold the line, protect the convoy, and ensure that these supplies reach their destination.",
+    "isHostileFacility": false,
+    "isAlliedFacility": false,
+    "isSuitedForAmbushes": false,
+    "isSuitedForBungledPatrols": false,
+    "battlefieldControl": "PLAYER",
+    "mapParameters": {
+        "baseWidth": 0,
+        "baseHeight": 0,
+        "widthScalingIncrement": 5,
+        "heightScalingIncrement": 5,
+        "additionalMapSheetTall": 1,
+        "additionalMapSheetWide": 0,
+        "allowRotation": false,
+        "useStandardAtBSizing": true,
+        "mapLocation": "SpecificGroundTerrain",
+        "allowedTerrainTypes": [
+            "Convoy"
+        ]
+    },
+    "scenarioModifiers": [],
+    "scenarioForces": {
+        "Player": {
+            "forceAlignment": 0,
+            "generationMethod": 0,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": true,
+            "contributesToUnitCount": true,
+            "forceName": "Player",
+            "syncedForceName": "Convoy",
+            "syncDeploymentType": "SameEdge",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 0,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 1,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": []
+        },
+        "OpFor": {
+            "forceAlignment": 2,
+            "generationMethod": 1,
+            "forceMultiplier": 1.0,
+            "deploymentZones": [
+                10
+            ],
+            "destinationZone": 5,
+            "retreatThreshold": 50,
+            "allowedUnitType": -2,
+            "canReinforceLinked": true,
+            "contributesToBV": false,
+            "contributesToUnitCount": false,
+            "forceName": "OpFor",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 1,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 5,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": [
+                "RAIDER",
+                "CAVALRY"
+            ]
+        },
+        "Convoy": {
+            "forceAlignment": 1,
+            "generationMethod": 1,
+            "forceMultiplier": 0.5,
+            "deploymentZones": [
+                6
+            ],
+            "destinationZone": 6,
+            "retreatThreshold": 0,
+            "allowedUnitType": -2,
+            "canReinforceLinked": false,
+            "contributesToBV": false,
+            "contributesToUnitCount": false,
+            "forceName": "Convoy",
+            "syncedForceName": null,
+            "syncDeploymentType": "None",
+            "syncRetreatThreshold": false,
+            "arrivalTurn": 0,
+            "maxWeightClass": 4,
+            "minWeightClass": 1,
+            "contributesToMapSize": true,
+            "actualDeploymentZone": -1,
+            "fixedUnitCount": 0,
+            "generationOrder": 4,
+            "allowAeroBombs": false,
+            "startingAltitude": 0,
+            "useArtillery": false,
+            "deployOffBoard": false,
+            "objectiveLinkedForces": [],
+            "subjectToRandomRemoval": true,
+            "fixedMul": null,
+            "forceRoleStrings": [
+                "SUPPORT",
+                "SUPPORT",
+                "CARGO",
+                "CARGO",
+                "CARGO",
+                "APC",
+                "APC"
+            ]
+        }
+    },
+    "scenarioObjectives": [
+        {
+            "objectiveCriterion": "ReachMapEdge",
+            "description": "50% of the following forces must reach the far edge of the maps. +3 SVP if succeeded.",
+            "destinationEdge": "NORTH",
+            "percentage": 50,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": 0,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "Convoy"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 3
+                }
+            ],
+            "failureEffects": [],
+            "additionalDetails": []
+        },
+        {
+            "objectiveCriterion": "ForceWithdraw",
+            "description": "Destroy or rout 33% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "destinationEdge": "NONE",
+            "percentage": 33,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": 0,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "OpFor"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "additionalDetails": []
+        },
+        {
+            "objectiveCriterion": "Preserve",
+            "description": "Preserve 50% of the following forces. +1 SVP if succeeded, -1 SVP if failed.",
+            "destinationEdge": "NONE",
+            "percentage": 50,
+            "fixedAmount": null,
+            "timeLimitType": "None",
+            "timeLimitAtMost": true,
+            "timeLimit": null,
+            "timeLimitScaleFactor": null,
+            "associatedForceNames": [
+                "Convoy"
+            ],
+            "associatedUnitIDs": [],
+            "successEffects": [
+                {
+                    "effectType": "ScenarioVictory",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "failureEffects": [
+                {
+                    "effectType": "ScenarioDefeat",
+                    "effectScaling": "Fixed",
+                    "howMuch": 1
+                }
+            ],
+            "additionalDetails": []
+        }
+    ]
+}
