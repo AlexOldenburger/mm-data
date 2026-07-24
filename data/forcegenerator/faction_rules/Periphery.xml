@@ -164,7 +164,7 @@ Infantry are poorly trained and equipped. -->
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
         <weightClass>
@@ -199,7 +199,7 @@ Infantry are poorly trained and equipped. -->
     </force>
 
     <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
-        <name>{formation} Lance</name>
+        <name>{alpha:parent}-{cardinal} {formation} Lance</name>
         <co>%LT%</co>
 
         <weightClass>
@@ -398,7 +398,7 @@ Infantry are poorly trained and equipped. -->
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
         <weightClass>
@@ -441,7 +441,7 @@ Infantry are poorly trained and equipped. -->
     </force>
 
     <force echelon="%LANCE%" eschName="Platoon" ifUnitType="Tank">
-        <name>{formation} Platoon</name>
+        <name>{alpha:parent}-{cardinal} {formation} Platoon</name>
         <co>%LT%</co>
 
         <weightClass>
@@ -562,7 +562,7 @@ Infantry are poorly trained and equipped. -->
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="VTOL">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
         <xo>%LT%</xo>
 
@@ -646,7 +646,7 @@ Infantry are poorly trained and equipped. -->
     </force>
 
     <force echelon="%COMPANY%" eschName="Engineer Company" ifUnitType="Infantry" ifRole="engineer">
-        <name>{alpha} Engineer Company</name>
+        <name>{cardinal:parent}/{alpha} Engineer Company</name>
         <co>%CAPTAIN%</co>
 
         <!-- A mix of specialized engineer lances. Each lance subforce sets a single facet role (which
@@ -771,7 +771,7 @@ Infantry are poorly trained and equipped. -->
     </force>
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="field_gun">
-        <name>{alpha} Field Gun Company</name>
+        <name>{cardinal:parent}/{alpha} Field Gun Company</name>
         <co>%CAPTAIN%</co>
 
         <subforces generate="group">
@@ -781,7 +781,7 @@ Infantry are poorly trained and equipped. -->
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
            ifRole="artillery|missile_artillery">
-        <name>{ordinal} Field Artillery Company</name>
+        <name>{cardinal:parent}/{ordinal} Field Artillery Company</name>
         <co>%CAPTAIN%</co>
 
         <subforces generate="group">
@@ -790,7 +790,7 @@ Infantry are poorly trained and equipped. -->
     </force>
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
-        <name>{ordinal} Company</name>
+        <name>{cardinal:parent}/{ordinal} Company</name>
         <co>%CAPTAIN%</co>
         <!--
                 <unitType ifUnitType="Infantry" ifDateBetween="3051,"
