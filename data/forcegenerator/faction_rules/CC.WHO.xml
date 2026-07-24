@@ -29,6 +29,7 @@ had been upgraded to BA by that date. -->
         <unitType>Mek</unitType>
         <echelon>%BATTALION%</echelon>
         <rankSystem>%RANK_CC_WH%</rankSystem>
+        <rating>C</rating>
     </defaults>
 
     <toc>
