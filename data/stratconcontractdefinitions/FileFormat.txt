@@ -1,5 +1,11 @@
 Contract definition files are JSON. (Legacy XML files are still read for backward compatibility, but the game writes
-JSON.) The following is an example contract definition file:
+JSON.) Every saved file begins with the MegaMek Data legal notice as a block of '#' comment lines, followed by a blank
+line and then the JSON object; the '#' lines are informational only and are skipped when the file is read. The following
+is an example contract definition file:
+
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# ... (full MegaMek Data license notice) ...
+# affiliated with Microsoft.
 
 {
   "contractTypeName" : "Cadre Duty",
@@ -24,9 +30,6 @@ JSON.) The following is an example contract definition file:
     "objectiveScenarioModifiers" : [ "AlliedTraineesGround.json", "AlliedTraineesAir.json" ]
   } ]
 }
-
-Saved files also carry a leading "_license" array holding the MegaMek Data legal notice; it is informational only and
-is ignored when the file is read.
 
 Let's break it down.
 
