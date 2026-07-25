@@ -43,7 +43,7 @@
         ]
     },
     "scenarioModifiers": [
-        "PreBattleDamageAllies.xml"
+"PreBattleDamageAllies.json"
     ],
     "scenarioForces": {
         "Player": {

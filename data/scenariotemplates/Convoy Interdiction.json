@@ -40,7 +40,7 @@
         ]
     },
     "scenarioModifiers": [
-        "OverwhelmingEnemyGroundReinforcements.xml"
+"OverwhelmingEnemyGroundReinforcements.json"
     ],
     "scenarioForces": {
         "Player": {

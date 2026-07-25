@@ -44,7 +44,7 @@
         ]
     },
     "scenarioModifiers": [
-        "Veterans.xml"
+"Veterans.json"
     ],
     "scenarioForces": {
         "Player": {

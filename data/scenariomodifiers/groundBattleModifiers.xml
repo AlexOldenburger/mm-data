@@ -20,255 +20,255 @@
 <scenarioModifierManifest>
     <modifiers>
         <modifier>
-            EnemyAirSupport.xml
+            EnemyAirSupport.json
         </modifier>
         <modifier>
-            EnemyAirSupportBombers.xml
+            EnemyAirSupportBombers.json
         </modifier>
         <modifier>
-            EnemyReinforcements.xml
+            EnemyReinforcements.json
         </modifier>
         <modifier>
-            OverwhelmingEnemyGroundReinforcements.xml
+            OverwhelmingEnemyGroundReinforcements.json
         </modifier>
         <modifier>
-            EnemyTankReinforcements.xml
+            EnemyTankReinforcements.json
         </modifier>
         <modifier>
-            EnemyMekReinforcements.xml
+            EnemyMekReinforcements.json
         </modifier>
         <modifier>
-            EnemyArty.xml
+            EnemyArty.json
         </modifier>
         <modifier>
-            LocalGarrisonInfantry.xml
+            LocalGarrisonInfantry.json
         </modifier>
         <modifier>
-            LocalGarrisonTurrets.xml
+            LocalGarrisonTurrets.json
         </modifier>
         <modifier>
-            LocalGarrisonBoats.xml
+            LocalGarrisonBoats.json
         </modifier>
         <modifier>
-            EnemyTurrets.xml
+            EnemyTurrets.json
         </modifier>
         <modifier>
-            Rookies.xml
+            Rookies.json
         </modifier>
         <modifier>
-            Veterans.xml
+            Veterans.json
         </modifier>
         <modifier>
-            BadEquipment.xml
+            BadEquipment.json
         </modifier>
         <modifier>
-            GoodEquipment.xml
+            GoodEquipment.json
         </modifier>
         <modifier>
-            HostileBVBudgetIncrease.xml
+            HostileBVBudgetIncrease.json
         </modifier>
         <!--modifier>
             Need ability to allow player to specifically deploy DropShips
-            HotDrop.xml
+            HotDrop.json
         </modifier-->
         <modifier>
-            EnemyHotDrop.xml
+            EnemyHotDrop.json
         </modifier>
         <!--modifier>
             Removed by popular demand
-            EnemyDropShip.xml
+            EnemyDropShip.json
         </modifier-->
         <!--modifier>
             Removed by popular demand
-            GroundedEnemyDropShip.xml
+            GroundedEnemyDropShip.json
         </modifier-->
         <modifier>
-            GoodIntel.xml
+            GoodIntel.json
         </modifier>
         <modifier>
-            BadIntelGround.xml
+            BadIntelGround.json
         </modifier>
         <modifier>
-            BadIntelAir.xml
+            BadIntelAir.json
         </modifier>
         <modifier>
-            PiratesIncomingAir.xml
+            PiratesIncomingAir.json
         </modifier>
         <modifier>
-            PiratesIncomingGround.xml
+            PiratesIncomingGround.json
         </modifier>
         <modifier>
-            PiratesPresentAir.xml
+            PiratesPresentAir.json
         </modifier>
         <modifier>
-            PiratesPresentGround.xml
+            PiratesPresentGround.json
         </modifier>
         <!--modifier>
             Need "special duel flag".
-            Duel.xml
+            Duel.json
         </modifier-->
         <!--modifier>
             Disabled until Princess can better manage Hidden units
-            EnemyAmbush.xml
+            EnemyAmbush.json
         </modifier-->
         <!--modifier>
             Disabled until Princess can better manage Hidden units
-            PlayerAmbush.xml
+            PlayerAmbush.json
         </modifier-->
         <modifier>
-            AlliedAirSupport.xml
+            AlliedAirSupport.json
         </modifier>
         <modifier>
-            AlliedAirSupportBombers.xml
+            AlliedAirSupportBombers.json
         </modifier>
         <modifier>
-            AlliedGroundSupport.xml
+            AlliedGroundSupport.json
         </modifier>
         <modifier>
-            AlliedArtySupport.xml
+            AlliedArtySupport.json
         </modifier>
         <modifier>
-            AlliedReinforcements.xml
+            AlliedReinforcements.json
         </modifier>
         <modifier>
-            AlliedTankReinforcements.xml
+            AlliedTankReinforcements.json
         </modifier>
         <modifier>
-            AlliedTurrets.xml
+            AlliedTurrets.json
         </modifier>
         <modifier>
-            AlliedMekReinforcements.xml
+            AlliedMekReinforcements.json
         </modifier>
         <!--modifier>
             Need campaign state
             Need way to change rat for OpFor
-            AlliedTreachery.xml
+            AlliedTreachery.json
         </modifier-->
         <modifier>
-            PreBattleDamageHostiles.xml
+            PreBattleDamageHostiles.json
         </modifier>
         <modifier>
-            PreBattleDamageAllies.xml
+            PreBattleDamageAllies.json
         </modifier>
         <!--modifier>
             Need planetary condition adjustments
-            OffworldOperation.xml
+            OffworldOperation.json
         </modifier-->
         <modifier>
-            AlliedTraineesGround.xml
+            AlliedTraineesGround.json
         </modifier>
         <modifier>
-            AlliedTraineesAir.xml
+            AlliedTraineesAir.json
         </modifier>
         <modifier>
-            SuperiorEquipment.xml
+            SuperiorEquipment.json
         </modifier>
         <modifier>
-            Elites.xml
+            Elites.json
         </modifier>
         <modifier>
-            ArmednArmored.xml
+            ArmednArmored.json
         </modifier>
         <modifier>
-            EnemyOfficerMek.xml
+            EnemyOfficerMek.json
         </modifier>
         <modifier>
-            EnemyCommanderMek.xml
+            EnemyCommanderMek.json
         </modifier>
         <modifier>
-            EnemyAirPatrol.xml
+            EnemyAirPatrol.json
         </modifier>
         <modifier>
-            EnemyMekPatrol.xml
+            EnemyMekPatrol.json
         </modifier>
         <!--modifier>
         These have been disabled as they are not era agnostic
-            EnemyAceMekARC2R.xml
+            EnemyAceMekARC2R.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekAWS8Q.xml
+            EnemyAceMekAWS8Q.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekFS9M.xml
+            EnemyAceMekFS9M.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekGHR5N.xml
+            EnemyAceMekGHR5N.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekHGN733P.xml
+            EnemyAceMekHGN733P.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekMAD3D.xml
+            EnemyAceMekMAD3D.json
         </modifier-->
         <!--modifier>
-            EnemyAceMekPXH1D.xml
+            EnemyAceMekPXH1D.json
         </modifier-->
         <!--modifier>
-            EnemyAirCav.xml
+            EnemyAirCav.json
         </modifier-->
         <!--modifier>
-            EnemyAirMobileInf.xml
+            EnemyAirMobileInf.json
         </modifier-->
         <!--modifier>
         These have been disabled as they are not era agnostic
-            EnemyMercFireSupport.xml
+            EnemyMercFireSupport.json
         </modifier-->
         <!--modifier>
-            EnemyMercBrawl.xml
+            EnemyMercBrawl.json
         </modifier-->
         <!--modifier>
-            EnemyMercSkirmish.xml
+            EnemyMercSkirmish.json
         </modifier-->
         <!--modifier>
-            EnemyMercScouts.xml
+            EnemyMercScouts.json
         </modifier-->
         <!--modifier>
-            AlliedCavLance.xml
+            AlliedCavLance.json
         </modifier-->
         <!--modifier>
-            AlliedMekAceCRD.xml
+            AlliedMekAceCRD.json
         </modifier-->
         <!--modifier>
-            AlliedMekAceGLT.xml
+            AlliedMekAceGLT.json
         </modifier-->
         <!--modifier>
-            AlliedMekAceGOL.xml
+            AlliedMekAceGOL.json
         </modifier-->
         <!--modifier>
-            AlliedMekAceOTT.xml
+            AlliedMekAceOTT.json
         </modifier-->
         <!--modifier>
-            AlliedMekAceTBT.xml
+            AlliedMekAceTBT.json
         </modifier-->
         <modifier>
-            AlliedOfficerMek.xml
+            AlliedOfficerMek.json
         </modifier>
         <modifier>
-            EnemyMercHopInfantry.xml
+            EnemyMercHopInfantry.json
         </modifier>
         <modifier>
-            EnemyMercSkyInfantry.xml
+            EnemyMercSkyInfantry.json
         </modifier>
         <modifier>
-            AlliedHorseCav.xml
-        </modifier>
-        <!--modifier>
-            AlliedASFAce01.xml
-        </modifier-->
-        <modifier>
-            EnemyFieldArtyCrack.xml
-        </modifier>
-        <modifier>
-            EnemyFieldArtyOffboard.xml
+            AlliedHorseCav.json
         </modifier>
         <!--modifier>
-            EnemyASFAce01.xml
-        </modifier>
-        <modifier>
-            EnemyASFAce02.xml
+            AlliedASFAce01.json
         </modifier-->
         <modifier>
-            PrimaryAlliesGround.xml
+            EnemyFieldArtyCrack.json
+        </modifier>
+        <modifier>
+            EnemyFieldArtyOffboard.json
+        </modifier>
+        <!--modifier>
+            EnemyASFAce01.json
+        </modifier>
+        <modifier>
+            EnemyASFAce02.json
+        </modifier-->
+        <modifier>
+            PrimaryAlliesGround.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>

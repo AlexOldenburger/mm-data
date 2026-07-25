@@ -44,7 +44,7 @@
         ]
     },
     "scenarioModifiers": [
-        "Elites.xml"
+"Elites.json"
     ],
     "scenarioForces": {
         "Player": {

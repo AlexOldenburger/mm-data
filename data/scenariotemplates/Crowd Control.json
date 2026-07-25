@@ -42,7 +42,7 @@
         ]
     },
     "scenarioModifiers": [
-        "Rookies.xml"
+"Rookies.json"
     ],
     "scenarioForces": {
         "Player": {

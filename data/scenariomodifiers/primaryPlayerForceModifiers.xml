@@ -19,36 +19,36 @@
 <scenarioModifierManifest>
     <modifiers>
         <modifier>
-            IntegratedAlliesGround.xml
+            IntegratedAlliesGround.json
         </modifier>
         <modifier>
-            HouseOfficerGround.xml
+            HouseOfficerGround.json
         </modifier>
         <modifier>
-            LiaisonGround.xml
+            LiaisonGround.json
         </modifier>
         <modifier>
-            PrimaryAlliesGround.xml
+            PrimaryAlliesGround.json
         </modifier>
         <modifier>
-            AlliedTraineesGround.xml
+            AlliedTraineesGround.json
         </modifier>
 
         <!-- and the air versions -->
         <modifier>
-            IntegratedAlliesAir.xml
+            IntegratedAlliesAir.json
         </modifier>
         <modifier>
-            HouseOfficerAir.xml
+            HouseOfficerAir.json
         </modifier>
         <modifier>
-            LiaisonAir.xml
+            LiaisonAir.json
         </modifier>
         <modifier>
-            PrimaryAlliesAir.xml
+            PrimaryAlliesAir.json
         </modifier>
         <modifier>
-            AlliedTraineesAir.xml
+            AlliedTraineesAir.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>

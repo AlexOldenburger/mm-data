@@ -44,7 +44,7 @@
         ]
     },
     "scenarioModifiers": [
-        "GoodIntel.xml"
+"GoodIntel.json"
     ],
     "scenarioForces": {
         "Player": {

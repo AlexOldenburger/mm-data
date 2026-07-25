@@ -19,10 +19,10 @@
 <scenarioModifierManifest>
     <modifiers>
         <modifier>
-            FacilityHostileDestroyNonWin.xml
+            FacilityHostileDestroyNonWin.json
         </modifier>
         <modifier>
-            FacilityHostileCaptureNonWin.xml
+            FacilityHostileCaptureNonWin.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>

@@ -20,10 +20,10 @@
 <scenarioModifierManifest>
     <modifiers>
         <modifier>
-            FacilityAlliedDefend.xml
+            FacilityAlliedDefend.json
         </modifier>
         <modifier>
-            FacilityAlliedEvac.xml
+            FacilityAlliedEvac.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>

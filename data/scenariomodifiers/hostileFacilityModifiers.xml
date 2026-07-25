@@ -20,22 +20,22 @@
     <modifiers>
         <!-- Facility objective modifiers -->
         <modifier>
-            FacilityHostileDestroy.xml
+            FacilityHostileDestroy.json
         </modifier>
         <modifier>
-            FacilityHostileCapture.xml
+            FacilityHostileCapture.json
         </modifier>
         <modifier>
-            FacilityHostileEngage.xml
+            FacilityHostileEngage.json
         </modifier>
         <modifier>
-            FacilityHostileExtract.xml
+            FacilityHostileExtract.json
         </modifier>
         <modifier>
-            FacilityHostileRecon.xml
+            FacilityHostileRecon.json
         </modifier>
         <modifier>
-            FacilityHostilePreventEvac.xml
+            FacilityHostilePreventEvac.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>

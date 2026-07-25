@@ -20,92 +20,92 @@
 <scenarioModifierManifest>
     <modifiers>
         <modifier>
-            EnemyAirSupport.xml
+            EnemyAirSupport.json
         </modifier>
         <modifier>
-            EnemyAirSupportBombers.xml
+            EnemyAirSupportBombers.json
         </modifier>
         <modifier>
-            OverwhelmingEnemyAirReinforcements.xml
+            OverwhelmingEnemyAirReinforcements.json
         </modifier>
         <modifier>
-            Rookies.xml
+            Rookies.json
         </modifier>
         <modifier>
-            Veterans.xml
+            Veterans.json
         </modifier>
         <modifier>
-            BadEquipment.xml
+            BadEquipment.json
         </modifier>
         <modifier>
-            GoodEquipment.xml
+            GoodEquipment.json
         </modifier>
         <!--modifier>
             Need ability to allow player to specifically deploy DropShips
-            HotDrop.xml
+            HotDrop.json
         </modifier-->
         <!--modifier>
             Removed by popular demand
-            EnemyDropShip.xml
+            EnemyDropShip.json
         </modifier-->
         <modifier>
-            GoodIntel.xml
+            GoodIntel.json
         </modifier>
         <modifier>
-            BadIntelAir.xml
+            BadIntelAir.json
         </modifier>
         <modifier>
-            PiratesIncomingAir.xml
+            PiratesIncomingAir.json
         </modifier>
         <modifier>
-            PiratesPresentAir.xml
+            PiratesPresentAir.json
         </modifier>
         <!--modifier>
             Need "special duel flag".
-            Duel.xml
+            Duel.json
         </modifier-->
         <!--modifier>
             Disabled until Princess can better manage Hidden units
-            EnemyAmbush.xml
+            EnemyAmbush.json
         </modifier-->
         <!--modifier>
             Disabled until Princess can better manage Hidden units
-            PlayerAmbush.xml
+            PlayerAmbush.json
         </modifier-->
         <modifier>
-            AlliedAirSupport.xml
+            AlliedAirSupport.json
         </modifier>
         <modifier>
-            AlliedAirSupportBombers.xml
+            AlliedAirSupportBombers.json
         </modifier>
         <!--modifier>
             Need campaign state
             Need way to change rat for OpFor
-            AlliedTreachery.xml
+            AlliedTreachery.json
         </modifier-->
         <modifier>
-            PreBattleDamageHostiles.xml
+            PreBattleDamageHostiles.json
         </modifier>
         <modifier>
-            PreBattleDamageAllies.xml
+            PreBattleDamageAllies.json
         </modifier>
         <modifier>
-            AlliedTraineesAir.xml
+            AlliedTraineesAir.json
         </modifier>
         <modifier>
-            EnemyAirPatrol.xml
+            EnemyAirPatrol.json
         </modifier>
         <!--modifier>
-            AlliedASFAce01.xml
+            AlliedASFAce01.json
         </modifier>
         <modifier>
-            EnemyASFAce01.xml
+            EnemyASFAce01.json
         </modifier>
         <modifier>
-            EnemyASFAce02.xml
+            EnemyASFAce02.json
         </modifier-->
         <modifier>
-            PrimaryAlliesAir.xml
+            PrimaryAlliesAir.json
         </modifier>
     </modifiers>
 </scenarioModifierManifest>
