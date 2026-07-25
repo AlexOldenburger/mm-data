@@ -34,13 +34,12 @@ Infantry are poorly trained and equipped. -->
 
     <toc>
         <unitType>
-            <option ifDateBetween="3051,">null,Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
-            <option ifDateBetween="2500,3050">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
-            <option>null,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
+            <option ifDateBetween="3051,">Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
+            <option ifDateBetween="2500,3050">Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
+            <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
         <echelon>
-            <option ifUnitType="">%BRIGADE%</option>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
