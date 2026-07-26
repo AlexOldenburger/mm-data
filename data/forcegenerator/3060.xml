@@ -1618,7 +1618,7 @@
                 <availability>LA:4,FS:4</availability>
             </model>
             <model name='(Tanker)'>
-                <roles>support</roles>
+                <roles>cargo,support</roles>
                 <availability>LA:4,FS:4</availability>
             </model>
             <model name='(Vehicle)'>
