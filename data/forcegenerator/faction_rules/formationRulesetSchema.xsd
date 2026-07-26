@@ -74,6 +74,7 @@
                 <xs:element ref="defaults" />
                 <xs:element minOccurs="0" maxOccurs="1" ref="customRanks" />
                 <xs:element minOccurs="0" maxOccurs="1" ref="toc" />
+                <xs:element minOccurs="0" maxOccurs="1" ref="formationNaming" />
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="force" />
             </xs:sequence>
             <xs:attribute name="faction" type="xs:string" />
@@ -145,6 +146,50 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+    <!-- How this faction designates formations relative to their siblings, read by
+         megamek FormationNamingConvention. The <name> elements on <force> supply the flavour part of a
+         name ("Battle Lance", "Assault Cluster", "IV-alpha"); this supplies the positional part, which
+         differs between the Inner Sphere, the Clans and ComStar. Authored in the four root rulesets
+         (IS, CLAN, CS, Periphery) and inherited per echelon via the parent chain, so a faction can
+         override one echelon without restating the rest. -->
+    <xs:element name="formationNaming">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tier" type="namingTierType" minOccurs="0"
+                            maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="namingTierType">
+        <xs:attribute name="echelon" type="eschelonDefinition" use="required" />
+        <xs:attribute name="designator" type="designatorStyleType" use="required" />
+        <!-- "parent" prefixes the parent formation's designator, which is what keeps names unique
+             once a designator sequence restarts under each parent. Omitted means unqualified. -->
+        <xs:attribute name="qualifyWith">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="parent" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!-- Matches megamek FormationNamingConvention.DesignatorStyle. "alphabet" is the only value that
+         defers to the consumer's user-facing naming preference; the rest are fixed by the faction's
+         own tradition. -->
+    <xs:simpleType name="designatorStyleType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="engine" />
+            <xs:enumeration value="alphabet" />
+            <xs:enumeration value="ordinal" />
+            <xs:enumeration value="numeric_ordinal" />
+            <xs:enumeration value="roman" />
+            <xs:enumeration value="greek" />
+            <xs:enumeration value="number" />
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:element name="customRanks">
         <xs:complexType>

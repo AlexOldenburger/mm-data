@@ -51,6 +51,24 @@ Infantry are poorly trained and equipped. -->
         </rating>
     </toc>
 
+    <!-- Periphery formation designation. Periphery states organise along Inner Sphere lines, so this
+         restates the IS convention rather than inventing a third tradition. It is declared here rather
+         than inherited because Periphery is a root ruleset with no parent to inherit from. -->
+    <formationNaming>
+        <tier echelon="%REGIMENT%" designator="alphabet" />
+        <tier echelon="%BATTALION%" designator="alphabet" />
+        <tier echelon="%COMPANY%" designator="alphabet" />
+        <tier echelon="%LANCE%" designator="alphabet" />
+        <!-- Echelons above regiment: brigades, and the naval hierarchy (Flotilla 5 / Division 6 /
+             Squadron 7 / Fleet 8 / ship-type category 9 / "Naval Units" root 10). Declaring them keeps
+             naval formations on the same naming scheme as the rest of the force instead of the
+             hardcoded phonetic they used to carry. -->
+        <tier echelon="%BRIGADE%" designator="alphabet" />
+        <tier echelon="%DIVISION%" designator="alphabet" />
+        <tier echelon="%CORPS%" designator="alphabet" />
+        <tier echelon="%ARMY%" designator="alphabet" />
+    </formationNaming>
+
     <!-- Planetary Militia: a combined-arms garrison, and the fallback organization for any MILITIA faction.
          Because <force> rule lookup walks parent factions, a periphery militia whose own ruleset defines no
          garrison rule resolves this one. Infantry-heavy with armor support and a small Mek contingent,
@@ -123,7 +141,7 @@ Infantry are poorly trained and equipped. -->
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2575">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2500,">
                 <option ifRating="D|F" />
@@ -133,7 +151,7 @@ Infantry are poorly trained and equipped. -->
                 <option unitType="Mek" ifDateBetween="2540,2574">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -174,19 +192,19 @@ Infantry are poorly trained and equipped. -->
 
         <attachedForces ifTopLevel="1">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%SQUADRON%
+                      name="Aerospace {echelon}">%SQUADRON%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%REGIMENT%
+                      name="Armor {echelon}">%REGIMENT%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
             <!-- A standalone battalion gets a single combat Engineer Platoon (four subunits). The whole
                  block is already top-level gated, so a battalion inside a larger force does not attach
                  one - the parent's Engineer Company covers those. -->
             <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
                         role="engineer">%PLATOON%
                 </option>
                 <option weight="1" />
@@ -396,31 +414,31 @@ Infantry are poorly trained and equipped. -->
 
         <attachedForces ifRole="!artillery|missile_artillery">
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />

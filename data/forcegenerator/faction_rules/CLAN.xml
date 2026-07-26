@@ -53,6 +53,28 @@
         </flags>
     </toc>
 
+    <!-- Clan formation designation. Inherited by every Clan-specific ruleset.
+
+         Galaxies are "named for a letter of the Greek alphabet" (Alpha, Delta, Omega) - the one Clan
+         echelon for which a naming convention is documented, and fixed here rather than left to the
+         player's alphabet preference precisely because it is canon.
+
+         Everything below Galaxy stays with the ruleset, which already produces better Clan names than
+         any positional scheme could: "Trinary [Battle]", "Assault Cluster", "{ordinal:distinct} Binary
+         [Striker]", "{phonetic} Command Nova". Those keep their names unless two siblings actually
+         collide.
+
+         Clusters are numbered rather than lettered - "11th Mechanized Cluster", "3rd Battle Cluster" -
+         so they use numeric ordinals and ignore the player's naming alphabet, as galaxies do. The Clan
+         military structure article does not document this, but it is standard canon usage. -->
+    <formationNaming>
+        <tier echelon="%GALAXY%" designator="greek" />
+        <tier echelon="%CLUSTER%" designator="numeric_ordinal" />
+        <tier echelon="%TRINARY%" designator="engine" />
+        <tier echelon="%BINARY%" designator="engine" />
+        <tier echelon="%STAR%" designator="alphabet" />
+    </formationNaming>
+
     <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo>%SAKHAN%</xo>
@@ -116,7 +138,7 @@
 
         <!-- Galaxy-level engineer support: a combined-arms Engineer Binary (two Engineer Stars). -->
         <attachedForces>
-            <subforce unitType="Infantry" role="engineer" name="Engineers">%BINARY%</subforce>
+            <subforce unitType="Infantry" role="engineer" name="Engineering {echelon}">%BINARY%</subforce>
         </attachedForces>
     </force>
 
@@ -454,7 +476,7 @@
                 <option weight="11" />
             </subforceOption>
             <!-- Cluster-level engineer support: a combined-arms Engineer Star. -->
-            <subforce unitType="Infantry" role="engineer" name="Engineers">%STAR%</subforce>
+            <subforce unitType="Infantry" role="engineer" name="Engineering {echelon}">%STAR%</subforce>
         </attachedForces>
     </force>
 

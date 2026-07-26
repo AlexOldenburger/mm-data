@@ -65,6 +65,30 @@
         </flags>
     </toc>
 
+    <!-- ComStar formation designation, inherited by the Word of Blake through parent="CS".
+
+         Almost everything here is deliberately "engine": ComStar formation names are already carried by
+         the <name> elements below, and a positional designator prepended to them would be wrong.
+
+         The Greek suffix on a Level IV or Level III name is NOT a sequence position - in the Com Guards
+         a Greek letter denotes branch specialisation (epsilon MechWarrior, pi aerospace, iota infantry,
+         lambda ground armour, xi DropShip, theta JumpShip/WarShip). "IV-alpha" and "IV-beta" are
+         therefore different kinds of formation, not the first and second of a kind, and advancing one
+         to the other would silently change what the unit is. The flags above already assign these; they
+         must be preserved exactly as generated.
+
+         Divisions are not individually designated in standard Com Guard operations, so no tier is
+         declared for them - they keep the ruleset's name and are disambiguated only on a real
+         collision. Armies do carry an ordinal ("1st Army"), alongside a Greek branch designation and an
+         Inner Sphere Clock hour that this generator does not attempt. -->
+    <formationNaming>
+        <tier echelon="%LEVEL_VI%" designator="ordinal" />
+        <tier echelon="%LEVEL_V%" designator="ordinal" />
+        <tier echelon="%LEVEL_IV%" designator="engine" />
+        <tier echelon="%LEVEL_III%" designator="engine" />
+        <tier echelon="%LEVEL_II%" designator="alphabet" />
+    </formationNaming>
+
     <force echelon="%LEVEL_IV%" eschName="Level IV">
         <name ifFlags="alpha">IV-alpha</name>
         <name ifFlags="beta">IV-beta</name>
@@ -166,9 +190,9 @@
         of artillery support closer to typical IS levels by adding 1-3 additional support LIIs to the LIV. -->
         <attachedForces>
             <subforceOption>
-                <option num="1" role="artillery" name="Artillery Support">%LEVEL_II%</option>
-                <option num="2" role="artillery" name="Artillery Support">%LEVEL_II%</option>
-                <option num="3" role="artillery" name="Artillery Support">%LEVEL_II%</option>
+                <option num="1" role="artillery" name="Artillery {echelon}">%LEVEL_II%</option>
+                <option num="2" role="artillery" name="Artillery {echelon}">%LEVEL_II%</option>
+                <option num="3" role="artillery" name="Artillery {echelon}">%LEVEL_II%</option>
             </subforceOption>
         </attachedForces>
 
