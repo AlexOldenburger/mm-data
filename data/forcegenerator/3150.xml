@@ -1689,6 +1689,13 @@
                 <availability>RD:6</availability>
             </model>
         </chassis>
+        <chassis name='Aqueduct Liquid Carrier' unitType='Dropship'>
+            <availability>CC:4,LA:4,FWL:4,IS:2,FS:4,CP:4,DC:4,Periphery:2</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Archer' unitType='Mek'>
             <availability>CC:4,RD:4,LA:6,FWL:6,CP:6,Periphery:3,DC:5</availability>
             <model name='(Wolf)'>
@@ -3084,11 +3091,26 @@
                 <availability>General:4</availability>
             </model>
         </chassis>
+        <chassis name='Behemoth C' unitType='Dropship'>
+            <availability>CLAN:2</availability>
+            <model name='(2848)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='(Arcship)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:4</availability>
+            </model>
+        </chassis>
         <chassis name='Behemoth' unitType='Dropship'>
             <availability>CC:2,LA:2,FWL:2,IS:1,FS:2,CP:2,DC:2,Periphery:1</availability>
             <model name='(2658)'>
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2782)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Bellona Hover Tank' unitType='Tank'>
@@ -3728,6 +3750,14 @@
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2792)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
+            </model>
+            <model name='Rezak'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Mek'>
@@ -14920,6 +14950,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>Periphery.Deep:3</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='MIT23 MASH Vehicle' unitType='Tank'>
             <availability>CLAN.IS:3,LA:4,ROS:6,FS:4,MERC:4,CWIE:2</availability>
             <model name=''>
@@ -15135,6 +15172,10 @@
             <model name='(2658)'>
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2808)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Mamono IFV' unitType='Tank'>
@@ -17647,6 +17688,13 @@
             <model name='GMMM-2M-B MiningMech MOD'>
                 <roles>fire_support</roles>
                 <availability>CC:2-,FWL:2-,Periphery:3-,TC:1-,MOC:1-,Periphery.Deep:0,SE:0</availability>
+            </model>
+        </chassis>
+        <chassis name='Mule C' unitType='Dropship'>
+            <availability>CLAN:5,BAN:2</availability>
+            <model name='(2842)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Mule' unitType='Dropship'>
@@ -20652,6 +20700,10 @@
             <model name='(3054)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(Hive)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Rottweiler Battle Armor' unitType='BattleArmor'>

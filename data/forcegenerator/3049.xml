@@ -951,6 +951,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Aqueduct Liquid Carrier' unitType='Dropship'>
+            <availability>CC:4,CS:3,LA:4,FRR:4,FWL:4,IS:2,WOB:2,SIC:4,FS:4,DC:4,Periphery:2</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Archer' unitType='Mek'>
             <availability>IS:7,FS:6,FWL:6,CC:6,SIC:6,CS!A:3!B:3!C:4!D:5!F:6,WOB:4-,FC:7,CLAN:2-,CLAN.IS:2-,CLAN.HW:2-,CBS:4-,CCC!Second Line:1!Solahma:3!Provisional Garrison:4,CFM:3-,CHH!Solahma:1!Provisional Garrison:3,Periphery:5,TC:6,CIR:4,NIOPS:5-,Periphery.Deep:3,BAN:3</availability>
             <model name='ARC-1A'>
@@ -1616,11 +1623,22 @@
                 <availability>General:2,DC:2</availability>
             </model>
         </chassis>
+        <chassis name='Behemoth C' unitType='Dropship'>
+            <availability>CLAN:2</availability>
+            <model name='(2848)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Behemoth' unitType='Dropship'>
             <availability>CC:2,CS:2,LA:2,FRR:2,FWL:2,IS:1,NIOPS:2,WOB:2,SIC:2,FS:2,DC:2,Periphery:1</availability>
             <model name='(2658)'>
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2782)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Black Hawk (Nova)' unitType='Mek' omni='Clan'>
@@ -1825,6 +1843,10 @@
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2792)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Mek'>
@@ -7289,6 +7311,10 @@
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
             </model>
+            <model name='(2808)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
+            </model>
         </chassis>
         <chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
             <availability>CLAN:3+,CLAN.IS:3+,CGB!Keshik:2!Front Line:1!Second Line:1,CNC!Keshik:2!Front Line:3!Second Line:1,CDS!Keshik:3!Front Line:3,CSJ!Keshik:1!Front Line:1!Second Line:1!Solahma:1,CSV!Keshik:3!Front Line:2!Second Line:2!Solahma:1,CW!Keshik:4!Front Line:2,CLAN.HW:3+,CBS!Keshik:2!Front Line:2!Second Line:1,CB:2+,CFM!Keshik:2!Front Line:2!Second Line:1,CGS!Keshik:4!Front Line:3!Second Line:2,CHH!Keshik:4!Front Line:3!Second Line:2,CSR!Keshik:2!Front Line:2!Second Line:2,CSA!Keshik:2!Front Line:2!Second Line:1!Solahma:1,BAN:0</availability>
@@ -8395,6 +8421,13 @@
                 <availability>IS:6,Periphery:6,HL:6,Periphery.Deep:6</availability>
             </model>
         </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>Periphery.Deep:3</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Miraborg' unitType='Dropship'>
             <availability>CSJ:2</availability>
             <model name='(3053)'>
@@ -8874,6 +8907,13 @@
             <model name='GMMM-2 MiningMech'>
                 <roles>civilian</roles>
                 <availability>IS:8,FS:8,LA:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Mule C' unitType='Dropship'>
+            <availability>CLAN:5,BAN:2</availability>
+            <model name='(2842)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Mule' unitType='Dropship'>
