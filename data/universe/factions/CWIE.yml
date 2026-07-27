@@ -77,24 +77,3 @@ factionLeaders:
     endYear: 3151
 usesMercenaries:
   2500: false
-
-# Bloodname houses originating with this Clan. Mechanical fields mirror
-# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
-bloodnames:
-  - name: "Kell"
-    houses:
-      - founder: "Phelan"
-        founderFullName: "Phelan Kell"
-        founderRank: "first Khan"
-        founderAffiliation: "Clan Wolf-in-Exile"
-        created: "3057"
-        exclusive: true
-        postReaving: [CWIE]
-        summary: "The Kell Bloodname was created by ilKhan Ulric Kerensky. The Bloodname was only used by Clan Wolf-in-Exile, and (outside of Lana Kell) it is unknown if any Bloodrights were still active in the new Star League and Clan Wolf within it."
-        notableHolders:
-          - { name: "Lana Kell", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
-        sources:
-          - { title: "Dark Age: Republic of the Sphere" }
-          - { title: "Malicious Intent" }
-          - { title: "The Weight of a Name" }
-        history: ~
