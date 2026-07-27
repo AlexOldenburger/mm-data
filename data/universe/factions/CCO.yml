@@ -150,3 +150,651 @@ factionLeaders:
     endYear: 3085
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Christofferson"
+    houses:
+      - founder: "Mikael"
+        founderFullName: "Mikael Christofferson"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        summary: "The Christofferson Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "David Christofferson", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Clearwater"
+    houses:
+      - founder: "Francois"
+        founderFullName: "Francois Clearwater"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Clearwater Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Raven Clearwater", rank: "saKhan", affiliation: "Clan Coyote" }
+          - { name: "Dyson Clearwater", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Brittany Clearwater", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Rolen Clearwater", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Stephen Clearwater", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Uriel Clearwater", rank: "Star Captain", affiliation: "Clan Snow Raven" }
+          - { name: "Lucien Clearwater", rank: "Star Commander", affiliation: "Raven Alliance" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 12", abbrev: "RG12" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Drewsivitch"
+    houses:
+      - founder: "Reiko"
+        founderFullName: "Reiko Drewsivitch"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Drewsivitch bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Orla Drewsivitch", rank: "Star Admiral", affiliation: "Clan Coyote" }
+          - { name: "Carey Drewsivitch", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Jorges Drewsivitch", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Niki Drewsivitch", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Sylvie Drewsivitch", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Wendy Drewsivitch", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Eagle"
+    houses:
+      - founder: "Serena"
+        founderFullName: "Serena Eagle"
+        founderAffiliation: "Clan Coyote"
+        notableHolders:
+          - { name: "Jacob Eagle", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Era Report: 3062" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Gruber"
+    houses:
+      - founder: "Briane"
+        founderFullName: "Briane Gruber"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        reactivated: "3075"
+        postReaving: [CCO]
+        summary: "The Gruber Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Ekaterin Gruber", rank: "Star Commander", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "BattleTech: Proliferation Cycle Pack" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Heller"
+    houses:
+      - founder: "Tatyana"
+        founderFullName: "Tatyana Heller"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CCO]
+        summary: "The Heller Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Carl Heller", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Creighton Heller", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Illith Heller", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Joshma Heller", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Hill"
+    houses:
+      - founder: "Amaury"
+        founderFullName: "Amaury Hill"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Hill Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Neal Hill", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Niles Hill", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Hoffman"
+    houses:
+      - founder: "Annemieke"
+        founderFullName: "Annemieke Hoffman"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Hoffman Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Cheona Hoffman", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Lawrence Hoffman", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Hollifield"
+    houses:
+      - founder: "Roseli"
+        founderFullName: "Roseli Hollifield"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Hollifield Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Manfred Hollifield", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Timothy Hollifield", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Jerricho"
+    houses:
+      - founder: "Kesar"
+        founderFullName: "Kesar Jerricho"
+        founderRank: "first saKhan and second Khan"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CCO]
+        summary: "The Jerricho Bloodname was a Clan Coyote founding legacy."
+        notableHolders:
+          - { name: "Clarissa Jerricho", rank: "Loremaster", affiliation: "Clan Coyote" }
+          - { name: "Kent Jerricho", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Nathaniel Jerricho", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Rachel Jerricho", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Schelby Jerricho", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Nia Jerricho", rank: "Star Captain", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Jones"
+    houses:
+      - founder: "Pyrros"
+        founderFullName: "Pyrros Jones"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Jones Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Jurack"
+    houses:
+      - founder: "Ren"
+        founderFullName: "Ren Jurack"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Jurack Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Kautz"
+    houses:
+      - founder: "Roberto"
+        founderFullName: "Roberto Kautz"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        reactivated: "3075"
+        postReaving: [CCO]
+        summary: "The Kautz Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kielman"
+    houses:
+      - founder: "Johann"
+        founderFullName: "Johann Kielman"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        summary: "The Kielman Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "James Kielman", rank: "saKhan", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Koga"
+    houses:
+      - founder: "Simon"
+        founderFullName: "Simon Koga"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CCO,CSL,CSA]
+        summary: "The Koga Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Leo Koga", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Sullivan Koga", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Gunnar Koga", rank: "saKhan", affiliation: "Clan Coyote" }
+          - { name: "Jaquice Koga", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Brian Koga", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Dale Koga", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Frank Koga", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Fyona Koga", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Gruber Koga", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Louis Koga", rank: "Star Colonel", affiliation: "Clan Stone Lion" }
+          - { name: "Scott Koga", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Tanya Koga", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Alfa Koga", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Withyn Koga", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Vertin Koga", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Nok Koga", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: ComStar" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Wolf Clan Sourcebook" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kozyrev"
+    houses:
+      - founder: "Constantina"
+        founderFullName: "Constantina Kozyrev"
+        founderAffiliation: "Clan Coyote"
+        postReaving: [CCO]
+        summary: "The Kozyrev Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Natron Kozyrev", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Lassiter Kozyrev", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Georgiy Kozyrev", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Messhia Kozyrev", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Rhea Kozyrev", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Stanislaw Kozyrev", rank: "Star Colonel", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kufahl"
+    houses:
+      - founder: "Dana"
+        founderFullName: "Dana Kufahl"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Kufahl Bloodname was a Clan Coyote founding legacy."
+        notableHolders:
+          - { name: "Silas Kufahl", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Terrence Kufahl", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Brenda Kufahl", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Fay Kufahl", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Farryn Kufahl", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Qitarah Kufahl", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Sancia Kufahl", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Jobi Kufahl", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Levien"
+    houses:
+      - founder: "Zarco"
+        founderFullName: "Zarco Levien"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        summary: "The Levien Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Judas Levien", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Ashar Levien", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Daniel Levien", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Dominick Levien", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Pillan Levien", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+        history: ~
+  - name: "Lombardi"
+    houses:
+      - founder: "Jiang"
+        founderFullName: "Jiang Lombardi"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Lombardi Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Yesston Lombardi", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Markopolous"
+    houses:
+      - founder: "Ilse"
+        founderFullName: "Ilse Markopolous"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Markopolous Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Kanya Markopolous", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Richard Markopolous", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Masino"
+    houses:
+      - founder: "Wilhelm"
+        founderFullName: "Wilhelm Masino"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        reactivated: "3075"
+        postReaving: [CCO]
+        summary: "The Masino Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Alejandra Masino", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Lisle Masino", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Tomas Masino", rank: "Star Captain", affiliation: "Clan Cloud Cobra" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Seeds of Loyalty" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Maybank"
+    houses:
+      - founder: "Kallas"
+        founderFullName: "Kallas Maybank"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Maybank Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "McTighe"
+    houses:
+      - founder: "Lasannr"
+        founderFullName: "Lisannr McTighe"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CCO]
+        summary: "The McTighe Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Kevin McTighe", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Laura McTighe", rank: "saKhan", affiliation: "Clan Coyote" }
+          - { name: "Demos McTighe", rank: "Star Admiral", affiliation: "Clan Coyote" }
+          - { name: "Bryant McTighe", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Logan McTighe", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Rachel McTighe", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Tam McTighe", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Yvonne McTighe", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Nash"
+    houses:
+      - founder: "Jebediah"
+        founderFullName: "Jebediah Nash"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "GENERAL"
+        exclusive: true
+        limited: true
+        postReaving: [CCO]
+        summary: "The Nash Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Elissa Nash", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Maisie Nash", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Meagan Nash", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "James Nash", rank: "Star Captain", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+        history: ~
+  - name: "Nuyriev"
+    houses:
+      - founder: "Eko"
+        founderFullName: "Eko Nuyriev"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Nuyriev Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Gosvoda Nuyriev", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+          - { name: "Ryan Nuyriev", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Maribeth Nuyriev", affiliation: "Ghost Bear Dominion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+        history: ~
+  - name: "Pamies"
+    houses:
+      - founder: "Yevgeny"
+        founderFullName: "Yevgeny Pamies"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Pamies Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Parker"
+    houses:
+      - founder: "He"
+        founderFullName: "He Parker"
+        founderAffiliation: "Clan Coyote"
+        notableHolders:
+          - { name: "Kay Parker", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Rosanske"
+    houses:
+      - founder: "Susanne"
+        founderFullName: "Susanne Rosanske"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        reactivated: "3075"
+        postReaving: [CCO]
+        summary: "The Rosanske Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Skyes"
+    houses:
+      - founder: "Alisen"
+        founderFullName: "Alisen Skyes"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Skyes Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Anna Skyes", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Smith"
+    houses:
+      - founder: "Christoph"
+        founderFullName: "Christoph Smith"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        notableHolders:
+          - { name: "Cameron Smith", rank: "Star Commander", affiliation: "Clan Coyote" }
+          - { name: "Brinley Smith", rank: "Falconer Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Emerald Sword" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Sorokina"
+    houses:
+      - founder: "Keith"
+        founderFullName: "Keith Sorokina"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Sorokina Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Steele"
+    houses:
+      - founder: "Warren"
+        founderFullName: "Warren Steele"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CCO,CSL]
+        summary: "The Steele Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Robin Steele", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Tatiana Steele", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Katarina Steele", rank: "saKhan", affiliation: "Clan Coyote" }
+          - { name: "Jared Steele", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Adham Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Bryce Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Corrigan Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Hanako Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Luigi Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Stuczynski"
+    houses:
+      - founder: "Samantha"
+        founderFullName: "Samantha Stuczynski"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Stuczynski Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Tamzarian"
+    houses:
+      - founder: "Bryce"
+        founderFullName: "Bryce Tamzarian"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Tamzarian Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Armin Tamzarian", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Trish Tamzarian", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Tangen"
+    houses:
+      - founder: "Erica"
+        founderFullName: "Erica Tangen"
+        founderAffiliation: "Clan Coyote"
+        reaved: "2976"
+        summary: "The Tangen Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Tchernovkov"
+    houses:
+      - founder: "Gerek"
+        founderFullName: "Gerek Tchernovkov"
+        founderAffiliation: "Clan Coyote"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CCO]
+        summary: "The Tchernovkov Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Corian Tchernovkov", rank: "ilKhan", affiliation: "Clan Coyote" }
+          - { name: "Pazi Tchernovkov", rank: "saKhan", affiliation: "Clan Coyote" }
+          - { name: "Alexis Tchernovkov", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Harm Tchernovkov", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Nanami Tchernovkov", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ranford Tchernovkov", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Arcturus Tchernovkov", rank: "Star Captain", affiliation: "Clan Coyote" }
+          - { name: "Michael Tchernovkov", rank: "Pilot", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "The Clans: Warriors of Kerensky" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Tlavnic"
+    houses:
+      - founder: "Robert"
+        founderFullName: "Robert Tlavnic"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Tlavnic Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Lafferty Tlavnic", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Sally Tlavnic", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Topol"
+    houses:
+      - founder: "Drew"
+        founderFullName: "Drew Topol"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Topol Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Dakari Topol", rank: "Star Colonel", affiliation: "Clan Coyote" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Weber-Gale"
+    houses:
+      - founder: "Roman"
+        founderFullName: "Roman Weber-Gale"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Weber-Gale Bloodname was a Clan Coyote founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Wicks"
+    houses:
+      - founder: "Kiel"
+        founderFullName: "Kiel Wicks"
+        founderAffiliation: "Clan Coyote"
+        summary: "The Wicks Bloodname was a Clan Coyote founding name."
+        notableHolders:
+          - { name: "Yellu Wicks", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~

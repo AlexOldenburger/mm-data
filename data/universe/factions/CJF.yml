@@ -136,3 +136,1248 @@ factionLeaders:
     startYear: 3151
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Bailey"
+    houses:
+      - founder: "István"
+        founderFullName: "István Bailey"
+        founderAffiliation: "Clan Jade Falcon"
+        notableHolders:
+          - { name: "Patricia Bailey", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Mark Bailey", rank: "Star Captain", affiliation: "Wolf Empire" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "A Question of Survival" }
+          - { title: "Recognition Guide: ilClan, vol. 24", abbrev: "RG24" }
+        history: ~
+  - name: "Bang-Chu"
+    houses:
+      - founder: "Julien"
+        founderFullName: "Julien Bang-Chu"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Bang-Chu Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Joel Bang-Chu", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Greton Bang-Chu", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Bewley"
+    houses:
+      - founder: "Chantelle"
+        founderFullName: "Chantelle Bewley"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Bewley Bloodname was a Clan Jade Falcon founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Binetti"
+    houses:
+      - founder: "Hanati"
+        founderFullName: "Hanati Binetti"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        limited: true
+        postReaving: [CJF]
+        summary: "The Binetti Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Ernest Binetti", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Carlos Binetti", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Dolphus Binetti", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Sharizal Binetti", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Maraig Binetti", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Charlotte Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Kaidu Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Li Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Noonan Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Velman Binetti", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Anvil (novella)" }
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Brak"
+    houses:
+      - founder: "Manon"
+        founderFullName: "Manon Brak"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Brak Bloodname was a Clan Jade Falcon founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Buckenburger"
+    houses:
+      - founder: "Yunaika"
+        founderFullName: "Yunaika Buckenburger"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Buckenburger Bloodname was a Clan Jade Falcon founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Buhallin"
+    houses:
+      - founder: "Lisa"
+        founderFullName: "Lisa Buhallin"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CJF]
+        summary: "The Buhallin Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Natalie Buhallin", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Sejanus Buhallin", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Uvin Buhallin", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Julia Buhallin", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Christina Buhallin", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Evelyn Buhallin", rank: "Galaxy Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Fred Buhallin", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jagjit Buhallin", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Merlin Buhallin", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Arthur Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Brikai Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Collin Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Devin Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Gina Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Hoshi Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Keith Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Larissa Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lauchian Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lucille Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Reynard Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Rianna Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Thomas Buhallin", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Jacque Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jinn Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Kelly Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Nurten Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Owanna Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Philip Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Randy Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Sentania Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Seward Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Theodore Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tlall Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Winona Buhallin", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Boris Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Daniella Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Eve Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ollard Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Trent Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Tyrne Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gera Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Karoline Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Melissa Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Sinea Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Stanton Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Jessica Buhallin", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Battle for Twycross" }
+          - { title: "Betrayal of Ideals" }
+          - { title: "The Battle of Coventry" }
+          - { title: "Children of Kerensky" }
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Double Down" }
+          - { title: "Era Report: 3052" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Freebirth", abbrev: "Freebirth" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Shrapnel Issue 15" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Calbot"
+    houses:
+      - founder: "Adam"
+        founderFullName: "Adam Calbot"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Calbot Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Tanner Calbot", rank: "Logistics Overseer", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Sorrow of Eden" }
+        history: ~
+  - name: "ChiLi"
+    houses:
+      - founder: "Tom"
+        founderFullName: "Tom ChiLi"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The ChiLi Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Abraham ChiLi", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Chistu"
+    houses:
+      - founder: "Jill"
+        founderFullName: "Jill Chistu"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "GENERAL"
+        exclusive: true
+        limited: true
+        postReaving: [CJF]
+        summary: "The Chistu Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Jiyi Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Ruel Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Stephanie Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Vandervahn Chistu", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Erik Chistu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon circa 3072" }
+          - { name: "Erik Chistu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon as of 3135" }
+          - { name: "Benjamin Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Carl Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Hastur Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lejla Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Arielle Chistu", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Danton Chistu", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Anvil" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+          - { title: "Malicious Intent" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Clees"
+    houses:
+      - founder: "Zhang"
+        founderFullName: "Zhang Clees"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Clees Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Samantha Clees", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Temple Clees", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Cortland Clees", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Derek-Jaim Clees", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lysle Clees", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Christopher Clees", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "BattleTech Legends" }
+          - { title: "Blood of the Isle" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+          - { title: "Recognition Guide: ilClan, vol. 8" }
+          - { title: "Recognition Guide: ilClan, vol. 14", abbrev: "RG14" }
+          - { title: "Tamar Rising" }
+        history: ~
+  - name: "Crichell"
+    houses:
+      - founder: "Svetlana"
+        founderFullName: "Svetlana Crichell"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Crichell Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Elias Crichell", rank: "ilKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Han Crichell", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Gilliam Crichell", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Haryn Crichell", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Pidic Crichell", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Pohon Crichell", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Tillon Crichell", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Clans: Warriors of Kerensky" }
+          - { title: "Falcon Guard" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "FedCom Civil War", abbrev: "FCCW" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "A Rending of Falcons" }
+        history: ~
+  - name: "Eodrap"
+    houses:
+      - founder: "Wieke"
+        founderFullName: "Wieke Eodrap"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Eodrap Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Benjamin Eodrap", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Folkner"
+    houses:
+      - founder: "Irina"
+        founderFullName: "Irina Folkner"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Folkner Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Vishnu Folkner", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Bjarn Folkner", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Achim Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Charlotte Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Christopher Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Colla Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Gale Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Janice Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Kalvin Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Oscan Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Ota Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Stewart Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Dawn Folkner", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Aviston Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Byle Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Devin Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jeremiah Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Morgan Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ocella Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ollup Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Wothal Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Davina Folkner", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Freda Folkner", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Battle of Coventry" }
+          - { title: "BattleTech Compendium: The Rules of Warfare" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Technical Readout: 3057 Revised" }
+          - { title: "Technical Readout: 3145 Clans" }
+        history: ~
+  - name: "Guili"
+    houses:
+      - founder: "Stacy"
+        founderFullName: "Stacy Guili"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Guili Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Devinnia Guili", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Hazen"
+    houses:
+      - founder: "Elizabeth"
+        founderFullName: "Elizabeth Hazen"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CJF]
+        summary: "The Hazen Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Ackerley Hazen", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Malvina Hazen", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Yvonne Hazen", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Aleksandr Hazen", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Rosendo Hazen", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Arien Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Asa Hazen", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Bethany Hazen", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Catherine Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Darin Hazen", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Devlin Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Devon Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Fallon Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Jonah Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lisa Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Malcolm Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Phillip Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Sarah Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Tracy Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Yvette Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Brigman Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Dittmar Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Edwin Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Fultz Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Greta Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jacob Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jeffrey Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jeremiah Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Lena Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Lyle Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tina Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Vanna Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Youngblood Hazen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Chris Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Cyrill Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gennie Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Iona Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jinks Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Juchi Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Maria Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Regall Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Trent Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Wilhelm Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Zajj Hazen", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Kassy Hazen", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Vivian Hazen", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jamie Hazen", rank: "Falconer", affiliation: "Clan Jade Falcon" }
+          - { name: "Bette Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Greta Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Meredith Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Nekane Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Nyles Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Bantuu Hazen", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+          - { name: "Welton Hazen", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+          - { name: "Eric Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "21st Centauri Lancers Command Lance" }
+          - { title: "The Battle of Coventry" }
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "BattleTech: Legends" }
+          - { title: "Children of Kerensky" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "First Somerset Strikers" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Handbook: House Steiner", abbrev: "HB:HS" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Malicious Intent" }
+          - { title: "MechWarrior: Tactical Command" }
+          - { title: "No Substitute for Victory" }
+          - { title: "Operation Ice Storm (novella)" }
+          - { title: "Operational Turning Points: Red Corsair" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+          - { title: "Shrapnel Issue 6" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+        history: ~
+  - name: "Helmer"
+    houses:
+      - founder: "Samuel"
+        founderFullName: "Samuel Helmer"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CJF]
+        summary: "The Helmer Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Earl Helmer", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Dorcas Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Earl Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Mar Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Noritomo Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Abzug Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Cynthia Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Francis Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Misha Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Wanda Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Djala Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Enar Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jessica Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jude Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Lyza Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Anitoly Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Aren Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Johan Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Tara Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Benjamin Helmer", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "BattleTech: Clan Heavy Battle Star" }
+          - { title: "Era Report: 3145" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior: Destiny" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Technical Readout: 3075", abbrev: "TR:3075" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: 3145 Draconis Combine", abbrev: "TR:3145:DC" }
+          - { title: "Technical Readout: Dark Age", abbrev: "TR:DA" }
+          - { title: "Total Chaos", abbrev: "Total Chaos" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Alpha Strike Boxed Set" }
+        history: ~
+  - name: "Icaza"
+    houses:
+      - founder: "Carl"
+        founderFullName: "Carl Icaza"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CJF,CHH,CGB]
+        summary: "The Icaza Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Andwar Icaza", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Amelia Icaza", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Loren Icaza", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Colbert Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Magnus Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Muriel Icaza", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Nicholai Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Oliver Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ralph Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Rauf Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Sara \"Vixen\" Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Hagar Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Margaret Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Nicholas Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Vasilii Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Arathorn Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Bewton Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Carson Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hyron Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Isham Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Joqluim Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Lovvins Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Margrette Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Thomas Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Antonio Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Edward Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gudrun Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hider Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hogan Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hyle Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jeremiah Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Lyle Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Randi Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Temujin Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Webster Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Yot Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Era Report: 3062" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Falcon Rising" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hot Spots: Hinterlands" }
+          - { title: "Hour of the Wolf" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior Card Pack I" }
+          - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+          - { title: "Prince of Havoc" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+          - { title: "Shadows of War" }
+          - { title: "Tamar Rising" }
+        history: ~
+  - name: "Isha"
+    houses:
+      - founder: "Zoltan"
+        founderFullName: "Zoltan Isha"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Isha Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Graham Isha", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Jae-Hyouk"
+    houses:
+      - founder: "Mathieu"
+        founderFullName: "Mathieu Jae-Hyouk"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Jae-Hyouk Bloodname was a Clan Jade Falcon founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Littleton"
+    houses:
+      - founder: "Vanja"
+        founderFullName: "Vanja Littleton"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Littleton Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Cleve Littleton", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Ramsey Littleton", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Bad and Worse" }
+        history: ~
+  - name: "Loudon"
+    houses:
+      - founder: "Wilson"
+        founderFullName: "Wilson Loudon"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Loudon Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Bousamra Loudon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Rachel Loudon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+        history: ~
+  - name: "Malthus"
+    houses:
+      - founder: "Koji"
+        founderFullName: "Koji Malthus"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "GENERAL"
+        exclusive: true
+        limited: true
+        postReaving: [CJF]
+        summary: "The Malthus Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Beckett Malthus", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Bret Malthus", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Timur Malthus", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Krishnamurthi Malthus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Maxwell Malthus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Adrian Malthus", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Adler Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Arimas Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Arton Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Cassandra Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Howard Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Man-Keung Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Nicolai Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Nikita Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Paulo Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Rex Malthus", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Steven Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Taman Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Benj Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Beth Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Lana Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Callen Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Josh \"Narc\" Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Sedale Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gews Malthus", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Julkin Malthus", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+          - { name: "Cavell Malthus", affiliation: "Clan Jade Falcon" }
+          - { name: "Cullen Malthus", affiliation: "Clan Jade Falcon" }
+          - { name: "Janora Malthus", affiliation: "Clan Jade Falcon" }
+          - { name: "Selor Malthus", affiliation: "Clan Jade Falcon" }
+          - { name: "Tyle Malthus" }
+        sources:
+          - { title: "The Battle for Twycross" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "Falcon Rising" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "First Somerset Strikers" }
+          - { title: "Hidden Talons (scenario)" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Honor's Gauntlet" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+          - { title: "Lost Destiny", abbrev: "Lost Destiny" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+          - { title: "Recognition Guide: ilClan, vol. 3" }
+          - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+          - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+          - { title: "Recognition Guide: ilClan, vol. 20", abbrev: "RG20" }
+          - { title: "Recognition Guide: ilClan, vol. 30", abbrev: "RG30" }
+          - { title: "Starter: Fist and Falcon" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3050", abbrev: "TR:3050" }
+          - { title: "Technical Readout: 3050 Revised" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "That Old Highlander Way" }
+          - { title: "Touring the Stars: Bone-Norman" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Mandaka"
+    houses:
+      - founder: "Cappie"
+        founderFullName: "Cappie Mandaka"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Mandaka Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Summer Mandaka", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Falcon Guard" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Mattlov"
+    houses:
+      - founder: "Daniel"
+        founderFullName: "Daniel Mattlov"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        limited: true
+        postReaving: [CJF]
+        summary: "The Mattlov Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Angeline Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ramon Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Tavin Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Arimas Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Creed Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Evak Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Filip Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Jurgen Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Kimberly Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Laura Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Per Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ruben Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Quillic Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Sujatha Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Boris Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Caroline Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Corin Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Elena Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Gorton Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Gregor Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jurgen Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Manfredo Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Rothgar Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Terrence Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tomaszewski Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Vabbian Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Corbin Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Kelli Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Thorbin Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Kathleen Mattlov", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gimon Mattlov", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Heather Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+          - { name: "Ytham Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Battle of Coventry" }
+          - { title: "Era Report: 3062" }
+          - { title: "Era Report: 3145" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Mercenaries, Revised" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+          - { title: "MechWarrior Tactical Command" }
+          - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+          - { title: "Recognition Guide: ilClan, vol. 30", abbrev: "RG30" }
+          - { title: "A Rending of Falcons" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Way of the Clans", abbrev: "Way of the Clans" }
+        history: ~
+  - name: "Nilloba"
+    houses:
+      - founder: "Yevgeny"
+        founderFullName: "Yevgeny Nilloba"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Nilloba Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Trovic Nilloba", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+        history: ~
+  - name: "Pryde"
+    houses:
+      - founder: "Aeneas"
+        founderFullName: "Aeneas Pryde"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CJF]
+        summary: "The Pryde Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Jana Pryde", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Marthe Pryde", rank: "Khan", affiliation: "Clan Jade Falcon" }
+          - { name: "Ryan Pryde", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Khalus Pryde", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Brian Pryde", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Clarence Pryde", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Aidan Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Alga Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Caro Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "David Pryde", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Diana Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Gabriella Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Gregory Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Halim Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Isabelle Pryde", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Kathryn Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Libusa Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Marshall Pryde", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Matthias Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ravill Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Vanessa Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Virginia Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Archer Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Artemis Pryde", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Arne Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Cameron Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Caro Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Dreeson Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "James Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jezebel Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Ney Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Nicholas Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Nikolas Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Sands Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tui Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Darya Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "David Pryde", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+          - { name: "David Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Kellog Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Nigel Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Tania Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Vera Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Brian Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Glenn Pryde", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Risa Pryde", rank: "Bloodhouse Leader", affiliation: "Clan Jade Falcon" }
+          - { name: "William Pryde", rank: "Falconer", affiliation: "Clan Jade Falcon" }
+          - { name: "Bojin Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Donas Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Gregoria Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Ichiba Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Kothinur Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Odekirk Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Sander Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Tanya Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Ileana Pryde", affiliation: "Clan Jade Falcon" }
+          - { name: "Ingrid Pryde", affiliation: "Clan Jade Falcon" }
+          - { name: "Teukros Pryde", affiliation: "Clan Jade Falcon" }
+          - { name: "Tholburn Pryde", affiliation: "Clan Jade Falcon" }
+          - { name: "Dominga Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Anvil (novella)" }
+          - { title: "The Battle of Coventry" }
+          - { title: "Bloodname" }
+          - { title: "Dark Age: 3132-3134 INN" }
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Era Report: 3062" }
+          - { title: "Falcon Guard" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "First Somerset Strikers" }
+          - { title: "First Strike", abbrev: "FS" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Invading Clans" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Jihad Hot Spots: 3072" }
+          - { title: "Jihad Hot Spots: 3076", abbrev: "JHS:3076" }
+          - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+          - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "MechWarrior Tactical Command" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+          - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+          - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Technical Readout: 3085", abbrev: "TR:3085" }
+          - { title: "Technical Readout: Jihad", abbrev: "TR:J" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Way of the Clans", abbrev: "Way of the Clans" }
+        history: ~
+  - name: "Qwabe"
+    houses:
+      - founder: "Noah"
+        founderFullName: "Noah Qwabe"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Qwabe Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Beck Qwabe", rank: "Inquisitor", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Bloodname" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Roshak"
+    houses:
+      - founder: "Roniel"
+        founderFullName: "Roniel Roshak"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CJF]
+        summary: "The Roshak Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Marv Roshak", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Stephan Roshak", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+          - { name: "Avarah Roshak", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Emi Roshak", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Lawrence Roshak", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Amado Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Bren Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ikuko Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "James Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Keith Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Luggons Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Marin Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Maurai Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Mikos Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Nick Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Nicole Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Paulina Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Phyllis Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Sharon Roshak", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Bryn Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Denor Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Jalak Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Karen Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Kreb Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Lynn Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Ostin Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tyne Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Daniel Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hern Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Mangu Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Neal Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Sylvia Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Terrick Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Wyull Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ter Roshak", rank: "Falconer Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Halley Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Kajj Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Katrine Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Montgomery Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Shone Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+          - { name: "Reva Roshak", affiliation: "Steel Wolves" }
+          - { name: "Jeffer Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Falcon Guard" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Freebirth", abbrev: "Freebirth" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "MechWarrior 4: Mercenaries" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior: Death From Above" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Operation Audacity" }
+          - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+          - { title: "Recognition Guide: ilClan, vol. 15", abbrev: "RG15" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Second Succession War", abbrev: "2SW" }
+          - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "Technical Readout: Clan Invasion", abbrev: "TR:CI" }
+          - { title: "Trial of Faith" }
+        history: ~
+  - name: "Schtern"
+    houses:
+      - founder: "Monday"
+        founderFullName: "Monday Schtern"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Schtern Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Isaak Schtern", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Shambag"
+    houses:
+      - founder: "Guo"
+        founderFullName: "Guo Shambag"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Shambag Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Yesukai Shambag", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Legacy" }
+        history: ~
+  - name: "Shi-Lu"
+    houses:
+      - founder: "Yoel"
+        founderFullName: "Yoel Shi-Lu"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Shi-Lu Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Dara Shi-Lu", rank: "Galaxy Commander", affiliation: "Clan Star Adder" }
+          - { name: "Heston Shi-Lu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Wallace Shi-Lu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Brooke Shi-Lu", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Heston Shi-Lu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Kahlil Shi-Lu", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Philo Shi-Lu", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Tao Shi-Lu", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Padrick Shi-Lu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Lenore Shi-Lu", rank: "Inquisitor", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Bloodname" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Mercenaries", abbrev: "FM:M" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Sustan"
+    houses:
+      - founder: "Kim"
+        founderFullName: "Kim Sustan"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Sustan Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Reggons Sustan", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Thastus"
+    houses:
+      - founder: "Ẑivko"
+        founderFullName: "Živko Thastus"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CJF,CDS,CGB]
+        summary: "The Thastus Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Jane Thastus", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Gilbert Thastus", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Joel Thastus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Martin Thastus", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jagger Thastus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Juanita Thastus", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Rodney Thastus", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "William Thastus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Mark Thastus", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+          - { name: "Elizabeth Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Hogan Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Keiran Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Sophia Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Vecky Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Colleen Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Daniel Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Fedda Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Izabeth Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jo Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Josefina Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Kelly Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Mon Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Quallun Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Siran Thastus", rank: "Star Commander", affiliation: "Clan Sea Fox" }
+          - { name: "Teff Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Van Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Yvette Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Dimon Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Genders Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Heston Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Nanci Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Sardon Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Yetta Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Aisa Thastus", rank: "Star Colonel", affiliation: "Jade Falcons" }
+        sources:
+          - { title: "The Anvil" }
+          - { title: "Battle of Coventry" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Legacy" }
+          - { title: "The Lions of Prezno" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior 4: Mercenaries" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Operation Audacity" }
+          - { title: "Recognition Guide: ilClan, vol. 5" }
+        history: ~
+  - name: "Ugás"
+    houses:
+      - founder: "Vsevolods"
+        founderFullName: "Vsevolods Ugás"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Ugás Bloodname was a Clan Jade Falcon founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Ustone"
+    houses:
+      - founder: "TOm"
+        founderFullName: "Tom Ustone"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Ustone Bloodname was a Clan Jade Falcon founding legacy. It has also appeared in Clan records as \"Uston,\" though not in the original list of Bloodnames."
+        notableHolders:
+          - { name: "Mel Ustone", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tanya Ustone", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Vels Ustone", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Viola"
+    houses:
+      - founder: "Annemiek"
+        founderFullName: "Annemiek Viola"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Viola Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Pith Viola", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Von Jankmon"
+    houses:
+      - founder: "Beezie"
+        founderFullName: "Beezie von Jankmon"
+        founderAffiliation: "Clan Jade Falcon"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CJF]
+        summary: "The von Jankmon Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Jared von Jankmon", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Edwina von Jankmon", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Angela von Jankmon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Jan von Jankmon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Natalya von Jankmon", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Nicholas von Jankmon", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+          - { name: "Pamula von Jankmon", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+          - { name: "Boyington von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Charlotte von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Chingkim von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Gretton von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Krzysztof von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Star Captain Matthew von Jankmon (2nd Falcon Jaegers - Trinary Charlie) of Clan Jade Falcon.", affiliation: "Clan Jade Falcon" }
+          - { name: "Star Captain Matthew von Jankmon (2nd Falcon Jaegers - Trinary Echo) of Clan Jade Falcon.", affiliation: "Clan Jade Falcon" }
+          - { name: "Nerran von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Otto von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Richard von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Wayne von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Avernathy von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Cynthia von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Daniel von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Jeraldine von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Nicola von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Stella von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ty von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Henry von Jankmon", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Battle of Coventry" }
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Era Report: 3052" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "FedCom Civil War", abbrev: "FCCW" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Operation Audacity" }
+          - { title: "Operation Ice Storm (novella)" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Starter: Fist and Falcon" }
+          - { title: "Trial of Faith" }
+        history: ~
+  - name: "Yont"
+    houses:
+      - founder: "Eric"
+        founderFullName: "Eric Yont"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Yont Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Elkan Yont", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+          - { name: "Jindan Yont", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Zywot"
+    houses:
+      - founder: "Laura"
+        founderFullName: "Laura Zywot"
+        founderAffiliation: "Clan Jade Falcon"
+        summary: "The Zywot Bloodname was a Clan Jade Falcon founding legacy."
+        notableHolders:
+          - { name: "Jaunie Zywot", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Zachary Zywot", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Durge Zywot", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+        history: ~

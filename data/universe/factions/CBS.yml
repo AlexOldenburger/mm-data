@@ -100,3 +100,588 @@ factionLeaders:
     endYear: 3084
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Blackburn"
+    houses:
+      - founder: "Annie"
+        founderFullName: "Annie Blackburn"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Blackburn Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Joeb Blackburn", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Jack Blackburn", rank: "Star Commander", affiliation: "Clan Nova Cat" }
+        sources:
+          - { title: "The Black Thorns" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Boques"
+    houses:
+      - founder: "Devon"
+        founderFullName: "Devon Boques"
+        founderRank: "first saKhan and second Khan"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "GENERAL"
+        exclusive: true
+        summary: "The Boques Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Ceana Boques", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Troy Boques", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Megghan Boques", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Trace Boques", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Jolie Boques", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Ross Boques", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Bosma"
+    houses:
+      - founder: "Koki"
+        founderFullName: "Koki Bosma"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Bosma Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Bush"
+    houses:
+      - founder: "Gilliam"
+        founderFullName: "Gilliam Bush"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Bush Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Thaddeus Bush", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
+          - { name: "Zachary Bush", rank: "Acting Star Colonel", affiliation: "Clan Fire Mandrill" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Campbell"
+    houses:
+      - founder: "Moses"
+        founderFullName: "Moses Campbell"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "GENERAL"
+        exclusive: true
+        summary: "The Campbell Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Forrest Campbell", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Lucas Campbell", rank: "saKhan", affiliation: "Clan Blood Spirit" }
+          - { name: "Bayle Campbell", rank: "Loremaster", affiliation: "Clan Blood Spirit" }
+          - { name: "Stok Campbell", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Tanica Campbell", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Carmichael"
+    houses:
+      - founder: "Alessandra"
+        founderFullName: "Alessandra Carmichael"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Carmichael Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Aman Carmichael", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Charles Carmichael", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Regina Carmichael", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Aaron Carmichael", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Chukwumerije"
+    houses:
+      - founder: "Ariel"
+        founderFullName: "Ariel Chukwumerije"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Chukwumerije Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Church"
+    houses:
+      - founder: "Kieren"
+        founderFullName: "Kieren Church"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        summary: "The Church Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Fara Church", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Jon Church", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Nuwanda Church", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Suzanne Church", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Zoe Church", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Josef Church", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+          - { name: "Wauxin Church", rank: "MechWarrior", affiliation: "Clan Blood Spirit" }
+          - { name: "Sariah Church", rank: "House Leader", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tears of Blood" }
+          - { title: "Scenario: Uninvited Guests" }
+        history: ~
+  - name: "Chusovitina"
+    houses:
+      - founder: "Rod"
+        founderFullName: "Rod Chusovitina"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Chusovitina Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Cluff"
+    houses:
+      - founder: "Hannah"
+        founderFullName: "Hannah Cluff"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        summary: "The Cluff Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Constans Cluff", rank: "saKhan", affiliation: "Clan Blood Spirit" }
+          - { name: "Mort Cluff", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Jesup Cluff", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Jol Cluff", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Mort Cluff", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Nancy Cluff", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Despatie"
+    houses:
+      - founder: "Lao"
+        founderFullName: "Lao Despatie"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Despatie Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Dibaba"
+    houses:
+      - founder: "Patricia"
+        founderFullName: "Patricia Dibaba of Clan Blood Spirit."
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Dibababa Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Dumont"
+    houses:
+      - founder: "Hiroshi"
+        founderFullName: "Hiroshi Dumont"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Dumont Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Allen Dumont", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Beverly Dumont", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Isis Dumont", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Nuon Dumont", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Fischer"
+    houses:
+      - founder: "Kam"
+        founderFullName: "Kam Fischer"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Fischer Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Hitoon Fischer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Galen"
+    houses:
+      - founder: "Anna"
+        founderFullName: "Anna Galen"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Galen Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Kevin Galen", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Kingsley Galen", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Battle of Coventry" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Gammoudi"
+    houses:
+      - founder: "Tonu"
+        founderFullName: "Tonu Gammoudi"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Gammoudi Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Geirsson"
+    houses:
+      - founder: "Richard"
+        founderFullName: "Richard Geirsson"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Geirsson Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Holmes"
+    houses:
+      - founder: "Sibel"
+        founderFullName: "Sibel Holmes"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Holmes Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Rupert Holmes", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Jalal"
+    houses:
+      - founder: "Asset"
+        founderFullName: "Asset Jalal"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Jalal Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Jiawel"
+    houses:
+      - founder: "Kelly"
+        founderFullName: "Kelly Jiawel"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Jiawel Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Johns"
+    houses:
+      - founder: "Melanie"
+        founderFullName: "Melanie Johns"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        summary: "The Johns Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Amerlin Johns", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Boris Johns", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Phen Johns", rank: "Star Admiral", affiliation: "Clan Blood Spirit" }
+          - { name: "Elisabeth Johns", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Nad Johns", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Raphael Johns", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Seff Johns", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Luthor Johns", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+          - { name: "Niel Johns", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+          - { name: "Sumner Johns", rank: "Star Captain", affiliation: "Clan Clan Wolf" }
+          - { name: "Hachim Johns", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 26", abbrev: "RG26" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Keller"
+    houses:
+      - founder: "Dale"
+        founderFullName: "Dale Keller"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        notableHolders:
+          - { name: "Daryl Keller", rank: "saKhan", affiliation: "Clan Blood Spirit" }
+          - { name: "Jas Keller", rank: "ilChi to Clan Fire Mandrill", affiliation: "Clan Blood Spirit" }
+          - { name: "Darrin Keller", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Virgil Keller", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Jasson Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Jessie Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Katja Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Lorraine Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Martoc Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Jason Keller", rank: "MechWarrior", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Prince of Havoc" }
+          - { title: "A Turn of the Wheel" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kemp"
+    houses:
+      - founder: "Hrachik"
+        founderFullName: "Hrachik Kemp"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Kemp Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Josh Kemp", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Lindan Kemp", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Lange"
+    houses:
+      - founder: "Dalia"
+        founderFullName: "Dalia Lange"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Lange Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Lewis"
+    houses:
+      - founder: "Dain"
+        founderFullName: "Dain Lewis"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        notableHolders:
+          - { name: "Hunter Lewis", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Bryson Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Colin Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Lea Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Vulta Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Werner Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Domask Lewis", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Costa Lewis", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "McFadden"
+    houses:
+      - founder: "Jose"
+        founderFullName: "Jose McFadden"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        summary: "The McFadden Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Bri McFadden", rank: "ilChi to Clan Snow Raven", affiliation: "Clan Blood Spirit" }
+          - { name: "Brean McFadden", rank: "Star Admiral", affiliation: "Clan Blood Spirit" }
+          - { name: "Ilse McFadden", rank: "Star Admiral", affiliation: "Clan Blood Spirit" }
+          - { name: "Dale McFadden", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+          - { name: "Iris McFadden", rank: "Star Commander", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "BattleCorps - Uninvited Guests" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3075", abbrev: "TR:3075" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Mengual"
+    houses:
+      - founder: "Celia"
+        founderFullName: "Celia Mengual"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Mengual Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Mitshan"
+    houses:
+      - founder: "Clinton"
+        founderFullName: "Clinton Mitshan"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Mitshan Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Dawn Mitshan", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+          - { name: "Dorell Mitshan", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+          - { name: "Marsen Mitshan", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+          - { name: "Urtan Mitshan", rank: "Aerospace fighter pilot", affiliation: "Clan Ghost Bear" }
+        sources:
+          - { title: "Clanwächter" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Katze unter Bären" }
+        history: ~
+  - name: "Olufemi"
+    houses:
+      - founder: "Natalie"
+        founderFullName: "Natalie Olufemi"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Olufemi Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Osborne"
+    houses:
+      - founder: "Zoltan"
+        founderFullName: "Zoltan Osborne"
+        founderRank: "Star Commander"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Osborne Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Erin Osborne", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Fin Osborne", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Jeanna Osborne", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Weber Osborne", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Pitcher"
+    houses:
+      - founder: "Stepan"
+        founderFullName: "Stepan Pitcher"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        summary: "The Pitcher Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Stephen Pitcher", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Redmond"
+    houses:
+      - founder: "Ko"
+        founderFullName: "Ko Redmond"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Redmond Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Kristen Redmond", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Samis"
+    houses:
+      - founder: "Xu"
+        founderFullName: "Xu Samis"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Samis Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Fredrick Samis", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Haden Samis", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jebediah Samis", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jordi Samis", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Schmitt"
+    houses:
+      - founder: "Colleen"
+        founderFullName: "Colleen Schmitt"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        summary: "The Schmitt Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Bryce Schmitt", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Karianna Schmitt", rank: "Khan", affiliation: "Clan Blood Spirit" }
+          - { name: "Jeremy Schmitt", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Jud Schmitt", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Sal Schmitt", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
+          - { name: "Ellie Schmitt", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Sinjab"
+    houses:
+      - founder: "Ramazan"
+        founderFullName: "Ramazan Sinjab"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Sinjab Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Sánchez"
+    houses:
+      - founder: "Niklaus"
+        founderFullName: "Niklaus Sánchez"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Sánchez Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Vardanyan"
+    houses:
+      - founder: "Terry"
+        founderFullName: "Terry Vardanyan"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Vardanyan Bloodname was a Clan Blood Spirit founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Vargras"
+    houses:
+      - founder: "Takashi"
+        founderFullName: "Takashi Vargras"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Vargras Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "James Vargras", rank: "Loremaster", affiliation: "Clan Blood Spirit" }
+          - { name: "Genden Vargras", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Yanez"
+    houses:
+      - founder: "Wison"
+        founderFullName: "Wilson Yanez"
+        founderAffiliation: "Clan Blood Spirit"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        summary: "The Yanez Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Chadwick Yanez", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Vik Yanez", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Zadok"
+    houses:
+      - founder: "Dusko"
+        founderFullName: "Dusko Zadok"
+        founderAffiliation: "Clan Blood Spirit"
+        summary: "The Zadok Bloodname was a Clan Blood Spirit founding name."
+        notableHolders:
+          - { name: "Carmen Zadok", rank: "ilChi to Clan Cloud Cobra", affiliation: "Clan Blood Spirit" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+        history: ~

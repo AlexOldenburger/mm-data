@@ -109,3 +109,682 @@ factionLeaders:
     endYear: 3075
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Ahmed"
+    houses:
+      - founder: "Ian"
+        founderFullName: "Ian Ahmed"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CCO,CSL]
+        summary: "The Ahmed Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Christopher Ahmed", rank: "saKhan", affiliation: "Clan Steel Viper" }
+          - { name: "Saul Ahmed", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Jen Ahmed", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Russell Ahmed", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Fenias Ahmed", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Freda Ahmed", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Baltahn Ahmed", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Era Report: 3052" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Andrews"
+    houses:
+      - founder: "Adam"
+        founderFullName: "Adam Andrews"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CSA]
+        summary: "The Andrews Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Brett Andrews", rank: "ilKhan", affiliation: "Clan Steel Viper" }
+          - { name: "Gunther Andrews", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "James Andrews", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Danielle Andrews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Elias Andrews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Jordan Andrews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Lewis Andrews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Thomas Andrews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Ayvazian"
+    houses:
+      - founder: "Miguel"
+        founderFullName: "Miguel Ayvazian"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Ayvazian Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Black"
+    houses:
+      - founder: "Olesya"
+        founderFullName: "Olesya Black"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Ray Black", rank: "Star Commander", affiliation: "Wolf Empire" }
+        sources:
+          - { title: "ClanTroops" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+        history: ~
+  - name: "Breen"
+    houses:
+      - founder: "Steven"
+        founderFullName: "Steven Breen"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "GENERAL"
+        exclusive: true
+        limited: true
+        postReaving: [CSA]
+        summary: "The Breen Bloodname was a Clan Steel Viper founding legacy."
+        notableHolders:
+          - { name: "Natalie Breen", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "Anders Breen", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Felix Breen", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Karol Breen", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Leo Breen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Saul Breen", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Oden Breen", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Marissa Breen", rank: "Chief Handler", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "BattleTech: Clan Ad Hoc Star" }
+          - { title: "Era Report: 3052" }
+          - { title: "Falcon Rising" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Seven Years' Bad Luck" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Bukannon"
+    houses:
+      - founder: "Noeki"
+        founderFullName: "Noeki Bukannon"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Bukannon Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Julian Bukannon", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Matheson Bukannon", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Sally Bukannon", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "The Battle of Tukayyid", abbrev: "BoT" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Callaghan"
+    houses:
+      - founder: "Wu"
+        founderFullName: "Wu Callaghan"
+        founderRank: "Star Commander"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Callaghan Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Liam Callaghan", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "A Turn of the Wheel" }
+        history: ~
+  - name: "Chapman"
+    houses:
+      - founder: "Efe"
+        founderFullName: "Efe Chapman"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "ELEMENTAL"
+        dormant: "3075"
+        exclusive: true
+        summary: "The Chapman Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Royce Chapman", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "Natalie Chapman", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Stern Chapman", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Star Lord" }
+        history: ~
+  - name: "Cochraine"
+    houses:
+      - founder: "Gustavo"
+        founderFullName: "Gustavo Cochraine"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CSL]
+        summary: "The Cochraine Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Antonius Cochraine", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Bethany Cochraine", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+        history: ~
+  - name: "DeLuca"
+    houses:
+      - founder: "Monica"
+        founderFullName: "Monica DeLuca"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The DeLuca Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Carmen DeLuca", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Geoff DeLuca", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Rudolph DeLuca", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Lorien DeLuca", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Eun-Chui"
+    houses:
+      - founder: "Logi"
+        founderFullName: "Logi Eun-Chui"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Eun-Chui Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Foster"
+    houses:
+      - founder: "Lauren"
+        founderFullName: "Lauren Foster"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Mert Foster", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tukayyid" }
+        history: ~
+  - name: "Gerard"
+    houses:
+      - founder: "Kobe"
+        founderFullName: "Kobe Gerard"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Gerard Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Lev Gerard", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Raj Gerard", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Timothy Gerard", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Wellem Gerard", rank: "Star Captain", affiliation: "Clan Fire Mandrill" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Grimani"
+    houses:
+      - founder: "Anton"
+        founderFullName: "Anton Grimani"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CGS,CSA]
+        summary: "The Grimani Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Boyle Grimani", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "Habash Grimani", rank: "saKhan", affiliation: "Clan Steel Viper" }
+          - { name: "Cerise Grimani", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Maurizio Grimani", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Robert Grimani", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Samuel Grimani", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Christos Grimani", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Hartford"
+    houses:
+      - founder: "Liam"
+        founderFullName: "Liam Hartford"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Dakan Hartford", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Kathryn Hartford", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Paula Hartford", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Navis Hartford", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "ClanTroops" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Undefeated" }
+        history: ~
+  - name: "Kearny"
+    houses:
+      - founder: "Shalane"
+        founderFullName: "Shalane Kearny"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Illusha Kearny", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tukayyid" }
+        history: ~
+  - name: "Kinnison"
+    houses:
+      - founder: "Ellie"
+        founderFullName: "Ellie Kinnison"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Steel Viper"
+        reaved: "2824"
+        summary: "The Kinninson Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Masters"
+    houses:
+      - founder: "Elena"
+        founderFullName: "Elena Masters"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CCC,CSA,CSL]
+        notableHolders:
+          - { name: "Jacob Masters", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "Angela Masters", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Pitr Masters", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Kiatia Masters", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Era Report: 3062" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Mathews"
+    houses:
+      - founder: "Bolat"
+        founderFullName: "Bolat Mathews"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Mathews Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Greg Mathews", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Mercer"
+    houses:
+      - founder: "Christiane"
+        founderFullName: "Christiane Mercer"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CCO]
+        summary: "The Mercer Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Sanra Mercer", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "George Mercer", rank: "saKhan", affiliation: "Clan Steel Viper" }
+          - { name: "Jonathan Mercer", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Bryan Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Emily Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Geoff Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Henri Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Tanya Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Erik Mercer", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Jorma Mercer", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Michael Mercer", rank: "MechWarrior", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Jaguar's Leap" }
+          - { title: "MechWarrior Card Pack I" }
+          - { title: "Seven Years' Bad Luck" }
+          - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+          - { title: "Undefeated" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Moffat"
+    houses:
+      - founder: "Kenny"
+        founderFullName: "Kenny Moffat"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CSL]
+        summary: "The Moffat Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Carron Moffat", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Terence Moffat", rank: "Star Commodore", affiliation: "Clan Steel Viper" }
+          - { name: "Clive Moffat", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Dawn Moffat", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Dorothy Moffat", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Ilsa Moffat", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "William Moffat", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Era Report: 3062" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Jaguar's Leap" }
+          - { title: "Seven Years' Bad Luck" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Monet"
+    houses:
+      - founder: "Derrick"
+        founderFullName: "Derrik Monet"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Monet Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Helene Monet", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Nixon"
+    houses:
+      - founder: "Kip"
+        founderFullName: "Kip Nixon"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Nixon Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Olezko"
+    houses:
+      - founder: "Giampiero"
+        founderFullName: "Giampiero Olezko"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Olezko Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "ClanTroops" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Patrick"
+    houses:
+      - founder: "Ever"
+        founderFullName: "Ever Patrick"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Lawrence Patrick", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Pyre"
+    houses:
+      - founder: "Kim"
+        founderFullName: "Kim Pyre"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Pyre Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Hagan Pyre", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Quesnel"
+    houses:
+      - founder: "Eric"
+        founderFullName: "Eric Quesnel"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Quesnel Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Iman Quesnel", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Reid"
+    houses:
+      - founder: "Takuya"
+        founderFullName: "Takuya Reid"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Reid Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Roland"
+    houses:
+      - founder: "Yun"
+        founderFullName: "Yun Roland"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CCO]
+        summary: "The Roland Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Edward Roland", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Kirk Roland", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Running-Elk"
+    houses:
+      - founder: "Sheena"
+        founderFullName: "Sheena Running-Elk"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Running-Elk Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Alaid Running-Elk", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Cooper Running-Elk", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+          - { name: "Star Captain Roxanne Runnning-Elk of Clan Steel Viper.", affiliation: "Clan Steel Viper" }
+          - { name: "Ivan Running-Elk", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Icarus Lament" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+        history: ~
+  - name: "Sinclair"
+    houses:
+      - founder: "Timothy"
+        founderFullName: "Timothy Sinclair"
+        founderAffiliation: "Clan Steel Viper"
+        notableHolders:
+          - { name: "Alix Sinclair", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Harold Sinclair", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Ivan Sinclair", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Jer Sinclair", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Martin Sinclair", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Falcon Rising" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Stoklas"
+    houses:
+      - founder: "Khasan"
+        founderFullName: "Khasan Stoklas"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Stoklas Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Arthur Stoklas", rank: "Loremaster", affiliation: "Clan Steel Viper" }
+          - { name: "Monday Stoklas", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Orien Stoklas", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Shane Stoklas", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Ulrica Stoklas", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Era Report: 3062" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "A Guide to Covert Ops" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Tamm"
+    houses:
+      - founder: "Summer"
+        founderFullName: "Summer Tamm"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        limited: true
+        postReaving: [CSL]
+        notableHolders:
+          - { name: "Jun Tamm", rank: "Star Admiral", affiliation: "Clan Steel Viper" }
+          - { name: "Lin Tamm", rank: "Star Admiral", affiliation: "Clan Steel Viper" }
+          - { name: "Neil Tamm", rank: "Star Admiral", affiliation: "Clan Steel Viper" }
+          - { name: "Lewis Tamm", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Octavian Tamm", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Richard Tamm", rank: "Star Commodore", affiliation: "Clan Steel Viper" }
+          - { name: "Conner Tamm", rank: "Star Captain", affiliation: "Clan Stone Lion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Thibaudeau"
+    houses:
+      - founder: "Servet"
+        founderFullName: "Servet Thibaudeau"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Thibaudeau Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Maya Thibaudeau", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Paul Thibaudeau", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Suzan Thibaudeau", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Mitch Thibaudeau", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Star Lord" }
+        history: ~
+  - name: "Tola"
+    houses:
+      - founder: "Alba Maria"
+        founderFullName: "Alba Maria Tola"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Tola Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Eldin Tola", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 7" }
+        history: ~
+  - name: "Tsongas"
+    houses:
+      - founder: "Ibrahim"
+        founderFullName: "Ibrahim Tsongas"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Tsongas Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Bard Tsongas", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Varga"
+    houses:
+      - founder: "Yanina"
+        founderFullName: "Yanina Varga"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Varga Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Lars Varga", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Hitomi Varga", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Federico Varga", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Yanev"
+    houses:
+      - founder: "Zou"
+        founderFullName: "Zou Yanev"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Yanev Bloodname was a Clan Steel Viper founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Zalman"
+    houses:
+      - founder: "Antonius"
+        founderFullName: "Antonius Zalman"
+        founderRank: "saKhan"
+        founderAffiliation: "Clan Steel Viper"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CSA]
+        summary: "The Zalman Bloodname was a Clan Steel Viper founding legacy."
+        notableHolders:
+          - { name: "Perigard Zalman", rank: "Khan", affiliation: "Clan Steel Viper" }
+          - { name: "Ahmed Zalman", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Angelica Zalman", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Ginny Zalman", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Benjamin Zalman", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Jaguar's Leap" }
+          - { title: "Seven Years' Bad Luck" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Zukov"
+    houses:
+      - founder: "Els"
+        founderFullName: "Els Zukov"
+        founderAffiliation: "Clan Steel Viper"
+        summary: "The Zukov Bloodname was a Clan Steel Viper founding name."
+        notableHolders:
+          - { name: "Isaac Zukov", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Isabelle Zukov", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Tobias Zukov", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+          - { name: "Tonya Zukov", rank: "Star Commodore", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~

@@ -128,3 +128,1316 @@ factionLeaders:
 usesMercenaries:
   2500: false
   3151: true
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Alberty"
+    houses:
+      - founder: "Haile"
+        founderFullName: "Haile Alberty"
+        founderRank: "Star Captain"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Alberty Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Jafry Alberty", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+        history: ~
+  - name: "Bouthiaux"
+    houses:
+      - founder: "Nadine"
+        founderFullName: "Nadine Bouthiaux"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Bouthiaux Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Aethelred Bouthiaux", rank: "Star Captain", affiliation: "Wolf Empire" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 13", abbrev: "RG13" }
+        history: ~
+  - name: "Calvert"
+    houses:
+      - founder: "Monica"
+        founderFullName: "Monica Calvert"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Calvert Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Jess Calvert", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Waynald Calvert", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+          - { title: "Technical Readout: 3145 Clans" }
+        history: ~
+  - name: "Carns"
+    houses:
+      - founder: "Ma"
+        founderFullName: "Ma Carns"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        notableHolders:
+          - { name: "Lucian Carns", rank: "saKhan", affiliation: "Clan Nova Cat" }
+          - { name: "Dalk Carns", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Wolfgang Carns", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Edwina Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Kirsten Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Niels Carns", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Zale Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Alfelia Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Barry Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Bruce Carns", rank: "Star Colonel", affiliation: "Clan-in-Exile" }
+          - { name: "Cassius Carns", rank: "Star Colonel", affiliation: "Steel Wolves" }
+          - { name: "Donald Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Gwenneth Carns", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+          - { name: "Jacob Carns", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jera Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Kiandra Carns", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Kiara Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Luca Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Myra Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Owen Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Rhyssa Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Tracy Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Dale Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Eldin Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Gilroy Carns", rank: "Star Captain", affiliation: "ilClan" }
+          - { name: "Hanna Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Jo Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Jule Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Kristina Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Maynar Carns", rank: "Star Captain", affiliation: "Steel Wolves" }
+          - { name: "Oasic Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Pewell Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Sarah Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Tayna Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Theuderic Carns", rank: "Star Captain", affiliation: "Steel Wolves" }
+          - { name: "Vaness Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Zoll Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Cosmo Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Harr Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Mabrams Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Maise Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Melissa Carns", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Treh Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Alan Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Amel Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Bisston Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Cyrus Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Kaspar Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Kevin Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Kris Carns", rank: "MechWarrior", affiliation: "Wolf Empire" }
+          - { name: "Murguia Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Pocarra Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Redassa Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Skeld Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Kaste Carns", affiliation: "Steel Wolves" }
+          - { name: "Troi Carns", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "The Battle of Tukayyid", abbrev: "BoT" }
+          - { title: "BattleTech: Clan Heavy Striker Star" }
+          - { title: "A Bonfire of Worlds" }
+          - { title: "Bred for War" }
+          - { title: "The Dragon Roars" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3062" }
+          - { title: "Era Report: 3145" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Fang and Claw" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: ComStar" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "Invading Clans" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Roar of Honor" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+          - { title: "A Time of War" }
+          - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+          - { title: "Twilight of the Clans" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Ch'in"
+    houses:
+      - founder: "Olesya"
+        founderFullName: "Olesya Ch'in"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        limited: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Ch'in Bloodname was a Clan Wolf founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Ronald Ch'in", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Jared Ch'in", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Hannes Ch'in", rank: "Star Admiral", affiliation: "Clan Wolf" }
+          - { name: "Jiln Ch'in", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Sylvia Ch'in", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Thomas Ch'in", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Gunars Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jall Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Marita Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Sigird Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Alyosha Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Baron Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Denal Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Dimon Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Dracena Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Jasal Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Jeanil Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Kroke Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Lutrin Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Nadia Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Osinn Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Pettez Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Sharon Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Tamm Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Valmont Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Yoland Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Ziegel Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Children of Kerensky" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Cuffe"
+    houses:
+      - founder: "Zheng"
+        founderFullName: "Zheng Cuffe"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Cuffe Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Dannvers"
+    houses:
+      - founder: "Louis"
+        founderFullName: "Louis Dannvers"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "PROTOMEK"
+        postReaving: [CSL]
+        summary: "The Dannvers Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Bladow Dannvers", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "DeVega"
+    houses:
+      - founder: "José"
+        founderFullName: "José DeVega"
+        founderAffiliation: "Clan Wolf"
+        summary: "The DeVega Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Jeraldine DeVega", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Feng"
+    houses:
+      - founder: "Steve"
+        founderFullName: "Steve Feng"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Feng Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Jewel Feng", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Fetladral"
+    houses:
+      - founder: "Elise"
+        founderFullName: "Elise Fetladral"
+        founderRank: "first saKhan"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "GENERAL"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Fetladral Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Patrik Fetladral", rank: "Khan", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Yvic Fetladral", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+          - { name: "Anton Fetladral", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Jocelyn Fetladral", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Lois Fetladral", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Varnoff Fetladral", rank: "Galaxy Commander", affiliation: "Steel Wolves" }
+          - { name: "LaDonna Fetladral", rank: "Star Commodore", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Alexia Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Brad Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Brittany Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Colten Fetladral", rank: "Star Colonel", affiliation: "Steel Wolves" }
+          - { name: "Craig Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Darren Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Evantha Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jurgen Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Kareem Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Marco Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Orlando Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Serena Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Veronica Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Yrgane Fetladral", rank: "Prefect", affiliation: "Republic of the Sphere" }
+          - { name: "Daniel Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Gwin Fetladral", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Hutta Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Josel Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Karron Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Keith Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Kimiko Fetladral", rank: "Star Captain", affiliation: "Steel Wolves" }
+          - { name: "Latharn Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Lena Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Nalbra Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Reshondra Fetladral", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Sigmond Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Aberthal Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Dane Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Gom Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jillce Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Karla Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Lents Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Talas Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jenno Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Kola Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Mikyong Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Peshkov Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Treger Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Bianca Fetladral", rank: "Legate", affiliation: "Republic of the Sphere" }
+          - { name: "Israel Fetladral", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Sebastian Fetladral", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Kendrick Fetladral", rank: "MechWarrior", affiliation: "Steel Wolves" }
+          - { name: "Zaar Fetladral", rank: "MechWarrior", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "Bred for War" }
+          - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+          - { title: "Clan Invasion Scenario: Last Stand" }
+          - { title: "Dark Age: Republic Worlds (3130)" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Report: 3062" }
+          - { title: "Era Report: 3145" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Update" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Flight of the Falcon" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "MechWarrior 2" }
+          - { title: "MechWarrior: Liao Incursion" }
+          - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+          - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }
+        history: ~
+  - name: "Gohcourt"
+    houses:
+      - founder: "Anja"
+        founderFullName: "Anja Gohcourt"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Gohcourt Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Edmond Gohcourt", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Hall"
+    houses:
+      - founder: "Kenny"
+        founderFullName: "Kenny Hall"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Hall Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Marco Hall", rank: "saKhan", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Iris Hall", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Jamil Hall", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "John Hall", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Juanita Hall", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Luke Hall", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Regina Hall", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Era Report: 3062" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Recognition Guide: ilClan, vol. 33", abbrev: "RG33" }
+        history: ~
+  - name: "Hoskins"
+    houses:
+      - founder: "Elise"
+        founderFullName: "Elise Hoskins"
+        founderAffiliation: "Clan Wolf"
+        limited: true
+        postReaving: [CGS, CSA]
+        summary: "The Hoskins Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Nicole Hoskins", rank: "saKhan", affiliation: "Clan Steel Viper" }
+          - { name: "Kimberly Hoskins", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+          - { name: "Dale Hoskins", rank: "Star Captain", affiliation: "Clan Steel Viper" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Jennings"
+    houses:
+      - founder: "George"
+        founderFullName: "George Jennings"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Jennings Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Rosetta Jennings", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Reino Jennings", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Joo-Hyong"
+    houses:
+      - founder: "Christopher"
+        founderFullName: "Christopher Joo-Hyong of Clan Wolf."
+        founderAffiliation: "Clan Wolf"
+        summary: "The Joo-Hyoung Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Kerensky"
+    houses:
+      - founder: "Andery"
+        founderFullName: "Andery Kerensky"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "GENERAL"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Kerensky Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Garmen Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Icons of War" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+      - founder: "Nicholas"
+        founderFullName: "Nicholas Kerensky"
+        founderRank: "first ilKhan"
+        founderAffiliation: "Clans"
+        phenotype: "GENERAL"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Kerensky Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Ulric Kerensky", rank: "ilKhan", affiliation: "Clan Wolf" }
+          - { name: "Anya Kerensky", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Ivan Kerensky", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Natasha Kerensky", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Anatoli Kerensky", rank: "saKhan", affiliation: "Clan Wolf" }
+          - { name: "Darryl Kerensky", rank: "saKhan", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Garner Kerensky", rank: "saKhan", affiliation: "Wolf Empire" }
+          - { name: "Katya Kerensky", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Anastasia Kerensky", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Djuna Kerensky", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Quinn Kerensky", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Ransdale Kerensky", rank: "Star Commodore", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Bryon Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Chas Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Clifford Kerensky", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Elgyn Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Enzi Kerensky", rank: "Star Colonel", affiliation: "ilClan" }
+          - { name: "Erik Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ilya Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Kalidessa Kerensky", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Marc Kerensky", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+          - { name: "Ramil Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ranna Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Sidonia Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Wellto Kerensky", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Bria Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Colin Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Donic Kerensky", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Elvin Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Gilltern Kerensky", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Harold Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Kufro Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Layna Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Lee Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Marotta Kerensky", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Martin Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Myron Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Richard Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Roy Kerensky", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Sasha Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Anatole Kerensky", rank: "Star Commander", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Dimitri Kerensky", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Greer Kerensky", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Ipema Kerensky", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jathniel Kerensky", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Lustra Kerensky", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Markus Kerensky", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Noran Kerensky", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Royal Kerensky", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Klen Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Lefar Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Locasico Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Margara Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Kijari Kerensky", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Magna Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Pissorn Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Theodore Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Cromwell Kerensky", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Yessern Kerensky", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Cosiron Kerensky", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "BattleCorps Solaris Broadcasting Co., 13/07/3072: \"Falcons Not Content With the Alliance\"" }
+          - { title: "BattleTech: Clan Striker Star" }
+          - { title: "BattleTech: Legends" }
+          - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+          - { title: "Dark Age: Republic of the Sphere" }
+          - { title: "Divided We Fall" }
+          - { title: "The Dragon Roars" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+          - { title: "Hour of the Wolf" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Jaguar's Leap" }
+          - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+          - { title: "Luthien" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Destiny" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Recognition Guide: ilClan, vol. 7" }
+          - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+          - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+          - { title: "Roar of Honor" }
+          - { title: "'Shrapnel, Issue #3" }
+          - { title: "Skirmish at the Vale's Edge" }
+          - { title: "Technical Readout: 3145 The Clans", abbrev: "TR:3145:C" }
+          - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Kisiel"
+    houses:
+      - founder: "Michael"
+        founderFullName: "Michael Kisiel"
+        founderRank: "Star Commander"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Kisiel Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Wenter Kisiel", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Family Ties" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Lager"
+    houses:
+      - founder: "Mijain"
+        founderFullName: "Mijaín Lager"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Lager Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Levy"
+    houses:
+      - founder: "Igor"
+        founderFullName: "Igor Levy"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Levy Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "McKibben"
+    houses:
+      - founder: "Georgina"
+        founderFullName: "Georgina McKibben"
+        founderAffiliation: "Clan Wolf"
+        limited: true
+        postReaving: [CCO]
+        summary: "The McKibben Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Elliot McKibben", rank: "Khan", affiliation: "Clan Coyote" }
+          - { name: "Noemi McKibben", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Hector McKibben", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Jessica McKibben", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Fergus McKibben", rank: "Star Captain", affiliation: "Clan Coyote" }
+          - { name: "Martia McKibben", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Mehta"
+    houses:
+      - founder: "Kaori"
+        founderFullName: "Kaori Mehta"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE,CJF,CHH]
+        notableHolders:
+          - { name: "Aberdeen Mehta", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Lukas Mehta", rank: "Loremaster of Clan Wolf-in-Exile", affiliation: "Clan Wolf-in-Exile Lukas Mehta of Clan Wolf-in-Exile" }
+          - { name: "Denise Mehta", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Hang Mehta", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Jin Mehta", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Arthur Mehta", rank: "Star Commodore", affiliation: "Clan Wolf" }
+          - { name: "Serif Mehta", rank: "Star Commodore", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Arlene Mehta", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Drew Mehta", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Emanuel Mehta", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Erin Mehta", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Frank Mehta", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Paul Mehta", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Rooker Mehta", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Waylon Mehta", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Whitney Mehta", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Willie Mehta", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Hemsl Mehta", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Laren Mehta", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Marta Mehta", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Rudolph Mehta", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Saxon Mehta", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Willom Mehta", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Angi Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Blas Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Dryco Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Kirstin Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Mhong Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Monic Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Pawl Mehta", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Lena Mehta", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Indira Mehta", rank: "Tech Factor", affiliation: "Clan Wolf" }
+          - { name: "Cass Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Erick Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Kenbarg Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Mart Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Lilabel Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Nuthal Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Oscelor Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Patanjali Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Ullio Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Ullon Mehta", rank: "Pilot", affiliation: "Clan Wolf" }
+          - { name: "Juergen Mehta", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+          - { title: "Children of Kerensky" }
+          - { title: "The Dragon Roars" }
+          - { title: "Era Report: 3062" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Invading Clans" }
+          - { title: "Luthien" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Operation Audacity" }
+          - { title: "Quail Hunting" }
+          - { title: "Shrapnel Issue 4" }
+          - { title: "Spotlight On: Crescent Hawks" }
+          - { title: "Wolf Clan Sourcebook" }
+          - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }
+        history: ~
+  - name: "Moran"
+    houses:
+      - founder: "Lee"
+        founderFullName: "Lee Moran"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Moran Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Ilya Moran", rank: "Star Colonel", affiliation: "Clan Snow Raven" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Nygren"
+    houses:
+      - founder: "Jai"
+        founderFullName: "Jai Nygren"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Nygren Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Carew Nygren", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Morsha Nygren", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Thule Nygren", rank: "Captain", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+          - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+          - { title: "Era Report: 3062" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+        history: ~
+  - name: "Radick"
+    houses:
+      - founder: "Alicia"
+        founderFullName: "Alicia Radick"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Radick Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Abram Radick", rank: "Khan", affiliation: "Clan Nova Cat" }
+          - { name: "Garth Radick", rank: "saKhan", affiliation: "Clan Wolf" }
+          - { name: "Marialle Radick", rank: "saKhan", affiliation: "Clan Wolf" }
+          - { name: "Kal Radick", rank: "Galaxy Commander", affiliation: "Steel Wolves" }
+          - { name: "Amel Radick", rank: "Star Commodore", affiliation: "Clan Wolf" }
+          - { name: "Antonio Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Bart Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Blaine Radick", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Dwillt Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Elmer Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Emma Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Finley Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Hiram Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Janet Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jeven Radick", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jorunn Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Marcos Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Maurice Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Mellan Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ronal Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Serret Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Tamanna Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Virgil Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Aaron Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Ancil Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Bryston Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Corinne Radick", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Derringer Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Jairus Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Kenbarg Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Lark Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Mark Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Mio Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Nikki Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Tylene Radick", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Ulston Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Valtyr Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Carla Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Ceralde Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Drison Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Elanor Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Henri Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Ivul Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jalmes Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Millok Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Tamera Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Traci Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Wilfrid Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Zoll Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Star Captain Vicka of Clan Wolf-in-Exile.", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Bosh Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Darla Radick", affiliation: "Clan Wolf" }
+          - { name: "Dirk Radick", rank: "Paladin", affiliation: "Republic of the Sphere" }
+          - { name: "Mio Radick", rank: "MechWarrior", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Palitrice Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Stillett Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Ursula Radick", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "A Bonfire of Worlds" }
+          - { title: "BattleTech: Clan Ad Hoc Star" }
+          - { title: "Dark Age: Republic of the Sphere" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3062" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Grave Covenant" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Luthien" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior: Liao Incursion" }
+          - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "Recognition Guide: ilClan, vol. 6" }
+          - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+          - { title: "Record Sheets: 3050 Upgrade Print Edition" }
+          - { title: "Roar of Honor" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Wolf Clan Sourcebook" }
+          - { title: "A Wolf in the Eyrie" }
+        history: ~
+  - name: "Reisch"
+    houses:
+      - founder: "Hollie"
+        founderFullName: "Hollie Reisch"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Reisch Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Kimi Reisch", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Malachi Reisch", rank: "Defense Adjutant", affiliation: "Clan Star Adder" }
+          - { name: "Holly Reisch", rank: "Logistics Adjutant", affiliation: "Clan Star Adder" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Robbin"
+    houses:
+      - founder: "Ole"
+        founderFullName: "Ole Robbin"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Robbin Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Bruce Robbin", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Mena Robbin", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Petra Robbin", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Byron Robbin", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Saline"
+    houses:
+      - founder: "Hüseyin"
+        founderFullName: "Hüseyin Saline"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Saline Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Zabrina Saline", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Cabdrum Saline", rank: "Pilot", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Seles"
+    houses:
+      - founder: "Li"
+        founderFullName: "Li Seles"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Seles Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Shaw"
+    houses:
+      - founder: "Britta"
+        founderFullName: "Britta Shaw"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        limited: true
+        shared: true
+        postReaving: [CW,CWIE]
+        notableHolders:
+          - { name: "Miriam Shaw", rank: "Khan", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Dominic Shaw", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Wolfgang Shaw", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Nihsen Shaw", rank: "Star Commodore", affiliation: "Clan Wolf" }
+          - { name: "Britta Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Delia Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ghassan Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Giorgy Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Jeremiah Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Morten Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Oliver Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Sinclair Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Marijoan Shaw", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Bashar Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Bovard Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Debra Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Devon Shaw", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Parac Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Hemsl Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Stunner Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Arlee Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Carrows Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Dena Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Point Commander Dena Shaw (341st Assault) of Clan Wolf.", affiliation: "Clan Wolf" }
+          - { name: "Dural Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Faldo Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Gavinus Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Graffam Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Ingeborg Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Jullith Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Maigatter Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Malmon Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Margaret Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Markland Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Sharun Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Siegel Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Stemmis Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Yaxunari Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Children of Kerensky" }
+          - { title: "Era Report: 3062" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Weight of a Name" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Sherbow"
+    houses:
+      - founder: "Eirik"
+        founderFullName: "Eirik Sherbow"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Sherbow Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Carrows Sherbow", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Karla Sherbow", rank: "Pilot", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Sradac"
+    houses:
+      - founder: "Guo"
+        founderFullName: "Guo Sradac"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CGB,CWIE]
+        summary: "The Sradac Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Shistu Sradac", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Derak Sradac", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Freddie Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Ismael Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Richard Sradac", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Salvatore Sradac", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Terrell Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Trevor Sradac", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Colleen Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Eamon Sradac", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Hannibal Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Juanilla Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Mario Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Marion Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Pewell Sradac", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Tora Sradac", rank: "Star Captain", affiliation: "Steel Wolves" }
+          - { name: "Ualtar Sradac", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Jacob Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Orlena Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Raynor Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Alpan Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Biskeborn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Bryn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Cyrus Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Denice Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Elise Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Eluard Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Endo Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Genghis Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Herylyn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Lillic Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Pallum Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Patrick Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Perigard Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Pystol Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Rebeka Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Thuquan Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Truong Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Private First Class Edan of the Republic of the Sphere.", affiliation: "Republic of the Sphere" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Luthien" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "Spotlight On: Stone's Trackers" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Stims"
+    houses:
+      - founder: "Ariel"
+        founderFullName: "Ariel Stims"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Stims Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Van Stims", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Tarr"
+    houses:
+      - founder: "Irina"
+        founderFullName: "Irina Tarr"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Tarr Bloodname was a Clan Wolf founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Taylor"
+    houses:
+      - founder: "Magdalena"
+        founderFullName: "Magdalena Taylor"
+        founderAffiliation: "Clan Wolf"
+        notableHolders:
+          - { name: "Matthew Taylor", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Tamar Taylor", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Falstaff Taylor", rank: "Star Captain", affiliation: "Spirit Cats" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+          - { title: "Target of Opportunity" }
+        history: ~
+  - name: "Tinn"
+    houses:
+      - founder: "Roberta"
+        founderFullName: "Roberta Tinn"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Tinn Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Tam Tinn", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Gok Tinn", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Torc"
+    houses:
+      - founder: "Zhang"
+        founderFullName: "Zhang Torc"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Torc Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Van Torc", rank: "Pilot", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Tutuola"
+    houses:
+      - founder: "Mansueto"
+        founderFullName: "Mansueto Tutuola"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        summary: "The Tutuola Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Pamela Tutuola", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Cyril Tutuola", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Gordon Tutuola", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Henry Tutuola", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Kendra Tutuola", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Sophia Tutuola", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Marcus Tutuola", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Nathin Tutuola", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Agustin Tutuola", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Alonzo Tutuola", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Tamar Tutuola", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Vertin Tutuola", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Marvin Tutuola", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Agon Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Aletha Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Decembrist Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Domask Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Donel Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Duwain Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Dyna Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Edyards Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Eran Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Goneril Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Harned Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Jorma Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Kellin Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Mardia Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Nela Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Pacheco Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Rojas Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Thalia Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Tilly Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Vachel Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
+          - { name: "Zorna Tutuola", rank: "Point Commander" }
+          - { name: "Daniel Tutuola", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Fredrick Tutuola", rank: "MechWarrior", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Children of Kerensky" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Luthien" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Twane"
+    houses:
+      - founder: "Yang"
+        founderFullName: "Yang Twane"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Twane Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Nicole Twane", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Ward"
+    houses:
+      - founder: "Jal"
+        founderFullName: "Jal Ward"
+        founderRank: "Star Colonel"
+        founderAffiliation: "Clan Wolf"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CW,CWIE]
+        notableHolders:
+          - { name: "Alaric Ward", rank: "ilKhan", affiliation: "Wolf Empire" }
+          - { name: "Victoria Ward", rank: "ilKhan" }
+          - { name: "Alexis Ward", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Elsa Ward", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Kerlin Ward", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Seth Ward", rank: "Khan", affiliation: "Wolf Empire" }
+          - { name: "Vladimir Ward", rank: "Khan", affiliation: "Clan Wolf" }
+          - { name: "Cyrilla Ward", rank: "saKhan", affiliation: "Clan Wolf" }
+          - { name: "Conal Ward", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Daskin Ward", rank: "Loremaster", affiliation: "Clan Wolf" }
+          - { name: "Liam Ward", rank: "Loremaster", affiliation: "Wolf Empire" }
+          - { name: "Annie Ward", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Elise Ward", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "John Ward", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Mikhail Ward", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Abioye Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Baiko Ward", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Brett Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Craig Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Damon Ward", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Devon Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ecker Ward", rank: "Star Colonel", affiliation: "Steel Wolves" }
+          - { name: "Evon Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ferris Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Hedda Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Josiah Ward", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Juanita Ward", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Lara Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Mirvat Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Naela Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Ansella Ward", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Codera Ward", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Darian Ward", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Elysius Ward", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Katrina Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Leo Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Lun Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Moranda Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Nick Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Selma Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Skinner Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Splido Ward", rank: "Star Captain", affiliation: "Wolf Empire" }
+          - { name: "Thalia Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Zetoras Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Archer Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Ava Ward", rank: "Star Commander", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Biffly Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Franklin Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jevanrod Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Jobi Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Kellin Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Meril Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Nikolai Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Russic Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+          - { name: "Alex Ward", rank: "MechWarrior", affiliation: "Wolf's Dragoons" }
+          - { name: "Arvil Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Edina Ward", rank: "MechWarrior", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Ghita Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Hamala Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Maise Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Nikita Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Patton Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Silvia Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Ullor Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+          - { name: "Alexei Ward", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Druss Ward", affiliation: "Clan Wolf" }
+          - { name: "Katya Ward", affiliation: "Clan Wolf" }
+          - { name: "Seka Ward", affiliation: "Steel Wolves" }
+          - { name: "Jaela Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Betrayal of Ideals" }
+          - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+          - { title: "Children of Kerensky" }
+          - { title: "Dark Age: 3132-3134 INN" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Fang and Claw" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Jade Falcon Sourcebook" }
+          - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+          - { title: "Lost Destiny", abbrev: "Lost Destiny" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior Online" }
+          - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Operational Turning Points: The Red Corsair", abbrev: "OTP:RC" }
+          - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+          - { title: "Recognition Guide: ilClan, vol. 4" }
+          - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+          - { title: "Recognition Guide: ilClan, vol. 13", abbrev: "RG13" }
+          - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+          - { title: "Roar of Honor" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "Sword of Sedition" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "Technical Readout: 3145 Free Worlds League", abbrev: "TR:3145:FWL" }
+          - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+          - { title: "Unopposed (CCG - CommandersEdition)" }
+          - { title: "The Weight of a Name" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Waters"
+    houses:
+      - founder: "Chen"
+        founderFullName: "Chen Waters"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Waters Bloodname was a Clan Wolf founding legacy."
+        notableHolders:
+          - { name: "Thomas Waters", rank: "Star Admiral", affiliation: "Clan Snow Raven" }
+          - { name: "Merin Waters", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Winson"
+    houses:
+      - founder: "Jennifer"
+        founderFullName: "Jennifer Winson"
+        founderAffiliation: "Clan Wolf"
+        limited: true
+        postReaving: [CCO]
+        summary: "The Winson Bloodname deriving from Jennifer Winson was a Clan Wolf founding legacy. There is another, separate Winson Bloodname deriving from her supposed brother Jerome Winson. It is worth noting that, although this is not known within the BattleTech universe at large, \"Jennifer Winson\" was a false name, and her supposed family relation to Jerome Winson was a forgery to cover up her real identity"
+        notableHolders:
+          - { name: "Nadia Winson", rank: "Khan", affiliation: "Clan Ghost Bear" }
+          - { name: "Petr Winson", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+          - { name: "Abioseh Winson", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Alos Winson", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Carmin Winson", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Rodham Winson", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Til Winson", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Fall Winson", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+          - { name: "Isabella Winson", rank: "Star Commander", affiliation: "Wolf Empire" }
+          - { name: "Alita Winson", affiliation: "Clan Wolf" }
+          - { name: "Eulice Winson", affiliation: "Clan Wolf" }
+          - { name: "Garald Winson", affiliation: "Clan Ghost Bear" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Bred for War" }
+          - { title: "Campaign Operations", abbrev: "CO" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Field Manual: Update" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+          - { title: "Recognition Guide: ilClan, vol. 27", abbrev: "RG27" }
+          - { title: "A Time of War" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+      - founder: "Jerome"
+        founderFullName: "Jerome Winson"
+        founderRank: "Bloodname Founder and ilKhan"
+        founderAffiliation: "Clan Wolf"
+        summary: "The Winson Bloodname deriving from Jerome Winson was a Clan Wolf founding legacy. There is another, separate Winson Bloodname deriving from his purported sister, Jennifer Winson."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~

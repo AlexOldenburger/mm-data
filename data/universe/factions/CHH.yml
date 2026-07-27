@@ -123,3 +123,814 @@ factionLeaders:
     startYear: 3152
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Aliychuk"
+    houses:
+      - founder: "Daniel"
+        founderFullName: "Daniel Aliychuk"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Aliychuk Bloodname was a Clan Hell's Horses founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Amirault"
+    houses:
+      - founder: "Shirvani"
+        founderFullName: "Shirvani Amirault"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CHH]
+        summary: "The Amirault Bloodname was a Clan Hell's Horses founding name."
+        notableHolders:
+          - { name: "Eric Amirault", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Gottfried Amirault", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Temuchin Amirault", rank: "Loremaster", affiliation: "Clan Hell's Horses" }
+          - { name: "Danielle Amirault", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Everett Amirault", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Manas Amirault", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Akira Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Alexander Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Andrew Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Babette Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Earnest Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Glenda Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Inasa Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Laura Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Liliana Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Paul Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Pietr Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Rachel Amirault", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ramon Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Wilson Amirault", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Boris Amirault", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Marco Amirault", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Mario Amirault", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Reginald Amirault", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Hans Amirault", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Henryne Amirault", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Yolanda Amirault", rank: "Knight", affiliation: "Republic of the Sphere" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3050 Upgrade", abbrev: "TR:3050U" }
+          - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+          - { title: "Technical Readout: Prototypes", abbrev: "TR:Proto" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Anu"
+    houses:
+      - founder: "Zhang"
+        founderFullName: "Zhang Anu"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Anu Bloodname was a Clan Hell's Horses founding name."
+        notableHolders:
+          - { name: "Diane Anu", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+          - { name: "Ione Anu", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Britt Anu", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+          - { title: "Double Down" }
+          - { title: "The Field is Lost" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "The Lions of Prezno" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Operation Audacity" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "A Wolf in the Eyrie" }
+        history: ~
+  - name: "Boit"
+    houses:
+      - founder: "Filip"
+        founderFullName: "Filip Boit"
+        founderAffiliation: "Clan Hell's Horses"
+        shared: true
+        postReaving: [CSL]
+        summary: "The Boit Bloodname was a Clan Hell's Horses founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Brown"
+    houses:
+      - founder: "Victor"
+        founderFullName: "Victor Brown"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Brown Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Rosella Brown", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Tricky Brown", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Stamm Brown", rank: "Star Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3145 The Clans", abbrev: "TR:3145:C" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Budõlin"
+    houses:
+      - founder: "Tommy"
+        founderFullName: "Tommy Budõlin"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Budõlin Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Burns"
+    houses:
+      - founder: "Shawn"
+        founderFullName: "Shawn Burns"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Burns Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Camejo"
+    houses:
+      - founder: "Stéphane"
+        founderFullName: "Stéphane Camejo"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Camejo Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Lucian Camejo", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Cobb"
+    houses:
+      - founder: "Patricia"
+        founderFullName: "Patricia Cobb"
+        founderRank: "first saKhan"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "GENERAL"
+        exclusive: true
+        shared: true
+        postReaving: [CHH,CSL]
+        summary: "The Cobb Bloodname was a Clan Hell's Horses founding name."
+        notableHolders:
+          - { name: "Aaron Cobb", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "James Cobb", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Jeronimo Cobb", rank: "saKhan", affiliation: "Clan Hell's Horses" }
+          - { name: "Anna-Carina Cobb", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Robin Cobb", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+          - { name: "Danielle Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Elliot Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Farouk Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Garret Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Gino Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Isra Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Janie Cobb", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Jennifer Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Thaddius Cobb", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Peter Cobb", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Scott Cobb", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Kanas Cobb", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Magnar Cobb", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Evander Cobb", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Rodrigo Cobb", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Recognition Guide: ilClan, vol. 7" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "Turning Points: Tokasha" }
+        history: ~
+  - name: "Cooper"
+    houses:
+      - founder: "Dain"
+        founderFullName: "Dain Cooper"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CHH]
+        summary: "The Cooper Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Teresia Cooper", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Francesca Cooper", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Tyler Cooper", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+          - { name: "Unther Cooper", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Carey Cooper", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+          - { name: "Don Cooper", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Drew Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Ilse Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Jacinta Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Leslie Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Linda Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Mario Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Noa Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Siobhan Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Will Cooper", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Fiona Cooper", rank: "Captain" }
+          - { name: "Nishawn Cooper", affiliation: "Republic of the Sphere" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tamar Rising" }
+          - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }
+        history: ~
+  - name: "DeLaurel"
+    houses:
+      - founder: "Gella"
+        founderFullName: "Gella DeLaurel"
+        founderRank: "first Loremaster"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CHH]
+        summary: "The DeLaurel Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Tanya DeLaurel", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Joseph DeLaurel", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Nobel DeLaurel", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Patricia DeLaurel", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Rose DeLaurel", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Brook DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Carla DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Dina DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Kymma DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Mujdat DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Nathan DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Tsuki DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Yul DeLaurel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Glen DeLaurel", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Akane DeLaurel", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Keegan DeLaurel", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Valora DeLaurel", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Veronica DeLaurel", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "BattleTech Legends" }
+          - { title: "A Bonfire of Worlds" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Dudzinsky"
+    houses:
+      - founder: "Yavor"
+        founderFullName: "Yavor Dudzinsky"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CHH]
+        summary: "The Dudzinsky Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Anka Dudzinsky", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Jessica Dudzinsky", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Preston Dudzinsky", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Raquel Dudzinsky", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Trent Dudzinsky", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3075", abbrev: "TR:3075" }
+        history: ~
+  - name: "Dwelley"
+    houses:
+      - founder: "Olga"
+        founderFullName: "Olga Dwelley"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        shared: true
+        postReaving: [CHH,CSL,CSL]
+        summary: "The Dwelley Bloodname was a Clan Hell's Horses founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Ingrid Dwelley", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Mana Dwelley", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Chester Dwelley", rank: "Star Admiral", affiliation: "Clan Hell's Horses" }
+          - { name: "Charles Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Draza Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Icobod Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Unger Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Lucinda Dwelley", rank: "Star Commodore", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Fletcher"
+    houses:
+      - founder: "John"
+        founderFullName: "John Fletcher"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CHH]
+        notableHolders:
+          - { name: "Malavai Fletcher", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Helena Fletcher", rank: "Loremaster", affiliation: "Clan Hell's Horses" }
+          - { name: "Loretta Fletcher", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Misha Fletcher", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Tristan Fletcher", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Buena Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "David Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Derrik Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Kara Fletcher", rank: "Star Colonel", affiliation: "Spirit Cats" }
+          - { name: "Marcus Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Mario Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Toris Fletcher", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Pelais Fletcher", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Daglarisk Fletcher", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Dragan Fletcher", rank: "Alpha", affiliation: "Wolf Hunters" }
+          - { name: "Selig Fletcher", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "The Clans: Warriors of Kerensky" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior: Death From Above" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+          - { title: "Recognition Guide: ilClan, vol. 32", abbrev: "RG32" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Shrapnel Issue 10" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3050 Upgrade", abbrev: "TR:3050U" }
+          - { title: "Test of Vengeance" }
+        history: ~
+  - name: "Grimheald"
+    houses:
+      - founder: "Niu"
+        founderFullName: "Niu Grimheald"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "PROTOMEK"
+        shared: true
+        postReaving: [CHH,CSL]
+        summary: "The Grimheald Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Marguerite Grimheald", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Elene Grimheald", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Rachel Grimheald", rank: "Star Captain", affiliation: "Steel Wolves" }
+          - { name: "Petra Grimheald", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Rotislav Grimheald", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tamar Rising" }
+          - { title: "A Trial Most Acceptable" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Houan"
+    houses:
+      - founder: "Jeong"
+        founderFullName: "Jeong Houan"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        shared: true
+        postReaving: [CHH,CSL,CSL]
+        summary: "The Houan Bloodname was a Clan Hell's Horses founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Elina Houan", rank: "Khan", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: 3145 Clans" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Iler"
+    houses:
+      - founder: "Miroslav"
+        founderFullName: "Miroslav Iler"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Iler Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Dev Iler", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Anne Iler", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Dawn of the Jihad" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Johnston"
+    houses:
+      - founder: "Kirsty"
+        founderFullName: "Kirsty Johnston"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "PROTOMEK"
+        exclusive: true
+        limited: true
+        postReaving: [CHH]
+        notableHolders:
+          - { name: "Meagan Johnston", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Samantha Johnston", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jihad Hot Spots: 3070" }
+          - { title: "A Living Epitaph" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kebede"
+    houses:
+      - founder: "Raj"
+        founderFullName: "Raj Kebede"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Kebede Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Lassenerra"
+    houses:
+      - founder: "Roman"
+        founderFullName: "Roman Lassenerra"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CHH,CSL]
+        summary: "The Lassenerra Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Darwin Lassenerra", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Fulk Lassenerra", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Eusebio Lassenerra", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Philby Lassenerra", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Rebecca Lassenerra", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Ruggieri Lassenerra", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Zelda Lassenerra", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Bridgett Lassenerra", rank: "Star Colonel", affiliation: "Clan Stone Lion" }
+          - { name: "Dean Lassenerra", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Elsie Lassenerra", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Ilsa Lassenerra", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "John Lassenerra", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Ashur Lassenerra", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Edwin Lassenerra", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+          - { title: "Technical Readout: 3067", abbrev: "TR:3067" }
+          - { title: "Turning Points: Tokasha" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Liang"
+    houses:
+      - founder: "Yoo"
+        founderFullName: "Yoo Liang"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Liang Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Mazzoni"
+    houses:
+      - founder: "Daima"
+        founderFullName: "Daima Mazzoni"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Mazzoni Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Joshua Mazzoni", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Mendoza"
+    houses:
+      - founder: "Ingimundur"
+        founderFullName: "Ingimundur Mendoza"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Mendoza Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Lucias Mendoza", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Xavier Mendoza", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Mitchell"
+    houses:
+      - founder: "Annett"
+        founderFullName: "Annett Mitchell"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CHH]
+        notableHolders:
+          - { name: "Sasha Mitchell", rank: "saKhan", affiliation: "Clan Hell's Horses" }
+          - { name: "Sofronio Mitchell", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Trina Mitchell", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Xandria Mitchell", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Douglas Mitchell", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Geoff Mitchell", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Eveangelina Mitchell", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Sophia Mitchell", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Ursula Mitchell", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Arianna Mitchell", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "James Mitchell", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Ryker Mitchell", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 29", abbrev: "RG29" }
+          - { title: "Shrapnel Issue 12" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Moiseyev"
+    houses:
+      - founder: "Vadims"
+        founderFullName: "Vadims Moiseyev"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Moiseyev Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Murphy"
+    houses:
+      - founder: "Zhou"
+        founderFullName: "Zhou Murphy"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Murphy Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Alyce Murphy", rank: "Point Commander", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Neely"
+    houses:
+      - founder: "Nazyr"
+        founderFullName: "Nazyr Neely"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Neely Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Blada Neely", rank: "Star Commander" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "O'Reilly"
+    houses:
+      - founder: "Carolina"
+        founderFullName: "Carolina O'Reilly"
+        founderAffiliation: "Clan Hell's Horses"
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Peck"
+    houses:
+      - founder: "Heiko"
+        founderFullName: "Heiko Peck"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Peck Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Roderick Peck", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+          - { name: "Terri Peck", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+        sources:
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Priddy"
+    houses:
+      - founder: "Maris"
+        founderFullName: "Maris Priddy"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Priddy Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Purchase"
+    houses:
+      - founder: "Kim"
+        founderFullName: "Kim Purchase"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Purchase Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Ravenwater"
+    houses:
+      - founder: "Tatiana"
+        founderFullName: "Tatiana Ravenwater"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CHH,CSL]
+        summary: "The Ravenwater Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Jackie Ravenwater", rank: "Loremaster", affiliation: "Clan Stone Lion" }
+          - { name: "Sachiko Ravenwater", rank: "Loremaster", affiliation: "Clan Hell's Horses" }
+          - { name: "Phadorah Ravenwater", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Zigfried Ravenwater", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Alicia Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Bernadine Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Dawson Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Debra Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Karol Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Kendric Ravenwater", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+          - { name: "Natasha Ravenwater", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Shira Ravenwater", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Wendolyn Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Ernesto Ravenwater", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Andrea Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Garet Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Mellysa Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+          - { name: "Liana Ravenwater", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Petra Ravenwater", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+          - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3050 Upgrade", abbrev: "TR:3050U" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "Test of Vengeance" }
+          - { title: "A Trial Most Acceptable" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Rickard"
+    houses:
+      - founder: "Marian"
+        founderFullName: "Marian Rickard"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Rickard Bloodname was a Clan Hell's Horses founding legacy."
+        notableHolders:
+          - { name: "Erik Rickard", rank: "Star Captain", affiliation: "Clan Ice Hellion" }
+          - { name: "Jane Rickard", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Blood in the Water" }
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Robinson"
+    houses:
+      - founder: "Oxana"
+        founderFullName: "Oxana Robinson"
+        founderAffiliation: "Clan Hell's Horses"
+        notableHolders:
+          - { name: "Mikhail Robinson", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3145 Clans" }
+        history: ~
+  - name: "Rowbotham"
+    houses:
+      - founder: "Sachiko"
+        founderFullName: "Sachiko Rowbotham"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Rowbotham Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Seidman"
+    houses:
+      - founder: "Nicolás"
+        founderFullName: "Nicolás Seidman"
+        founderAffiliation: "Clan Hell's Horses"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        limited: true
+        postReaving: [CHH]
+        summary: "The Seidman Bloodname was a Clan Hell's Horses founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Lair Seidman", rank: "Khan", affiliation: "Clan Hell's Horses" }
+          - { name: "Domnall Seidman", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Charo Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Johann Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Konstantin Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Lee Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Mindy Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Perry Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Reginald Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Richard Seidman", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Tamar Rising" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Steding"
+    houses:
+      - founder: "Michael"
+        founderFullName: "Michael Steding"
+        founderAffiliation: "Clan Hell's Horses"
+        shared: true
+        postReaving: [CSL]
+        summary: "The Steding Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Thompson"
+    houses:
+      - founder: "Yelena"
+        founderFullName: "Yelena Thompson"
+        founderAffiliation: "Clan Hell's Horses"
+        notableHolders:
+          - { name: "David Thompson", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hour of the Wolf" }
+        history: ~
+  - name: "Weißenborn"
+    houses:
+      - founder: "Krisztián"
+        founderFullName: "Krisztián Weißenborn"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Weißenborn Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Zuijdweg"
+    houses:
+      - founder: "Kang"
+        founderFullName: "Kang Zuijdweg"
+        founderAffiliation: "Clan Hell's Horses"
+        summary: "The Zuijdweg Bloodname was a Clan Hell's Horses founding legacy."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~

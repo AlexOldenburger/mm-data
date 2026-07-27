@@ -118,3 +118,797 @@ factionLeaders:
 usesMercenaries:
   2500: false
   3133: true
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Arbott"
+    houses:
+      - founder: "Ejega"
+        founderFullName: "Ejega Arbott"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Arbott Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Kevin Arbott", rank: "Khan", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Arlond"
+    houses:
+      - founder: "Nesta"
+        founderFullName: "Nesta Arlond"
+        founderAffiliation: "Clan Sea Fox"
+        notableHolders:
+          - { name: "Lionel Arlond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Era Report: 3052" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Ban"
+    houses:
+      - founder: "Sarah"
+        founderFullName: "Sarah Ban"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Ban Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Borghev"
+    houses:
+      - founder: "Alicia"
+        founderFullName: "Alicia Borghev"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Borghev Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Duaine Borghev", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Yuri Borghev", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Anna Borghev", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+          - { name: "Derik Borghev", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Mutual Advantage" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Clarke"
+    houses:
+      - founder: "Anton"
+        founderFullName: "Anton Clarke"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CDS]
+        summary: "The Clarke Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Damon Clarke", rank: "Khan", affiliation: "Clan Sea Fox" }
+          - { name: "Patricia Clarke", rank: "Khan", affiliation: "Clan Diamond Shark" }
+          - { name: "Anatoli Clarke", rank: "Loremaster", affiliation: "Clan Sea Fox" }
+          - { name: "Ginny Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Sena Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Sha Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Evangeline Clarke", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Brencis Clarke", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Khuzymah Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Megan Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Stanislaus Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Thoman Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Tucker Clarke", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "BattleTech: Clan Support Star" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hunters of the Deep" }
+          - { title: "Invading Clans" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Coston"
+    houses:
+      - founder: "Morad"
+        founderFullName: "Morad Coston"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        limited: true
+        postReaving: [CDS]
+        notableHolders:
+          - { name: "Nathaniel Coston", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Friederike Coston", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Hanna Coston", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Erikson"
+    houses:
+      - founder: "Nikki"
+        founderFullName: "Nikki Erikson"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Erikson Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Freya Erikson", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Fangxiao"
+    houses:
+      - founder: "Daniel"
+        founderFullName: "Daniel Fangxiao"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Fangxiao Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Enbar Fangxiao", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Shrapnel Issue 7" }
+        history: ~
+  - name: "Faulk"
+    houses:
+      - founder: "Eamon"
+        founderFullName: "Eamon Faulk"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CDS,CJF,CSR]
+        summary: "The Faulk Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Yasmeen Faulk", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Stephan Faulk", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Tamara Faulk", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Andrew Faulk", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Oswell Faulk", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Rose Faulk", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ryn Faulk", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Yvette Faulk", rank: "Star Colonel", affiliation: "Clan Protectorate" }
+          - { name: "Prospero Faulk", rank: "Star Captain", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hunters of the Deep" }
+          - { title: "Recognition Guide: ilClan, vol. 15", abbrev: "RG15" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+        history: ~
+  - name: "Fowler"
+    houses:
+      - founder: "Marlo"
+        founderFullName: "Marlo Fowler"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "PROTOMEK"
+        exclusive: true
+        limited: true
+        postReaving: [CDS]
+        summary: "The Fowler Bloodname was a Clan Sea Fox founding name. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+        notableHolders:
+          - { name: "Irwin Fowler", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "James Fowler", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Ghiberti"
+    houses:
+      - founder: "Charles"
+        founderFullName: "Charles Ghiberti"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Ghiberti Bloodname was a Clan Sea Fox founding name. The Bloodcount of the Ghiberti was Reaved by at least one, in 3097."
+        notableHolders:
+          - { name: "Raven Ghiberti", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Lorenzo Ghiberti", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Hamm"
+    houses:
+      - founder: "Olivia"
+        founderFullName: "Olivia Hamm"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Hamm Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Hammond"
+    houses:
+      - founder: "Anthony"
+        founderFullName: "Anthony Hammond"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CDS]
+        notableHolders:
+          - { name: "Xoc Hammond", rank: "Khan", affiliation: "Clan Sea Fox" }
+          - { name: "Orestes Hammond", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Azerwal Hammond", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Marko Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Paul Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jeremy Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Ross Hammond", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+          - { name: "Marcin Hammond", rank: "Stablemaster", affiliation: "Zellbrigen Stables" }
+          - { name: "Najeh Hammond", rank: "MechWarrior", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "BattleTech: Clan Command Star" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MapPack: Solaris VII" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Hawker"
+    houses:
+      - founder: "Dalia"
+        founderFullName: "Dalia Hawker"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        shared: true
+        postReaving: [CDS,CGB,CHH,CW]
+        summary: "The Hawker Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Ian Hawker", rank: "Khan", affiliation: "Clan Diamond Shark" }
+          - { name: "Mori Hawker", rank: "Khan", affiliation: "Clan Sea Fox" }
+          - { name: "Alan Hawker", rank: "saKhan", affiliation: "Clan Diamond Shark" }
+          - { name: "Eyvind Hawker", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Ike Hawker", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Blake Hawker", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Stevic Hawker", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Lori Hawker", rank: "Star Admiral", affiliation: "Clan Diamond Shark" }
+          - { name: "Ariel Hawker", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Bryant Hawker", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+          - { name: "Cassandra Hawker", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Curtis Hawker", rank: "Star Colonel", affiliation: "Clan Stone Lion" }
+          - { name: "Darla Hawker", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Elissa Hawker", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jeremy Hawker", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Kate Hawker", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Josiah Hawker", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Lisha Hawker", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Montgomery Hawker", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Omar Hawker", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Sadler Hawker", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Susannah Hawker", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Bridget Hawker", rank: "Star Captain", affiliation: "Clan Sea Fox" }
+          - { name: "Josem Hawker", rank: "Star Captain", affiliation: "Clan Sea Fox" }
+          - { name: "Lauren Hawker", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Jerry Hawker", rank: "MechWarrior", affiliation: "Wolf's Dragoons" }
+          - { name: "Joshua Hawker", affiliation: "Clan Diamond Shark" }
+          - { name: "Maya Hawker", affiliation: "Steel Wolves" }
+        sources:
+          - { title: "Ambrosia" }
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "ilClan", abbrev: "IC" }
+          - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+          - { title: "MechWarrior: Death From Above" }
+          - { title: "Recognition Guide: ilClan, vol. 2" }
+          - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+          - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Horn"
+    houses:
+      - founder: "Axel"
+        founderFullName: "Axel Horn"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CDS,CJF]
+        summary: "The Horn Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Kaija Horn", rank: "saKhan", affiliation: "Clan Diamond Shark" }
+          - { name: "Lauritz Horn", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Matthew Horn", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Gutby Horn", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Benjamin Horn", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Bretain Horn", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Cynthia Horn", rank: "Star Colonel", affiliation: "Wolf Empire" }
+          - { name: "Elbert Horn", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Janet Horn", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Jean Horn", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Korin Horn", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Sara Horn", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Vik Horn", rank: "Star Colonel", affiliation: "Clan Ice Hellion" }
+          - { name: "Dana Horn", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Blood in the Water" }
+          - { title: "Era Report: 3052" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Shattered Fortress", abbrev: "SF" }
+          - { title: "Tamar Rising" }
+        history: ~
+  - name: "Hui"
+    houses:
+      - founder: "Koji"
+        founderFullName: "Koji Hui"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Hui Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Jackson"
+    houses:
+      - founder: "Dorian"
+        founderFullName: "Dorian Jackson"
+        founderAffiliation: "Clan Sea Fox"
+        notableHolders:
+          - { name: "Ellis Jackson", rank: "Point Commander", affiliation: "Clan Nova Cat" }
+        sources:
+          - { title: "The Black Thorns" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Kalasa"
+    houses:
+      - founder: "David"
+        founderFullName: "David Kalasa"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CDS]
+        summary: "The Kalasa Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Petr Kalasa", rank: "saKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Semi Kalasa", rank: "Loremaster", affiliation: "Clan Diamond Shark" }
+          - { name: "Lane Kalasa", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Lester Kalasa", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Holsase Kalasa", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Isaak Kalasa", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Katerina Kalasa", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Damien Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Eldin Kalasa", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Faisal Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Irina Kalasa", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Jalia Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jerome Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Kitaro Kalasa", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Miles Kalasa", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Onyx Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Pertev Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Wilhelm Kalasa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Yves Kalasa", rank: "Star Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Jasmine Kalasa", rank: "Solaris VII gladiator" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Illusions of Victory", abbrev: "Illusions of Victory" }
+          - { title: "MapPack: Solaris VII" }
+          - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+          - { title: "Recognition Guide: ilClan, vol. 4" }
+          - { title: "Recognition Guide: ilClan, vol. 15", abbrev: "RG15" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Korn"
+    houses:
+      - founder: "Seda"
+        founderFullName: "Seda Korn"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Korn Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Charles Korn", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+        history: ~
+  - name: "Labov"
+    houses:
+      - founder: "Hestrie"
+        founderFullName: "Hestrie Labov"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Labov Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Angus Labov", rank: "Khan", affiliation: "Clan Diamond Shark" }
+          - { name: "Ya'el Labov", rank: "saKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Antoinette Labov", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Gar Labov", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Eros Labov", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Asvoria Labov", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Clan Heavy Battle Star" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 24", abbrev: "RG24" }
+          - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Maine"
+    houses:
+      - founder: "Isabel"
+        founderFullName: "Isabel Maine"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CDS]
+        summary: "The Maine Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Kayne Maine", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Abe Maine", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Calvin Maine", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Donat Maine", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Gerda Maine", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Kofi Maine", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Patrice Maine", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Roberto Maine", rank: "Major", affiliation: "Raging Horde" }
+          - { name: "Torrence Maine", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Mercenaries Supplemental II", abbrev: "MSII" }
+        history: ~
+  - name: "Marsh"
+    houses:
+      - founder: "Karoline"
+        founderFullName: "Karoline Marsh"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Marsh Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Nikki Marsh", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+        history: ~
+  - name: "Mirazi"
+    houses:
+      - founder: "Tobias"
+        founderFullName: "Tobias Mirazi"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Mirazi Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: Dark Age", abbrev: "TR:DA" }
+        history: ~
+  - name: "Nagasawa"
+    houses:
+      - founder: "Karen"
+        founderFullName: "Karen Nagasawa"
+        founderRank: "second Khan"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CDS]
+        notableHolders:
+          - { name: "Naomi Nagasawa", rank: "Khan", affiliation: "Clan Diamond Shark" }
+          - { name: "Bernard Nagasawa", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Hark Nagasawa", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Coleen Nagasawa", rank: "Star Colonel", affiliation: "Clan Sea Fox" }
+          - { name: "Hayato Nagasawa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Kevin Nagasawa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Tracii Nagasawa", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Tanith Nagasawa", rank: "Star Captain", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hunters of the Deep" }
+          - { title: "Recognition Guide: ilClan, vol. 21", abbrev: "RG21" }
+        history: ~
+  - name: "Namani"
+    houses:
+      - founder: "Esteban"
+        founderFullName: "Esteban Namani"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Namani Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Oriega"
+    houses:
+      - founder: "Steven"
+        founderFullName: "Steven Oriega"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Oriega Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Senza Oriega", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+          - { name: "Ray Oriega", rank: "SaFactor", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Experimental Technical Readout: RISC", abbrev: "XTR:RISC" }
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Oshika"
+    houses:
+      - founder: "Eri"
+        founderFullName: "Eri Oshika"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CDS]
+        summary: "The Oshika Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Hildegaard Oshika", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Tim Oshika", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Bellini Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Cerys Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jewell Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Lyra Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Robyn Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Ulna Oshika", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Dibney Oshika", rank: "Senior Merchant", affiliation: "Clan Sea Fox" }
+          - { name: "Oxford Oshika", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Experimental Technical Readout: Caveat Emptor", abbrev: "XTR:Caveat" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Shrapnel Issue 6" }
+        history: ~
+  - name: "Rodriguez"
+    houses:
+      - founder: "Sora"
+        founderFullName: "Sora Rodriguez"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CDS]
+        summary: "The Rodriguez Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Samson Rodriguez", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Winthrop Rodriguez", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Trevor Rodriguez", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Ala Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Breen Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Jem Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Juan Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Mandy Rodriguez", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Porter Rodriguez", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Tahme Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Vito Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Justus Rodriguez", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+          - { name: "Odilon Rodriguez", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+          - { name: "Senna Rodriguez", rank: "Master Merchant", affiliation: "Clan Sea Fox" }
+          - { name: "Luna Rodriguez", rank: "Merchant", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "BattleTech: Clan Ad Hoc Star" }
+          - { title: "Era Report: 3145" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "MechWarrior Card Pack I" }
+          - { title: "A Rending of Falcons" }
+          - { title: "Shrapnel Issue 24" }
+          - { title: "Technical Readout: 3145 Mercenaries", abbrev: "TR:3145:Merc" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Romashina"
+    houses:
+      - founder: "Frederick"
+        founderFullName: "Frederick Romashina"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Romashina Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Russo"
+    houses:
+      - founder: "Haibin"
+        founderFullName: "Haibin Russo"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Russo Bloodname was a Clan Sea Fox founding name. Previously exclusive to the Sea Foxes/Sharks, it is now shared with Clan Hell's Horses."
+        notableHolders:
+          - { name: "Alan Russo", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+          - { title: "Recognition Guide, Vol. 2: ilClan" }
+        history: ~
+  - name: "Sennet"
+    houses:
+      - founder: "Dianne"
+        founderFullName: "Dianne Sennet"
+        founderRank: "first saKhan"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        limited: true
+        postReaving: [CDS]
+        summary: "The Sennet Bloodname was a Clan Sea Fox founding legacy."
+        notableHolders:
+          - { name: "Barbara Sennet", rank: "Khan", affiliation: "Clan Diamond Shark" }
+          - { name: "Arkady Sennet", rank: "saKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Mikel Sennet", rank: "saKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Fergus Sennet", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Mark Sennet", rank: "saFactor", affiliation: "Clan Diamond Shark" }
+          - { name: "Dargen Sennet", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Drake Sennet", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Geno Sennet", rank: "Star Colonel", affiliation: "Clan Coyote" }
+          - { name: "Red Sennet", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Zhodrack Sennet", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Alice Sennet", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+          - { name: "Tal Sennet", rank: "Star Captain", affiliation: "Clan Sea Fox" }
+          - { name: "Jet Sennet", rank: "Bloodhouse Leader", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "BattleTech: Battle of Tukayyid" }
+          - { title: "Era Report: 3052" }
+          - { title: "Era Report: 3145" }
+          - { title: "Explorer Corps", abbrev: "EC" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hunters of the Deep" }
+          - { title: "Mutual Advantage (in: Total Warfare)" }
+        history: ~
+  - name: "Smethurst"
+    houses:
+      - founder: "Maria"
+        founderFullName: "Maria Smethurst"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Smethurst Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Solomon"
+    houses:
+      - founder: "Hintre"
+        founderFullName: "Hintre Solomon"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Solomon Bloodname was a Clan Sea Fox founding name. In January 3134 the Bloodhouse faced a Trial of Reaving called for by the Thastus Blood house. They were successful, keeping the Bloodcount at nine. It was said to be a Clan Jade Falcon Bloodnames at that time, though that may be the misunderstanding of an outside journalist."
+        notableHolders:
+          - { name: "Illons Solomon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "Dark Age: 3132-3134 INN" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Sutherland"
+    houses:
+      - founder: "Jack"
+        founderFullName: "Jack Sutherland"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "AEROSPACE"
+        postReaving: [CDS]
+        notableHolders:
+          - { name: "Andreas Sutherland", rank: "saKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Joseph Sutherland", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Amiri Sutherland", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Marika Sutherland", rank: "Star Commodore", affiliation: "Clan Sea Fox" }
+          - { name: "Nelek Sutherland", rank: "Senior Merchant", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Hunters of the Deep" }
+        history: ~
+  - name: "Takahira"
+    houses:
+      - founder: "Reggie"
+        founderFullName: "Reggie Takahira"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Takahira Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Malcolm Takahira", rank: "saFactor", affiliation: "Clan Sea Fox" }
+        sources:
+          - { title: "Elements of Treason: Honor" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Timoney"
+    houses:
+      - founder: "Espe"
+        founderFullName: "Espe Timoney"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Timoney Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Vandenberg"
+    houses:
+      - founder: "Andreas"
+        founderFullName: "Andreas Vandenberg"
+        founderAffiliation: "Clan Sea Fox"
+        notableHolders:
+          - { name: "Abide Vandenberg", rank: "Star Commander", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Clan Invasion" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Vewas"
+    houses:
+      - founder: "Carlos"
+        founderFullName: "Carlos Vewas"
+        founderAffiliation: "Clan Sea Fox"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CDS,CHH,CSR]
+        summary: "The Vewas Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Aislinn Vewas", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Silias Vewas", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Zoie Vewas", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+          - { name: "Bikendi Vewas", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+          - { name: "Julian Vewas", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+          - { name: "Bob Vewas", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Hector Vewas", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Lucia Vewas", rank: "Star Colonel", affiliation: "Raven Alliance" }
+          - { name: "Ulysses Vewas", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Wen Vewas", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Iniga Vewas", rank: "Star Commander", affiliation: "Clan Diamond Shark" }
+        sources:
+          - { title: "BattleTech: Clan Heavy Star" }
+          - { title: "Era Report: 3052" }
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 18", abbrev: "RG18" }
+          - { title: "Tamar Rising" }
+          - { title: "Technical Readout: 3145 Mercenaries", abbrev: "TR:3145:Merc" }
+        history: ~
+  - name: "Viard"
+    houses:
+      - founder: "Obadele"
+        founderFullName: "Obadele Viard"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Viard Bloodname was a Clan Sea Fox founding name."
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Yung"
+    houses:
+      - founder: "Kieren"
+        founderFullName: "Kieren Yung"
+        founderAffiliation: "Clan Sea Fox"
+        summary: "The Yung Bloodname was a Clan Sea Fox founding name."
+        notableHolders:
+          - { name: "Anwar Yung", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+          - { name: "Tobias Yung", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~

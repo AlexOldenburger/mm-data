@@ -137,3 +137,733 @@ factionLeaders:
     startYear: 3137
 usesMercenaries:
   2500: false
+
+# Bloodname houses originating with this Clan. Mechanical fields mirror
+# data/names/bloodnames/bloodnames.xml; the rest is descriptive.
+bloodnames:
+  - name: "Arbuthnot"
+    houses:
+      - founder: "Brian"
+        founderFullName: "Brian Arbuthnot"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CGS,CCC]
+        summary: "The Arbuthnot Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Sakmar Arbuthnot", rank: "saKhan", affiliation: "Escorpión Imperio" }
+          - { name: "Miri Arbuthnot", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Tasha Arbuthnot", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Caroline Arbuthnot", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Baba"
+    houses:
+      - founder: "David"
+        founderFullName: "David Baba"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Baba Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Homer Baba", rank: "saKhan", affiliation: "Escorpión Imperio" }
+          - { name: "Allison Baba", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Miros Baba", rank: "Galaxy Commander", affiliation: "Scorpion Empire" }
+          - { name: "Shanti Baba", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Trajan Baba", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Horan Baba", rank: "Star Captain", affiliation: "Ebon Keshik" }
+          - { name: "Edmund Baba", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Valanda Baba", rank: "Point Commander", affiliation: "Scorpion Empire" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Icons of War" }
+          - { title: "Moving Forward" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Ben-Shimon"
+    houses:
+      - founder: "Bair"
+        founderFullName: "Bair Ben-Shimon"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Ben-Shimon Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Kyrie Ben-Shimon", rank: "Loremaster", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Sargon Ben-Shimon", rank: "Loremaster", affiliation: "Escorpión Imperio" }
+          - { name: "Pavan Ben-Shimon", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Yusuf Ben-Shimon", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Archibald Ben-Shimon", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Elizabeth Ben-Shimon", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "No Greater Honor" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Brinker"
+    houses:
+      - founder: "Elnur"
+        founderFullName: "Elnur Brinker"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Brinker Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Chiasson Brinker", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Gulledge Brinker", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Jonny Brinker", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Bungei"
+    houses:
+      - founder: "Jaroslav"
+        founderFullName: "Jaroslav Bungei"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Bungei Bloodname was a Clan Goliath Scorpion founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Collesano"
+    houses:
+      - founder: "Aleksandr"
+        founderFullName: "Aleksandr Collesano"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Collesano Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Josef Collesano", rank: "Star Admiral", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Pam Collesano", rank: "Star Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Cranstonolv"
+    houses:
+      - founder: "Ekaterina"
+        founderFullName: "Ekaterina Cranstonolv"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Cranstonolv Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Metrik Cranstonolv", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Demos"
+    houses:
+      - founder: "Eunice"
+        founderFullName: "Eunice Demos"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Demos Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Nikola Demos", rank: "Star Colonel", affiliation: "Steel Wolf Corps" }
+          - { name: "Sophia Demos", rank: "Star Captain", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+          - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }
+        history: ~
+  - name: "Dinour"
+    houses:
+      - founder: "Balázs"
+        founderFullName: "Balázs Dinour"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Dinour Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Shandra Dinour", rank: "Khan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Kulchaak Dinour", rank: "saKhan", affiliation: "Escorpión Imperio" }
+          - { name: "Lincoln Dinour", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Charles Dinour", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Gabrielle Dinour", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Mara Dinour", rank: "Star Colonel", affiliation: "Scorpion Empire" }
+          - { name: "Mikel Dinour", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+          - { name: "Vlad Dinour", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Kyle Dinour", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Field Manual: Crusader Clans" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Moving Forward" }
+          - { title: "Shrapnel Issue 3" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Wolf Clan Sourcebook" }
+        history: ~
+  - name: "Djerassi"
+    houses:
+      - founder: "Naomi"
+        founderFullName: "Naomi Djerassi"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CCC]
+        summary: "The Djerassi Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Nikolai Djerassi", rank: "Khan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Shaum Djerassi", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Andre Djerassi", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+          - { name: "Topaz Djerassi", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+          - { name: "Leon Djerassi", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Elam"
+    houses:
+      - founder: "Cyrus"
+        founderFullName: "Cyrus Elam"
+        founderRank: "first Khan"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CGS,CCC]
+        summary: "The Elam Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Nelson Elam", rank: "saKhan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Mull Elam", rank: "Galaxy Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Kernan Elam", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Rodrigo Elam", rank: "Warrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Dawn of the Jihad" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Gorga"
+    houses:
+      - founder: "Alberto"
+        founderFullName: "Alberto Gorga"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Gorga Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Dana Gorga", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Jade Falcon Sourcebook" }
+        history: ~
+  - name: "Hardo"
+    houses:
+      - founder: "Tang"
+        founderFullName: "Tang Hardo"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Hardo Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Kelly Hardo", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+          - { name: "Jane Hardo", rank: "Star Colonel", affiliation: "Clan Protectorate" }
+          - { name: "Bevin Hardo", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Price Hardo", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Teague Hardo", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+          - { name: "Clark Hardo", rank: "Star Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+          - { title: "Field Manual: ComStar" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Henríquez"
+    houses:
+      - founder: "Marcus"
+        founderFullName: "Marcus Henríquez"
+        summary: "The Henríquez Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Fiona Henríquez", rank: "Star Captain", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Ismaila"
+    houses:
+      - founder: "Bruny"
+        founderFullName: "Bruny Ismaila"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Ismaila Bloodname was a Clan Goliath Scorpion founding legacy."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Kirov"
+    houses:
+      - founder: "Hinrich"
+        founderFullName: "Hinrich Kirov"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Kirov Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Enrico Kirov", rank: "Khan", affiliation: "Escorpión Imperio" }
+          - { name: "Lan Kirov", rank: "Loremaster", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Julian Kirov", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Orvin Kirov", rank: "Galaxy Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Kevin Kirov", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Qelli Kirov", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Azure Kirov", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Edwin Kirov", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }
+          - { title: "Recognition Guide: ilClan, vol. 23", abbrev: "RG23" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Kreek"
+    houses:
+      - founder: "Fabricio"
+        founderFullName: "Fabricio Kreek"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Kreek Bloodname was a Clan Goliath Scorpion founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "LeClair"
+    houses:
+      - founder: "Felicity"
+        founderFullName: "Felicity LeClair"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The LeClair Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Jean-Girard LeClair", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+          - { name: "White LeClair", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Fragments of History" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+        history: ~
+  - name: "Linghui"
+    houses:
+      - founder: "Sang"
+        founderFullName: "Sang Linghui"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Linghui Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Raquel Linghui", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+          - { name: "Tung Linghui", rank: "Warrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Lunde"
+    houses:
+      - founder: "Tatyana"
+        founderFullName: "Tatyana Lunde"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Lunde Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Ahrissta Lunde", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Madsen"
+    houses:
+      - founder: "David"
+        founderFullName: "David Madsen"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Madsen Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Morrigan Madsen", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Ranger Madsen", rank: "Star Captain", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Fragments of History" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Mortelette"
+    houses:
+      - founder: "Jason"
+        founderFullName: "Jason Mortelette"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Mortelette Bloodname was a Clan Goliath Scorpion founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Myers"
+    houses:
+      - founder: "Brian"
+        founderFullName: "Brian Myers"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Myers Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Kelton Myers", rank: "saKhan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Barin Myers", rank: "Galaxy Commander", affiliation: "Scorpion Empire" }
+          - { name: "Rik Myers", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Daishiro Myers", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Gunnar Myers", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Toma Myers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+          - { name: "Dwayne Myers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Josey Myers", rank: "Star Captain", affiliation: "Scorpion Empire" }
+          - { name: "Michael Myers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Kathryn Myers", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+          - { name: "Selma Myers", rank: "Star Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Tyla Myers", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "The Dragon Roars" }
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+          - { title: "Moving Forward" }
+          - { title: "No Dust, No Wear" }
+          - { title: "Operational Turning Points: REVIVAL Trials" }
+          - { title: "Recognition Guide: ilClan, vol. 20", abbrev: "RG20" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Nagy"
+    houses:
+      - founder: "Tayshaun"
+        founderFullName: "Tayshaun Nagy"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Nagy Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Rife Nagy", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Naidu"
+    houses:
+      - founder: "Kerri"
+        founderFullName: "Kerri Naidu"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Naidu Bloodname was a Clan Goliath Scorpion founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Omid"
+    houses:
+      - founder: "Melanie"
+        founderFullName: "Melanie Omid"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Omid Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Desmond Omid", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+          - { name: "Massir Omid", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Invading Clans" }
+        history: ~
+  - name: "Pakhalina"
+    houses:
+      - founder: "Brimin"
+        founderFullName: "Brimin Pakhalina"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Pakhalina Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Geronimo Pakhalina", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Posavatz"
+    houses:
+      - founder: "Jean-Christophe"
+        founderFullName: "Jean-Christophe Posavatz"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Posavatz Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Mariam Posavatz", rank: "saKhan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Ren Posavatz", rank: "saKhan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Isaac Posavatz", rank: "Galaxy Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Josip Posavatz", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Leonard Posavatz", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Malachi Posavatz", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Samuel Posavatz", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Rebecca Posavatz", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Josef Posavatz", rank: "MechWarrior", affiliation: "Romanov's Crusaders" }
+        sources:
+          - { title: "Field Manual: Mercenaries Revised" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "No Dust, No Wear" }
+          - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Sang"
+    houses:
+      - founder: "Boris"
+        founderFullName: "Boris Sang"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Sang Bloodname was a Clan Goliath Scorpion founding name."
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+        history: ~
+  - name: "Scott"
+    houses:
+      - founder: "Jenna"
+        founderFullName: "Jenna Scott"
+        founderRank: "first saKhan"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "GENERAL"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Scott Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Magon Scott", rank: "Khan", affiliation: "Scorpion Empire" }
+          - { name: "Randi Scott", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Bridget Scott", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Jillian Scott", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Randi Scott", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Bronte Scott", rank: "Star Captain", affiliation: "Escorpión Imperio" }
+          - { name: "Lashta Scott", rank: "Star Captain", affiliation: "Scorpion Empire" }
+          - { name: "Robert Scott", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "Alpha Strike Boxed Set" }
+        history: ~
+  - name: "Shaffer"
+    houses:
+      - founder: "Dawn"
+        founderFullName: "Dawn Shaffer"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "ELEMENTAL"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Shaffer Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Lukas Shaffer", rank: "Galaxy Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Edwin Shaffer", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Lavender Shaffer", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Maressa Shaffer", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Marko Shaffer", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Reggie Shaffer", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+          - { name: "Tyra Shaffer", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Ava Shaffer", rank: "Star Commander", affiliation: "Escorpión Imperio" }
+          - { name: "Brenda Shaffer", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Snell"
+    houses:
+      - founder: "Malik"
+        founderFullName: "Malik Snell"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Snell Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Samuel Snell", rank: "Star Captain", affiliation: "Scorpion Empire" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+        history: ~
+  - name: "Solheim"
+    houses:
+      - founder: "Sherone"
+        founderFullName: "Sherone Solheim"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Solheim Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Heinrich Solheim", rank: "Point Commander", affiliation: "Scorpion Empire" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Suvorov"
+    houses:
+      - founder: "Li"
+        founderFullName: "Li Suvorov"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "AEROSPACE"
+        exclusive: true
+        postReaving: [CGS,CCC]
+        summary: "The Suvorov Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Ariel Suvorov", rank: "Khan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Henrika Suvorov", rank: "saKhan", affiliation: "Escorpión Imperio" }
+          - { name: "Brendan Suvorov", rank: "Star Admiral", affiliation: "Clan Cloud Cobra" }
+          - { name: "Patel Suvorov", rank: "Star Admiral", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Rebecca Suvorov", rank: "Star Admiral", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Kylie Suvorov", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+          - { name: "Lorraine Suvorov", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Jose Suvorov", rank: "Warrior", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+          - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+        history: ~
+  - name: "Sword"
+    houses:
+      - founder: "Kami"
+        founderFullName: "Kami Sword"
+        founderRank: "Star Captain"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Sword Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Arabelle Sword", rank: "Star Colonel", affiliation: "Scorpion Empire" }
+          - { name: "Flahar Sword", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+          - { name: "Gilmore Sword", rank: "Star Captain", affiliation: "Clan Wolf" }
+          - { name: "Rhonda Sword", rank: "Star Captain", affiliation: "Clan Wolf" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "To Lead and Serve (BattleCorps Story)" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Tazegül"
+    houses:
+      - founder: "Yu"
+        founderFullName: "Yu Tazegül"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Tazegül Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Valentina Tazegül", rank: "saKhan", affiliation: "Scorpion Empire" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Wagner"
+    houses:
+      - founder: "Antonio"
+        founderFullName: "Antonio Wagner"
+        founderAffiliation: "Clan Goliath Scorpion"
+        notableHolders:
+          - { name: "Jayne Wagner", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
+          - { name: "Lynne Wagner", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Crimson Seeker Star" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "Yeh"
+    houses:
+      - founder: "Saho"
+        founderFullName: "Saho Yeh"
+        founderAffiliation: "Clan Goliath Scorpion"
+        phenotype: "MEKWARRIOR"
+        exclusive: true
+        postReaving: [CGS]
+        summary: "The Yeh Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Colin Yeh", rank: "Khan", affiliation: "Escorpión Imperio" }
+          - { name: "Mikhail Yeh", rank: "Khan", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Kalara Yeh", rank: "Loremaster", affiliation: "Escorpión Imperio" }
+          - { name: "Adam Yeh", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Amanda Yeh", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+          - { name: "Enrique Yeh", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Forever Faithful" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }
+          - { title: "Spotlight On: Schmidt's Petraries" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
+  - name: "Zuric"
+    houses:
+      - founder: "Noureddine"
+        founderFullName: "Noureddine Zuric"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The Zuric Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Vincent Zuric", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+          - { name: "Gary Zuric", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+        sources:
+          - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+        history: ~
+  - name: "ar-Rashid"
+    houses:
+      - founder: "Monica"
+        founderFullName: "Monica ar-Rashid"
+        founderAffiliation: "Clan Goliath Scorpion"
+        summary: "The ar-Rashid Bloodname was a Clan Goliath Scorpion founding name."
+        notableHolders:
+          - { name: "Jasin ar-Rashid", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+        sources:
+          - { title: "Field Manual: Updates", abbrev: "FM:U" }
+          - { title: "Field Manual: Warden Clans" }
+          - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+          - { title: "The Wars of Reaving", abbrev: "WoR" }
+        history: ~
