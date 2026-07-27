@@ -15,9 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.01 on 2026-07-17
+#Saved from version 0.51.01 on 2026-07-26
 <UUID>
-019f72cc-dbe5-78c6-8829-7474752e80fb
+019f9fd8-7fd1-7d57-a76a-b681e4863533
 </UUID>
 
 <UnitType>
@@ -25,7 +25,7 @@ Infantry
 </UnitType>
 
 <Name>
-Clan Support Squad
+ComStar Support Squad 2
 </Name>
 
 <Model>
@@ -33,11 +33,11 @@ Clan Support Squad
 </Model>
 
 <year>
-2820
+2825
 </year>
 
 <type>
-Clan Level 3
+IS Level 3
 </type>
 
 <motion_type>
@@ -52,7 +52,7 @@ Clothing, Fatigues/Civilian/Non-Armored
 </Field Guns Equipment>
 
 <squad_size>
-5
+2
 </squad_size>
 
 <squadn>
@@ -62,5 +62,4 @@ Clothing, Fatigues/Civilian/Non-Armored
 <Primary>
 Blade (Dagger/Knife/Bayonet)
 </Primary>
-
 
