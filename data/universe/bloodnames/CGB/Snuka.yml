@@ -25,8 +25,11 @@ houses:
     founderAffiliation: "Clan Ghost Bear"
     phenotype: "GENERAL"
     limited: true
+    limitedSince: 3085
     postReaving: [CGB]
-    summary: "The Snuka Bloodname was a Clan Ghost Bear founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Snuka Bloodname was a Clan Ghost Bear founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Roberto Snuka", rank: "saKhan", affiliation: "Clan Ghost Bear" }
       - { name: "Benjamin Snuka", rank: "Galaxy Commander", affiliation: "Clan Ghost Bear" }

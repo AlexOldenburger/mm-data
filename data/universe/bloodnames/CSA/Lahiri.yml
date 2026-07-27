@@ -26,6 +26,7 @@ houses:
     phenotype: "AEROSPACE"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSA]
     summary: "The Lahiri Bloodname was a Clan Star Adder founding genetic legacy."
     notableHolders:

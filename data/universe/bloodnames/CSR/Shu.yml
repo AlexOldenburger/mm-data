@@ -24,7 +24,9 @@ houses:
     founderFullName: "Bradley Shu"
     phenotype: "AEROSPACE"
     exclusive: true
-    summary: "The Shu Bloodname was a Clan Snow Raven founding name. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages, and only eligible through a Trueborn's genefather."
+    summary: "The Shu Bloodname was a Clan Snow Raven founding name."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages, and only eligible through a Trueborn's genefather." }
     notableHolders:
       - { name: "Hinda Shu", rank: "Star Admiral", affiliation: "Clan Snow Raven" }
       - { name: "Shingo Shu", rank: "Star Admiral", affiliation: "Clan Snow Raven" }

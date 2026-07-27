@@ -26,6 +26,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CHH]
     notableHolders:
       - { name: "Sasha Mitchell", rank: "saKhan", affiliation: "Clan Hell's Horses" }

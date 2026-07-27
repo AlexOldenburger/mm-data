@@ -27,9 +27,12 @@ houses:
     phenotype: "AEROSPACE"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CW]
     absorbed: { clan: CW, date: 2834 }
-    summary: "The Conners Bloodname was a Clan Widowmaker founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Conners Bloodname was a Clan Widowmaker founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Victoria Conners", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
       - { name: "Bert Conners", rank: "Star Colonel", affiliation: "Wolf Empire" }

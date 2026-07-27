@@ -26,6 +26,7 @@ houses:
     phenotype: "GENERAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CCO]
     summary: "The Nash Bloodname was a Clan Coyote founding name."
     notableHolders:

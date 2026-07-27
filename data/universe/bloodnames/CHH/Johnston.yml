@@ -26,6 +26,7 @@ houses:
     phenotype: "PROTOMEK"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CHH]
     notableHolders:
       - { name: "Meagan Johnston", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }

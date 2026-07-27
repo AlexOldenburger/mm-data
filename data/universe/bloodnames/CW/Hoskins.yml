@@ -24,6 +24,7 @@ houses:
     founderFullName: "Elise Hoskins"
     founderAffiliation: "Clan Wolf"
     limited: true
+    limitedSince: 3085
     postReaving: [CGS, CSA]
     summary: "The Hoskins Bloodname was a Clan Wolf founding legacy."
     notableHolders:

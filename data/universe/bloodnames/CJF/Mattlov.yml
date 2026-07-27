@@ -26,8 +26,11 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CJF]
-    summary: "The Mattlov Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Mattlov Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Angeline Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Ramon Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }

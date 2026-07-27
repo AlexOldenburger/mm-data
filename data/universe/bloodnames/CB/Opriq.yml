@@ -26,6 +26,7 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSA]
     absorbed: { clan: CSA, date: 3059 }
     summary: "The Opriq Bloodname was a Clan Burrock founding name."

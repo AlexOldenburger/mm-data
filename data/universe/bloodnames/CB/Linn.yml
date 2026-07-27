@@ -27,6 +27,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSA]
     absorbed: { clan: CSA, date: 3059 }
     summary: "The Linn Bloodname was a Clan Burrock founding legacy."

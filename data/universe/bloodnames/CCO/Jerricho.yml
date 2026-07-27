@@ -27,6 +27,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CCO]
     summary: "The Jerricho Bloodname was a Clan Coyote founding legacy."
     notableHolders:

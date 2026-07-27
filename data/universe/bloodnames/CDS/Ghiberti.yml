@@ -23,7 +23,9 @@ houses:
   - founder: "Charles"
     founderFullName: "Charles Ghiberti"
     founderAffiliation: "Clan Sea Fox"
-    summary: "The Ghiberti Bloodname was a Clan Sea Fox founding name. The Bloodcount of the Ghiberti was Reaved by at least one, in 3097."
+    summary: "The Ghiberti Bloodname was a Clan Sea Fox founding name."
+    datedNotes:
+      - { year: 3097, text: "The Bloodcount of the Ghiberti was Reaved by at least one, in 3097." }
     notableHolders:
       - { name: "Raven Ghiberti", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
       - { name: "Lorenzo Ghiberti", rank: "Star Captain", affiliation: "Clan Wolf" }

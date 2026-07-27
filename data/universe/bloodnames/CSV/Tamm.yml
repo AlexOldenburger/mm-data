@@ -26,6 +26,7 @@ houses:
     phenotype: "AEROSPACE"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSL]
     notableHolders:
       - { name: "Jun Tamm", rank: "Star Admiral", affiliation: "Clan Steel Viper" }

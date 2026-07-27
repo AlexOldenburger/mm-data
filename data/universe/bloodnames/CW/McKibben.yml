@@ -24,6 +24,7 @@ houses:
     founderFullName: "Georgina McKibben"
     founderAffiliation: "Clan Wolf"
     limited: true
+    limitedSince: 3085
     postReaving: [CCO]
     summary: "The McKibben Bloodname was a Clan Wolf founding legacy."
     notableHolders:

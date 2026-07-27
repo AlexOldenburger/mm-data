@@ -23,7 +23,9 @@ houses:
   - founder: "Hintre"
     founderFullName: "Hintre Solomon"
     founderAffiliation: "Clan Sea Fox"
-    summary: "The Solomon Bloodname was a Clan Sea Fox founding name. In January 3134 the Bloodhouse faced a Trial of Reaving called for by the Thastus Blood house. They were successful, keeping the Bloodcount at nine. It was said to be a Clan Jade Falcon Bloodnames at that time, though that may be the misunderstanding of an outside journalist."
+    summary: "The Solomon Bloodname was a Clan Sea Fox founding name. They were successful, keeping the Bloodcount at nine. It was said to be a Clan Jade Falcon Bloodnames at that time, though that may be the misunderstanding of an outside journalist."
+    datedNotes:
+      - { year: 3134, text: "In January 3134 the Bloodhouse faced a Trial of Reaving called for by the Thastus Blood house." }
     notableHolders:
       - { name: "Illons Solomon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
     sources:

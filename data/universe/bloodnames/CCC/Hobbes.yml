@@ -26,6 +26,7 @@ houses:
     phenotype: "PROTOMEK"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CCC]
     summary: "The Hobbes Bloodname was a Clan Cloud Cobra founding legacy."
     notableHolders:

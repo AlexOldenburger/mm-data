@@ -26,8 +26,11 @@ houses:
     phenotype: "GENERAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CJF]
-    summary: "The Chistu Bloodname was a Clan Jade Falcon founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Chistu Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Jiyi Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
       - { name: "Ruel Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }

@@ -26,8 +26,11 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CGB]
-    summary: "The Vong Bloodname was a Clan Ghost Bear founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Vong Bloodname was a Clan Ghost Bear founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Ezekiel Vong", rank: "Galaxy Commander", affiliation: "Rasalhague Dominion" }
       - { name: "Jocelyn Vong", rank: "Galaxy Commander", affiliation: "Clan Ghost Bear" }

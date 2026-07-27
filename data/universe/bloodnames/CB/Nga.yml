@@ -26,6 +26,7 @@ houses:
     phenotype: "AEROSPACE"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSA]
     absorbed: { clan: CSA, date: 3059 }
     summary: "The Nga Bloodname was a Clan Burrock founding name."

@@ -26,6 +26,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CCO]
     summary: "The Mercer Bloodname was a Clan Steel Viper founding name."
     notableHolders:

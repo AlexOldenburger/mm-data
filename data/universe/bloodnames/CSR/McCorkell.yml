@@ -26,8 +26,11 @@ houses:
     phenotype: "AEROSPACE"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSR]
-    summary: "The McCorkell Bloodname was a Clan Snow Raven founding name. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The McCorkell Bloodname was a Clan Snow Raven founding name."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Ewan McCorkell", rank: "Khan", affiliation: "Clan Snow Raven" }
       - { name: "Lev McCorkell", rank: "Galaxy Commander", affiliation: "Clan Snow Raven" }

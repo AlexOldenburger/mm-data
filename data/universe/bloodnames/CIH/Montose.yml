@@ -26,6 +26,7 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSL]
     absorbed: { clan: CGS, date: 3074 }
     summary: "The Montose Bloodname was a Clan Ice Hellion founding legacy."

@@ -26,6 +26,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CDS]
     notableHolders:
       - { name: "Xoc Hammond", rank: "Khan", affiliation: "Clan Sea Fox" }

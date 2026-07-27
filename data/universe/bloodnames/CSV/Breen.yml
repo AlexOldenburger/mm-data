@@ -26,6 +26,7 @@ houses:
     phenotype: "GENERAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CSA]
     summary: "The Breen Bloodname was a Clan Steel Viper founding legacy."
     notableHolders:

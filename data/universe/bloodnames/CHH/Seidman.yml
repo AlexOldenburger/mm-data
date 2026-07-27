@@ -26,8 +26,11 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CHH]
-    summary: "The Seidman Bloodname was a Clan Hell's Horses founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Seidman Bloodname was a Clan Hell's Horses founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Lair Seidman", rank: "Khan", affiliation: "Clan Hell's Horses" }
       - { name: "Domnall Seidman", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }

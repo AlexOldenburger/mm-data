@@ -27,6 +27,7 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CW,CWIE]
     shared:
       - { clan: CWIE, date: 3057 }

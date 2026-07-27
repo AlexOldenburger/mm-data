@@ -24,6 +24,7 @@ houses:
     founderFullName: "Renee Mikino"
     founderAffiliation: "Clan Star Adder"
     limited: true
+    limitedSince: 3085
     postReaving: [CSA,CSL]
     summary: "The Mikino Bloodname was a Clan Star Adder founding genetic legacy."
     notableHolders:

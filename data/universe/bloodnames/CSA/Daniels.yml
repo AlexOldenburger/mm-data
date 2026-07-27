@@ -24,6 +24,7 @@ houses:
     founderFullName: "Vadzim Daniels"
     founderAffiliation: "Clan Star Adder"
     limited: true
+    limitedSince: 3085
     postReaving: [CCC,CSA]
     notableHolders:
       - { name: "Fletcher Daniels", rank: "Loremaster", affiliation: "Clan Star Adder" }

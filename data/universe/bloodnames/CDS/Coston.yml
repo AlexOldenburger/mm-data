@@ -26,6 +26,7 @@ houses:
     phenotype: "ELEMENTAL"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CDS]
     notableHolders:
       - { name: "Nathaniel Coston", rank: "ovKhan", affiliation: "Clan Sea Fox" }

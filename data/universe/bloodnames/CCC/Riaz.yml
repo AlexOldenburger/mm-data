@@ -26,6 +26,7 @@ houses:
     phenotype: "MEKWARRIOR"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CCC]
     summary: "The Riaz Bloodname was a Clan Cloud Cobra founding name."
     notableHolders:

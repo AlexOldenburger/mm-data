@@ -26,8 +26,11 @@ houses:
     phenotype: "PROTOMEK"
     exclusive: true
     limited: true
+    limitedSince: 3085
     postReaving: [CDS]
-    summary: "The Fowler Bloodname was a Clan Sea Fox founding name. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
+    summary: "The Fowler Bloodname was a Clan Sea Fox founding name."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
     notableHolders:
       - { name: "Irwin Fowler", rank: "ovKhan", affiliation: "Clan Sea Fox" }
       - { name: "James Fowler", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
