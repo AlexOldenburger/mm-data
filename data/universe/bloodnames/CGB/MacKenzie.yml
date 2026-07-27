@@ -28,5 +28,5 @@ houses:
       - { name: "Kellin MacKenzie", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

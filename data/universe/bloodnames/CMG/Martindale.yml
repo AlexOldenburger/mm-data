@@ -23,12 +23,13 @@ houses:
   - founder: "Matt"
     founderFullName: "Matt Martindale"
     founderAffiliation: "Clan Mongoose"
-    acquired: { clan: CCC, date: 2868 }
+    acquired:
+      - { clan: CCC, date: 2868 }
     summary: "The Martindale Bloodname was a Clan Mongoose founding name."
     notableHolders:
       - { name: "Walter Martindale", rank: "Khan", affiliation: "Clan Mongoose" }
     sources:
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

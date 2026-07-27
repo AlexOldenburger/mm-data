@@ -32,10 +32,10 @@ houses:
     sources:
       - { title: "The Battle for Twycross" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Operation Audacity" }
       - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
     history: ~

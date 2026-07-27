@@ -26,6 +26,6 @@ houses:
     notableHolders:
       - { name: "Merriam Drake", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
     sources:
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

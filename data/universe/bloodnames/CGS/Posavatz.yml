@@ -40,7 +40,7 @@ houses:
     sources:
       - { title: "Field Manual: Mercenaries Revised" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "No Dust, No Wear" }
       - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }

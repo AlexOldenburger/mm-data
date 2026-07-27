@@ -28,7 +28,7 @@ houses:
       - { name: "Sebastian Dana'La", rank: "Star Admiral", affiliation: "Clan Cloud Cobra" }
       - { name: "Gertrude Dana'La" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

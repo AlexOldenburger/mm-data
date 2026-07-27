@@ -67,7 +67,7 @@ houses:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "Path of Glory", abbrev: "Path of Glory" }
       - { title: "Recognition Guide: ilClan, vol. 3" }

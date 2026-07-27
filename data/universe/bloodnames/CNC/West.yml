@@ -47,7 +47,7 @@ houses:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Heretic's Faith" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
       - { title: "Mercenaries Supplemental Update" }
       - { title: "Rise and Shine" }

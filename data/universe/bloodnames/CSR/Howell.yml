@@ -44,14 +44,14 @@ houses:
       - { title: "Exodus Road" }
       - { title: "Explorer Corps", abbrev: "EC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Forever Faithful" }
       - { title: "Freebirth", abbrev: "Freebirth" }
       - { title: "HexPack: Mountains and Canyons" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Hour of the Wolf" }
       - { title: "ilClan", abbrev: "IC" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior 3 (video game)" }
       - { title: "Scavenger's Blood" }
       - { title: "Technical Readout: Dark Age", abbrev: "TR:DA" }

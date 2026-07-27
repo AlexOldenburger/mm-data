@@ -60,7 +60,7 @@ houses:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
       - { title: "ilClan", abbrev: "IC" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
       - { title: "MechWarrior: Counterassault" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }

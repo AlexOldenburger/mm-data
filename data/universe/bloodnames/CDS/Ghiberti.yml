@@ -28,8 +28,8 @@ houses:
       - { name: "Raven Ghiberti", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
       - { name: "Lorenzo Ghiberti", rank: "Star Captain", affiliation: "Clan Wolf" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

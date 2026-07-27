@@ -27,7 +27,7 @@ houses:
       - { name: "Jayne Wagner", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
       - { name: "Lynne Wagner", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Crimson Seeker Star" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }

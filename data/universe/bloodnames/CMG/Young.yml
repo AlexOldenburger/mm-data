@@ -23,7 +23,8 @@ houses:
   - founder: "Laura"
     founderFullName: "Laura Young"
     founderAffiliation: "Clan Mongoose"
-    acquired: { clan: CCC, date: 2868 }
+    acquired:
+      - { clan: CCC, date: 2868 }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

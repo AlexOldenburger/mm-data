@@ -28,8 +28,8 @@ houses:
       - { name: "Josh Kemp", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
       - { name: "Lindan Kemp", rank: "Point Commander", affiliation: "Clan Wolf" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

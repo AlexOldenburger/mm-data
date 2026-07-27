@@ -32,8 +32,8 @@ houses:
     sources:
       - { title: "BattleTech: Legends" }
       - { title: "Era Report: 3052" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

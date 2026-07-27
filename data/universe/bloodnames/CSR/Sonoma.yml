@@ -28,6 +28,6 @@ houses:
       - { name: "Allison Sonoma", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

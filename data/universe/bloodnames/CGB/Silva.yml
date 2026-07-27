@@ -33,8 +33,8 @@ houses:
       - { name: "Tara Silva", rank: "MechWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
     sources:
       - { title: "BattleCorps Scenarios: Saving Tai-shu Ashora" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior 5: Clans (video game)" }
     history: ~

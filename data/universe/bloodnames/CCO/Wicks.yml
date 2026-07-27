@@ -28,5 +28,5 @@ houses:
       - { name: "Yellu Wicks", rank: "Point Commander", affiliation: "Clan Wolf" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

@@ -32,7 +32,7 @@ houses:
       - { name: "Tomas Columbo", rank: "Star Admiral", affiliation: "Clan Star Adder" }
       - { name: "Erik Columbo", rank: "Star Colonel", affiliation: "Clan Burrock" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
       - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }

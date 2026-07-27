@@ -29,5 +29,5 @@ houses:
     sources:
       - { title: "Dark Age: 3132-3134 INN" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

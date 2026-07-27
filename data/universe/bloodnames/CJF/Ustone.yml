@@ -32,5 +32,5 @@ houses:
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

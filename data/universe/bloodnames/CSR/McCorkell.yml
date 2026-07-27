@@ -37,7 +37,7 @@ houses:
       - { name: "Gregor McCorkell", rank: "Star Commodore", affiliation: "Clan Snow Raven" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Half of a Warrior" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }

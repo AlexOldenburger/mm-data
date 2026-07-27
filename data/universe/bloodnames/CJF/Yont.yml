@@ -31,5 +31,5 @@ houses:
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

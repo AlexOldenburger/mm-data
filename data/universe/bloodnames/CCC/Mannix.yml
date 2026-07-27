@@ -38,6 +38,6 @@ houses:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Icons of War" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

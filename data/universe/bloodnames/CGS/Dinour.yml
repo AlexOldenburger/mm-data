@@ -39,13 +39,13 @@ houses:
       - { name: "Kyle Dinour", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Moving Forward" }
       - { title: "Shrapnel Issue 3" }
       - { title: "Spotlight On: Crimson Seeker Star" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

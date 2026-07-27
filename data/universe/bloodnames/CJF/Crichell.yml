@@ -38,6 +38,6 @@ houses:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "FedCom Civil War", abbrev: "FCCW" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "A Rending of Falcons" }
     history: ~

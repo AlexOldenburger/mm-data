@@ -29,7 +29,7 @@ houses:
       - { name: "Julius Schuetz", rank: "Galaxy Commander", affiliation: "Clan Star Adder" }
       - { name: "Meagan Schuetz", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

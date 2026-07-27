@@ -29,6 +29,6 @@ houses:
       - { name: "Emojeme Lovonski", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }
     history: ~

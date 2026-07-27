@@ -31,5 +31,5 @@ houses:
       - { title: "Era Report: 3062" }
       - { title: "Field Manual: ComStar" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

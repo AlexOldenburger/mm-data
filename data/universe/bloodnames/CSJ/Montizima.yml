@@ -30,7 +30,7 @@ houses:
       - { name: "Ronald Montizima", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Operation BIRD DOG: Clipping Jaguar Wings (scenario)" }
       - { title: "Twilight of the Clans" }
     history: ~

@@ -28,7 +28,7 @@ houses:
       - { name: "Eld Coddington", rank: "Galaxy Commander", affiliation: "Clan Ice Hellion" }
       - { name: "Ires Coddington", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

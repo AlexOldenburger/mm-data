@@ -40,6 +40,6 @@ houses:
       - { title: "Fourth Form" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Impetus of War" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Quail Hunting" }
     history: ~

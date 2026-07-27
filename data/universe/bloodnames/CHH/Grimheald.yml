@@ -24,8 +24,9 @@ houses:
     founderFullName: "Niu Grimheald"
     founderAffiliation: "Clan Hell's Horses"
     phenotype: "PROTOMEK"
-    shared: true
     postReaving: [CHH,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
     summary: "The Grimheald Bloodname was a Clan Hell's Horses founding legacy."
     notableHolders:
       - { name: "Marguerite Grimheald", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }

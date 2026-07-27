@@ -42,9 +42,9 @@ houses:
       - { name: "Michael Mercer", rank: "MechWarrior", affiliation: "Clan Steel Viper" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jaguar's Leap" }
       - { title: "MechWarrior Card Pack I" }
       - { title: "Seven Years' Bad Luck" }

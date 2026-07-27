@@ -50,7 +50,7 @@ houses:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "Northwind Highlanders" }
       - { title: "Objective Raids", abbrev: "OR" }

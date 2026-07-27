@@ -26,7 +26,8 @@ houses:
     phenotype: "MEKWARRIOR"
     dormant: "3060"
     exclusive: true
-    acquired: { clan: CW, date: 3060 }
+    acquired:
+      - { clan: CW, date: 3060 }
     summary: "The Wirth Bloodname was a Clan Smoke Jaguar founding name."
     notableHolders:
       - { name: "Dorian Wirth", rank: "saKhan", affiliation: "Clan Smoke Jaguar" }
@@ -53,7 +54,7 @@ houses:
       - { title: "Freebirth", abbrev: "Freebirth" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Hour of the Wolf" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jaguar's Leap" }
       - { title: "Living Legends", abbrev: "LL" }
       - { title: "Luthien" }

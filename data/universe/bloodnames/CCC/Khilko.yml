@@ -25,6 +25,6 @@ houses:
     founderAffiliation: "Clan Cloud Cobra"
     summary: "The Khilko Bloodname was a Clan Cloud Cobra founding legacy."
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

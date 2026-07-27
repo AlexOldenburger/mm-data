@@ -33,7 +33,7 @@ houses:
       - { name: "Evan Kreese", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
       - { name: "Richard Kreese", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "A Keystone Arch" }
       - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }

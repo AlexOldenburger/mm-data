@@ -28,5 +28,5 @@ houses:
       - { name: "Kevin Arbott", rank: "Khan", affiliation: "Clan Sea Fox" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

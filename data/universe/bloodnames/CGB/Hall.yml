@@ -65,11 +65,11 @@ houses:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Ghost Bear's Lament" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior 5: Clans (video game)" }
       - { title: "MechWarrior Pilot Deck: Mercenaries of the Inner Sphere II" }
       - { title: "Recognition Guide: ilClan, vol. 21", abbrev: "RG21" }

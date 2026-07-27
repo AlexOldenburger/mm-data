@@ -49,7 +49,7 @@ houses:
       - { title: "The Dragon Roars" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical Turning Points: Luzerne", abbrev: "HTP:Luzerne" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jaguar's Leap" }
       - { title: "MechCommander: Desperate Measures" }
       - { title: "MechWarrior 2" }

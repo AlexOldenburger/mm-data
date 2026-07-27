@@ -42,7 +42,7 @@ houses:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical Turning Points: Luzerne", abbrev: "HTP:Luzerne" }
       - { title: "Impetus of War" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Long Tom Battery (CCG - Unlimited)" }
       - { title: "MechCommander: Desperate Measures" }
       - { title: "Northwind Highlanders" }

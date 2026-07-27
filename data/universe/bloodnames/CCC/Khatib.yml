@@ -40,7 +40,7 @@ houses:
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

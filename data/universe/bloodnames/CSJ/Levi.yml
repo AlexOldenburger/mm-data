@@ -31,6 +31,6 @@ houses:
     sources:
       - { title: "The Dragon Roars" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Record Sheets: 3058 Upgrade Print Edition" }
     history: ~

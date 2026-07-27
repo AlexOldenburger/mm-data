@@ -30,7 +30,7 @@ houses:
       - { name: "Petrov Reinhold", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
     history: ~

@@ -23,7 +23,8 @@ houses:
   - founder: "Püredorjiin"
     founderFullName: "Pürevdorjiin Kederk"
     founderAffiliation: "Clan Mongoose"
-    acquired: { clan: CCC, date: 2868 }
+    acquired:
+      - { clan: CCC, date: 2868 }
     summary: "The Kederk Bloodname was a Clan Mongoose founding name."
     notableHolders:
       - { name: "Athen Kederk", rank: "Star Colonel", affiliation: "Clan Wolf" }
@@ -33,5 +34,5 @@ houses:
       - { title: "Era Report: 3052" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

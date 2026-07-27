@@ -25,8 +25,9 @@ houses:
     founderAffiliation: "Clan Hell's Horses"
     phenotype: "AEROSPACE"
     exclusive: true
-    shared: true
     postReaving: [CHH,CSL,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
     summary: "The Dwelley Bloodname was a Clan Hell's Horses founding legacy. By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages."
     notableHolders:
       - { name: "Ingrid Dwelley", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
@@ -41,7 +42,7 @@ houses:
       - { title: "Elements of Treason: Honor" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

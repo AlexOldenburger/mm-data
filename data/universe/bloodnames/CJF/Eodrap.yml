@@ -28,5 +28,5 @@ houses:
       - { name: "Benjamin Eodrap", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

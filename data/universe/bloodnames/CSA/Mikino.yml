@@ -32,7 +32,7 @@ houses:
       - { name: "Gavril Mikino", rank: "Star Colonel", affiliation: "Ebon Keshik" }
       - { name: "Lissa Mikino", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Icons of War" }

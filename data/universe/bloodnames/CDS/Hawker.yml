@@ -25,8 +25,9 @@ houses:
     founderAffiliation: "Clan Sea Fox"
     phenotype: "MEKWARRIOR"
     exclusive: true
-    shared: true
     postReaving: [CDS,CGB,CHH,CW]
+    shared:
+      - { clan: CW, date: 3060 }
     summary: "The Hawker Bloodname was a Clan Sea Fox founding name."
     notableHolders:
       - { name: "Ian Hawker", rank: "Khan", affiliation: "Clan Diamond Shark" }
@@ -65,7 +66,7 @@ houses:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "ilClan", abbrev: "IC" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }

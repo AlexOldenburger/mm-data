@@ -36,7 +36,7 @@ houses:
       - { name: "Torrance Marghar", rank: "Star Colonel", affiliation: "Clan Burrock" }
       - { name: "Marcus Marghar", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Operational Turning Points: REVIVAL Trials" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

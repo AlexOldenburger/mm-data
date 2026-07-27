@@ -37,10 +37,10 @@ houses:
       - { name: "Lenore Shi-Lu", rank: "Inquisitor", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Bloodname" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Mercenaries", abbrev: "FM:M" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

@@ -31,7 +31,7 @@ houses:
       - { name: "Andrea Guidice", rank: "Star Colonel", affiliation: "Clan Star Adder" }
       - { name: "Maeko Guidice", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout 3058 Upgrade", abbrev: "TR:3058U" }

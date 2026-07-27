@@ -38,6 +38,6 @@ houses:
       - { title: "Forever Faithful" }
       - { title: "Grave Covenant" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Shadows of War" }
     history: ~

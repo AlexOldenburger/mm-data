@@ -33,7 +33,7 @@ houses:
       - { name: "Kishi McMillan", rank: "Star Colonel", affiliation: "Clan Star Adder" }
       - { name: "Rachel McMillan", rank: "Star Colonel", affiliation: "resurrected Clan Burrock" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

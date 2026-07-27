@@ -32,6 +32,6 @@ houses:
       - { title: "Always Moving" }
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Mech Issue 3" }
     history: ~

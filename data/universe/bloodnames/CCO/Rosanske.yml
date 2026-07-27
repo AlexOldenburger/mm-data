@@ -28,7 +28,7 @@ houses:
     postReaving: [CCO]
     summary: "The Rosanske Bloodname was a Clan Coyote founding name."
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

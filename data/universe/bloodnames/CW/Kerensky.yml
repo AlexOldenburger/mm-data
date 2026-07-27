@@ -25,8 +25,9 @@ houses:
     founderAffiliation: "Clan Wolf"
     phenotype: "GENERAL"
     exclusive: true
-    shared: true
     postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
     summary: "The Kerensky Bloodname was a Clan Wolf founding legacy."
     notableHolders:
       - { name: "Garmen Kerensky", rank: "Star Captain", affiliation: "Clan Wolf" }
@@ -42,8 +43,9 @@ houses:
     founderAffiliation: "Clans"
     phenotype: "GENERAL"
     exclusive: true
-    shared: true
     postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
     summary: "The Kerensky Bloodname was a Clan Wolf founding legacy."
     notableHolders:
       - { name: "Ulric Kerensky", rank: "ilKhan", affiliation: "Clan Wolf" }
@@ -118,13 +120,13 @@ houses:
       - { title: "Era Report: 3052" }
       - { title: "Era Report: 3145" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
       - { title: "Hour of the Wolf" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Jaguar's Leap" }
       - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
       - { title: "Luthien" }
@@ -141,5 +143,5 @@ houses:
       - { title: "Technical Readout: 3145 The Clans", abbrev: "TR:3145:C" }
       - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

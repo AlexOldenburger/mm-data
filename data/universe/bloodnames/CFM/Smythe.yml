@@ -23,13 +23,15 @@ houses:
   - founder: "Adam"
     founderFullName: "Adam Smythe"
     founderAffiliation: "Clan Fire Mandrill"
-    shared: true
+    shared:
+      - { clan: CHH, date: 2872 }
+      - { clan: CCO, date: 2872 }
     summary: "The Smythe Bloodname was a Clan Fire Mandrill founding name."
     notableHolders:
       - { name: "Tamarin Smythe", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
       - { name: "William Smythe", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

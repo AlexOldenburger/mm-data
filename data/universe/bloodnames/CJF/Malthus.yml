@@ -67,13 +67,13 @@ houses:
       - { title: "Falcon Rising" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "First Somerset Strikers" }
       - { title: "Hidden Talons (scenario)" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Honor's Gauntlet" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
       - { title: "Lost Destiny", abbrev: "Lost Destiny" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }

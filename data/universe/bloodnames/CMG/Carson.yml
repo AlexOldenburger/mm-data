@@ -31,5 +31,5 @@ houses:
       - { title: "Blood Legacy", abbrev: "Blood Legacy" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Lost Destiny", abbrev: "Lost Destiny" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

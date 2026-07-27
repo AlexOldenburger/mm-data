@@ -28,7 +28,7 @@ houses:
       - { name: "Mason Angharobis", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
       - { name: "Simone Angharobis", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

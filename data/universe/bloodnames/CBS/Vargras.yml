@@ -29,6 +29,6 @@ houses:
       - { name: "Genden Vargras", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

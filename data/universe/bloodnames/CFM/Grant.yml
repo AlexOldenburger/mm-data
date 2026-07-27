@@ -23,12 +23,14 @@ houses:
   - founder: "Andrea"
     founderFullName: "Andrea Grant"
     founderAffiliation: "Clan Fire Mandrill"
-    shared: true
+    shared:
+      - { clan: CHH, date: 2872 }
+      - { clan: CCO, date: 2872 }
     notableHolders:
       - { name: "Marion Grant", rank: "Kindraa Leader", affiliation: "Clan Fire Mandrill" }
       - { name: "Marjoree Grant", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "A Keystone Arch" }
     history: ~

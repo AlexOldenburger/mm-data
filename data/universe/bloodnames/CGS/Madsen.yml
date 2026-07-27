@@ -28,7 +28,7 @@ houses:
       - { name: "Morrigan Madsen", rank: "Star Captain", affiliation: "Clan Goliath Scorpion" }
       - { name: "Ranger Madsen", rank: "Star Captain", affiliation: "Escorpión Imperio" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Fragments of History" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }

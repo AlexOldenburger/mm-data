@@ -32,7 +32,7 @@ houses:
       - { name: "Bethany Cochraine", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
     history: ~

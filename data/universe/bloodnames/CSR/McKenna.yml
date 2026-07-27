@@ -49,14 +49,14 @@ houses:
       - { title: "Era Report: 3145" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Half of a Warrior" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
       - { title: "Hour of the Wolf" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

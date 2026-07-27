@@ -30,6 +30,6 @@ houses:
     notableHolders:
       - { name: "Emery Goulet", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

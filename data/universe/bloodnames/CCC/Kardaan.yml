@@ -42,7 +42,7 @@ houses:
       - { name: "Khalid Kardaan", rank: "Star Captain", affiliation: "Clan Cloud Cobra" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Operational Turning Points: REVIVAL Trials" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

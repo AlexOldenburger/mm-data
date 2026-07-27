@@ -25,7 +25,8 @@ houses:
     founderAffiliation: "Clan Smoke Jaguar"
     phenotype: "AEROSPACE"
     exclusive: true
-    acquired: { clan: CW, date: 3060 }
+    acquired:
+      - { clan: CW, date: 3060 }
     summary: "The Stiles Bloodname was a Clan Smoke Jaguar founding name."
     notableHolders:
       - { name: "Warren Stiles", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
@@ -38,9 +39,9 @@ houses:
     sources:
       - { title: "Exodus Road" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Shadows of War" }
     history: ~

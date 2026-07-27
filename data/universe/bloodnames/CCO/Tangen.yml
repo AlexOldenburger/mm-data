@@ -26,7 +26,7 @@ houses:
     reaved: "2976"
     summary: "The Tangen Bloodname was a Clan Coyote founding name."
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

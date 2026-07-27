@@ -67,7 +67,7 @@ houses:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
       - { title: "Hunter or Hunted" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior: Counterassault" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "MechWarrior: Liao Incursion" }

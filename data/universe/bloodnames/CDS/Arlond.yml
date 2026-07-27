@@ -28,5 +28,5 @@ houses:
     sources:
       - { title: "Era Report: 3052" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

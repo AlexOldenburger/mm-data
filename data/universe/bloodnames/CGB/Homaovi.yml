@@ -29,8 +29,8 @@ houses:
       - { name: "Paul Homaovi", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Risk of Honor" }
     history: ~

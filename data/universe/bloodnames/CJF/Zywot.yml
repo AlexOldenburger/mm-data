@@ -29,10 +29,10 @@ houses:
       - { name: "Zachary Zywot", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
       - { name: "Durge Zywot", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
     history: ~

@@ -40,7 +40,7 @@ houses:
       - { title: "Era Report: 3062" }
       - { title: "Exodus Road" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
       - { title: "Prince of Havoc" }
       - { title: "Twilight of the Clans" }

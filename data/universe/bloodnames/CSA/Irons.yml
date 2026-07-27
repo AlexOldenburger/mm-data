@@ -37,9 +37,9 @@ houses:
       - { title: "The Battle of Coventry" }
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "No Rest for the Wicked" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

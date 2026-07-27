@@ -30,7 +30,7 @@ houses:
       - { name: "Wayne Komolosi", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "The Dragon Roars" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

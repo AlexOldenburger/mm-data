@@ -41,7 +41,7 @@ houses:
       - { title: "HexPack: Mountains and Canyons" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Hour of the Wolf" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Mercenaries Supplemental Update" }
       - { title: "Operation BIRD DOG: Clipping Jaguar Wings (scenario)" }
       - { title: "Surrender Your Dreams" }

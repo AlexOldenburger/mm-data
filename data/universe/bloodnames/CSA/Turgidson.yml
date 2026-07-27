@@ -36,7 +36,7 @@ houses:
       - { name: "Roland Turgidson", rank: "Intelligence Adjutant Star Colonel", affiliation: "Clan Star Adder" }
       - { name: "Vaughn Turgidson", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

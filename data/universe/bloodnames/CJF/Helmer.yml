@@ -56,11 +56,11 @@ houses:
       - { title: "Explorer Corps", abbrev: "EC" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Hour of the Wolf" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "MechWarrior: Destiny" }
       - { title: "Operational Turning Points: REVIVAL Trials" }

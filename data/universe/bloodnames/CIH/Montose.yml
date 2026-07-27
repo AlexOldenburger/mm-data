@@ -32,7 +32,7 @@ houses:
     notableHolders:
       - { name: "Raina Montose", rank: "Khan", affiliation: "Clan Ice Hellion" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

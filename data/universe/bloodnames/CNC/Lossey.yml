@@ -54,7 +54,7 @@ houses:
       - { title: "Heretic's Faith" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Hunter or Hunted" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "MechWarrior: Death From Above" }
       - { title: "Path of Glory", abbrev: "Path of Glory" }

@@ -35,7 +35,7 @@ houses:
       - { name: "Sal Schmitt", rank: "Galaxy Commander", affiliation: "Clan Blood Spirit" }
       - { name: "Ellie Schmitt", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

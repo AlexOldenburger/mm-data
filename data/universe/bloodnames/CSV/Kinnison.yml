@@ -28,5 +28,5 @@ houses:
     summary: "The Kinninson Bloodname was a Clan Steel Viper founding name."
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

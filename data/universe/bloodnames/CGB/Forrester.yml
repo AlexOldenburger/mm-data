@@ -31,7 +31,7 @@ houses:
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jihad Turning Points: Luthien", abbrev: "JTP:Luthien" }
       - { title: "Recognition Guide: ilClan, vol. 19", abbrev: "RG19" }
     history: ~

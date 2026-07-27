@@ -30,7 +30,7 @@ houses:
     sources:
       - { title: "Blood Legacy", abbrev: "Blood Legacy" }
       - { title: "A Call to Arms", abbrev: "A Call to Arms" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
       - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }

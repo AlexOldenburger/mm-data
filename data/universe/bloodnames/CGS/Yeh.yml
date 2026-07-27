@@ -36,7 +36,7 @@ houses:
       - { name: "Enrique Yeh", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Forever Faithful" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Operational Turning Points: Hanseatic Crusade", abbrev: "OTP:HC" }

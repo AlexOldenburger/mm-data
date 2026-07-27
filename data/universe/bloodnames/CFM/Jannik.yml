@@ -28,6 +28,6 @@ houses:
     exclusive: true
     summary: "The Jannik Bloodname was a Clan Fire Mandrill founding name."
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

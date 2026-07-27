@@ -31,8 +31,8 @@ houses:
       - { name: "Boj Hakimi", rank: "Star Commander", affiliation: "Clan Wolf" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

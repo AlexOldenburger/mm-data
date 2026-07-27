@@ -35,9 +35,9 @@ houses:
       - { name: "Domask Lewis", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Costa Lewis", rank: "MechWarrior", affiliation: "Clan Wolf" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

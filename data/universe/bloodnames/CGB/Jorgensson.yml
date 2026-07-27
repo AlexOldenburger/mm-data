@@ -64,10 +64,10 @@ houses:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Flight of the Falcon" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jihad: Final Reckoning", abbrev: "JFR" }
       - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }

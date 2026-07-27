@@ -30,5 +30,5 @@ houses:
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "I Am Jade Falcon" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
     history: ~

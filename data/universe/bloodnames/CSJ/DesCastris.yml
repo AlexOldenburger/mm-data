@@ -30,5 +30,5 @@ houses:
       - { name: "Silva DesCastris", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
     history: ~

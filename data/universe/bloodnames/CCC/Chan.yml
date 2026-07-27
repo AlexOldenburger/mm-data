@@ -27,8 +27,8 @@ houses:
     notableHolders:
       - { name: "Hyo Chan", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

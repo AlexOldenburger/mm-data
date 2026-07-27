@@ -52,6 +52,6 @@ houses:
       - { title: "Forever Faithful" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
     history: ~

@@ -38,8 +38,8 @@ houses:
       - { name: "Hanako Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
       - { name: "Luigi Steele", rank: "Star Colonel", affiliation: "Clan Coyote" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

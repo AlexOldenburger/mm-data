@@ -28,7 +28,7 @@ houses:
       - { name: "Lucias Mendoza", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
       - { name: "Xavier Mendoza", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout: 3145", abbrev: "TR:3145" }

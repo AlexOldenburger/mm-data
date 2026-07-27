@@ -36,7 +36,7 @@ houses:
       - { name: "Breanne Cage", rank: "Star Captain", affiliation: "Clan Ice Hellion" }
       - { name: "Ephraim Cage", rank: "Star Captain", affiliation: "Clan Ice Hellion" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Operation ICE STORM Part One: The Frost Advances", abbrev: "OP:Ice Storm 1" }
       - { title: "Operation ICE STORM Part Two: The Winds of Spring" }

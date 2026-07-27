@@ -37,7 +37,7 @@ houses:
       - { name: "Lorraine Suvorov", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
       - { name: "Jose Suvorov", rank: "Warrior", affiliation: "Escorpión Imperio" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Crimson Seeker Star" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }

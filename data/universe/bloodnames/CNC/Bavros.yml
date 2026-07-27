@@ -40,7 +40,7 @@ houses:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: ComStar" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }

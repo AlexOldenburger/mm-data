@@ -35,5 +35,5 @@ houses:
     sources:
       - { title: "Dominions Divided", abbrev: "DD" }
       - { title: "Era Report: 3145" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

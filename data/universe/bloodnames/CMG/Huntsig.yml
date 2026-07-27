@@ -31,7 +31,7 @@ houses:
     sources:
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Trial by Chaos" }
     history: ~

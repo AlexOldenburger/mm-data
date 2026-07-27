@@ -55,7 +55,7 @@ houses:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Grave Covenant" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jaguar's Leap" }
       - { title: "Luthien" }
       - { title: "MechCommander: Desperate Measures" }
@@ -65,5 +65,5 @@ houses:
       - { title: "Thus It Shall Stand (in: BattleTech: 25 Years of Art & Fiction)" }
       - { title: "Twilight of the Clans" }
       - { title: "Whispering Death" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

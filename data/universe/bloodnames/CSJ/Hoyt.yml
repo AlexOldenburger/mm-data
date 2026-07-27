@@ -34,7 +34,7 @@ houses:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Forever Faithful" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior 5: Clans" }
       - { title: "Righteous Fury" }
     history: ~

@@ -33,7 +33,7 @@ houses:
       - { name: "Tomas Masino", rank: "Star Captain", affiliation: "Clan Cloud Cobra" }
     sources:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Seeds of Loyalty" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }

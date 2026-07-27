@@ -25,8 +25,9 @@ houses:
     founderAffiliation: "Clan Hell's Horses"
     phenotype: "MEKWARRIOR"
     exclusive: true
-    shared: true
     postReaving: [CHH,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
     summary: "The Ravenwater Bloodname was a Clan Hell's Horses founding legacy."
     notableHolders:
       - { name: "Jackie Ravenwater", rank: "Loremaster", affiliation: "Clan Stone Lion" }
@@ -53,9 +54,9 @@ houses:
       - { title: "Era Report: 3145" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
       - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }

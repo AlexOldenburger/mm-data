@@ -51,10 +51,10 @@ houses:
       - { title: "Era Report: 3052" }
       - { title: "Exodus Road" }
       - { title: "Explorer Corps", abbrev: "EC" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Operational Turning Points: REVIVAL Trials" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jaguar's Leap" }
       - { title: "Recognition Guide: ilClan, vol. 19", abbrev: "RG19" }
       - { title: "Spotlight On: Crimson Seeker Star" }

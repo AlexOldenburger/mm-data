@@ -29,7 +29,7 @@ houses:
       - { name: "White LeClair", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Fragments of History" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Crimson Seeker Star" }

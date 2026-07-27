@@ -29,5 +29,5 @@ houses:
       - { name: "Gok Tinn", rank: "MechWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

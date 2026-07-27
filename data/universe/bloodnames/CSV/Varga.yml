@@ -29,8 +29,8 @@ houses:
       - { name: "Hitomi Varga", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
       - { name: "Federico Varga", rank: "Star Captain", affiliation: "Clan Steel Viper" }
     sources:
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
     history: ~

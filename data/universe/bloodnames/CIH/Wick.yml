@@ -36,7 +36,7 @@ houses:
       - { name: "Nikolai Wick", rank: "Star Colonel", affiliation: "Clan Ice Hellion" }
       - { name: "Alleen Wick", rank: "Star Captain", affiliation: "Escorpión Imperio" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }

@@ -53,10 +53,10 @@ houses:
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
-      - { title: "Jade Falcon Sourcebook" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
       - { title: "Test of Vengeance" }
       - { title: "Total Warfare", abbrev: "TW" }

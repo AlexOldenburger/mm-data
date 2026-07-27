@@ -30,7 +30,7 @@ houses:
       - { name: "Leo Cathis", rank: "Star Colonel", affiliation: "Gamma Galaxy of Clan Star Adder" }
       - { name: "Somerset Cathis", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }

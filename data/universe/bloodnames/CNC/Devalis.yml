@@ -59,7 +59,7 @@ houses:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Dark Age: Republic of the Sphere" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
       - { title: "MechWarrior: Death From Above" }

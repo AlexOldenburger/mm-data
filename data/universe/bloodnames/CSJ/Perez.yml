@@ -44,7 +44,7 @@ houses:
       - { title: "Explorer Corps", abbrev: "EC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical Turning Points: Luzerne", abbrev: "HTP:Luzerne" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "Righteous Fury" }
       - { title: "Twilight of the Clans" }
     history: ~

@@ -32,7 +32,7 @@ houses:
       - { name: "Samantha Johnston", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
     sources:
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Jihad Hot Spots: 3070" }

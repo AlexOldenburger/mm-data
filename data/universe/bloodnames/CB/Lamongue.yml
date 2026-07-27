@@ -31,7 +31,7 @@ houses:
       - { name: "Edick Lamongue", rank: "Star Colonel", affiliation: "Clan Star Adder" }
       - { name: "Kira Lamongue", rank: "Star Colonel", affiliation: "Clan Star Adder" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

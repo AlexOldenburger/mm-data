@@ -39,11 +39,11 @@ houses:
       - { name: "Sumner Johns", rank: "Star Captain", affiliation: "Clan Clan Wolf" }
       - { name: "Hachim Johns", affiliation: "Clan Blood Spirit" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Recognition Guide: ilClan, vol. 26", abbrev: "RG26" }
       - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
       - { title: "The Wars of Reaving", abbrev: "WoR" }
-      - { title: "Wolf Clan Sourcebook" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
     history: ~

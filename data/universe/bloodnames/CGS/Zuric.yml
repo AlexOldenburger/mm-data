@@ -29,7 +29,7 @@ houses:
       - { name: "Gary Zuric", rank: "Point Commander", affiliation: "Escorpión Imperio" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
     history: ~

@@ -23,8 +23,9 @@ houses:
   - founder: "Michael"
     founderFullName: "Michael Steding"
     founderAffiliation: "Clan Hell's Horses"
-    shared: true
     postReaving: [CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
     summary: "The Steding Bloodname was a Clan Hell's Horses founding legacy."
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

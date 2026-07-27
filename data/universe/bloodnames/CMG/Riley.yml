@@ -30,7 +30,7 @@ houses:
       - { name: "Cedric Riley", rank: "Star Colonel", affiliation: "Clan Mongoose" }
       - { name: "Miguel Riley", rank: "Star Colonel", affiliation: "Clan Mongoose" }
     sources:
-      - { title: "Field Manual: Crusader Clans" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
     history: ~

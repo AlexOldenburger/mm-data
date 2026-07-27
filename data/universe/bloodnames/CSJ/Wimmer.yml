@@ -48,7 +48,7 @@ houses:
       - { title: "Era Report: 3052" }
       - { title: "The Flames of Idlewind" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
-      - { title: "Invading Clans" }
+      - { title: "Invading Clans", abbrev: "InvC" }
       - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
       - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
       - { title: "Trial Under Fire" }

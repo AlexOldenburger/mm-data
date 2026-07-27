@@ -29,7 +29,7 @@ houses:
     sources:
       - { title: "Era Report: 3052" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Ghost Bear's Lament" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

@@ -42,7 +42,7 @@ houses:
       - { title: "Era Report: 3145" }
       - { title: "Field Manual: 3085", abbrev: "FM:3085" }
       - { title: "Field Manual: 3145", abbrev: "FM:3145" }
-      - { title: "Field Manual: Warden Clans" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Historical Turning Points: Antallos", abbrev: "HTP:Antallos" }
       - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
