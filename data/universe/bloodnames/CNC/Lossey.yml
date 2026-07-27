@@ -24,8 +24,8 @@ houses:
     founderFullName: "Andry Lossey"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "MEKWARRIOR"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Lossey Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:

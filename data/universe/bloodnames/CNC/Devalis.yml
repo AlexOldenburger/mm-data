@@ -24,8 +24,8 @@ houses:
     founderFullName: "Isabella Devalis"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "GENERAL"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Devalis Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:

@@ -24,8 +24,8 @@ houses:
     founderFullName: "Roline Winters"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "ELEMENTAL"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Winters Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:

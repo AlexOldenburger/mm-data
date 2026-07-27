@@ -24,8 +24,8 @@ houses:
     founderFullName: "Serena Deleportas"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "GENERAL"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Deleportas Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:

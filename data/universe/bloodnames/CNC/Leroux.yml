@@ -24,8 +24,8 @@ houses:
     founderFullName: "Ronetta Leroux"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "AEROSPACE"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Leroux, Ronetta Bloodname was a Clan Nova Cat founding name."
     notableHolders:

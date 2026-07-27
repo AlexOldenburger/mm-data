@@ -24,8 +24,8 @@ houses:
     founderFullName: "Linda Bavros"
     founderAffiliation: "Clan Nova Cat"
     phenotype: "AEROSPACE"
+    abjured: "3060"
     exclusive: true
-    abjured: true
     postReaving: [CNC]
     summary: "The Bavros Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:
