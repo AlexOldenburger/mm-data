@@ -2400,12 +2400,12 @@ Rank:
             <payMultiplier>0.75</payMultiplier>
         </rank> <!-- E3 -->
         <rank>
-            <rankNames>Warrior,Pilot,Warrior Crewman,Naval Warrior,Warrior,-,-,-,-</rankNames>
+            <rankNames>Warrior,Pilot,Warrior Crewman,Naval Warrior,Warrior,Technician,Doctor,Administrator,-</rankNames>
             <officer>false</officer>
             <payMultiplier>0.83</payMultiplier>
         </rank> <!-- E4 -->
         <rank>
-            <rankNames>-,-,-,-,-,-,-,-,-</rankNames>
+            <rankNames>-,-,-,-,-,Head Technician,Doctor,Head Administrator,-</rankNames>
             <officer>false</officer>
             <payMultiplier>0.92</payMultiplier>
         </rank> <!-- E5 -->
