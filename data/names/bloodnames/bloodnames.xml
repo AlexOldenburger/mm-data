@@ -91,7 +91,7 @@
         <clan>CBS</clan>
     </bloodname>
     <bloodname>
-        <name>Fisher</name>
+        <name>Fischer</name>
         <founder>Kam</founder>
         <clan>CBS</clan>
     </bloodname>
@@ -488,7 +488,7 @@
         <clan>CB</clan>
     </bloodname>
     <bloodname>
-        <name>Ẑukauskas</name>
+        <name>Žukauskas</name>
         <founder>Katerina</founder>
         <clan>CB</clan>
     </bloodname>
@@ -1100,7 +1100,7 @@
         <dormant>3073</dormant>
     </bloodname>
     <bloodname>
-        <name>Lloyed</name>
+        <name>Lloyd</name>
         <founder>Renata</founder>
         <clan>CFM</clan>
     </bloodname>
@@ -1370,7 +1370,7 @@
         <clan>CGB</clan>
     </bloodname>
     <bloodname>
-        <name>Oldebrect</name>
+        <name>Oldebrecht</name>
         <founder>Jan</founder>
         <clan>CGB</clan>
     </bloodname>
@@ -1728,7 +1728,7 @@
         <clan>CHH</clan>
     </bloodname>
     <bloodname>
-        <name>Budōlin</name>
+        <name>Budõlin</name>
         <founder>Tommy</founder>
         <clan>CHH</clan>
     </bloodname>
@@ -1995,7 +1995,7 @@
         <clan>CIH</clan>
     </bloodname>
     <bloodname>
-        <name>Makkinen</name>
+        <name>Hakkinen</name>
         <founder>Aleksandr</founder>
         <clan>CIH</clan>
     </bloodname>
@@ -2109,7 +2109,7 @@
         <postReaving>CGS,CCC</postReaving>
     </bloodname>
     <bloodname>
-        <name>Mavas</name>
+        <name>Navas</name>
         <founder>Branku</founder>
         <clan>CIH</clan>
     </bloodname>
@@ -2474,7 +2474,7 @@
         <dormant>2868</dormant>
     </bloodname>
     <bloodname>
-        <name>Greehalgh</name>
+        <name>Greenhalgh</name>
         <founder>Cai</founder>
         <clan>CMG</clan>
         <dormant>2868</dormant>
@@ -3501,7 +3501,7 @@
         <clan>CSR</clan>
     </bloodname>
     <bloodname>
-        <name>Kochkova</name>
+        <name>Klochkova</name>
         <founder>He</founder>
         <clan>CSR</clan>
     </bloodname>
@@ -4128,7 +4128,7 @@
         <postReaving>CSA</postReaving>
     </bloodname>
     <bloodname>
-        <name>Barhart</name>
+        <name>Barnhart</name>
         <founder>Larbi</founder>
         <clan>CWI</clan>
         <dormant>2834</dormant>
@@ -4216,7 +4216,7 @@
         <reaved>2823</reaved>
     </bloodname>
     <bloodname>
-        <name>Kipchage</name>
+        <name>Kipchoge</name>
         <founder>Lindsay</founder>
         <clan>CWI</clan>
         <dormant>2834</dormant>
@@ -4390,12 +4390,12 @@
         <dormant>2834</dormant>
     </bloodname>
     <bloodname>
-        <name>Albery</name>
+        <name>Alberty</name>
         <founder>Haile</founder>
         <clan>CW</clan>
     </bloodname>
     <bloodname>
-        <name>Bourthiax</name>
+        <name>Bouthiaux</name>
         <founder>Nadine</founder>
         <clan>CW</clan>
     </bloodname>
@@ -4470,7 +4470,7 @@
         <clan>CW</clan>
         <limited />
         <postReaving>CGS</postReaving>
-        <CSA />
+        <postReaving>CSA</postReaving>
     </bloodname>
     <bloodname>
         <name>Jennings</name>
@@ -4537,7 +4537,7 @@
         <clan>CW</clan>
     </bloodname>
     <bloodname>
-        <name>Mygren</name>
+        <name>Nygren</name>
         <founder>Jai</founder>
         <clan>CW</clan>
     </bloodname>
@@ -4842,7 +4842,7 @@
         <reaved>2823</reaved>
     </bloodname>
     <bloodname>
-        <name>Kikishina</name>
+        <name>Nikishina</name>
         <founder>Ying</founder>
         <clan>CWOV</clan>
         <reaved>2823</reaved>
