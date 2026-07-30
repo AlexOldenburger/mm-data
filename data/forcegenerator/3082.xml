@@ -3302,7 +3302,7 @@
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Dropship'>
-            <availability>HL:6,CLAN:3,IS:6,NIOPS:3,Periphery.Deep:6,MERC:5,BAN:5,Periphery:7</availability>
+            <availability>HL:6,CLAN:3,IS:6,NIOPS:3,Periphery.Deep:6,MERC:5,BAN:5,Periphery:7,CS.EC:5</availability>
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
@@ -6334,7 +6334,7 @@
             </model>
         </chassis>
         <chassis name='Explorer JumpShip' unitType='Jumpship'>
-            <availability>ROS:2,FWL:1,IS:1,NIOPS:3</availability>
+            <availability>ROS:2,FWL:1,IS:1,NIOPS:3,CS.EC:6</availability>
             <model name=''>
                 <roles>civilian</roles>
                 <availability>ROS:8,IS:8,NIOPS:3</availability>
@@ -13272,7 +13272,7 @@
             </model>
         </chassis>
         <chassis name='Magellan Jumpship' unitType='Jumpship'>
-            <availability>ROS:4</availability>
+            <availability>ROS:4,CS.EC:6</availability>
             <model name='(2960)'>
                 <availability>General:8</availability>
             </model>
@@ -15037,7 +15037,7 @@
             </model>
         </chassis>
         <chassis name='Merchant Jumpship' unitType='Jumpship'>
-            <availability>MERC.KH:4,MERC.WD:4,HL:5,CEI:5,CLAN:5,IS:5,Periphery.Deep:3,NIOPS:5,MERC:5,Periphery:6</availability>
+            <availability>MERC.KH:4,MERC.WD:4,HL:5,CEI:5,CLAN:5,IS:5,Periphery.Deep:3,NIOPS:5,MERC:5,Periphery:6,CS.EC:6</availability>
             <model name='(2503)'>
                 <availability>General:6</availability>
             </model>
@@ -18918,7 +18918,7 @@
             </model>
         </chassis>
         <chassis name='Scout JumpShip' unitType='Jumpship'>
-            <availability>CEI:4,CLAN:5,IS:6,MERC:5,Periphery:4</availability>
+            <availability>CEI:4,CLAN:5,IS:6,MERC:5,Periphery:4,CS.EC:7</availability>
             <model name='(2712)'>
                 <availability>General:8,CLAN:4</availability>
             </model>
@@ -21428,7 +21428,7 @@
             </model>
         </chassis>
         <chassis name='Union' unitType='Dropship'>
-            <availability>IS:8,Periphery:6,BAN:4</availability>
+            <availability>IS:8,Periphery:6,BAN:4,CS.EC:6</availability>
             <model name='(2708)'>
                 <roles>mek_carrier</roles>
                 <availability>General:3,BAN:4</availability>

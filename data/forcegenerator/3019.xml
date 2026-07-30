@@ -1367,7 +1367,7 @@
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Dropship'>
-            <availability>CS:3,HL:5,CLAN:3,IS:6,NIOPS:3,Periphery.Deep:6,MERC:5,BAN:5,Periphery:7</availability>
+            <availability>CS:3,CS.EC:6,HL:5,CLAN:3,IS:6,NIOPS:3,Periphery.Deep:6,MERC:5,BAN:5,Periphery:7</availability>
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
@@ -2704,7 +2704,7 @@
             </model>
         </chassis>
         <chassis name='Explorer JumpShip' unitType='Jumpship'>
-            <availability>CS:3,FWL:1,IS:1,NIOPS:3</availability>
+            <availability>CS:3,CS.EC:7,FWL:1,IS:1,NIOPS:3</availability>
             <model name=''>
                 <roles>civilian</roles>
                 <availability>CS:8,IS:8,NIOPS:3</availability>
@@ -5264,7 +5264,7 @@
             </model>
         </chassis>
         <chassis name='Magellan Jumpship' unitType='Jumpship'>
-            <availability>CS:6</availability>
+            <availability>CS:6,CS.EC:8</availability>
             <model name='(2960)'>
                 <availability>General:8</availability>
             </model>
@@ -6003,7 +6003,7 @@
             </model>
         </chassis>
         <chassis name='Merchant Jumpship' unitType='Jumpship'>
-            <availability>CS:5,MERC.KH:4,MERC.WD:4,HL:4,CLAN:5,IS:5,Periphery.Deep:2,NIOPS:5,MERC:3,Periphery:4</availability>
+            <availability>CS:5,CS.EC:6,MERC.KH:4,MERC.WD:4,HL:4,CLAN:5,IS:5,Periphery.Deep:2,NIOPS:5,MERC:3,Periphery:4</availability>
             <model name='(2503)'>
                 <availability>General:6</availability>
             </model>
@@ -6807,7 +6807,7 @@
             </model>
         </chassis>
         <chassis name='Phoenix Hawk LAM' unitType='Mek'>
-            <availability>IS:1+,FWL:2+,DC:2+,MERC.WD:2+,CS:3+,CIR:0</availability>
+            <availability>IS:1+,FWL:2+,DC:2+,MERC.WD:2+,CS:3+,CS.EC:5,CIR:0</availability>
             <model name='PHX-HK2'>
                 <roles>raider,recon,specops</roles>
                 <availability>IS:8,FWL:6</availability>
@@ -7364,7 +7364,7 @@
             </model>
         </chassis>
         <chassis name='Scout JumpShip' unitType='Jumpship'>
-            <availability>CS:7,CLAN:5,IS:6,MERC:4,Periphery:4</availability>
+            <availability>CS:7,CS.EC:8,CLAN:5,IS:6,MERC:4,Periphery:4</availability>
             <model name='(2712)'>
                 <availability>General:8,CLAN:6</availability>
             </model>
@@ -7752,10 +7752,10 @@
             </model>
         </chassis>
         <chassis name='Stinger LAM' unitType='Mek'>
-            <availability>IS:1+,DC:2+,MERC.WD:1+,CS:2</availability>
+            <availability>IS:1+,DC:2+,MERC.WD:1+,CS:2,CS.EC:4</availability>
             <model name='STG-A10'>
                 <roles>recon,specops</roles>
-                <availability>DC:8</availability>
+                <availability>DC:8,CS.EC:4</availability>
             </model>
             <model name='STG-A5'>
                 <roles>raider,recon,specops</roles>
@@ -8349,7 +8349,7 @@
             </model>
         </chassis>
         <chassis name='Union' unitType='Dropship'>
-            <availability>IS:8,Periphery:6,BAN:4</availability>
+            <availability>IS:8,Periphery:6,BAN:4,CS.EC:6</availability>
             <model name='(2708)'>
                 <roles>mek_carrier</roles>
                 <availability>General:8,BAN:4</availability>
@@ -8660,14 +8660,14 @@
             </model>
         </chassis>
         <chassis name='Wasp LAM' unitType='Mek'>
-            <availability>IS:1+,FWL:2+,MERC.WD:2+,CS:2</availability>
+            <availability>IS:1+,FWL:2+,MERC.WD:2+,CS:2,CS.EC:4</availability>
             <model name='WSP-105'>
                 <roles>recon,specops</roles>
                 <availability>IS:8,MERC.WD:8,CS:8</availability>
             </model>
             <model name='WSP-105M'>
                 <roles>recon,specops</roles>
-                <availability>FWL:6</availability>
+                <availability>FWL:6,CS.EC:4</availability>
             </model>
         </chassis>
         <chassis name='Wasp' unitType='Mek'>
