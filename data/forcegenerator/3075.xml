@@ -17713,6 +17713,13 @@
                 <availability>WOB:2+,CS.EC:5</availability>
             </model>
         </chassis>
+        <chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='PHX-HK1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Phoenix Hawk' unitType='Mek'>
             <availability>CS:5,HL:5,CLAN:1,IS:8,FWL:9,NIOPS:5,Periphery.Deep:4,WOB:3,Periphery:6</availability>
             <model name='PXH-1'>
@@ -20521,6 +20528,13 @@
                 <availability>General:1+</availability>
             </model>
         </chassis>
+        <chassis name='Stinger LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='STG-A1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Stinger' unitType='Mek'>
             <availability>HL:5,FRR:4,CLAN:1-,IS:8,Periphery.Deep:5,WOB:2-,MERC:8,Periphery:6,CS:2-,NIOPS:2-,DC:5,CGB:2-</availability>
             <model name='STG-3G'>
@@ -22856,6 +22870,17 @@
             <model name='WSP-110'>
                 <roles>recon,specops</roles>
                 <availability>WOB:1,CS.EC:4</availability>
+            </model>
+        </chassis>
+        <chassis name='Wasp LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='WSP-100'>
+                <roles>recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+            <model name='WSP-100A'>
+                <roles>recon,specops</roles>
+                <availability>CS:2</availability>
             </model>
         </chassis>
         <chassis name='Wasp' unitType='Mek'>

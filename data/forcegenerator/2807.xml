@@ -4374,14 +4374,14 @@
             </model>
         </chassis>
         <chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2+</availability>
+            <availability>PP:1+,IS:2+,CS:2</availability>
             <model name='PHX-HK1'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:4</availability>
+                <availability>PP:1+,IS:4,CS:4</availability>
             </model>
             <model name='PHX-HK1R'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:1+</availability>
+                <availability>PP:1+,IS:1+,CS:2</availability>
             </model>
         </chassis>
         <chassis name='Phoenix Hawk LAM' unitType='Mek'>
@@ -5009,10 +5009,10 @@
             </model>
         </chassis>
         <chassis name='Stinger LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2</availability>
+            <availability>PP:1+,IS:2,CS:2</availability>
             <model name='STG-A1'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:2</availability>
+                <availability>PP:1+,IS:2,CS:4</availability>
             </model>
         </chassis>
         <chassis name='Stinger LAM' unitType='Mek'>
@@ -5487,18 +5487,18 @@
             </model>
         </chassis>
         <chassis name='Wasp LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2</availability>
+            <availability>PP:1+,IS:2,CS:2</availability>
             <model name='WSP-100'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+,IS:4</availability>
+                <availability>PP:1+,IS:4,CS:4</availability>
             </model>
             <model name='WSP-100A'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+,IS:2</availability>
+                <availability>PP:1+,IS:2,CS:2</availability>
             </model>
             <model name='WSP-100b'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+</availability>
+                <availability>PP:1+,CS:2</availability>
             </model>
         </chassis>
         <chassis name='Wasp LAM' unitType='Mek'>

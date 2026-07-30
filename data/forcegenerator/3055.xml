@@ -10376,6 +10376,13 @@
                 <availability>WOB:1+,CS.EC:5</availability>
             </model>
         </chassis>
+        <chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='PHX-HK1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Phoenix Hawk' unitType='Mek'>
             <availability>IS:9,FWL:10,CS:6,WOB:5,CLAN.IS!Solahma:1!Provisional Garrison:1,CGB!Second Line:1!Solahma:1!Provisional Garrison:1,CWIE:2-,CW!Second Line:2!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CB:1-,CCC!Second Line:1!Solahma:1,CCO!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Front Line:1!Second Line:1!Solahma:2!Provisional Garrison:1,CHH!Front Line:1!Second Line:1!Solahma:1!Provisional Garrison:1,CIH!Second Line:1!Solahma:1!Provisional Garrison:1,CSR!Solahma:1!Provisional Garrison:1,Periphery:4,NIOPS:6,Periphery.Deep:4,HL:3,BAN:4</availability>
             <model name='C'>
@@ -11763,6 +11770,13 @@
                 <availability>General:3</availability>
             </model>
         </chassis>
+        <chassis name='Stinger LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='STG-A1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Stinger' unitType='Mek'>
             <availability>IS:9,DC:6,FRR:6,SIC:9,MERC:9,CS:3-,WOB:3-,CLAN.IS!Second Line:1!Solahma:3!Provisional Garrison:4,CGB!Front Line:1!Second Line:1!Solahma:2!Provisional Garrison:3,CJF:3-,CNC!Second Line:1!Solahma:2!Provisional Garrison:2,CDS!Solahma:2!Provisional Garrison:3,CSV!Second Line:3!Solahma:4!Provisional Garrison:4,CW!Second Line:2!Solahma:3!Provisional Garrison:5,CLAN.HW:3-,CBS!Front Line:2!Second Line:3!Solahma:3!Provisional Garrison:3,CB!Second Line:3!Solahma:4!Provisional Garrison:5,CCC!Second Line:1!Solahma:3!Provisional Garrison:4,CFM:4-,CGS!Second Line:1!Solahma:3!Provisional Garrison:4,CHH!Front Line:1!Second Line:3!Solahma:3!Provisional Garrison:4,CSR:3-,CSA:3-,Periphery:6,NIOPS:3-,Periphery.Deep:5,HL:5,BAN:4</availability>
             <model name='C'>
@@ -12965,6 +12979,17 @@
             <model name='WSP-105M'>
                 <roles>recon,specops</roles>
                 <availability>WOB:1,CS.EC:4</availability>
+            </model>
+        </chassis>
+        <chassis name='Wasp LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='WSP-100'>
+                <roles>recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+            <model name='WSP-100A'>
+                <roles>recon,specops</roles>
+                <availability>CS:2</availability>
             </model>
         </chassis>
         <chassis name='Wasp' unitType='Mek'>

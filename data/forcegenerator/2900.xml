@@ -6143,6 +6143,13 @@
                 <availability>IS:8</availability>
             </model>
         </chassis>
+        <chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='PHX-HK1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Phoenix Hawk' unitType='Mek'>
             <availability>IS:5,FS!A:6!B:6!C:6!D:5!F:5,LA:6,DC!A:6!B:6!C:6!D:5!F:5,CC!A:6!B:6!C:6!D:5!F:5,MERC:8+,CS:6-,CLAN:4+,CB:3+,CCO!Front Line:3!Second Line:2!Solahma:1,CGB:3+,CGS:6+,CHH!Keshik:3!Front Line:3!Second Line:2!Solahma:1,CIH!Front Line:3!Second Line:3!Solahma:2!Provisional Garrison:1,CSA!Keshik:3!Front Line:3!Second Line:2!Solahma:1,Periphery:4,NIOPS:7,HL:2+,Periphery.Deep:2+,BAN:4,PIR:6+</availability>
             <model name='C'>
@@ -6966,6 +6973,13 @@
                 <availability>IS:8</availability>
             </model>
         </chassis>
+        <chassis name='Stinger LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='STG-A1'>
+                <roles>raider,recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+        </chassis>
         <chassis name='Stinger' unitType='Mek'>
             <availability>IS:9,FS:7,LA:8,FWL:8,DC:7,CC:8,MERC:6,CS:3,CLAN:4,CB:5,CCO!Front Line:5!Second Line:5!Solahma:5!Provisional Garrison:5,CFM!Second Line:4!Solahma:4!Provisional Garrison:4,CGB!Front Line:4!Second Line:4!Solahma:4!Provisional Garrison:4,CIH!Front Line:4!Second Line:4!Solahma:4!Provisional Garrison:4,CJF:3-,CNC!Second Line:4!Solahma:4!Provisional Garrison:4,CSJ!Front Line:4!Second Line:4!Solahma:4!Provisional Garrison:4,Periphery:6,NIOPS:4-,HL:4,Periphery.Deep:5,BAN:5</availability>
             <model name='C'>
@@ -7727,6 +7741,17 @@
             <model name='WSP-105'>
                 <roles>recon,specops</roles>
                 <availability>IS:8,CS:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Wasp LAM Mk I' unitType='Mek'>
+            <availability>CS:2</availability>
+            <model name='WSP-100'>
+                <roles>recon,specops</roles>
+                <availability>CS:4</availability>
+            </model>
+            <model name='WSP-100A'>
+                <roles>recon,specops</roles>
+                <availability>CS:2</availability>
             </model>
         </chassis>
         <chassis name='Wasp' unitType='Mek'>
