@@ -2830,8 +2830,14 @@ Rank:
             <officer>true</officer>
             <payMultiplier>3.0</payMultiplier>
         </rank> <!-- O7 -->
+        <!-- The senior Precentors who head a department. They are peers of one another rather
+             than a promotion ladder, so they share one grade and are told apart by the
+             profession holding the portfolio: arms for the combat branches, naval for
+             shipboard personnel, quartermaster for the technical branches, ROM for
+             administration and liaison for the civil service. Aerospace is named explicitly
+             because it would otherwise fall through to the naval column. -->
         <rank>
-            <rankNames>-,-,-,-,-,-,-,-,-</rankNames>
+            <rankNames>Precentor Arms,Precentor Arms,-,Precentor Naval,-,Precentor Quartermaster,-,Precentor ROM,Precentor Liaison</rankNames>
             <officer>true</officer>
             <payMultiplier>3.33</payMultiplier>
         </rank> <!-- O8 -->
@@ -3092,8 +3098,14 @@ Rank:
             <officer>true</officer>
             <payMultiplier>3.0</payMultiplier>
         </rank> <!-- O7 -->
+        <!-- The senior Precentors who head a department. They are peers of one another rather
+             than a promotion ladder, so they share one grade and are told apart by the
+             profession holding the portfolio: arms for the combat branches, naval for
+             shipboard personnel, quartermaster for the technical branches, ROM for
+             administration and liaison for the civil service. Aerospace is named explicitly
+             because it would otherwise fall through to the naval column. -->
         <rank>
-            <rankNames>-,-,-,-,-,-,-,-,-</rankNames>
+            <rankNames>Precentor Arms,Precentor Arms,-,Precentor Naval,-,Precentor Quartermaster,-,Precentor ROM,Precentor Liaison</rankNames>
             <officer>true</officer>
             <payMultiplier>3.33</payMultiplier>
         </rank> <!-- O8 -->
