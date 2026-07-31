@@ -165,6 +165,369 @@
             <skill>Piloting/Mek::Regular</skill>
         </skillPrereq>
     </ability>
+    <!-- 'Mek Affinity / Antipathy (Unofficial). Weight-class-specific Piloting/Mek modifier applied to the deployed
+         crew in MekHQ (Unit.resetPilotAndEntity), since these SPAs are not known to MegaMek. -->
+    <ability>
+        <lookupName>mek_affinity_light</lookupName>
+        <displayName>'Mek Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a light 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_antipathy_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_affinity_medium</lookupName>
+        <displayName>'Mek Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a medium 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_antipathy_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_affinity_heavy</lookupName>
+        <displayName>'Mek Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a heavy 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_antipathy_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_affinity_assault</lookupName>
+        <displayName>'Mek Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting an assault 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_antipathy_assault</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_antipathy_light</lookupName>
+        <displayName>'Mek Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a light 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_affinity_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_antipathy_medium</lookupName>
+        <displayName>'Mek Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a medium 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_affinity_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_antipathy_heavy</lookupName>
+        <displayName>'Mek Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a heavy 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_affinity_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>mek_antipathy_assault</lookupName>
+        <displayName>'Mek Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting an assault 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_affinity_assault</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Mek</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <!-- Vehicular Affinity / Antipathy (Unofficial). Applies to combat vehicles (ground, naval, or VTOL). -->
+    <ability>
+        <lookupName>vehicular_affinity_light</lookupName>
+        <displayName>Vehicular Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while crewing a light combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_antipathy_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_affinity_medium</lookupName>
+        <displayName>Vehicular Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while crewing a medium combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_antipathy_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_affinity_heavy</lookupName>
+        <displayName>Vehicular Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while crewing a heavy combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_antipathy_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_affinity_assault</lookupName>
+        <displayName>Vehicular Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while crewing an assault combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_antipathy_assault</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_antipathy_light</lookupName>
+        <displayName>Vehicular Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while crewing a light combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_affinity_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_antipathy_medium</lookupName>
+        <displayName>Vehicular Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while crewing a medium combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_affinity_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_antipathy_heavy</lookupName>
+        <displayName>Vehicular Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while crewing a heavy combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_affinity_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>vehicular_antipathy_assault</lookupName>
+        <displayName>Vehicular Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while crewing an assault combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>vehicular_affinity_assault</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Vehicle</skill>
+        </skillPrereq>
+    </ability>
+    <!-- Flight Affinity / Antipathy (Unofficial). Applies to conventional and aerospace fighters, which use only
+         Light/Medium/Heavy weight classes (no Assault). -->
+    <ability>
+        <lookupName>flight_affinity_light</lookupName>
+        <displayName>Flight Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a light conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_antipathy_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>flight_affinity_medium</lookupName>
+        <displayName>Flight Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a medium conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_antipathy_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>flight_affinity_heavy</lookupName>
+        <displayName>Flight Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a heavy conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_antipathy_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>flight_antipathy_light</lookupName>
+        <displayName>Flight Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a light conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_affinity_light</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>flight_antipathy_medium</lookupName>
+        <displayName>Flight Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a medium conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_affinity_medium</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>flight_antipathy_heavy</lookupName>
+        <displayName>Flight Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a heavy conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>flight_affinity_heavy</invalidAbilities>
+        <skillPrereq>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+        <skillPrereq>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
     <ability>
         <lookupName>shaky_stick</lookupName>
         <xpCost>100</xpCost>
