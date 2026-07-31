@@ -1591,6 +1591,7 @@ Increases the target number of all Art/Cooking checks by 2.]]></desc>
         <desc><![CDATA[Reduces all fabrication costs by 25%.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
+        <invalidAbilities>tech_wasteful</invalidAbilities>
         <weight>1</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Veteran</skill>
@@ -1613,6 +1614,22 @@ Increases the target number of all Art/Cooking checks by 2.]]></desc>
             <skill>Tech/Mechanic::Elite</skill>
             <skill>Tech/Mek::Elite</skill>
             <skill>Tech/BattleArmor::Elite</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_wasteful</lookupName>
+        <displayName>Wasteful (Unofficial)</displayName>
+        <desc><![CDATA[Increases the cost of all fabrication and repairs by 25%.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <invalidAbilities>tech_jury_rigger</invalidAbilities>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Tech/Vessel::Ultra-Green</skill>
+            <skill>Tech/Aero::Ultra-Green</skill>
+            <skill>Tech/Mechanic::Ultra-Green</skill>
+            <skill>Tech/Mek::Ultra-Green</skill>
+            <skill>Tech/BattleArmor::Ultra-Green</skill>
         </skillPrereq>
     </ability>
     <ability>
