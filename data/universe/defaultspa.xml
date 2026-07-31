@@ -1573,12 +1573,25 @@ Increases the target number of all Art/Cooking checks by 2.]]></desc>
     <ability>
         <lookupName>tech_fabricator</lookupName>
         <displayName>Fabricator (Unofficial)</displayName>
-        <desc><![CDATA[A gifted improviser at building components from scratch.
-
-Reduces the target number of fabrication checks by 2.]]></desc>
+        <desc><![CDATA[Reduces the target number of fabrication checks by 2.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
-        <weight>2</weight>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Tech/Vessel::Veteran</skill>
+            <skill>Tech/Aero::Veteran</skill>
+            <skill>Tech/Mechanic::Veteran</skill>
+            <skill>Tech/Mek::Veteran</skill>
+            <skill>Tech/BattleArmor::Veteran</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_jury_rigger</lookupName>
+        <displayName>Jury-Rigger (Unofficial)</displayName>
+        <desc><![CDATA[Reduces all fabrication costs by 25%.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Veteran</skill>
             <skill>Tech/Aero::Veteran</skill>
