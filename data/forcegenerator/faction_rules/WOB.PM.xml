@@ -45,19 +45,6 @@
         <rating>D</rating>
     </defaults>
 
-    <!-- The Militia inherits ComStar's naming through the parent chain, and ComStar's tiers are
-    keyed to the Level ladder: echelon 6 is a Level IV and takes the engine name, echelon 5 a
-    Level III. Here those same numbers are a Division and a Demi-Division, so the inherited tiers
-    would leave the ordinals in the ruleset's own names unresolved. Divisions are raised and
-    numbered on the world they garrison - the First Lipton, the Third Bryant - and the
-    demi-divisions inside one restart from first, so they are qualified by their parent. -->
-    <formationNaming>
-        <tier echelon="%REGIMENT%" designator="numeric_ordinal" />
-        <tier echelon="%BATTALION%" designator="numeric_ordinal" qualifyWith="parent" />
-        <tier echelon="%COMPANY%" designator="alphabet" qualifyWith="parent" />
-        <tier echelon="%LANCE%" designator="alphabet" qualifyWith="parent" />
-    </formationNaming>
-
     <toc>
         <unitType>
             <option>null,Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter</option>
@@ -74,6 +61,19 @@
             <option>C,D,F</option>
         </rating>
     </toc>
+
+    <!-- The Militia inherits ComStar's naming through the parent chain, and ComStar's tiers are
+    keyed to the Level ladder: echelon 6 is a Level IV and takes the engine name, echelon 5 a
+    Level III. Here those same numbers are a Division and a Demi-Division, so the inherited tiers
+    would leave the ordinals in the ruleset's own names unresolved. Divisions are raised and
+    numbered on the world they garrison - the First Lipton, the Third Bryant - and the
+    demi-divisions inside one restart from first, so they are qualified by their parent. -->
+    <formationNaming>
+        <tier echelon="%REGIMENT%" designator="numeric_ordinal" />
+        <tier echelon="%BATTALION%" designator="numeric_ordinal" qualifyWith="parent" />
+        <tier echelon="%COMPANY%" designator="alphabet" qualifyWith="parent" />
+        <tier echelon="%LANCE%" designator="alphabet" qualifyWith="parent" />
+    </formationNaming>
 
     <!-- Divisions are raised and named on the world they garrison - the First Lipton, the Third
     Bryant - so they take an ordinal and the formation name, with the world left to the consumer. -->
