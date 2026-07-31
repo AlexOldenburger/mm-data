@@ -1601,6 +1601,21 @@ Increases the target number of all Art/Cooking checks by 2.]]></desc>
         </skillPrereq>
     </ability>
     <ability>
+        <lookupName>tech_macgyver</lookupName>
+        <displayName>MacGyver (Unofficial)</displayName>
+        <desc><![CDATA[Treats a part's base Tech Rating as one lower when determining whether it can be fabricated.]]></desc>
+        <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>3</weight>
+        <skillPrereq>
+            <skill>Tech/Vessel::Elite</skill>
+            <skill>Tech/Aero::Elite</skill>
+            <skill>Tech/Mechanic::Elite</skill>
+            <skill>Tech/Mek::Elite</skill>
+            <skill>Tech/BattleArmor::Elite</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
         <lookupName>compulsion_unpleasant_personality</lookupName>
         <displayName>Trivial Compulsion - Difficult Personality (ATOW)</displayName>
         <desc><![CDATA[-1 to all Charisma-based Skill Checks.
