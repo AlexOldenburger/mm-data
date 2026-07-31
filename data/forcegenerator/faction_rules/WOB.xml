@@ -50,7 +50,11 @@
             <option>%LEVEL_IV%,%LEVEL_III%,%LEVEL_II%</option>
         </echelon>
 
+        <!-- The Shadow Divisions were the Word of Blake's elite, equipped accordingly, and are not
+        raised at any lesser standard - so they offer the best available and nothing below it. The
+        Militia proper covers the full range. -->
         <rating>
+            <option ifFaction="WOB.SD">A</option>
             <option>A,B,C,D,F</option>
         </rating>
 
