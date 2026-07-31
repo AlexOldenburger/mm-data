@@ -82,14 +82,14 @@
         </subforces>
 
         <subforces ifFlags="formation_1">
-            <subforce num="3" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="4200">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
 
         <subforces ifFlags="formation_2">
-            <subforce num="2" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="2202">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -109,7 +109,7 @@
         <co ifFlags="precentor">%PRECENTOR%</co>
         <co ifFlags="adept">%PRECENTOR%</co>
         <subforces>
-            <subforce num="3" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="3300">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -121,7 +121,7 @@
         <co ifFlags="precentor">%PRECENTOR%</co>
         <co ifFlags="adept">%PRECENTOR%</co>
         <subforces>
-            <subforce num="2" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -156,7 +156,6 @@
 
         <subforces ifFlags="formation_2">
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="1" flags="2022">%LEVEL_II%</subforce>
             <subforce num="1" flags="3300">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -186,7 +185,6 @@
 
         <subforces ifFlags="formation_1">
             <subforce num="3" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0420">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -194,7 +192,6 @@
         <subforces ifFlags="formation_2">
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="4020">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -209,8 +206,6 @@
 
         <subforces ifFlags="formation_4">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="2202">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -226,7 +221,6 @@
         <subforces ifFlags="formation_6">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="2022">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -245,7 +239,6 @@
         <subforces ifFlags="formation_0">
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="3030">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -266,7 +259,6 @@
         <subforces>
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -304,7 +296,6 @@
 
         <subforces ifFlags="formation_1">
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -348,8 +339,7 @@
         </flags>
 
         <subforces ifFlags="formation_0">
-            <subforce num="2" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -395,7 +385,7 @@
 
         <subforces ifFlags="formation_1">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -408,7 +398,7 @@
         <co ifFlags="adept">%PRECENTOR%</co>
         <subforces>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="3300">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
@@ -453,7 +443,6 @@
         <subforces ifFlags="formation_0">
             <subforce num="2" flags="0402">%LEVEL_II%</subforce>
             <subforce num="1" flags="0042">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
             <subforce num="1" flags="3003" role="command">%LEVEL_II%</subforce>
         </subforces>
@@ -634,7 +623,7 @@
         <co ifFlags="adept">%PRECENTOR%</co>
 
         <subforces>
-            <subforce num="3" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
         </subforces>
@@ -650,7 +639,6 @@
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
-            <subforce num="1" flags="3030">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
     </force>
@@ -678,7 +666,6 @@
         <subforces ifFlags="formation_1">
             <subforce num="3" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="4200">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
 
@@ -686,7 +673,6 @@
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="2202">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
 
@@ -724,9 +710,8 @@
         </flags>
 
         <subforces ifFlags="formation_0">
-            <subforce num="2" flags="4002">%LEVEL_II%</subforce>
+            <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
         </subforces>
 
@@ -751,8 +736,7 @@
 
         <subforces ifFlags="formation_0">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="3030">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
         </subforces>
 
@@ -780,13 +764,11 @@
         <subforces ifFlags="formation_0">
             <subforce num="3" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
 
         <subforces ifFlags="formation_1">
-            <subforce num="2" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
         </subforces>
@@ -819,7 +801,6 @@
 
         <subforces ifFlags="formation_1">
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="1" flags="3030">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -835,7 +816,6 @@
         <subforces>
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -850,7 +830,7 @@
 
         <subforces>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
             <subforce num="1" flags="3300">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -866,7 +846,6 @@
         <subforces>
             <subforce num="2" flags="4002">%LEVEL_II%</subforce>
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
@@ -886,7 +865,6 @@
         <subforces ifFlags="formation_0">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
             <subforce num="2" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1" flags="3030">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
@@ -923,13 +901,11 @@
             <subforce num="2" flags="0402">%LEVEL_II%</subforce>
             <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="6000">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
 
         <subforces ifFlags="formation_2">
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="2">%CHOIR%</subforce>
         </subforces>
@@ -978,7 +954,7 @@
 
         <subforces ifFlags="formation_1">
             <subforce num="1" flags="4002">%LEVEL_II%</subforce>
-            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="1" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="1" flags="0330">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -1005,7 +981,7 @@
         </subforces>
 
         <subforces ifFlags="formation_1">
-            <subforce num="3" flags="0042">%LEVEL_II%</subforce>
+            <subforce num="2" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
             <subforce num="1" flags="3300">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
@@ -1062,7 +1038,6 @@
             <subforce num="1" flags="0402">%LEVEL_II%</subforce>
             <subforce num="2" flags="0042">%LEVEL_II%</subforce>
             <subforce num="1" flags="0600">%LEVEL_II%</subforce>
-            <subforce num="1" flags="0060">%LEVEL_II%</subforce>
             <subforce num="1">%CHOIR%</subforce>
         </subforces>
     </force>
