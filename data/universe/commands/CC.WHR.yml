@@ -1,0 +1,47 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# Kali Liao raised this House in secret with the Word of Blake's Precentor Martial
+# Cameron St. Jamais, out of her Thuggee cult and the Manei Domini. She was in no legal
+# position to raise a Warrior House, so it answers to her rather than to the Warrior House
+# Orders and does not fall back on them.
+#
+# Its record of service gives the Capellan Confederation and the Shadow Divisions as its
+# two sources of equipment, which is what the two fallback factions here reproduce - the
+# generator averages them, so the House draws on both rather than either.
+#
+# Despite the Blakist equipment it was a Capellan formation and used Inner Sphere lances,
+# companies and battalions rather than the Word of Blake's base-six organisation, so it
+# declares its own sizes rather than inheriting anything from the Blakist side.
+#
+# Raised from Blakist Manei Domini rather than Thuggee-raised soldiers, which is what
+# separates it from its sister House. Destroyed on Sian in January 3074 when House
+# White Tiger turned on it; no member is believed to have survived.
+
+key: CC.WHR
+name: Warrior House Rakshasa
+yearsActive:
+  - start: 3071
+    end: 3074
+ratingLevels:
+  - A
+fallBackFactions:
+  - CC
+  - WOB.SD
+formationBaseSize: 4
+formationGrouping: 3
+rankSystem: CCAF
