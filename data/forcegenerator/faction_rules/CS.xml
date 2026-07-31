@@ -87,6 +87,11 @@
         <tier echelon="%LEVEL_IV%" designator="engine" />
         <tier echelon="%LEVEL_III%" designator="engine" />
         <tier echelon="%LEVEL_II%" designator="alphabet" />
+        <!-- The Choir is a Word of Blake formation but is named here so it does not fall
+             through to the Inner Sphere company tier, which is what an undeclared echelon
+             4 inherits. It pairs a BattleMech Level II with a battle armor one and is
+             lettered the same way its halves are. -->
+        <tier echelon="%CHOIR%" designator="alphabet" />
     </formationNaming>
 
     <force echelon="%LEVEL_IV%" eschName="Level IV">
