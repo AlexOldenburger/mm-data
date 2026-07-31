@@ -174,7 +174,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_antipathy_light</invalidAbilities>
+        <invalidAbilities>mek_antipathy_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -189,7 +189,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_antipathy_medium</invalidAbilities>
+        <invalidAbilities>mek_antipathy_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -204,7 +204,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_antipathy_heavy</invalidAbilities>
+        <invalidAbilities>mek_antipathy_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -219,7 +219,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_antipathy_assault</invalidAbilities>
+        <invalidAbilities>mek_antipathy_assault::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -234,7 +234,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_affinity_light</invalidAbilities>
+        <invalidAbilities>mek_affinity_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -249,7 +249,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_affinity_medium</invalidAbilities>
+        <invalidAbilities>mek_affinity_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -264,7 +264,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_affinity_heavy</invalidAbilities>
+        <invalidAbilities>mek_affinity_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -279,7 +279,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_affinity_assault</invalidAbilities>
+        <invalidAbilities>mek_affinity_assault::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Mek</skill>
         </skillPrereq>
@@ -295,7 +295,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_antipathy_light</invalidAbilities>
+        <invalidAbilities>vehicular_antipathy_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -312,7 +312,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_antipathy_medium</invalidAbilities>
+        <invalidAbilities>vehicular_antipathy_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -329,7 +329,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_antipathy_heavy</invalidAbilities>
+        <invalidAbilities>vehicular_antipathy_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -346,7 +346,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_antipathy_assault</invalidAbilities>
+        <invalidAbilities>vehicular_antipathy_assault::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -363,7 +363,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_affinity_light</invalidAbilities>
+        <invalidAbilities>vehicular_affinity_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -380,7 +380,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_affinity_medium</invalidAbilities>
+        <invalidAbilities>vehicular_affinity_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -397,7 +397,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_affinity_heavy</invalidAbilities>
+        <invalidAbilities>vehicular_affinity_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -414,7 +414,7 @@
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>vehicular_affinity_assault</invalidAbilities>
+        <invalidAbilities>vehicular_affinity_assault::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle</skill>
             <skill>Piloting/Naval</skill>
@@ -429,11 +429,11 @@
     <ability>
         <lookupName>flight_affinity_light</lookupName>
         <displayName>Flight Affinity: Light (Unofficial)</displayName>
-        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a light conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a conventional or light aerospace fighter.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_antipathy_light</invalidAbilities>
+        <invalidAbilities>flight_antipathy_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -446,11 +446,11 @@
     <ability>
         <lookupName>flight_affinity_medium</lookupName>
         <displayName>Flight Affinity: Medium (Unofficial)</displayName>
-        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a medium conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a medium aerospace fighter.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_antipathy_medium</invalidAbilities>
+        <invalidAbilities>flight_antipathy_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -463,11 +463,11 @@
     <ability>
         <lookupName>flight_affinity_heavy</lookupName>
         <displayName>Flight Affinity: Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a heavy conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a heavy aerospace fighter.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_antipathy_heavy</invalidAbilities>
+        <invalidAbilities>flight_antipathy_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -480,11 +480,11 @@
     <ability>
         <lookupName>flight_antipathy_light</lookupName>
         <displayName>Flight Antipathy: Light (Unofficial)</displayName>
-        <desc><![CDATA[Gain a -1 modifier to Piloting/Mek skill rolls while piloting a light conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a conventional or light aerospace fighter.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_affinity_light</invalidAbilities>
+        <invalidAbilities>flight_affinity_light::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -497,11 +497,11 @@
     <ability>
         <lookupName>flight_antipathy_medium</lookupName>
         <displayName>Flight Antipathy: Medium (Unofficial)</displayName>
-        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a medium conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a medium aerospace fighter.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_affinity_medium</invalidAbilities>
+        <invalidAbilities>flight_affinity_medium::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -514,11 +514,11 @@
     <ability>
         <lookupName>flight_antipathy_heavy</lookupName>
         <displayName>Flight Antipathy: Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a heavy conventional or aerospace fighter.]]></desc>
+        <desc><![CDATA[Suffer a +1 modifier to Piloting/Mek skill rolls while piloting a heavy aerospace fighter.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>flight_affinity_heavy</invalidAbilities>
+        <invalidAbilities>flight_affinity_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Piloting/Aerospace</skill>
             <skill>Piloting/Aircraft</skill>
@@ -526,6 +526,28 @@
         <skillPrereq>
             <skill>Gunnery/Aerospace</skill>
             <skill>Gunnery/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>unit_specialist</lookupName>
+        <displayName>Specialist (Unofficial)</displayName>
+        <desc><![CDATA[Choose a unit type and weight class as your specialty. While crewing a matching unit you gain a +1 bonus to both Gunnery and Piloting; while crewing any other unit you suffer a -1 penalty to both Gunnery and Piloting.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>mek_affinity_light::mek_affinity_medium::mek_affinity_heavy::mek_affinity_assault::mek_antipathy_light::mek_antipathy_medium::mek_antipathy_heavy::mek_antipathy_assault::vehicular_affinity_light::vehicular_affinity_medium::vehicular_affinity_heavy::vehicular_affinity_assault::vehicular_antipathy_light::vehicular_antipathy_medium::vehicular_antipathy_heavy::vehicular_antipathy_assault::flight_affinity_light::flight_affinity_medium::flight_affinity_heavy::flight_antipathy_light::flight_antipathy_medium::flight_antipathy_heavy</invalidAbilities>
+        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Flight: Light::Flight: Medium::Flight: Heavy</choiceValues>
+        <skillPrereq>
+            <skill>Gunnery/Mek::Green</skill>
+            <skill>Gunnery/Vehicle::Green</skill>
+            <skill>Gunnery/Aerospace::Green</skill>
+            <skill>Gunnery/Aircraft::Green</skill>
+            <skill>Piloting/Mek::Green</skill>
+            <skill>Piloting/Ground Vehicle::Green</skill>
+            <skill>Piloting/Naval::Green</skill>
+            <skill>Piloting/VTOL::Green</skill>
+            <skill>Piloting/Aerospace::Green</skill>
+            <skill>Piloting/Aircraft::Green</skill>
         </skillPrereq>
     </ability>
     <ability>
