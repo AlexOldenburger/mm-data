@@ -762,7 +762,7 @@
             </model>
         </chassis>
         <chassis name='Burro Heavy Support Truck' unitType='Tank'>
-            <availability>CLAN:8,PP:6,IS:8,Periphery:7,Periphery.Deep:0</availability>
+            <availability>CLAN:8,PP:6,IS:8,Periphery:7,Periphery.Deep:0,SLIE:8</availability>
             <model name=''>
                 <roles>cargo,support</roles>
                 <availability>CLAN:8,PP:8,IS:8,Periphery:8</availability>
@@ -1345,10 +1345,10 @@
             </model>
         </chassis>
         <chassis name='Corx Mobile Tunnel Miner' unitType='Tank'>
-            <availability>IS:1,CLAN:1,PP:1,Periphery:2,PIR:0</availability>
+            <availability>IS:1,CLAN:1,PP:1,Periphery:2,PIR:0,SLIE:1</availability>
             <model name=''>
                 <roles>civilian,engineer</roles>
-                <availability>IS:8,CLAN:8,PP:8,Periphery:8</availability>
+                <availability>IS:8,CLAN:8,PP:8,Periphery:8,SLIE:8</availability>
             </model>
         </chassis>
         <chassis name='Crab' unitType='Mek'>
@@ -2014,7 +2014,7 @@
             </model>
         </chassis>
         <chassis name='Flatbed Truck' unitType='Tank'>
-            <availability>CLAN:4,PP:6,IS:5,Periphery:5</availability>
+            <availability>CLAN:4,PP:6,IS:5,Periphery:5,SLIE:6</availability>
             <model name=''>
                 <roles>cargo,support</roles>
                 <availability>CLAN:8,PP:8,IS:8,Periphery:8</availability>
@@ -2537,7 +2537,7 @@
             </model>
         </chassis>
         <chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
-            <availability>CS:3,PP:2,IS:3,MERC:2,DC:4,Periphery:4</availability>
+            <availability>CS:3,PP:2,IS:3,MERC:2,DC:4,Periphery:4,SLIE:2</availability>
             <model name='Inseki'>
                 <availability>DC:8</availability>
             </model>
@@ -2545,7 +2545,7 @@
                 <availability>DC:3</availability>
             </model>
             <model name='Meteor'>
-                <availability>CS:3,PP:2,IS:4,MERC:3,Periphery:4</availability>
+                <availability>CS:3,PP:2,IS:4,MERC:3,Periphery:4,SLIE:2</availability>
             </model>
         </chassis>
         <chassis name='Heavy Tracked APC' unitType='Tank'>
@@ -2770,10 +2770,10 @@
             </model>
         </chassis>
         <chassis name='Imp' unitType='Mek'>
-            <availability>PP:2+,CB:2+,CCO:2+,CGB:2+,CSJ:2+,CWI:2+,CW:2+</availability>
+            <availability>PP:2+,CB:2+,CCO:2+,CGB:2+,CSJ:2+,CWI:2+,CW:2+,SLIE:2+:2793</availability>
             <model name='IMP-1A'>
                 <roles>command</roles>
-                <availability>PP:8,CB:8,CCO:8,CGB:8,CSJ:8,CWI:8,CW:8</availability>
+                <availability>PP:8,CB:8,CCO:8,CGB:8,CSJ:8,CWI:8,CW:8,SLIE:8</availability>
             </model>
         </chassis>
         <chassis name='Intruder' unitType='Dropship'>
@@ -3196,10 +3196,10 @@
             </model>
         </chassis>
         <chassis name='Light Strike Fighter' unitType='Conventional Fighter'>
-            <availability>LA:8-,IS:8,MERC:6-,DC:5-,Periphery:8</availability>
+            <availability>LA:8-,IS:8,MERC:6-,DC:5-,Periphery:8,SLIE:8</availability>
             <model name='Angel'>
                 <roles>recon</roles>
-                <availability>CC:2,LA:2-,Periphery.MW:3,Periphery.ME:3,IS:8,MERC:6,Periphery:6,DC:2</availability>
+                <availability>CC:2,LA:2-,Periphery.MW:3,Periphery.ME:3,IS:8,MERC:6,Periphery:6,DC:2,SLIE:8</availability>
             </model>
             <model name='Comet'>
                 <availability>FS:8</availability>
@@ -4230,7 +4230,7 @@
             </model>
         </chassis>
         <chassis name='Olympus Recharge Station' unitType='Space Station'>
-            <availability>CS:8,MOC:6,OA:6,IS:6,Periphery:4,TC:6</availability>
+            <availability>CS:8,MOC:6,OA:6,IS:6,Periphery:4,TC:6,SLIE:2</availability>
             <model name='(2663)'>
                 <roles>civilian</roles>
                 <availability>General:8</availability>
@@ -4467,7 +4467,7 @@
             </model>
         </chassis>
         <chassis name='Pressurized Yard' unitType='Space Station'>
-            <availability>CS:5,CLAN:3,IS:7,Periphery:8</availability>
+            <availability>CS:5,CLAN:3,IS:7,Periphery:8,SLIE:4</availability>
             <model name='Huge (2450)'>
                 <roles>civilian</roles>
                 <deployedWith>Factory,Habitat</deployedWith>
@@ -5009,10 +5009,10 @@
             </model>
         </chassis>
         <chassis name='Stinger LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2,CS:2</availability>
+            <availability>PP:1+,IS:2,CS:2,SLIE:2</availability>
             <model name='STG-A1'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:2,CS:4</availability>
+                <availability>PP:1+,IS:2,CS:4,SLIE:2+</availability>
             </model>
         </chassis>
         <chassis name='Stinger LAM' unitType='Mek'>
@@ -5240,10 +5240,10 @@
             </model>
         </chassis>
         <chassis name='Tracked Quad' unitType='Tank'>
-            <availability>CLAN:2,PP:3,IS:2,Periphery:2,Periphery.Deep:4</availability>
+            <availability>CLAN:2,PP:3,IS:2,Periphery:2,Periphery.Deep:4,SLIE:2</availability>
             <model name=''>
                 <roles>cargo,support</roles>
-                <availability>IS:8,CLAN:8,PP:8,Periphery:8</availability>
+                <availability>IS:8,CLAN:8,PP:8,Periphery:8,SLIE:8</availability>
             </model>
         </chassis>
         <chassis name='Tramp JumpShip' unitType='Jumpship'>
@@ -5341,7 +5341,7 @@
             </model>
         </chassis>
         <chassis name='Unpressurized Yard' unitType='Space Station'>
-            <availability>CS:5,CLAN:4,IS:7,Periphery:8</availability>
+            <availability>CS:5,CLAN:4,IS:7,Periphery:8,SLIE:5</availability>
             <model name='Huge (2350)'>
                 <roles>civilian</roles>
                 <deployedWith>Factory,Habitat</deployedWith>
