@@ -19043,7 +19043,7 @@
             </model>
         </chassis>
         <chassis name='Raptor II' unitType='Mek'>
-            <availability>ROS:4,WOB:5</availability>
+            <availability>ROS:4,WOB:5,WOB.SD:0</availability>
             <model name='RPT-2X'>
                 <roles>specops</roles>
                 <availability>General:7</availability>
