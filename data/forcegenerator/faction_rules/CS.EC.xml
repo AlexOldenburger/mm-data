@@ -63,12 +63,10 @@
             <option weight="2">2400</option>
             <option weight="2">2040</option>
             <option weight="6">0240</option>
-            <option weight="9">3300</option>
-            <option weight="9">0330</option>
         </flags>
 
         <flags ifRole="!artillery"
-               ifFlags="!4200|0402|2400|4002|6000|2040|0240|3300|0060|0330|2022|0042|3030|2202|4020|0222|0600|3003">
+               ifFlags="!4200|0402|2400|4002|6000|2040|0240|0060|2022|0042|2202|4020|0222|0600">
             <option weight="18">4002</option>
             <option weight="20">0402</option>
             <option weight="38">0042</option>
@@ -83,10 +81,6 @@
             <option weight="2">2400</option>
             <option weight="2">2040</option>
             <option weight="2">0240</option>
-            <option weight="6">3300</option>
-            <option weight="16">3030</option>
-            <option weight="10">0330</option>
-            <option weight="10">3003</option>
         </flags>
 
         <ruleGroup>
