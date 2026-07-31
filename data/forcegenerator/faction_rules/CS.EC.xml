@@ -584,7 +584,7 @@
             </subforceOption>
         </subforces>
 
-        <subforces generate="group" ifFlags="4002|0402|0042|2202|2022|0222">
+        <subforces generate="model" ifFlags="4002|0402|0042|2202|2022|0222">
             <subforceOption ifWeightClass="A">
                 <option weightClass="H,H" weight="2"
                         unitType="AeroSpaceFighter">%ELEMENT%
