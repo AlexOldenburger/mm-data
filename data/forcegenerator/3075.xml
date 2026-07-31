@@ -1550,7 +1550,7 @@
             </model>
         </chassis>
         <chassis name='Archangel' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:5,WOB:1+</availability>
+            <availability>WOB.SD:5,WOB:0</availability>
             <model name='C-ANG-O Invictus'>
                 <roles>command</roles>
                 <availability>WOB:8</availability>
@@ -5824,7 +5824,7 @@
             </model>
         </chassis>
         <chassis name='Deva' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:6,WOB:1+</availability>
+            <availability>WOB.SD:6,WOB:0</availability>
             <model name='C-DVA-O Invictus'>
                 <deployedWith>Grigori</deployedWith>
                 <availability>WOB:8</availability>
@@ -9761,7 +9761,7 @@
             </model>
         </chassis>
         <chassis name='Grigori' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:7,WOB:2+</availability>
+            <availability>WOB.SD:7,WOB:0</availability>
             <model name='C-GRG-O Invictus'>
                 <roles>fire_support</roles>
                 <deployedWith>Deva</deployedWith>
@@ -13810,7 +13810,7 @@
             </model>
         </chassis>
         <chassis name='Malak' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:6,WOB:1+</availability>
+            <availability>WOB.SD:6,WOB:0</availability>
             <model name='C-MK-O Invictus'>
                 <availability>General:8</availability>
             </model>
@@ -18105,7 +18105,7 @@
             </model>
         </chassis>
         <chassis name='Preta' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:5,WOB:1+</availability>
+            <availability>WOB.SD:5,WOB:0</availability>
             <model name='C-PRT-O Invictus'>
                 <availability>General:8</availability>
             </model>
@@ -19685,7 +19685,7 @@
             </model>
         </chassis>
         <chassis name='Seraph' unitType='Mek' omni='IS'>
-            <availability>WOB.SD:6,WOB:1+</availability>
+            <availability>WOB.SD:6,WOB:0</availability>
             <model name='C-SRP-O (Havalah)'>
                 <availability>General:8</availability>
             </model>
