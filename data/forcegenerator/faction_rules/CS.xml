@@ -61,7 +61,7 @@
         </rating>
 
         <flags>
-            <option ifEschelon="%LEVEL_IV%|%LEVEL_III%">alpha,beta,gamma,delta,epsilon,zeta,eta,theta,iota,kappa,lambda,mu,nu,xi,omicron,pi,rho,sigma,tau,upsilon,phi,chi,psi,omega</option>
+            <option ifEschelon="%LEVEL_IV%|%LEVEL_III%">alpha:Alpha (164 Mek / 4 Veh / 9 Inf / 39 Aero),beta:Beta (158 Mek / 6 Veh / 13 Inf / 39 Aero),gamma:Gamma (151 Mek / 9 Veh / 17 Inf / 39 Aero),delta:Delta (144 Mek / 11 Veh / 22 Inf / 39 Aero),epsilon:Epsilon (138 Mek / 13 Veh / 26 Inf / 39 Aero),zeta:Zeta (132 Mek / 15 Veh / 30 Inf / 39 Aero),eta:Eta (125 Mek / 17 Veh / 35 Inf / 39 Aero),theta:Theta (119 Mek / 19 Veh / 39 Inf / 39 Aero),iota:Iota (112 Mek / 22 Veh / 43 Inf / 39 Aero),kappa:Kappa (105 Mek / 24 Veh / 48 Inf / 39 Aero),lambda:Lambda (99 Mek / 26 Veh / 52 Inf / 39 Aero),mu:Mu (93 Mek / 28 Veh / 56 Inf / 39 Aero),nu:Nu (87 Mek / 30 Veh / 60 Inf / 39 Aero),xi:Xi (80 Mek / 32 Veh / 65 Inf / 39 Aero),omicron:Omicron (73 Mek / 35 Veh / 69 Inf / 39 Aero),pi:Pi (67 Mek / 37 Veh / 73 Inf / 39 Aero),rho:Rho (60 Mek / 39 Veh / 78 Inf / 39 Aero),sigma:Sigma (54 Mek / 41 Veh / 82 Inf / 39 Aero),tau:Tau (48 Mek / 43 Veh / 86 Inf / 39 Aero),upsilon:Upsilon (41 Mek / 45 Veh / 91 Inf / 39 Aero),phi:Phi (34 Mek / 48 Veh / 95 Inf / 39 Aero),chi:Chi (28 Mek / 50 Veh / 99 Inf / 39 Aero),psi:Psi (21 Mek / 52 Veh / 104 Inf / 39 Aero),omega:Omega (15 Mek / 54 Veh / 108 Inf / 39 Aero)</option>
         </flags>
     </toc>
 
