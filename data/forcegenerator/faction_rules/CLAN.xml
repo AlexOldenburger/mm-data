@@ -1992,7 +1992,13 @@
             </unitType>
         </ruleGroup>
 
-        <subforces generate="group" ifUnitType="Tank|VTOL|AeroSpaceFighter">
+        <!-- A Point of fighters flew as a matched pair so both pilots shared one profile,
+        so the two resolve to a single model. Vehicle Points keep generating independently. -->
+        <subforces generate="model" ifUnitType="AeroSpaceFighter">
+            <subforce num="2">%ELEMENT%</subforce>
+        </subforces>
+
+        <subforces generate="group" ifUnitType="Tank|VTOL">
             <subforce num="2">%ELEMENT%</subforce>
         </subforces>
 
