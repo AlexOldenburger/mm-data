@@ -550,6 +550,286 @@
             <skill>Piloting/Aircraft::Green</skill>
         </skillPrereq>
     </ability>
+    <!-- Tech weight-class Affinity / Antipathy / Specialist (Unofficial) -->
+    <ability>
+        <lookupName>tech_mek_affinity_light</lookupName>
+        <displayName>Tech 'Mek Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a light 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_antipathy_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_antipathy_light</lookupName>
+        <displayName>Tech 'Mek Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a light 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_affinity_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_affinity_medium</lookupName>
+        <displayName>Tech 'Mek Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a medium 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_antipathy_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_antipathy_medium</lookupName>
+        <displayName>Tech 'Mek Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a medium 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_affinity_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_affinity_heavy</lookupName>
+        <displayName>Tech 'Mek Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a heavy 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_antipathy_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_antipathy_heavy</lookupName>
+        <displayName>Tech 'Mek Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a heavy 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_affinity_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_affinity_assault</lookupName>
+        <displayName>Tech 'Mek Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining an assault 'Mek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_antipathy_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_mek_antipathy_assault</lookupName>
+        <displayName>Tech 'Mek Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining an assault 'Mek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_affinity_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_affinity_light</lookupName>
+        <displayName>Tech Vehicular Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a light combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_antipathy_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_antipathy_light</lookupName>
+        <displayName>Tech Vehicular Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a light combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_affinity_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_affinity_medium</lookupName>
+        <displayName>Tech Vehicular Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a medium combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_antipathy_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_antipathy_medium</lookupName>
+        <displayName>Tech Vehicular Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a medium combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_affinity_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_affinity_heavy</lookupName>
+        <displayName>Tech Vehicular Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a heavy combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_antipathy_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_antipathy_heavy</lookupName>
+        <displayName>Tech Vehicular Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a heavy combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_affinity_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_affinity_assault</lookupName>
+        <displayName>Tech Vehicular Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining an assault combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_antipathy_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_vehicular_antipathy_assault</lookupName>
+        <displayName>Tech Vehicular Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining an assault combat vehicle (ground, naval, or VTOL).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_vehicular_affinity_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mechanic</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_affinity_light</lookupName>
+        <displayName>Tech Flight Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a light conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_antipathy_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_antipathy_light</lookupName>
+        <displayName>Tech Flight Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a light conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_affinity_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_affinity_medium</lookupName>
+        <displayName>Tech Flight Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a medium conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_antipathy_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_antipathy_medium</lookupName>
+        <displayName>Tech Flight Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a medium conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_affinity_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_affinity_heavy</lookupName>
+        <displayName>Tech Flight Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to Maintenance rolls while maintaining a heavy conventional or aerospace fighter.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_antipathy_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_flight_antipathy_heavy</lookupName>
+        <displayName>Tech Flight Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to Maintenance rolls while maintaining a heavy conventional or aerospace fighter.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_flight_affinity_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_unit_specialist</lookupName>
+        <displayName>Tech Specialist (Unofficial)</displayName>
+        <desc><![CDATA[Choose a unit type and weight class as your specialty. While maintaining a matching unit you gain a +1 bonus to both Maintenance and Repair rolls; while maintaining any other unit you suffer a -1 penalty to both.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_mek_affinity_light::tech_mek_antipathy_light::tech_mek_affinity_medium::tech_mek_antipathy_medium::tech_mek_affinity_heavy::tech_mek_antipathy_heavy::tech_mek_affinity_assault::tech_mek_antipathy_assault::tech_vehicular_affinity_light::tech_vehicular_antipathy_light::tech_vehicular_affinity_medium::tech_vehicular_antipathy_medium::tech_vehicular_affinity_heavy::tech_vehicular_antipathy_heavy::tech_vehicular_affinity_assault::tech_vehicular_antipathy_assault::tech_flight_affinity_light::tech_flight_antipathy_light::tech_flight_affinity_medium::tech_flight_antipathy_medium::tech_flight_affinity_heavy::tech_flight_antipathy_heavy</invalidAbilities>
+        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Flight: Light::Flight: Medium::Flight: Heavy</choiceValues>
+        <skillPrereq>
+            <skill>Tech/Mek::Green</skill>
+            <skill>Tech/Mechanic::Green</skill>
+            <skill>Tech/Aero::Green</skill>
+        </skillPrereq>
+    </ability>
     <ability>
         <lookupName>shaky_stick</lookupName>
         <xpCost>100</xpCost>
