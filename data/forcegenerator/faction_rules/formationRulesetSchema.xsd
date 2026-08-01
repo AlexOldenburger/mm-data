@@ -342,11 +342,16 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- An echelon number or %CONSTANT%, optionally suffixed +, -, or ^. Whitespace collapses so
-         formatted (indented) element content validates. -->
+    <!-- An echelon number or %CONSTANT%, optionally suffixed +, -, or ^.
+
+         Derived from xs:token rather than xs:string with a whiteSpace facet: token collapses
+         whitespace as a built-in property of the type, which validators apply before matching the
+         pattern, whereas the facet on xs:string was not being applied to element content and left
+         every indented <subforce>%CONSTANT%</subforce> failing the pattern. The reader trims the
+         value in any case (ValueNode.loadFromXml), so this makes the schema agree with what the
+         ruleset actually accepts. -->
     <xs:simpleType name="eschelonDefinition">
-        <xs:restriction base="xs:string">
-            <xs:whiteSpace value="collapse" />
+        <xs:restriction base="xs:token">
             <xs:pattern value="([0-9]+|%[A-Z_]+%)[+\-^]?" />
         </xs:restriction>
     </xs:simpleType>
