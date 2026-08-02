@@ -165,8 +165,53 @@
             <skill>Piloting/Mek::Regular</skill>
         </skillPrereq>
     </ability>
-    <!-- 'Mek Affinity / Antipathy (Unofficial). Weight-class-specific Piloting/Mek modifier applied to the deployed
-         crew in MekHQ (Unit.resetPilotAndEntity), since these SPAs are not known to MegaMek. -->
+    <ability>
+        <lookupName>familiarity_emotionally_unavailable</lookupName>
+        <displayName>Emotionally Unavailable (Unofficial)</displayName>
+        <desc><![CDATA[The character cannot earn Familiarity for any chassis they do not already have some Familiarity with.
+
+Has no effect if Chassis Familiarity is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>familiarity_free_love</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+            <skill>Gunnery/Vehicle</skill>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+            <skill>Piloting/Mek</skill>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>familiarity_iron_bond</lookupName>
+        <displayName>Iron Bond (Unofficial)</displayName>
+        <desc><![CDATA[The character increases all Familiarity gains by 50%.
+
+Has no effect if Chassis Familiarity is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>familiarity_one_love</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/Mek</skill>
+            <skill>Gunnery/Vehicle</skill>
+            <skill>Gunnery/Aerospace</skill>
+            <skill>Gunnery/Aircraft</skill>
+            <skill>Piloting/Mek</skill>
+            <skill>Piloting/Ground Vehicle</skill>
+            <skill>Piloting/Naval</skill>
+            <skill>Piloting/VTOL</skill>
+            <skill>Piloting/Aerospace</skill>
+            <skill>Piloting/Aircraft</skill>
+        </skillPrereq>
+    </ability>
+    <!-- 'Mek Affinity / Antipathy (Unofficial) -->
     <ability>
         <lookupName>mek_affinity_light</lookupName>
         <displayName>'Mek Affinity: Light (Unofficial)</displayName>
@@ -542,6 +587,8 @@
             <skill>Gunnery/Vehicle::Green</skill>
             <skill>Gunnery/Aerospace::Green</skill>
             <skill>Gunnery/Aircraft::Green</skill>
+        </skillPrereq>
+        <skillPrereq>
             <skill>Piloting/Mek::Green</skill>
             <skill>Piloting/Ground Vehicle::Green</skill>
             <skill>Piloting/Naval::Green</skill>
