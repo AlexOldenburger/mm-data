@@ -2775,6 +2775,30 @@ Has no effect if Chaos Campaign Reputation is disabled, or reduced effect if Cam
         <skillPrereq />
         <invalidAbilities>big_personality</invalidAbilities>
     </ability>
+    <ability>
+        <lookupName>leaves_paper_trail</lookupName>
+        <displayName>Leaves Paper Trail</displayName>
+        <desc><![CDATA[If this character is involved in an act of Piracy, they always gain a point of Criminal Record, even if their detachment was not caught.
+
+Has no effect if Chaos Campaign Reputation is disabled, or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>leaves_no_trail</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>leaves_no_trail</lookupName>
+        <displayName>Leaves No Trail</displayName>
+        <desc><![CDATA[If this character is caught in an act of Piracy, the Criminal Record they gain is reduced by one.
+
+Has no effect if Chaos Campaign Reputation is disabled, or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>leaves_paper_trail</invalidAbilities>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
