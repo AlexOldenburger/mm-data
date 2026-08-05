@@ -1107,9 +1107,9 @@ They can make one additional procurement attempt per day.]]></desc>
     <ability>
         <lookupName>atow_alternate_id</lookupName>
         <displayName>Alternate ID (ATOW)</displayName>
-        <desc><![CDATA[A low Reputation trait infers a penalty to Negotiation, Streetwise, and Protocols skill checks. While ranks in the Bloodmark trait cause the character to be hunted by assassins.
+        <desc><![CDATA[A low Fame trait infers a penalty to Reputation. It also applies a penalty to Negotiation, Streetwise, and Protocols skill checks. While ranks in the Bloodmark trait cause the character to be hunted by assassins.
 
-This SPA reduces the penalty from low Reputation by 2 and reduces the chance of an assassination attempt occurring by half. It also decreases the chance of a Dark Secret SPA being revealed.
+This SPA reduces the penalty from low Fame by 2 and reduces the chance of an assassination attempt occurring by half. It also decreases the chance of a Dark Secret SPA being revealed.
 
 While this SPA does exist in ATOW (and that's where you'll find its description), these effects are unique to MekHQ.]]></desc>
         <xpCost>200</xpCost>
@@ -1673,7 +1673,7 @@ This SPA increases maximum by Edge 1, but does not increase the Attribute itself
         <xpCost>-400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <desc><![CDATA[Unit Reputation is decreased by 1 if this character is the campaign commander.
+        <desc><![CDATA[Force Reputation is decreased by 1 if this character is the campaign commander.
 
 A pilot who has Combat Paralysis rolls three dice per initiative check, keeping the only the lowest two rolls.
 
@@ -1686,7 +1686,7 @@ If individual initiative is enabled, this penalty applies only to the pilot's un
         <xpCost>400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <desc><![CDATA[Unit Reputation is increased by 1 if this character is the campaign commander.
+        <desc><![CDATA[Force Reputation is increased by 1 if this character is the campaign commander.
 
 A pilot who has Combat Sense rolls three dice per initiative check, keeping the top two rolls.
 
@@ -1982,7 +1982,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>compulsion_racism</lookupName>
         <displayName>Trivial Compulsion - Racism (ATOW)</displayName>
-        <desc><![CDATA[-1 Reputation.
+        <desc><![CDATA[-1 Fame.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
@@ -2252,7 +2252,7 @@ This only has an effect if Advanced Medical's alternative mode is enabled.]]></d
     <ability>
         <lookupName>compulsion_pathologic_racism</lookupName>
         <displayName>Significant Compulsion - Pathologic Racism (ATOW)</displayName>
-        <desc><![CDATA[-2 Reputation.
+        <desc><![CDATA[-2 Fame.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
@@ -2263,7 +2263,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>compulsion_xenophobia</lookupName>
         <displayName>Significant Compulsion - Xenophobia (ATOW)</displayName>
-        <desc><![CDATA[-1 Reputation, -1 Connections.
+        <desc><![CDATA[-1 Fame, -1 Connections.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
@@ -2446,7 +2446,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 1 and Connections by 1.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 1, Connections by 1.
 
 A trivial Dark Secret represents a personal lapse or dishonorable act that could harm the character's reputation if revealed.]]></desc>
         <xpCost>-100</xpCost>
@@ -2462,7 +2462,7 @@ A trivial Dark Secret represents a personal lapse or dishonorable act that could
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 2 and Connections by 1.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 2 and Connections by 1.
 
 A significant Dark Secret represents a concealed wrongdoing that would damage key relationships or the character's career.]]></desc>
         <xpCost>-200</xpCost>
@@ -2478,7 +2478,7 @@ A significant Dark Secret represents a concealed wrongdoing that would damage ke
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 3 and Connections by 2.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 3 and Connections by 2.
 
 A major Dark Secret represents a serious violation of law, duty, or trust that could lead to legal or social consequences.]]></desc>
         <xpCost>-300</xpCost>
@@ -2494,7 +2494,7 @@ A major Dark Secret represents a serious violation of law, duty, or trust that c
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 4 and Connections by 2.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 4 and Connections by 2.
 
 A severe Dark Secret represents a morally or ethically damning secret that would provoke outrage or condemnation.]]></desc>
         <xpCost>-400</xpCost>
@@ -2510,7 +2510,7 @@ A severe Dark Secret represents a morally or ethically damning secret that would
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 5 and Connections by 3.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 5 and Connections by 3.
 
 An extreme Dark Secret represents a grave betrayal or atrocity that should lead to exile, imprisonment, or execution if exposed (not modeled in MekHQ).]]></desc>
         <xpCost>-500</xpCost>
