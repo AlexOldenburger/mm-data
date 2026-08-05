@@ -2697,7 +2697,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>dont_you_know_who_i_am</lookupName>
-        <displayName>Don't You Know Who I Am?</displayName>
+        <displayName>Don't You Know Who I Am? (Unofficial)</displayName>
         <desc><![CDATA[Increases the effect of this character's Fame on their Chaos Campaign Reputation by 25% (rounded normally).
 
 This is applied after all other modifiers.
@@ -2711,7 +2711,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>certified_nobody</lookupName>
-        <displayName>Certified Nobody</displayName>
+        <displayName>Certified Nobody (Unofficial)</displayName>
         <desc><![CDATA[Decreases the effect of this character's Fame on their Chaos Campaign Reputation by 25% (rounded normally).
 
 This is applied after all other modifiers.
@@ -2725,7 +2725,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>important_friends</lookupName>
-        <displayName>Important Friends</displayName>
+        <displayName>Important Friends (Unofficial)</displayName>
         <desc><![CDATA[Increases the effect of this character's Connections on their Chaos Campaign Reputation by 25% (rounded normally).
 
 This is applied after all other modifiers.
@@ -2739,7 +2739,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>forgets_to_reply</lookupName>
-        <displayName>Forgets to Reply</displayName>
+        <displayName>Forgets to Reply (Unofficial)</displayName>
         <desc><![CDATA[Decreases the effect of this character's Connections on their Chaos Campaign Reputation by 25% (rounded normally).
 
 This is applied after all other modifiers.
@@ -2753,7 +2753,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>big_personality</lookupName>
-        <displayName>Big Personality</displayName>
+        <displayName>Big Personality (Unofficial)</displayName>
         <desc><![CDATA[This character counts twice when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2765,7 +2765,7 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
     </ability>
     <ability>
         <lookupName>redacted</lookupName>
-        <displayName>Redacted</displayName>
+        <displayName>Redacted (Unofficial)</displayName>
         <desc><![CDATA[This character is ignored when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2777,7 +2777,7 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
     </ability>
     <ability>
         <lookupName>loose_lips</lookupName>
-        <displayName>Leaves Paper Trail</displayName>
+        <displayName>Leaves Paper Trail (Unofficial)</displayName>
         <desc><![CDATA[If this character is involved in an act of Piracy, they always gain a point of Criminal Record, even if their detachment was not caught.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2789,7 +2789,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>leaves_no_trail</lookupName>
-        <displayName>Leaves No Trail</displayName>
+        <displayName>Leaves No Trail (Unofficial)</displayName>
         <desc><![CDATA[If this character is caught in an act of Piracy, the Criminal Record they gain is reduced by one.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2801,7 +2801,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>blameless</lookupName>
-        <displayName>Blameless</displayName>
+        <displayName>Blameless (Unofficial)</displayName>
         <desc><![CDATA[This character's Criminal Record is reduced by 1 when determining their Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2813,7 +2813,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>scapegoat</lookupName>
-        <displayName>Scapegoat</displayName>
+        <displayName>Scapegoat (Unofficial)</displayName>
         <desc><![CDATA[This character's Criminal Record is increased by 1 when determining their Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2825,7 +2825,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
     </ability>
     <ability>
         <lookupName>looks_good_on_paper</lookupName>
-        <displayName>Looks Good on Paper</displayName>
+        <displayName>Looks Good on Paper (Unofficial)</displayName>
         <desc><![CDATA[This character counts as one Experience Level higher when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2837,7 +2837,7 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
     </ability>
     <ability>
         <lookupName>unassuming</lookupName>
-        <displayName>Unassuming</displayName>
+        <displayName>Unassuming (Unofficial)</displayName>
         <desc><![CDATA[This character counts as one Experience Level lower when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2849,7 +2849,7 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
     </ability>
     <ability>
         <lookupName>silver_tongue</lookupName>
-        <displayName>Silver Tongue</displayName>
+        <displayName>Silver Tongue (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation debt penalty is halved.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2861,7 +2861,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>loan_shark_victim</lookupName>
-        <displayName>Loan Shark Victim</displayName>
+        <displayName>Loan Shark Victim (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation debt penalty is doubled.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2873,7 +2873,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>slippery</lookupName>
-        <displayName>Slippery</displayName>
+        <displayName>Slippery (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force is less likely to be caught committing acts of Piracy.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2885,7 +2885,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>conspicuous</lookupName>
-        <displayName>Conspicuous</displayName>
+        <displayName>Conspicuous (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force is more likely to be caught committing acts of Piracy.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2897,7 +2897,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>loot_goblin</lookupName>
-        <displayName>Loot Goblin</displayName>
+        <displayName>Loot Goblin (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, acts of Piracy yield slightly more loot.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2908,7 +2908,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>impressive_leader</lookupName>
-        <displayName>Impressive Leader</displayName>
+        <displayName>Impressive Leader (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is increased by 1.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2920,7 +2920,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>disappointing_leader</lookupName>
-        <displayName>Disappointing Leader</displayName>
+        <displayName>Disappointing Leader (Unofficial)</displayName>
         <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is decreased by 1.
 
 Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
@@ -2932,7 +2932,7 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
     </ability>
     <ability>
         <lookupName>good_reputation</lookupName>
-        <displayName>Good Reputation</displayName>
+        <displayName>Good Reputation (Unofficial)</displayName>
         <desc><![CDATA[This character's contribution to their force's Chaos Campaign Reputation is increased by 1.
 
 Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaign level.]]></desc>
@@ -2944,7 +2944,7 @@ Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaig
     </ability>
     <ability>
         <lookupName>bad_reputation</lookupName>
-        <displayName>Bad Reputation</displayName>
+        <displayName>Bad Reputation (Unofficial)</displayName>
         <desc><![CDATA[This character's contribution to their force's Chaos Campaign Reputation is decreased by 1.
 
 Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaign level.]]></desc>
