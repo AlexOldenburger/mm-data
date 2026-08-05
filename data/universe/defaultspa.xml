@@ -2906,6 +2906,30 @@ Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>impressive_leader</lookupName>
+        <displayName>Impressive Leader</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is increased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>disappointing_leader</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>disappointing_leader</lookupName>
+        <displayName>Disappointing Leader</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is decreased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>impressive_leader</invalidAbilities>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
