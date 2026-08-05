@@ -32,7 +32,7 @@
 "canReinforceLinked": true,
 "contributesToBV": false,
 "contributesToUnitCount": false,
-"forceName": "Evacuating Units",
+"forceName": "Evacuating Convoy",
 "syncedForceName": null,
 "syncDeploymentType": "None",
 "syncRetreatThreshold": false,
