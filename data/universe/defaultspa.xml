@@ -170,6 +170,8 @@
         <displayName>Emotionally Unavailable (Unofficial)</displayName>
         <desc><![CDATA[The character cannot earn Familiarity for any chassis they do not already have some Familiarity with.
 
+If the character gains Familiarity in a specific chassis (such as through GM intervention) they will progress normally.
+
 Has no effect if Chassis Familiarity is disabled.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
