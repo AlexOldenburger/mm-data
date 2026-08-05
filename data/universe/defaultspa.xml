@@ -2724,8 +2724,8 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
         <invalidAbilities>dont_you_know_who_i_am</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>friends_in_high_places</lookupName>
-        <displayName>Friends in High Places</displayName>
+        <lookupName>important_friends</lookupName>
+        <displayName>Important Friends</displayName>
         <desc><![CDATA[Increases the effect of this character's Connections on their Chaos Campaign Reputation by 25% (rounded normally).
 
 This is applied after all other modifiers.
@@ -2749,7 +2749,7 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>friends_in_high_places</invalidAbilities>
+        <invalidAbilities>important_friends</invalidAbilities>
     </ability>
     <ability>
         <lookupName>big_personality</lookupName>
@@ -2761,11 +2761,11 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>unrecorded_presence</invalidAbilities>
+        <invalidAbilities>redacted</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>unrecorded_presence</lookupName>
-        <displayName>Unrecorded Presence</displayName>
+        <lookupName>redacted</lookupName>
+        <displayName>Redacted</displayName>
         <desc><![CDATA[This character is ignored when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2800,8 +2800,8 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
         <invalidAbilities>leaves_paper_trail</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>spotless_record</lookupName>
-        <displayName>Spotless Record</displayName>
+        <lookupName>blameless</lookupName>
+        <displayName>Blameless</displayName>
         <desc><![CDATA[This character's Criminal Record is reduced by 1 when determining their Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2809,11 +2809,11 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>rap_sheet</invalidAbilities>
+        <invalidAbilities>scapegoat</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>rap_sheet</lookupName>
-        <displayName>Rap Sheet</displayName>
+        <lookupName>scapegoat</lookupName>
+        <displayName>Scapegoat</displayName>
         <desc><![CDATA[This character's Criminal Record is increased by 1 when determining their Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2821,11 +2821,11 @@ Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Ch
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>spotless_record</invalidAbilities>
+        <invalidAbilities>blameless</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>above_their_weight</lookupName>
-        <displayName>Above Their Weight</displayName>
+        <lookupName>looks_good_on_paper</lookupName>
+        <displayName>Looks Good on Paper</displayName>
         <desc><![CDATA[This character counts as one Experience Level higher when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2833,11 +2833,11 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>looks_good_on_paper</invalidAbilities>
+        <invalidAbilities>unassuming</invalidAbilities>
     </ability>
     <ability>
-        <lookupName>looks_good_on_paper</lookupName>
-        <displayName>Looks Good on Paper</displayName>
+        <lookupName>unassuming</lookupName>
+        <displayName>Unassuming</displayName>
         <desc><![CDATA[This character counts as one Experience Level lower when determining the force's average Experience and Chaos Campaign Reputation.
 
 Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
@@ -2845,7 +2845,7 @@ Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Camp
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>above_their_weight</invalidAbilities>
+        <invalidAbilities>looks_good_on_paper</invalidAbilities>
     </ability>
     <ability>
         <lookupName>silver_tongue</lookupName>
