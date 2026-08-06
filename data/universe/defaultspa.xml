@@ -576,6 +576,102 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         </skillPrereq>
     </ability>
     <ability>
+        <lookupName>protomek_affinity_light</lookupName>
+        <displayName>ProtoMek Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a light ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_antipathy_light::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_antipathy_light</lookupName>
+        <displayName>ProtoMek Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing a light ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_affinity_light::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_affinity_medium</lookupName>
+        <displayName>ProtoMek Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a medium ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_antipathy_medium::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_antipathy_medium</lookupName>
+        <displayName>ProtoMek Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing a medium ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_affinity_medium::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_affinity_heavy</lookupName>
+        <displayName>ProtoMek Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a heavy ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_antipathy_heavy::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_antipathy_heavy</lookupName>
+        <displayName>ProtoMek Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing a heavy ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_affinity_heavy::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_affinity_assault</lookupName>
+        <displayName>ProtoMek Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing an assault ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_antipathy_assault::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>protomek_antipathy_assault</lookupName>
+        <displayName>ProtoMek Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing an assault ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>protomek_affinity_assault::unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Gunnery/ProtoMek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
         <lookupName>battlesuit_affinity_pal</lookupName>
         <displayName>Battlesuit Affinity: PA(L) (Unofficial)</displayName>
         <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a PA(L) Battlesuit.]]></desc>
@@ -1132,49 +1228,25 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         </skillPrereq>
     </ability>
     <ability>
-        <lookupName>protomek_affinity_standard</lookupName>
-        <displayName>ProtoMek Affinity: Standard (Unofficial)</displayName>
-        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a standard ProtoMek.]]></desc>
+        <lookupName>protomek_affinity_super_heavy</lookupName>
+        <displayName>ProtoMek Affinity: Super-Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing a super-heavy ProtoMek.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>protomek_antipathy_standard::unit_specialist</invalidAbilities>
+        <invalidAbilities>protomek_antipathy_super_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Gunnery/ProtoMek</skill>
         </skillPrereq>
     </ability>
     <ability>
-        <lookupName>protomek_antipathy_standard</lookupName>
-        <displayName>ProtoMek Antipathy: Standard (Unofficial)</displayName>
-        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing a standard ProtoMek.]]></desc>
+        <lookupName>protomek_antipathy_super_heavy</lookupName>
+        <displayName>ProtoMek Antipathy: Super-Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing a super-heavy ProtoMek.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>protomek_affinity_standard::unit_specialist</invalidAbilities>
-        <skillPrereq>
-            <skill>Gunnery/ProtoMek</skill>
-        </skillPrereq>
-    </ability>
-    <ability>
-        <lookupName>protomek_affinity_ultra_heavy</lookupName>
-        <displayName>ProtoMek Affinity: Ultra-Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Gain a +1 bonus to the skill level while crewing an ultra-heavy ProtoMek.]]></desc>
-        <xpCost>100</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <invalidAbilities>protomek_antipathy_ultra_heavy::unit_specialist</invalidAbilities>
-        <skillPrereq>
-            <skill>Gunnery/ProtoMek</skill>
-        </skillPrereq>
-    </ability>
-    <ability>
-        <lookupName>protomek_antipathy_ultra_heavy</lookupName>
-        <displayName>ProtoMek Antipathy: Ultra-Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Suffer a -1 penalty to the skill level while crewing an ultra-heavy ProtoMek.]]></desc>
-        <xpCost>-100</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <invalidAbilities>protomek_affinity_ultra_heavy::unit_specialist</invalidAbilities>
+        <invalidAbilities>protomek_affinity_super_heavy::unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Gunnery/ProtoMek</skill>
         </skillPrereq>
@@ -1186,9 +1258,9 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>mek_affinity_light::mek_antipathy_light::mek_affinity_medium::mek_antipathy_medium::mek_affinity_heavy::mek_antipathy_heavy::mek_affinity_assault::mek_antipathy_assault::mek_affinity_super_heavy::mek_antipathy_super_heavy::vehicular_affinity_light::vehicular_antipathy_light::vehicular_affinity_medium::vehicular_antipathy_medium::vehicular_affinity_heavy::vehicular_antipathy_heavy::vehicular_affinity_assault::vehicular_antipathy_assault::vehicular_affinity_super_heavy::vehicular_antipathy_super_heavy::support_vehicle_affinity_small::support_vehicle_antipathy_small::support_vehicle_affinity_medium::support_vehicle_antipathy_medium::support_vehicle_affinity_large::support_vehicle_antipathy_large::flight_affinity_light::flight_antipathy_light::flight_affinity_medium::flight_antipathy_medium::flight_affinity_heavy::flight_antipathy_heavy::protomek_affinity_standard::protomek_antipathy_standard::protomek_affinity_ultra_heavy::protomek_antipathy_ultra_heavy::battlesuit_affinity_pal::battlesuit_antipathy_pal::battlesuit_affinity_light::battlesuit_antipathy_light::battlesuit_affinity_medium::battlesuit_antipathy_medium::battlesuit_affinity_heavy::battlesuit_antipathy_heavy::battlesuit_affinity_assault::battlesuit_antipathy_assault::infantry_affinity_foot::infantry_antipathy_foot::infantry_affinity_jump::infantry_antipathy_jump::infantry_affinity_motorized::infantry_antipathy_motorized::infantry_affinity_mechanized::infantry_antipathy_mechanized::infantry_affinity_vtol::infantry_antipathy_vtol::vessel_affinity_small_craft::vessel_antipathy_small_craft::vessel_affinity_dropship::vessel_antipathy_dropship::vessel_affinity_capital::vessel_antipathy_capital
+        <invalidAbilities>mek_affinity_light::mek_affinity_medium::mek_affinity_heavy::mek_affinity_assault::mek_antipathy_light::mek_antipathy_medium::mek_antipathy_heavy::mek_antipathy_assault::vehicular_affinity_light::vehicular_affinity_medium::vehicular_affinity_heavy::vehicular_affinity_assault::vehicular_antipathy_light::vehicular_antipathy_medium::vehicular_antipathy_heavy::vehicular_antipathy_assault::flight_affinity_light::flight_affinity_medium::flight_affinity_heavy::flight_antipathy_light::flight_antipathy_medium::flight_antipathy_heavy::protomek_affinity_light::protomek_antipathy_light::protomek_affinity_medium::protomek_antipathy_medium::protomek_affinity_heavy::protomek_antipathy_heavy::protomek_affinity_assault::protomek_antipathy_assault::battlesuit_affinity_pal::battlesuit_antipathy_pal::battlesuit_affinity_light::battlesuit_antipathy_light::battlesuit_affinity_medium::battlesuit_antipathy_medium::battlesuit_affinity_heavy::battlesuit_antipathy_heavy::battlesuit_affinity_assault::battlesuit_antipathy_assault::infantry_affinity_foot::infantry_antipathy_foot::infantry_affinity_jump::infantry_antipathy_jump::infantry_affinity_motorized::infantry_antipathy_motorized::infantry_affinity_mechanized::infantry_antipathy_mechanized::infantry_affinity_vtol::infantry_antipathy_vtol::vessel_affinity_small_craft::vessel_antipathy_small_craft::vessel_affinity_dropship::vessel_antipathy_dropship::vessel_affinity_capital::vessel_antipathy_capital::support_vehicle_affinity_small::support_vehicle_antipathy_small::support_vehicle_affinity_medium::support_vehicle_antipathy_medium::support_vehicle_affinity_large::support_vehicle_antipathy_large::mek_affinity_super_heavy::mek_antipathy_super_heavy::vehicular_affinity_super_heavy::vehicular_antipathy_super_heavy::protomek_affinity_super_heavy::protomek_antipathy_super_heavy
         </invalidAbilities>
-        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::'Mek: Super-Heavy::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Vehicular: Super-Heavy::Support Vehicle: Small::Support Vehicle: Medium::Support Vehicle: Large::Flight: Light::Flight: Medium::Flight: Heavy::ProtoMek: Standard::ProtoMek: Ultra-Heavy::Battlesuit: PA(L)::Battlesuit: Light::Battlesuit: Medium::Battlesuit: Heavy::Battlesuit: Assault::Infantry: Foot::Infantry: Jump::Infantry: Motorized::Infantry: Mechanized::Infantry: VTOL::Vessel: Small Craft::Vessel: DropShip::Vessel: Capital Ship</choiceValues>
+        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Flight: Light::Flight: Medium::Flight: Heavy::ProtoMek: Light::ProtoMek: Medium::ProtoMek: Heavy::ProtoMek: Assault::Battlesuit: PA(L)::Battlesuit: Light::Battlesuit: Medium::Battlesuit: Heavy::Battlesuit: Assault::Infantry: Foot::Infantry: Jump::Infantry: Motorized::Infantry: Mechanized::Infantry: VTOL::Vessel: Small Craft::Vessel: DropShip::Vessel: Capital Ship::Support Vehicle: Small::Support Vehicle: Medium::Support Vehicle: Large::'Mek: Super-Heavy::Vehicular: Super-Heavy::ProtoMek: Super-Heavy</choiceValues>
         <skillPrereq>
             <skill>Gunnery/Mek::Green</skill>
             <skill>Gunnery/Vehicle::Green</skill>
@@ -1467,6 +1539,102 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         <invalidAbilities>tech_flight_affinity_heavy::tech_unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Tech/Aero</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_affinity_light</lookupName>
+        <displayName>Tech ProtoMek Affinity: Light (Unofficial)</displayName>
+        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining a light ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_antipathy_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_antipathy_light</lookupName>
+        <displayName>Tech ProtoMek Antipathy: Light (Unofficial)</displayName>
+        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining a light ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_affinity_light::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_affinity_medium</lookupName>
+        <displayName>Tech ProtoMek Affinity: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining a medium ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_antipathy_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_antipathy_medium</lookupName>
+        <displayName>Tech ProtoMek Antipathy: Medium (Unofficial)</displayName>
+        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining a medium ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_affinity_medium::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_affinity_heavy</lookupName>
+        <displayName>Tech ProtoMek Affinity: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining a heavy ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_antipathy_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_antipathy_heavy</lookupName>
+        <displayName>Tech ProtoMek Antipathy: Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining a heavy ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_affinity_heavy::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_affinity_assault</lookupName>
+        <displayName>Tech ProtoMek Affinity: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining an assault ProtoMek.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_antipathy_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_protomek_antipathy_assault</lookupName>
+        <displayName>Tech ProtoMek Antipathy: Assault (Unofficial)</displayName>
+        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining an assault ProtoMek.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <invalidAbilities>tech_protomek_affinity_assault::tech_unit_specialist</invalidAbilities>
+        <skillPrereq>
+            <skill>Tech/Mek</skill>
         </skillPrereq>
     </ability>
     <ability>
@@ -1782,49 +1950,25 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         </skillPrereq>
     </ability>
     <ability>
-        <lookupName>tech_protomek_affinity_standard</lookupName>
-        <displayName>Tech ProtoMek Affinity: Standard (Unofficial)</displayName>
-        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining a standard ProtoMek.]]></desc>
+        <lookupName>tech_protomek_affinity_super_heavy</lookupName>
+        <displayName>Tech ProtoMek Affinity: Super-Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining a super-heavy ProtoMek.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>tech_protomek_antipathy_standard::tech_unit_specialist</invalidAbilities>
+        <invalidAbilities>tech_protomek_antipathy_super_heavy::tech_unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Tech/Mek</skill>
         </skillPrereq>
     </ability>
     <ability>
-        <lookupName>tech_protomek_antipathy_standard</lookupName>
-        <displayName>Tech ProtoMek Antipathy: Standard (Unofficial)</displayName>
-        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining a standard ProtoMek.]]></desc>
+        <lookupName>tech_protomek_antipathy_super_heavy</lookupName>
+        <displayName>Tech ProtoMek Antipathy: Super-Heavy (Unofficial)</displayName>
+        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining a super-heavy ProtoMek.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>tech_protomek_affinity_standard::tech_unit_specialist</invalidAbilities>
-        <skillPrereq>
-            <skill>Tech/Mek</skill>
-        </skillPrereq>
-    </ability>
-    <ability>
-        <lookupName>tech_protomek_affinity_ultra_heavy</lookupName>
-        <displayName>Tech ProtoMek Affinity: Ultra-Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Reduces the maintenance target number by 1 while maintaining an ultra-heavy ProtoMek.]]></desc>
-        <xpCost>100</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <invalidAbilities>tech_protomek_antipathy_ultra_heavy::tech_unit_specialist</invalidAbilities>
-        <skillPrereq>
-            <skill>Tech/Mek</skill>
-        </skillPrereq>
-    </ability>
-    <ability>
-        <lookupName>tech_protomek_antipathy_ultra_heavy</lookupName>
-        <displayName>Tech ProtoMek Antipathy: Ultra-Heavy (Unofficial)</displayName>
-        <desc><![CDATA[Increases the maintenance target number by 1 while maintaining an ultra-heavy ProtoMek.]]></desc>
-        <xpCost>-100</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <invalidAbilities>tech_protomek_affinity_ultra_heavy::tech_unit_specialist</invalidAbilities>
+        <invalidAbilities>tech_protomek_affinity_super_heavy::tech_unit_specialist</invalidAbilities>
         <skillPrereq>
             <skill>Tech/Mek</skill>
         </skillPrereq>
@@ -1836,9 +1980,9 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <invalidAbilities>tech_mek_affinity_light::tech_mek_antipathy_light::tech_mek_affinity_medium::tech_mek_antipathy_medium::tech_mek_affinity_heavy::tech_mek_antipathy_heavy::tech_mek_affinity_assault::tech_mek_antipathy_assault::tech_mek_affinity_super_heavy::tech_mek_antipathy_super_heavy::tech_vehicular_affinity_light::tech_vehicular_antipathy_light::tech_vehicular_affinity_medium::tech_vehicular_antipathy_medium::tech_vehicular_affinity_heavy::tech_vehicular_antipathy_heavy::tech_vehicular_affinity_assault::tech_vehicular_antipathy_assault::tech_vehicular_affinity_super_heavy::tech_vehicular_antipathy_super_heavy::tech_support_vehicle_affinity_small::tech_support_vehicle_antipathy_small::tech_support_vehicle_affinity_medium::tech_support_vehicle_antipathy_medium::tech_support_vehicle_affinity_large::tech_support_vehicle_antipathy_large::tech_flight_affinity_light::tech_flight_antipathy_light::tech_flight_affinity_medium::tech_flight_antipathy_medium::tech_flight_affinity_heavy::tech_flight_antipathy_heavy::tech_protomek_affinity_standard::tech_protomek_antipathy_standard::tech_protomek_affinity_ultra_heavy::tech_protomek_antipathy_ultra_heavy::tech_battlesuit_affinity_pal::tech_battlesuit_antipathy_pal::tech_battlesuit_affinity_light::tech_battlesuit_antipathy_light::tech_battlesuit_affinity_medium::tech_battlesuit_antipathy_medium::tech_battlesuit_affinity_heavy::tech_battlesuit_antipathy_heavy::tech_battlesuit_affinity_assault::tech_battlesuit_antipathy_assault::tech_vessel_affinity_small_craft::tech_vessel_antipathy_small_craft::tech_vessel_affinity_dropship::tech_vessel_antipathy_dropship::tech_vessel_affinity_capital::tech_vessel_antipathy_capital
+        <invalidAbilities>tech_mek_affinity_light::tech_mek_antipathy_light::tech_mek_affinity_medium::tech_mek_antipathy_medium::tech_mek_affinity_heavy::tech_mek_antipathy_heavy::tech_mek_affinity_assault::tech_mek_antipathy_assault::tech_vehicular_affinity_light::tech_vehicular_antipathy_light::tech_vehicular_affinity_medium::tech_vehicular_antipathy_medium::tech_vehicular_affinity_heavy::tech_vehicular_antipathy_heavy::tech_vehicular_affinity_assault::tech_vehicular_antipathy_assault::tech_flight_affinity_light::tech_flight_antipathy_light::tech_flight_affinity_medium::tech_flight_antipathy_medium::tech_flight_affinity_heavy::tech_flight_antipathy_heavy::tech_protomek_affinity_light::tech_protomek_antipathy_light::tech_protomek_affinity_medium::tech_protomek_antipathy_medium::tech_protomek_affinity_heavy::tech_protomek_antipathy_heavy::tech_protomek_affinity_assault::tech_protomek_antipathy_assault::tech_battlesuit_affinity_pal::tech_battlesuit_antipathy_pal::tech_battlesuit_affinity_light::tech_battlesuit_antipathy_light::tech_battlesuit_affinity_medium::tech_battlesuit_antipathy_medium::tech_battlesuit_affinity_heavy::tech_battlesuit_antipathy_heavy::tech_battlesuit_affinity_assault::tech_battlesuit_antipathy_assault::tech_vessel_affinity_small_craft::tech_vessel_antipathy_small_craft::tech_vessel_affinity_dropship::tech_vessel_antipathy_dropship::tech_vessel_affinity_capital::tech_vessel_antipathy_capital::tech_support_vehicle_affinity_small::tech_support_vehicle_antipathy_small::tech_support_vehicle_affinity_medium::tech_support_vehicle_antipathy_medium::tech_support_vehicle_affinity_large::tech_support_vehicle_antipathy_large::tech_mek_affinity_super_heavy::tech_mek_antipathy_super_heavy::tech_vehicular_affinity_super_heavy::tech_vehicular_antipathy_super_heavy::tech_protomek_affinity_super_heavy::tech_protomek_antipathy_super_heavy
         </invalidAbilities>
-        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::'Mek: Super-Heavy::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Vehicular: Super-Heavy::Support Vehicle: Small::Support Vehicle: Medium::Support Vehicle: Large::Flight: Light::Flight: Medium::Flight: Heavy::ProtoMek: Standard::ProtoMek: Ultra-Heavy::Battlesuit: PA(L)::Battlesuit: Light::Battlesuit: Medium::Battlesuit: Heavy::Battlesuit: Assault::Vessel: Small Craft::Vessel: DropShip::Vessel: Capital Ship</choiceValues>
+        <choiceValues>'Mek: Light::'Mek: Medium::'Mek: Heavy::'Mek: Assault::Vehicular: Light::Vehicular: Medium::Vehicular: Heavy::Vehicular: Assault::Flight: Light::Flight: Medium::Flight: Heavy::ProtoMek: Light::ProtoMek: Medium::ProtoMek: Heavy::ProtoMek: Assault::Battlesuit: PA(L)::Battlesuit: Light::Battlesuit: Medium::Battlesuit: Heavy::Battlesuit: Assault::Vessel: Small Craft::Vessel: DropShip::Vessel: Capital Ship::Support Vehicle: Small::Support Vehicle: Medium::Support Vehicle: Large::'Mek: Super-Heavy::Vehicular: Super-Heavy::ProtoMek: Super-Heavy</choiceValues>
         <skillPrereq>
             <skill>Tech/Mek::Green</skill>
             <skill>Tech/Mechanic::Green</skill>
