@@ -1989,8 +1989,23 @@ Increases the target number of all Art/Cooking checks by 2.]]></desc>
     <ability>
         <lookupName>tech_macgyver</lookupName>
         <displayName>MacGyver (Unofficial)</displayName>
-        <desc><![CDATA[Treats a part's base Tech Rating as one lower when determining whether it can be fabricated.]]></desc>
+        <desc><![CDATA[Treats a part's base Tech Rating as one lower when determining whether it can be fabricated. Stacks with Munitioneer]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>3</weight>
+        <skillPrereq>
+            <skill>Tech/Vessel::Elite</skill>
+            <skill>Tech/Aero::Elite</skill>
+            <skill>Tech/Mechanic::Elite</skill>
+            <skill>Tech/Mek::Elite</skill>
+            <skill>Tech/BattleArmor::Elite</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>tech_munitioneer</lookupName>
+        <displayName>Munitioneer (Unofficial)</displayName>
+        <desc><![CDATA[Treats ammunition's base Tech Rating as one lower when determining whether it can be fabricated. Stacks with MacGyver.]]></desc>
+        <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
