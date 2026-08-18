@@ -266,9 +266,6 @@
             <techMargin>2</techMargin>
             <salvage pct='5'>LA:5,CIR:1</salvage>
         </faction>
-        <faction key='CEI'>
-            <techMargin>2</techMargin>
-        </faction>
         <faction key='FS'>
             <pctOmni>7,12,16,22,26</pctOmni>
             <pctClan>0,0,4,8,10</pctClan>

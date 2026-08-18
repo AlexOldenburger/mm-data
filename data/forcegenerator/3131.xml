@@ -168,7 +168,7 @@
             <upgradeMargin>9</upgradeMargin>
             <salvage pct='5'>LA:8,MH:1</salvage>
         </faction>
-        <faction key='CEI'>
+        <faction key='CGS'>
             <pctOmni>0,0,20,50,80</pctOmni>
             <pctClan>10,10,60,70,90</pctClan>
             <pctSL>90,90,40,30,10</pctSL>
@@ -404,9 +404,6 @@
             <techMargin>12</techMargin>
             <upgradeMargin>9</upgradeMargin>
             <salvage pct='5'>LA:10</salvage>
-        </faction>
-        <faction key='SE'>
-            <techMargin>12</techMargin>
         </faction>
         <faction key='SA'>
             <pctOmni>0,10,20,30</pctOmni>
