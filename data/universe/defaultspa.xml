@@ -2778,6 +2778,58 @@ Has no effect if Active Negotiators is disabled.]]></desc>
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>hard_bargainer</lookupName>
+        <displayName>Hard Bargainer (Unofficial)</displayName>
+        <desc><![CDATA[This character holds out for every last concession.
+
+While acting as your negotiator in the contract market, each contract term may be raised one additional step beyond the contract's Scale.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+        <invalidAbilities>pushover</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>pushover</lookupName>
+        <displayName>Pushover (Unofficial)</displayName>
+        <desc><![CDATA[This character folds at the first sign of resistance.
+
+While acting as your negotiator in the contract market, each contract term may be raised one fewer step than the contract's Scale (minimum one).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>hard_bargainer</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>shrewd_trader</lookupName>
+        <displayName>Shrewd Trader (Unofficial)</displayName>
+        <desc><![CDATA[This character has a keen eye for a favorable trade.
+
+While acting as your negotiator in the contract market, you may sacrifice one more term and two more steps in total (three terms, six steps) to fund improvements elsewhere.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+        <invalidAbilities>inflexible</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>inflexible</lookupName>
+        <displayName>Inflexible (Unofficial)</displayName>
+        <desc><![CDATA[This character struggles to give ground, even when it would help.
+
+While acting as your negotiator in the contract market, you may sacrifice one fewer term and two fewer steps in total (one term, two steps) to fund improvements elsewhere.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>shrewd_trader</invalidAbilities>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
