@@ -2737,6 +2737,21 @@ Has no effect if Active Negotiators is disabled.]]></desc>
             <skill>Negotiation::Regular</skill>
         </skillPrereq>
     </ability>
+    <ability>
+        <lookupName>fine_print_reader</lookupName>
+        <displayName>Fine Print Reader (Unofficial)</displayName>
+        <desc><![CDATA[This character reads every clause twice, and finds the leverage in each.
+
+While acting as your negotiator in the contract market, the "Come on, give me a better offer" re-negotiation goes one margin better in your favor - improving the contract's terms further, or resisting cuts.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
