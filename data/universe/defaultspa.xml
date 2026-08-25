@@ -692,7 +692,7 @@ If this character is the senior-most Admin character, the cost of interstellar t
         <displayName>Networker (Unofficial)</displayName>
         <desc><![CDATA[This character knows people in high places.
 
-If this character is the senior-most Admin character, the number of contracts offered each month is increased by 1 (may still be 0).]]></desc>
+While this character is the senior-most Admin, the contract market rolls one extra offer each month for your force's primary line of work (mercenary work, government orders, or piracy). Being an extra roll, it may still produce no additional offer.]]></desc>
         <xpCost>400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
