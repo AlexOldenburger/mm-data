@@ -2722,6 +2722,21 @@ Has no effect if Active Negotiators is disabled.]]></desc>
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>loophole_finder</lookupName>
+        <displayName>Loophole Finder (Unofficial)</displayName>
+        <desc><![CDATA[This character can find the give in any contract.
+
+While acting as your negotiator in the contract market, the "You'll make an exception" re-negotiation goes one margin better in your favor. Freeing more non-negotiable terms, or resisting new locks.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
