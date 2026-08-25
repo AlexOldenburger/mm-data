@@ -2765,6 +2765,19 @@ Has no effect if Active Negotiators is disabled.]]></desc>
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>easily_fooled</lookupName>
+        <displayName>Easily Fooled (Unofficial)</displayName>
+        <desc><![CDATA[This character takes the other side at their word, and pays for it.
+
+While acting as your negotiator in the contract market, the "Come on, give me a better offer" re-negotiation goes one margin worse in the employer's favor. Improving the terms less, or inviting cuts.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
