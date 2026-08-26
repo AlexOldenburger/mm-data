@@ -26,7 +26,7 @@ houses:
     summary: "The Vargras Bloodname was a Clan Blood Spirit founding name."
     notableHolders:
       - { name: "James Vargras", rank: "Loremaster", affiliation: "Clan Blood Spirit" }
-      - { name: "Genden Vargras", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Genden Vargras", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }

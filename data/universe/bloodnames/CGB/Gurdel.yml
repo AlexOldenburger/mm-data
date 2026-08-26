@@ -45,7 +45,7 @@ houses:
       - { name: "Tamin Gurdel", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
       - { name: "Tommy Gurdel", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
       - { name: "Henri Gurdel", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
-      - { name: "Arlis Gurdel", rank: "MechWarrior", affiliation: "Rasalhague Dominion" }
+      - { name: "Arlis Gurdel", rank: "MekWarrior", affiliation: "Rasalhague Dominion" }
       - { name: "Ivan Gurdel", affiliation: "Rasalhague Dominion" }
       - { name: "Vanessa Gurdel", affiliation: "Rasalhague Dominion" }
     sources:

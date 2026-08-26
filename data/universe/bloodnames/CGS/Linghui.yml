@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Goliath Scorpion"
     summary: "The Linghui Bloodname was a Clan Goliath Scorpion founding name."
     notableHolders:
-      - { name: "Raquel Linghui", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+      - { name: "Raquel Linghui", rank: "MekWarrior", affiliation: "Escorpión Imperio" }
       - { name: "Tung Linghui", rank: "Warrior", affiliation: "Escorpión Imperio" }
     sources:
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }

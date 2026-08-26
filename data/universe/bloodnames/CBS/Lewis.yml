@@ -33,7 +33,7 @@ houses:
       - { name: "Vulta Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Werner Lewis", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Domask Lewis", rank: "Star Commander", affiliation: "Clan Wolf" }
-      - { name: "Costa Lewis", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Costa Lewis", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

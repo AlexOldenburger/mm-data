@@ -28,7 +28,7 @@ houses:
       - { name: "Cara Oberg", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Sharon Oberg", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Salton Oberg", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Antony Oberg", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Antony Oberg", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
       - { name: "Ifle Oberg", rank: "Pilot", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }

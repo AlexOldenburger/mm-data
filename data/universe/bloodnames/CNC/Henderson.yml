@@ -26,7 +26,7 @@ houses:
     summary: "The Henderson Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:
       - { name: "Pol Henderson", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
-      - { name: "Susan Henderson", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Susan Henderson", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
     sources:
       - { title: "The Black Thorns" }
       - { title: "Field Manual: ComStar" }

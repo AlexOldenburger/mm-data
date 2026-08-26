@@ -64,8 +64,8 @@ houses:
       - { name: "Tilly Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Vachel Tutuola", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Zorna Tutuola", rank: "Point Commander" }
-      - { name: "Daniel Tutuola", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Fredrick Tutuola", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Daniel Tutuola", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Fredrick Tutuola", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "Children of Kerensky" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }

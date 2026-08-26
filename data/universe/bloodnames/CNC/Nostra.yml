@@ -52,9 +52,9 @@ houses:
       - { name: "Torian Nostra", rank: "Star Commander", affiliation: "Clan Nova Cat" }
       - { name: "Dot \"Patches\" Nostra", rank: "Star Commander", affiliation: "Clan Nova Cat" }
       - { name: "Hania Nostra", rank: "Star Commander", affiliation: "Clan Nova Cat" }
-      - { name: "Kevin Nostra", rank: "MechWarrior", affiliation: "Spirit Cats" }
-      - { name: "Kym Nostra", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
-      - { name: "Zabiha Nostra", rank: "MechWarrior", affiliation: "Spirit Cats" }
+      - { name: "Kevin Nostra", rank: "MekWarrior", affiliation: "Spirit Cats" }
+      - { name: "Kym Nostra", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Zabiha Nostra", rank: "MekWarrior", affiliation: "Spirit Cats" }
     sources:
       - { title: "Alpha Strike: Clan Invasion Cards" }
       - { title: "Black Rain: The Battle for Addicks" }

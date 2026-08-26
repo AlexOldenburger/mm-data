@@ -43,7 +43,7 @@ houses:
       - { name: "Meyer Wirth", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "An Wirth", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
       - { name: "Burnell Wirth", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Cord Wirth", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Cord Wirth", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
       - { name: "Jacindah Wirth", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "The Dragon Roars" }

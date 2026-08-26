@@ -27,7 +27,7 @@ houses:
     summary: "The Ruby Bloodname was a Clan Widowmaker founding name."
     notableHolders:
       - { name: "Valallen Ruby", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Manda Ruby", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Manda Ruby", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

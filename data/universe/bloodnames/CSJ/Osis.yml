@@ -32,8 +32,8 @@ houses:
       - { name: "Theodore Osis", rank: "Khan", affiliation: "Clan Smoke Jaguar" }
       - { name: "Devon Osis", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
       - { name: "Thibideau Osis", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
-      - { name: "David Osis", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Paul Osis", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "David Osis", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Paul Osis", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "Betrayal of Ideals" }
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }

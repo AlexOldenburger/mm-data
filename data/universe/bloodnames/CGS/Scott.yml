@@ -36,7 +36,7 @@ houses:
       - { name: "Randi Scott", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
       - { name: "Bronte Scott", rank: "Star Captain", affiliation: "Escorpión Imperio" }
       - { name: "Lashta Scott", rank: "Star Captain", affiliation: "Scorpion Empire" }
-      - { name: "Robert Scott", rank: "MechWarrior", affiliation: "Escorpión Imperio" }
+      - { name: "Robert Scott", rank: "MekWarrior", affiliation: "Escorpión Imperio" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }

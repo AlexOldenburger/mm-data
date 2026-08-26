@@ -35,7 +35,7 @@ houses:
       - { name: "Katja Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Lorraine Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Martoc Keller", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
-      - { name: "Jason Keller", rank: "MechWarrior", affiliation: "Clan Blood Spirit" }
+      - { name: "Jason Keller", rank: "MekWarrior", affiliation: "Clan Blood Spirit" }
     sources:
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

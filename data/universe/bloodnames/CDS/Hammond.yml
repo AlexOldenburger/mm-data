@@ -37,7 +37,7 @@ houses:
       - { name: "Jeremy Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
       - { name: "Ross Hammond", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
       - { name: "Marcin Hammond", rank: "Stablemaster", affiliation: "Zellbrigen Stables" }
-      - { name: "Najeh Hammond", rank: "MechWarrior", affiliation: "Clan Sea Fox" }
+      - { name: "Najeh Hammond", rank: "MekWarrior", affiliation: "Clan Sea Fox" }
     sources:
       - { title: "BattleTech: Clan Command Star" }
       - { title: "Era Report: 3145" }

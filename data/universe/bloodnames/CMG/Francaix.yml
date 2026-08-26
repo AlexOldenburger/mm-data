@@ -26,7 +26,7 @@ houses:
     dormant: "2868"
     summary: "The Francaix Bloodname was a Clan Mongoose founding name."
     notableHolders:
-      - { name: "Annalise Francaix", rank: "MechWarrior", affiliation: "Clan Mongoose" }
+      - { name: "Annalise Francaix", rank: "MekWarrior", affiliation: "Clan Mongoose" }
       - { name: "Jean Francaix", rank: "Pilot" }
     sources:
       - { title: "The Black Thorns" }

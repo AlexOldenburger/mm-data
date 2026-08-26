@@ -33,7 +33,7 @@ houses:
       - { name: "Suzanne Church", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Zoe Church", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Josef Church", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
-      - { name: "Wauxin Church", rank: "MechWarrior", affiliation: "Clan Blood Spirit" }
+      - { name: "Wauxin Church", rank: "MekWarrior", affiliation: "Clan Blood Spirit" }
       - { name: "Sariah Church", rank: "House Leader", affiliation: "Clan Blood Spirit" }
     sources:
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }

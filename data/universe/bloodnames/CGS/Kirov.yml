@@ -35,7 +35,7 @@ houses:
       - { name: "Kevin Kirov", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
       - { name: "Qelli Kirov", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
       - { name: "Azure Kirov", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
-      - { name: "Edwin Kirov", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Edwin Kirov", rank: "MekWarrior", affiliation: "Clan Goliath Scorpion" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }

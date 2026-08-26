@@ -26,7 +26,7 @@ houses:
     summary: "The Lovonski Bloodname was a Clan Smoke Jaguar founding name."
     notableHolders:
       - { name: "Abaka Lovonski", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
-      - { name: "Emojeme Lovonski", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Emojeme Lovonski", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }

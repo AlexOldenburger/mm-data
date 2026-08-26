@@ -29,7 +29,7 @@ houses:
       - { name: "Sibyl Noruff", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Deter Noruff", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
       - { name: "Lorandra Noruff", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Hanse Noruff", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Hanse Noruff", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }

@@ -56,7 +56,7 @@ houses:
       - { name: "Callen Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Josh \"Narc\" Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Sedale Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Gews Malthus", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Gews Malthus", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Julkin Malthus", rank: "Pilot", affiliation: "Clan Jade Falcon" }
       - { name: "Cavell Malthus", affiliation: "Clan Jade Falcon" }
       - { name: "Cullen Malthus", affiliation: "Clan Jade Falcon" }

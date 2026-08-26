@@ -46,7 +46,7 @@ houses:
       - { name: "Ocella Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Ollup Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Wothal Folkner", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Davina Folkner", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Davina Folkner", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Freda Folkner", rank: "Pilot", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "The Battle of Coventry" }

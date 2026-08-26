@@ -79,16 +79,16 @@ houses:
       - { name: "Ollis Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Rhena Vickers", rank: "Star Commander", affiliation: "Clan Wolf-in-Exile" }
       - { name: "Willic Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
-      - { name: "Carbut Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Freda Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Jon Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Laureus Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Lee Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Quig Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Raston Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Zachary Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Carbut Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Freda Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Jon Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Laureus Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Lee Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Quig Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Raston Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Zachary Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Dolester Vickers", affiliation: "Steel Wolves" }
-      - { name: "Zel Vickers", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Zel Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "Era Report: 3062" }
       - { title: "Era Report: 3145" }

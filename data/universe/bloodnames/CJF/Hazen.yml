@@ -76,11 +76,11 @@ houses:
       - { name: "Kassy Hazen", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Vivian Hazen", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Jamie Hazen", rank: "Falconer", affiliation: "Clan Jade Falcon" }
-      - { name: "Bette Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Greta Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Meredith Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Nekane Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Nyles Hazen", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Bette Hazen", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Greta Hazen", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Meredith Hazen", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Nekane Hazen", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Nyles Hazen", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Bantuu Hazen", rank: "Pilot", affiliation: "Clan Jade Falcon" }
       - { name: "Welton Hazen", rank: "Pilot", affiliation: "Clan Jade Falcon" }
       - { name: "Eric Hazen", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }

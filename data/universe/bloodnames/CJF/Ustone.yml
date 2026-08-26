@@ -27,7 +27,7 @@ houses:
     notableHolders:
       - { name: "Mel Ustone", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Tanya Ustone", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Vels Ustone", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Vels Ustone", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }

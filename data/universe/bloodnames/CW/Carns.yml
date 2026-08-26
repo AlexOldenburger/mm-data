@@ -73,17 +73,17 @@ houses:
       - { name: "Maise Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Melissa Carns", rank: "Star Commander", affiliation: "Wolf Empire" }
       - { name: "Treh Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
-      - { name: "Alan Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Amel Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Bisston Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Cyrus Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Kaspar Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Kevin Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Kris Carns", rank: "MechWarrior", affiliation: "Wolf Empire" }
-      - { name: "Murguia Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Pocarra Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Redassa Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Skeld Carns", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Alan Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Amel Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Bisston Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Cyrus Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kaspar Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kevin Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kris Carns", rank: "MekWarrior", affiliation: "Wolf Empire" }
+      - { name: "Murguia Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Pocarra Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Redassa Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Skeld Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Kaste Carns", affiliation: "Steel Wolves" }
       - { name: "Troi Carns", affiliation: "Steel Wolves" }
     sources:

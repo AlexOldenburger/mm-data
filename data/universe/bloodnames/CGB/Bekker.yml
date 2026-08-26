@@ -60,13 +60,13 @@ houses:
       - { name: "Geri Bekker", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
       - { name: "Gorman Bekker", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
       - { name: "Julianna Bekker", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
-      - { name: "Dusan Bekker", rank: "MechWarrior", affiliation: "Rasalhague Dominion" }
-      - { name: "Sahara Bekker", rank: "MechWarrior", affiliation: "Clan Ghost Bear" }
+      - { name: "Dusan Bekker", rank: "MekWarrior", affiliation: "Rasalhague Dominion" }
+      - { name: "Sahara Bekker", rank: "MekWarrior", affiliation: "Clan Ghost Bear" }
       - { name: "Carsten Bekker", affiliation: "Ghost Bear Dominion" }
       - { name: "Lucifer Bekker", rank: "Legate", affiliation: "Lambrecht" }
       - { name: "Tyr Bekker", rank: "Legate", affiliation: "Shimonita" }
       - { name: "Thomasin", affiliation: "Clan Jade Falcon Remnants" }
-      - { name: "Rik Bekker", rank: "MechWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
+      - { name: "Rik Bekker", rank: "MekWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
     sources:
       - { title: "BattleTech: Clan Invasion" }
       - { title: "The Clawing" }

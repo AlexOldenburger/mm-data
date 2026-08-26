@@ -81,12 +81,12 @@ houses:
       - { name: "Wilfrid Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Zoll Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Star Captain Vicka of Clan Wolf-in-Exile.", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Bosh Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Bosh Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Darla Radick", affiliation: "Clan Wolf" }
       - { name: "Dirk Radick", rank: "Paladin", affiliation: "Republic of the Sphere" }
-      - { name: "Mio Radick", rank: "MechWarrior", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Palitrice Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Stillett Radick", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Mio Radick", rank: "MekWarrior", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Palitrice Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Stillett Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Ursula Radick", affiliation: "Steel Wolves" }
     sources:
       - { title: "A Bonfire of Worlds" }

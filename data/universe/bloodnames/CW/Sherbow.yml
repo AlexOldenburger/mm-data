@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Wolf"
     summary: "The Sherbow Bloodname was a Clan Wolf founding legacy."
     notableHolders:
-      - { name: "Carrows Sherbow", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Carrows Sherbow", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Karla Sherbow", rank: "Pilot", affiliation: "Clan Wolf" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

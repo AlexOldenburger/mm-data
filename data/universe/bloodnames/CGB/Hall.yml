@@ -54,7 +54,7 @@ houses:
       - { name: "Daniel Hall", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
       - { name: "Michelle Hall", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
       - { name: "Lilith Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
-      - { name: "Charlotte Hall", rank: "MechWarrior", affiliation: "Clan Ghost Bear" }
+      - { name: "Charlotte Hall", rank: "MekWarrior", affiliation: "Clan Ghost Bear" }
     sources:
       - { title: "BattleTech: Battle of Tukayyid" }
       - { title: "BattleTech: Clan Support Star" }

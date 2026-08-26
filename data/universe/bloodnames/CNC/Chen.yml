@@ -26,7 +26,7 @@ houses:
     summary: "The Chen Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:
       - { name: "Aaron Chen", affiliation: "Clan Smoke Jaguar' previously from Clan Steel Viper" }
-      - { name: "Anson Chen", rank: "MechWarrior", affiliation: "Wolf Empire" }
+      - { name: "Anson Chen", rank: "MekWarrior", affiliation: "Wolf Empire" }
       - { name: "Hunter Chen", rank: "Pilot" }
     sources:
       - { title: "The Black Thorns" }

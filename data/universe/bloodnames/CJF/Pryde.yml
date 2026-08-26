@@ -74,14 +74,14 @@ houses:
       - { name: "Glenn Pryde", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Risa Pryde", rank: "Bloodhouse Leader", affiliation: "Clan Jade Falcon" }
       - { name: "William Pryde", rank: "Falconer", affiliation: "Clan Jade Falcon" }
-      - { name: "Bojin Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Donas Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Gregoria Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Ichiba Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Kothinur Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Odekirk Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Sander Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Tanya Pryde", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Bojin Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Donas Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Gregoria Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Ichiba Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Kothinur Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Odekirk Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Sander Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Tanya Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Ileana Pryde", affiliation: "Clan Jade Falcon" }
       - { name: "Ingrid Pryde", affiliation: "Clan Jade Falcon" }
       - { name: "Teukros Pryde", affiliation: "Clan Jade Falcon" }

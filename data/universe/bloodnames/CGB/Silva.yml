@@ -30,7 +30,7 @@ houses:
       - { name: "Hee Silva", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
       - { name: "Killian Silva", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
       - { name: "Semis Silva", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
-      - { name: "Tara Silva", rank: "MechWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
+      - { name: "Tara Silva", rank: "MekWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
     sources:
       - { title: "BattleCorps Scenarios: Saving Tai-shu Ashora" }
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }

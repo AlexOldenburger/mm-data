@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Nova Cat"
     summary: "The Prest Bloodname was a Clan Nova Cat founding legacy."
     notableHolders:
-      - { name: "Samuel Prest", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Samuel Prest", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
     sources:
       - { title: "The Black Thorns" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

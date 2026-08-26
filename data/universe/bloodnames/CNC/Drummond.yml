@@ -47,8 +47,8 @@ houses:
       - { name: "Michael Drummond", rank: "Star Commander", affiliation: "Clan Nova Cat" }
       - { name: "Tyrina Drummond", rank: "Paladin", affiliation: "Republic of the Sphere" }
       - { name: "Collette Drummond", rank: "Knight", affiliation: "Republic of the Sphere" }
-      - { name: "Arnis Drummond", rank: "MechWarrior", affiliation: "Spirit Cats" }
-      - { name: "Susan Drummond", rank: "MechWarrior", affiliation: "Spirit Cats" }
+      - { name: "Arnis Drummond", rank: "MekWarrior", affiliation: "Spirit Cats" }
+      - { name: "Susan Drummond", rank: "MekWarrior", affiliation: "Spirit Cats" }
       - { name: "Agustin Drummond", affiliation: "Spirit Cats" }
       - { name: "Aljay Drummond", affiliation: "Spirit Cats" }
     sources:

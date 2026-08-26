@@ -41,7 +41,7 @@ houses:
       - { name: "Orville Deleportas", rank: "Star Captain", affiliation: "Spirit Cats" }
       - { name: "Tina Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Kithyo Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
-      - { name: "Monic Deleportas", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Monic Deleportas", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
     sources:
       - { title: "BattleTech: Battle of Tukayyid" }
       - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }

@@ -44,8 +44,8 @@ houses:
       - { name: "Marian Showers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
       - { name: "Ramon Showers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
       - { name: "Deliah Showers", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Steven Showers", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Torgan Showers", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Steven Showers", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Torgan Showers", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "The Dragon Roars" }
       - { title: "Era Report: 3052" }

@@ -36,7 +36,7 @@ houses:
       - { name: "Malachi Posavatz", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
       - { name: "Samuel Posavatz", rank: "Star Colonel", affiliation: "Escorpión Imperio" }
       - { name: "Rebecca Posavatz", rank: "Star Commander", affiliation: "Clan Goliath Scorpion" }
-      - { name: "Josef Posavatz", rank: "MechWarrior", affiliation: "Romanov's Crusaders" }
+      - { name: "Josef Posavatz", rank: "MekWarrior", affiliation: "Romanov's Crusaders" }
     sources:
       - { title: "Field Manual: Mercenaries Revised" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

@@ -68,11 +68,11 @@ houses:
       - { name: "Ollard Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Trent Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Tyrne Buhallin", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Gera Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Karoline Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Melissa Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Sinea Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Stanton Buhallin", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Gera Buhallin", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Karoline Buhallin", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Melissa Buhallin", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Sinea Buhallin", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Stanton Buhallin", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Jessica Buhallin", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "The Battle for Twycross" }

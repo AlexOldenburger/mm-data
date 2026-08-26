@@ -43,8 +43,8 @@ houses:
       - { name: "Hyo Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Matt Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Vera Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
-      - { name: "Lenett Lossey", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
-      - { name: "Tora Lossey", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Lenett Lossey", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Tora Lossey", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
       - { name: "Mada Lossey", affiliation: "Spirit Cats" }
     sources:
       - { title: "The Dragon Roars" }

@@ -63,11 +63,11 @@ houses:
       - { name: "Terrick Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Wyull Roshak", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Ter Roshak", rank: "Falconer Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Halley Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Kajj Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Katrine Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Montgomery Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
-      - { name: "Shone Roshak", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Halley Roshak", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Kajj Roshak", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Katrine Roshak", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Montgomery Roshak", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Shone Roshak", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Reva Roshak", affiliation: "Steel Wolves" }
       - { name: "Jeffer Roshak", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
     sources:

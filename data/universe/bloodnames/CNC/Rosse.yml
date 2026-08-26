@@ -51,7 +51,7 @@ houses:
       - { name: "Ramon Rosse", rank: "Star Commander", affiliation: "Clan Nova Cat" }
       - { name: "Kev Rosse", rank: "Senator", affiliation: "Spirit Cats" }
       - { name: "Tiber Rosse", rank: "Mystic", affiliation: "Clan Nova Cat" }
-      - { name: "Faisal Rosse", rank: "MechWarrior", affiliation: "Spirit Cats" }
+      - { name: "Faisal Rosse", rank: "MekWarrior", affiliation: "Spirit Cats" }
       - { name: "Derrik Rosse", affiliation: "Clan Nova Cat" }
       - { name: "Cheri Rosse", affiliation: "Spirit Cats" }
     sources:

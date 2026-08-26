@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Jade Falcon"
     summary: "The Nilloba Bloodname was a Clan Jade Falcon founding legacy."
     notableHolders:
-      - { name: "Trovic Nilloba", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Trovic Nilloba", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }

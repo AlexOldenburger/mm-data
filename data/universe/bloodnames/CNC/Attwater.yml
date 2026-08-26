@@ -28,7 +28,7 @@ houses:
       - { name: "Tara Attwater", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
       - { name: "Mia Attwater", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Emmeline Attwater", rank: "Star Commander", affiliation: "Clan Wolf" }
-      - { name: "Rodger Attwater", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Rodger Attwater", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
     sources:
       - { title: "BattleTech: Battle of Tukayyid" }
       - { title: "The Black Thorns" }

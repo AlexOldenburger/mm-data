@@ -52,7 +52,7 @@ houses:
       - { name: "Aren Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Johan Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Tara Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Benjamin Helmer", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Benjamin Helmer", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "BattleTech: Clan Heavy Battle Star" }
       - { title: "Era Report: 3145" }

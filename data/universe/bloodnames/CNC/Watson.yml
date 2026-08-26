@@ -32,7 +32,7 @@ houses:
       - { name: "Jose Watson", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
       - { name: "Mill Watson", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
       - { name: "Ranai Watson", rank: "Star Captain", affiliation: "Clan Nova Cat" }
-      - { name: "Jergen Watson", rank: "MechWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Jergen Watson", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
     sources:
       - { title: "BattleTech: Clan Striker Star" }
       - { title: "The Black Thorns" }

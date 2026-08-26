@@ -101,10 +101,10 @@ houses:
       - { name: "Lefar Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Locasico Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Margara Kerensky", rank: "Point Commander", affiliation: "Clan Wolf" }
-      - { name: "Kijari Kerensky", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Magna Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Pissorn Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Theodore Kerensky", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kijari Kerensky", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Magna Kerensky", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Pissorn Kerensky", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Theodore Kerensky", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Cromwell Kerensky", rank: "Pilot", affiliation: "Clan Wolf" }
       - { name: "Yessern Kerensky", rank: "Pilot", affiliation: "Clan Wolf" }
       - { name: "Cosiron Kerensky", affiliation: "Clan Wolf" }

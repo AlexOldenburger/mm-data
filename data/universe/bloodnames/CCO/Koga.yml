@@ -43,7 +43,7 @@ houses:
       - { name: "Alfa Koga", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Withyn Koga", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Vertin Koga", rank: "Point Commander", affiliation: "Clan Wolf" }
-      - { name: "Nok Koga", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Nok Koga", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Field Manual: ComStar" }

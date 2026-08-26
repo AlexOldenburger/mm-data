@@ -43,7 +43,7 @@ houses:
       - { name: "Jon Kotare", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
       - { name: "Roberta Kotare", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
       - { name: "Marcus Kotare", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Jason Kotare", rank: "MechWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Jason Kotare", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
     sources:
       - { title: "Cherry Blossoms" }
       - { title: "The Dragon Roars" }

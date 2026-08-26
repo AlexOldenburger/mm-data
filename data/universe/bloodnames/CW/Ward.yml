@@ -84,16 +84,16 @@ houses:
       - { name: "Meril Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Nikolai Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Russic Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
-      - { name: "Alex Ward", rank: "MechWarrior", affiliation: "Wolf's Dragoons" }
-      - { name: "Arvil Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Edina Ward", rank: "MechWarrior", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Ghita Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Hamala Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Maise Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Nikita Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Patton Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Silvia Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Ullor Ward", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Alex Ward", rank: "MekWarrior", affiliation: "Wolf's Dragoons" }
+      - { name: "Arvil Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Edina Ward", rank: "MekWarrior", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Ghita Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Hamala Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Maise Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Nikita Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Patton Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Silvia Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Ullor Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
       - { name: "Alexei Ward", affiliation: "Clan Wolf-in-Exile" }
       - { name: "Druss Ward", affiliation: "Clan Wolf" }
       - { name: "Katya Ward", affiliation: "Clan Wolf" }

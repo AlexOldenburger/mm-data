@@ -26,7 +26,7 @@ houses:
     dormant: "2868"
     summary: "The van Belkum Bloodname was a Clan Mongoose founding name."
     notableHolders:
-      - { name: "Rudolph van Belkum", rank: "MechWarrior", affiliation: "Clan Mongoose" }
+      - { name: "Rudolph van Belkum", rank: "MekWarrior", affiliation: "Clan Mongoose" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }

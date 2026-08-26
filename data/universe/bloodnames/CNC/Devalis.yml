@@ -47,7 +47,7 @@ houses:
       - { name: "Toddu Devalis", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Wendy Devalis", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Karl Devalis", rank: "Paladin", affiliation: "Republic of the Sphere" }
-      - { name: "Maria Devalis", rank: "MechWarrior", affiliation: "Spirit Cats" }
+      - { name: "Maria Devalis", rank: "MekWarrior", affiliation: "Spirit Cats" }
       - { name: "Marya Devalis", affiliation: "Spirit Cats" }
       - { name: "Declan Devalis", affiliation: "Spirit Cats" }
     sources:

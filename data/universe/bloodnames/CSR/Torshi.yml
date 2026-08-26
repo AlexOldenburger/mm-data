@@ -28,7 +28,7 @@ houses:
       - { name: "Korson Torshi", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
       - { name: "Jill Torshi", rank: "Star Commander", affiliation: "Clan Wolf" }
       - { name: "Soton Torshi", rank: "Point Commander", affiliation: "Clan Wolf" }
-      - { name: "Van Torshi", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Van Torshi", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

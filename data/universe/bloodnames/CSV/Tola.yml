@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Steel Viper"
     summary: "The Tola Bloodname was a Clan Steel Viper founding name."
     notableHolders:
-      - { name: "Eldin Tola", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Eldin Tola", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Recognition Guide: ilClan, vol. 7" }

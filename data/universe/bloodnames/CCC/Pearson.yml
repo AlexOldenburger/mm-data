@@ -25,7 +25,7 @@ houses:
     founderAffiliation: "Clan Cloud Cobra"
     summary: "The Pearson Bloodname was a Clan Cloud Cobra founding legacy."
     notableHolders:
-      - { name: "Jacob Pearson", rank: "MechWarrior", affiliation: "Clan Cloud Cobra" }
+      - { name: "Jacob Pearson", rank: "MekWarrior", affiliation: "Clan Cloud Cobra" }
     sources:
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }

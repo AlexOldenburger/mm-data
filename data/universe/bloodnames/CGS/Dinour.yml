@@ -36,7 +36,7 @@ houses:
       - { name: "Mara Dinour", rank: "Star Colonel", affiliation: "Scorpion Empire" }
       - { name: "Mikel Dinour", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
       - { name: "Vlad Dinour", rank: "Star Colonel", affiliation: "Clan Wolf" }
-      - { name: "Kyle Dinour", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Kyle Dinour", rank: "MekWarrior", affiliation: "Clan Goliath Scorpion" }
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }

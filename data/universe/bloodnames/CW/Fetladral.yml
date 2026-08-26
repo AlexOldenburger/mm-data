@@ -77,10 +77,10 @@ houses:
       - { name: "Peshkov Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Treger Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
       - { name: "Bianca Fetladral", rank: "Legate", affiliation: "Republic of the Sphere" }
-      - { name: "Israel Fetladral", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Sebastian Fetladral", rank: "MechWarrior", affiliation: "Clan Wolf" }
-      - { name: "Kendrick Fetladral", rank: "MechWarrior", affiliation: "Steel Wolves" }
-      - { name: "Zaar Fetladral", rank: "MechWarrior", affiliation: "Steel Wolves" }
+      - { name: "Israel Fetladral", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Sebastian Fetladral", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kendrick Fetladral", rank: "MekWarrior", affiliation: "Steel Wolves" }
+      - { name: "Zaar Fetladral", rank: "MekWarrior", affiliation: "Steel Wolves" }
     sources:
       - { title: "Bred for War" }
       - { title: "A Call to Arms", abbrev: "A Call to Arms" }

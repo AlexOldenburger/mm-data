@@ -41,7 +41,7 @@ houses:
       - { name: "Kaidu Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Li Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
       - { name: "Noonan Binetti", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
-      - { name: "Velman Binetti", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Velman Binetti", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
     sources:
       - { title: "The Anvil (novella)" }
       - { title: "Day of Heroes", abbrev: "Day of Heroes" }

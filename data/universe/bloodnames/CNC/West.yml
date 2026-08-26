@@ -40,7 +40,7 @@ houses:
       - { name: "Hendrick West", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Harris West", rank: "Star Captain", affiliation: "Clan Nova Cat" }
       - { name: "Jeremiah West", rank: "Colonel", affiliation: "Raging Horde" }
-      - { name: "Thomas West", rank: "MechWarrior", affiliation: "Wolf's Dragoons" }
+      - { name: "Thomas West", rank: "MekWarrior", affiliation: "Wolf's Dragoons" }
     sources:
       - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
       - { title: "Field Manual: ComStar" }

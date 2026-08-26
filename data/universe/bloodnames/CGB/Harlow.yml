@@ -28,8 +28,8 @@ houses:
       - { name: "Davis Harlow", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
       - { name: "Gerald Harlow", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
       - { name: "Seija Harlow", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
-      - { name: "Melissa Harlow", rank: "MechWarrior", affiliation: "Clan Ghost Bear" }
-      - { name: "Victor Harlow", rank: "MechWarrior", affiliation: "Clan Ghost Bear" }
+      - { name: "Melissa Harlow", rank: "MekWarrior", affiliation: "Clan Ghost Bear" }
+      - { name: "Victor Harlow", rank: "MekWarrior", affiliation: "Clan Ghost Bear" }
     sources:
       - { title: "Fang and Claw" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

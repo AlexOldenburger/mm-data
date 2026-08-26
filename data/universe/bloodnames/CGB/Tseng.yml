@@ -57,7 +57,7 @@ houses:
       - { name: "Rosen Tseng", affiliation: "Steel Wolves" }
       - { name: "Aeneas Tseng", affiliation: "Clan Ghost Bear" }
       - { name: "Horva Tseng", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
-      - { name: "Samuel Tseng", rank: "MechWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
+      - { name: "Samuel Tseng", rank: "MekWarrior", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
     sources:
       - { title: "BattleCorps Scenarios: Saving Tai-shu Ashora" }
       - { title: "The Burdens of Honor" }

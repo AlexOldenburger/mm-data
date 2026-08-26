@@ -62,7 +62,7 @@ houses:
       - { name: "Kelli Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Thorbin Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
       - { name: "Kathleen Mattlov", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
-      - { name: "Gimon Mattlov", rank: "MechWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Gimon Mattlov", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
       - { name: "Heather Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
       - { name: "Ytham Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
     sources:

@@ -28,7 +28,7 @@ houses:
       - { name: "Loretz Weaver", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
       - { name: "Ran Weaver", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
       - { name: "Av Weaver", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
-      - { name: "Eric Weaver", rank: "MechWarrior", affiliation: "Wolf Empire" }
+      - { name: "Eric Weaver", rank: "MekWarrior", affiliation: "Wolf Empire" }
     sources:
       - { title: "Era Report: 3052" }
       - { title: "Forever Faithful" }

@@ -31,7 +31,7 @@ houses:
       - { name: "Sakmar Arbuthnot", rank: "saKhan", affiliation: "Escorpión Imperio" }
       - { name: "Miri Arbuthnot", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
       - { name: "Tasha Arbuthnot", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
-      - { name: "Caroline Arbuthnot", rank: "MechWarrior", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Caroline Arbuthnot", rank: "MekWarrior", affiliation: "Clan Goliath Scorpion" }
     sources:
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
       - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }

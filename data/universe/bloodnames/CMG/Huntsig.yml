@@ -27,7 +27,7 @@ houses:
     summary: "The Huntsig Bloodname was a Clan Mongoose founding name."
     notableHolders:
       - { name: "Stephan Huntsig", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
-      - { name: "Duncan Huntsig", rank: "MechWarrior", affiliation: "Rasalhague Dominion" }
+      - { name: "Duncan Huntsig", rank: "MekWarrior", affiliation: "Rasalhague Dominion" }
     sources:
       - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

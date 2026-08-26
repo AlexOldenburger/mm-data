@@ -55,7 +55,7 @@ houses:
       - { name: "Bridget Hawker", rank: "Star Captain", affiliation: "Clan Sea Fox" }
       - { name: "Josem Hawker", rank: "Star Captain", affiliation: "Clan Sea Fox" }
       - { name: "Lauren Hawker", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
-      - { name: "Jerry Hawker", rank: "MechWarrior", affiliation: "Wolf's Dragoons" }
+      - { name: "Jerry Hawker", rank: "MekWarrior", affiliation: "Wolf's Dragoons" }
       - { name: "Joshua Hawker", affiliation: "Clan Diamond Shark" }
       - { name: "Maya Hawker", affiliation: "Steel Wolves" }
     sources:

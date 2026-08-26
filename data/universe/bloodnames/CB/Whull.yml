@@ -26,7 +26,7 @@ houses:
     summary: "The Whull Bloodname was a Clan Burrock founding name."
     notableHolders:
       - { name: "Liston Whull", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
-      - { name: "Josephine Whull", rank: "MechWarrior", affiliation: "Clan Wolf" }
+      - { name: "Josephine Whull", rank: "MekWarrior", affiliation: "Clan Wolf" }
     sources:
       - { title: "The Falcon and the Wolf", abbrev: "F&W" }
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
