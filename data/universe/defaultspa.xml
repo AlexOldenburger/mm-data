@@ -692,7 +692,7 @@ If this character is the senior-most Admin character, the cost of interstellar t
         <displayName>Networker (Unofficial)</displayName>
         <desc><![CDATA[This character knows people in high places.
 
-If this character is the senior-most Admin character, the number of contracts offered each month is increased by 1 (may still be 0).]]></desc>
+While this character is the senior-most Admin, the contract market rolls one extra offer each month for your force's primary line of work (mercenary work, government orders, or piracy). Being an extra roll, it may still produce no additional offer.]]></desc>
         <xpCost>400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
@@ -2693,6 +2693,142 @@ Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaig
         <weight>1</weight>
         <skillPrereq />
         <invalidAbilities>good_reputation</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>relentless_bargainer</lookupName>
+        <displayName>Relentless Bargainer (Unofficial)</displayName>
+        <desc><![CDATA[This character never takes the first "no" for an answer.
+
+While acting as your negotiator in the contract market, they may re-negotiate a contract twice instead of once.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Veteran</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>abrasive</lookupName>
+        <displayName>Abrasive (Unofficial)</displayName>
+        <desc><![CDATA[This character rubs people the wrong way.
+
+While acting as your negotiator in the contract market, every re-negotiation goes one margin worse in the employer's favor.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>loophole_finder</lookupName>
+        <displayName>Loophole Finder (Unofficial)</displayName>
+        <desc><![CDATA[This character can find the give in any contract.
+
+While acting as your negotiator in the contract market, the "You'll make an exception" re-negotiation goes one margin better in your favor. Freeing more non-negotiable terms, or resisting new locks.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>fine_print_reader</lookupName>
+        <displayName>Fine Print Reader (Unofficial)</displayName>
+        <desc><![CDATA[This character reads every clause twice, and finds the leverage in each.
+
+While acting as your negotiator in the contract market, the "Come on, give me a better offer" re-negotiation goes one margin better in your favor - improving the contract's terms further, or resisting cuts.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>blacklisted</lookupName>
+        <displayName>Blacklisted (Unofficial)</displayName>
+        <desc><![CDATA[Word has gotten around, and employers keep this character on a short leash.
+
+While acting as your negotiator in the contract market, the "You'll make an exception" re-negotiation goes one margin worse in the employer's favor. Freeing fewer non-negotiable terms, or inviting new locks.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>easily_fooled</lookupName>
+        <displayName>Easily Fooled (Unofficial)</displayName>
+        <desc><![CDATA[This character takes the other side at their word, and pays for it.
+
+While acting as your negotiator in the contract market, the "Come on, give me a better offer" re-negotiation goes one margin worse in the employer's favor. Improving the terms less, or inviting cuts.
+
+Has no effect if Active Negotiators is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>hard_bargainer</lookupName>
+        <displayName>Hard Bargainer (Unofficial)</displayName>
+        <desc><![CDATA[This character holds out for every last concession.
+
+While acting as your negotiator in the contract market, each contract term may be raised one additional step beyond the contract's Scale.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+        <invalidAbilities>pushover</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>pushover</lookupName>
+        <displayName>Pushover (Unofficial)</displayName>
+        <desc><![CDATA[This character folds at the first sign of resistance.
+
+While acting as your negotiator in the contract market, each contract term may be raised one fewer step than the contract's Scale (minimum one).]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>hard_bargainer</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>shrewd_trader</lookupName>
+        <displayName>Shrewd Trader (Unofficial)</displayName>
+        <desc><![CDATA[This character has a keen eye for a favorable trade.
+
+While acting as your negotiator in the contract market, you may sacrifice one more term and two more steps in total (three terms, six steps) to fund improvements elsewhere.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Negotiation::Regular</skill>
+        </skillPrereq>
+        <invalidAbilities>inflexible</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>inflexible</lookupName>
+        <displayName>Inflexible (Unofficial)</displayName>
+        <desc><![CDATA[This character struggles to give ground, even when it would help.
+
+While acting as your negotiator in the contract market, you may sacrifice one fewer term and two fewer steps in total (one term, two steps) to fund improvements elsewhere.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>shrewd_trader</invalidAbilities>
     </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
