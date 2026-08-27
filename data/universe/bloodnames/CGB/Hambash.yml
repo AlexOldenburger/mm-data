@@ -27,7 +27,7 @@ houses:
     notableHolders:
       - { name: "Gerrard Hambash", rank: "Galaxy Commander", affiliation: "Clan Ghost Bear" }
       - { name: "Carl Hambash", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
-      - { name: "Frode Hambash", rank: "Abjured MechWarrior" }
+      - { name: "Frode Hambash", rank: "Abjured MekWarrior" }
     sources:
       - { title: "Extraordinary Rendition" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }

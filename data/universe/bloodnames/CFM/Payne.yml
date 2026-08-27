@@ -36,7 +36,7 @@ houses:
       - { name: "Morganna Payne", rank: "Star Colonel", affiliation: "Clan Fire Mandrill" }
       - { name: "Carter Payne", rank: "Star Captain", affiliation: "Clan Fire Mandrill" }
       - { name: "Martha Payne", rank: "Star Captain", affiliation: "Clan Fire Mandrill" }
-      - { name: "Mechwarrior Darryl of Clan Fire Mandrill", affiliation: "Clan Fire Mandrill" }
+      - { name: "MekWarrior Darryl of Clan Fire Mandrill", affiliation: "Clan Fire Mandrill" }
     sources:
       - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
       - { title: "Field Manual: Updates", abbrev: "FM:U" }
