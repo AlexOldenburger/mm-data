@@ -228,7 +228,7 @@
             <techMargin>3</techMargin>
             <salvage pct='5'>LA:5</salvage>
         </faction>
-        <faction key='CEI'>
+        <faction key='CGS'>
             <pctOmni>0,0,20,50,80</pctOmni>
             <pctClan>10,10,60,70,90</pctClan>
             <pctSL>90,90,40,30,10</pctSL>
