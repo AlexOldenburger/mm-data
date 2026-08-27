@@ -21,9 +21,9 @@ clan: CBS
 name: "Dibaba"
 houses:
   - founder: "Patricia"
-    founderFullName: "Patricia Dibaba of Clan Blood Spirit."
+    founderFullName: "Patricia Dibaba"
     founderAffiliation: "Clan Blood Spirit"
-    summary: "The Dibababa Bloodname was a Clan Blood Spirit founding name."
+    summary: "The Dibaba Bloodname was a Clan Blood Spirit founding name."
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
     history: ~

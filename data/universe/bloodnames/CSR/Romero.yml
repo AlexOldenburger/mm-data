@@ -22,6 +22,7 @@ name: "Romero"
 houses:
   - founder: "Stephanie"
     founderFullName: "Stephanie Romero"
+    founderAffiliation: "Clan Snow Raven"
     summary: "The Romero bloodname was a Clan Snow Raven founding name."
     sources:
       - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
