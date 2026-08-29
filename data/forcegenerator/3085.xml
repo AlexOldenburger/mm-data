@@ -2856,10 +2856,6 @@
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
             </model>
-            <model name='(2782)'>
-                <roles>cargo,civilian</roles>
-                <availability>General:6</availability>
-            </model>
         </chassis>
         <chassis name='Bellona Hover Tank' unitType='Tank'>
             <availability>CHH:6</availability>
