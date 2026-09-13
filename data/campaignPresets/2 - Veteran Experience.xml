@@ -910,12 +910,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>NO_ATTRIBUTE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1076,11 +1076,11 @@
             <firstAttribute>INTELLIGENCE</firstAttribute>
             <secondAttribute>WILLPOWER</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1165,12 +1165,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1226,11 +1226,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1241,11 +1241,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1256,11 +1256,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1271,11 +1271,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1286,11 +1286,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1301,11 +1301,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1316,11 +1316,11 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1735,12 +1735,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1765,12 +1765,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2201,11 +2201,11 @@
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>NO_ATTRIBUTE</secondAttribute>
             <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2260,12 +2260,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>NO_ATTRIBUTE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2560,12 +2560,12 @@
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>NO_ATTRIBUTE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <greenLvl>2</greenLvl>
+            <regLvl>4</regLvl>
+            <vetLvl>5</vetLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
