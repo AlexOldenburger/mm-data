@@ -1764,8 +1764,8 @@
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>8</legendaryLvl>
             <costs>8,4,4,4,4,4,4,4,4,4,4</costs>
         </skillType>
         <skillType>
@@ -1774,7 +1774,7 @@
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>INTELLIGENCE</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
@@ -1859,21 +1859,6 @@
             <costs>8,4,4,4,4,4,4,4,4,-1,-1</costs>
         </skillType>
         <skillType>
-            <name>Piloting/ProtoMek</name>
-            <target>7</target>
-            <isCountUp>false</isCountUp>
-            <subType>COMBAT_PILOTING</subType>
-            <firstAttribute>REFLEXES</firstAttribute>
-            <secondAttribute>DEXTERITY</secondAttribute>
-            <greenLvl>2</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>8,4,4,4,4,4,4,4,4,-1,-1</costs>
-        </skillType>
-        <skillType>
             <name>Piloting/Spacecraft</name>
             <target>8</target>
             <isCountUp>false</isCountUp>
@@ -1911,11 +1896,11 @@
             <firstAttribute>WILLPOWER</firstAttribute>
             <secondAttribute>CHARISMA</secondAttribute>
             <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
+            <regLvl>2</regLvl>
+            <vetLvl>3</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>8</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1926,9 +1911,9 @@
             <firstAttribute>REFLEXES</firstAttribute>
             <secondAttribute>DEXTERITY</secondAttribute>
             <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
+            <regLvl>2</regLvl>
+            <vetLvl>3</vetLvl>
+            <eliteLvl>4</eliteLvl>
             <heroicLvl>6</heroicLvl>
             <legendaryLvl>7</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
@@ -1943,9 +1928,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1958,9 +1943,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1973,9 +1958,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -1988,9 +1973,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2003,9 +1988,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2018,9 +2003,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2033,9 +2018,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2048,9 +2033,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2063,9 +2048,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2078,9 +2063,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2093,9 +2078,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2108,9 +2093,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2123,9 +2108,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2164,14 +2149,14 @@
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>2</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
             <heroicLvl>6</heroicLvl>
             <legendaryLvl>7</legendaryLvl>
-            <costs>8,4,4,4,4,4,4,4,4,-1,-1</costs>
+            <costs>16,8,8,8,8,8,8,8,-1,-1,-1</costs>
         </skillType>
         <skillType>
             <name>Stealth</name>
@@ -2198,9 +2183,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>12,6,6,6,6,6,6,6,6,6,6</costs>
         </skillType>
         <skillType>
@@ -2209,13 +2194,13 @@
             <isCountUp>false</isCountUp>
             <subType>ROLEPLAY_GENERAL</subType>
             <firstAttribute>CHARISMA</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
+            <regLvl>2</regLvl>
+            <vetLvl>3</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>8</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2224,7 +2209,7 @@
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
@@ -2235,7 +2220,7 @@
         </skillType>
         <skillType>
             <name>Surgery/Any</name>
-            <target>11</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2243,10 +2228,10 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>16,8,0,8,8,8,-1,-1,-1,-1,-1</costs>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
             <name>Survival/Any</name>
@@ -2258,9 +2243,9 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
@@ -2269,11 +2254,11 @@
             <isCountUp>false</isCountUp>
             <subType>ROLEPLAY_GENERAL</subType>
             <firstAttribute>STRENGTH</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
+            <regLvl>2</regLvl>
+            <vetLvl>3</vetLvl>
+            <eliteLvl>4</eliteLvl>
             <heroicLvl>6</heroicLvl>
             <legendaryLvl>7</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
@@ -2288,29 +2273,14 @@
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,6,6,6,6,6,6,6,6,6</costs>
+            <eliteLvl>6</eliteLvl>
+            <heroicLvl>8</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
         <skillType>
-            <name>Tech/Aeronautics</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Aerospace</name>
-            <target>10</target>
+            <name>Tech/Aero</name>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2319,13 +2289,13 @@
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>12,6,6,6,6,6,6,-1,-1,-1,-1</costs>
         </skillType>
         <skillType>
             <name>Tech/BattleArmor</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2334,88 +2304,28 @@
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>12,6,6,6,6,6,6,-1,-1,-1,-1</costs>
         </skillType>
         <skillType>
-            <name>Tech/Civilian</name>
-            <target>10</target>
+            <name>Tech/Mechanic</name>
+            <target>9</target>
             <isCountUp>false</isCountUp>
-            <subType>ROLEPLAY_GENERAL</subType>
+            <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
             <secondAttribute>INTELLIGENCE</secondAttribute>
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Cybernetics</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>ROLEPLAY_GENERAL</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Electronic</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Jets</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Mechanical</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>12,6,6,6,6,6,6,-1,-1,-1,-1</costs>
         </skillType>
         <skillType>
             <name>Tech/Mek</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2424,73 +2334,13 @@
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Military</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>ROLEPLAY_GENERAL</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Myomer</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Nuclear</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Vehicle</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>SUPPORT_TECHNICIAN</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>12,6,6,6,6,6,6,-1,-1,-1,-1</costs>
         </skillType>
         <skillType>
             <name>Tech/Vessel</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2499,24 +2349,9 @@
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
             <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
-        </skillType>
-        <skillType>
-            <name>Tech/Weapons</name>
-            <target>10</target>
-            <isCountUp>false</isCountUp>
-            <subType>UTILITY</subType>
-            <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>INTELLIGENCE</secondAttribute>
-            <greenLvl>1</greenLvl>
-            <regLvl>3</regLvl>
-            <vetLvl>4</vetLvl>
-            <eliteLvl>5</eliteLvl>
-            <heroicLvl>6</heroicLvl>
-            <legendaryLvl>7</legendaryLvl>
-            <costs>12,6,0,6,6,6,-1,-1,-1,-1,-1</costs>
+            <heroicLvl>7</heroicLvl>
+            <legendaryLvl>9</legendaryLvl>
+            <costs>12,6,6,6,6,6,6,-1,-1,-1,-1</costs>
         </skillType>
         <skillType>
             <name>Thrown Weapons</name>
@@ -2524,7 +2359,7 @@
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
@@ -2569,7 +2404,7 @@
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
-            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <secondAttribute>NONE</secondAttribute>
             <greenLvl>1</greenLvl>
             <regLvl>3</regLvl>
             <vetLvl>4</vetLvl>
