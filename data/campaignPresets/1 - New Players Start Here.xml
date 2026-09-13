@@ -830,7 +830,7 @@
         </skillType>
         <skillType>
             <name>Administration</name>
-            <target>10</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT</subType>
             <firstAttribute>INTELLIGENCE</firstAttribute>
@@ -890,7 +890,7 @@
         </skillType>
         <skillType>
             <name>Archery</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -1055,7 +1055,7 @@
         </skillType>
         <skillType>
             <name>Artillery</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>INTELLIGENCE</firstAttribute>
@@ -1070,7 +1070,7 @@
         </skillType>
         <skillType>
             <name>Astech</name>
-            <target>10</target>
+            <target>7</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>INTELLIGENCE</firstAttribute>
@@ -1205,7 +1205,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/Aerospace</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1220,7 +1220,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/Aircraft</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1235,7 +1235,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/BattleArmor</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1250,7 +1250,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/Mek</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1265,7 +1265,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/ProtoMek</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1280,7 +1280,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/Spacecraft</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -1295,7 +1295,7 @@
         </skillType>
         <skillType>
             <name>Gunnery/Vehicle</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>REFLEXES</firstAttribute>
@@ -2180,7 +2180,7 @@
         </skillType>
         <skillType>
             <name>Small Arms</name>
-            <target>7</target>
+            <target>8</target>
             <isCountUp>false</isCountUp>
             <subType>COMBAT_GUNNERY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2315,7 +2315,7 @@
         </skillType>
         <skillType>
             <name>Tech/Aeronautics</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2330,7 +2330,7 @@
         </skillType>
         <skillType>
             <name>Tech/Aerospace</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2345,7 +2345,7 @@
         </skillType>
         <skillType>
             <name>Tech/BattleArmor</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2360,7 +2360,7 @@
         </skillType>
         <skillType>
             <name>Tech/Civilian</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>ROLEPLAY_GENERAL</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2375,7 +2375,7 @@
         </skillType>
         <skillType>
             <name>Tech/Cybernetics</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>ROLEPLAY_GENERAL</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2390,7 +2390,7 @@
         </skillType>
         <skillType>
             <name>Tech/Electronic</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2405,7 +2405,7 @@
         </skillType>
         <skillType>
             <name>Tech/Jets</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2420,7 +2420,7 @@
         </skillType>
         <skillType>
             <name>Tech/Mechanical</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2435,7 +2435,7 @@
         </skillType>
         <skillType>
             <name>Tech/Mek</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2450,7 +2450,7 @@
         </skillType>
         <skillType>
             <name>Tech/Military</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>ROLEPLAY_GENERAL</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2465,7 +2465,7 @@
         </skillType>
         <skillType>
             <name>Tech/Myomer</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2480,7 +2480,7 @@
         </skillType>
         <skillType>
             <name>Tech/Nuclear</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2495,7 +2495,7 @@
         </skillType>
         <skillType>
             <name>Tech/Vehicle</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2510,7 +2510,7 @@
         </skillType>
         <skillType>
             <name>Tech/Vessel</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>SUPPORT_TECHNICIAN</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
@@ -2525,7 +2525,7 @@
         </skillType>
         <skillType>
             <name>Tech/Weapons</name>
-            <target>10</target>
+            <target>9</target>
             <isCountUp>false</isCountUp>
             <subType>UTILITY</subType>
             <firstAttribute>DEXTERITY</firstAttribute>
