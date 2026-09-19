@@ -19555,7 +19555,7 @@
             </model>
         </chassis>
         <chassis name='Sherpa Armored Truck' unitType='Tank'>
-            <availability>IS:6-,ROS:0,Periphery:8,CEI:7</availability>
+            <availability>IS:6-,ROS:0,Periphery:8,CEI:7,CLAN:3</availability>
             <model name=''>
                 <roles>cargo,support</roles>
                 <availability>IS:8,FS:8,LA:8,FWL:8,Periphery:8,CEI:8</availability>
@@ -19566,7 +19566,7 @@
             </model>
             <model name='(Mobile Canteen)'>
                 <roles>support</roles>
-                <availability>IS:6,Periphery:6,CEI:5+,PIR:5+</availability>
+                <availability>IS:6,Periphery:6,CEI:5+,PIR:5+,CLAN:6</availability>
             </model>
         </chassis>
         <chassis name='Shillelagh Missile Tank' unitType='Tank'>

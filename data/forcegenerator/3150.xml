@@ -21888,7 +21888,7 @@
             </model>
         </chassis>
         <chassis name='Sherpa Armored Truck' unitType='Tank'>
-            <availability>IS:6-,ROS:0,Periphery:8,SE:6</availability>
+            <availability>IS:6-,ROS:0,Periphery:8,SE:6,CLAN:3</availability>
             <model name=''>
                 <roles>cargo,support</roles>
                 <availability>IS:8,FS:8,LA:8,FWL:8,Periphery:8,SE:8</availability>
@@ -21899,7 +21899,7 @@
             </model>
             <model name='(Mobile Canteen)'>
                 <roles>support</roles>
-                <availability>IS:6,Periphery:6,SE:6,PIR:5+</availability>
+                <availability>IS:6,Periphery:6,SE:6,PIR:5+,CLAN:6</availability>
             </model>
         </chassis>
         <chassis name='Shikra' unitType='AeroSpaceFighter'>
