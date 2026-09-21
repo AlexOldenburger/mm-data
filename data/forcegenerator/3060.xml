@@ -6977,14 +6977,14 @@
             </model>
         </chassis>
         <chassis name='Generic Expandable Services Vehicle' unitType='Tank'>
-            <availability>FS:4+:3066,CS:5:3066,WOB:5:3066</availability>
+            <availability>FS:4+:3066,CS:4+:3066,WOB:4+:3066</availability>
             <model name='(Command Post)'>
                 <roles>command,support</roles>
                 <availability>FS:4,CS:4,WOB:4</availability>
             </model>
             <model name='(Field Kitchen)'>
                 <roles>support</roles>
-                <availability>FS:6,CS:8,WOB:8</availability>
+                <availability>FS:6,CS:6,WOB:6</availability>
             </model>
             <model name='(MASH)'>
                 <roles>support</roles>
