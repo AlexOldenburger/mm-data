@@ -11444,7 +11444,7 @@
             </model>
             <model name='(Mobile Canteen)'>
                 <roles>support</roles>
-                <availability>IS:6,Periphery:6,PIR:5+,CLAN:6,CS:6</availability>
+                <availability>IS:6,Periphery:6,PIR:5+,CLAN:6</availability>
             </model>
         </chassis>
         <chassis name='Shilone' unitType='AeroSpaceFighter'>
