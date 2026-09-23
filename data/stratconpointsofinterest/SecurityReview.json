@@ -1,0 +1,12 @@
+{
+  "typeId": "SecurityReview",
+  "displayableName": "Security Review",
+  "description": "A scheduled inspection of a site's defenses. Deploy any formation to carry it out before it lapses, but beware, the enemy may be probing the site.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "securityReview"
+}
