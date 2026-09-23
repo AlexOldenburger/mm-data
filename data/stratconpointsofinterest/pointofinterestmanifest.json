@@ -19,6 +19,7 @@
     "DataCache.json",
     "VulnerableInfrastructure.json",
     "PotentialLead.json",
-    "LookoutPoint.json"
+    "LookoutPoint.json",
+    "BeleagueredForces.json"
   ]
 }

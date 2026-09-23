@@ -1,0 +1,12 @@
+{
+  "typeId": "BeleagueredForces",
+  "displayableName": "Beleaguered Forces",
+  "description": "Friendly forces under heavy attack and calling for relief. Deploy any formation to relieve them before they are overrun.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 3,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "beleagueredForces"
+}
