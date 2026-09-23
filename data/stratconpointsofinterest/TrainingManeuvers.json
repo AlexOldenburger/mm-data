@@ -1,0 +1,12 @@
+{
+  "typeId": "TrainingManeuvers",
+  "displayableName": "Training Maneuvers",
+  "description": "A training exercise arranged with the troops under instruction. Deploy any formation to conduct it before the window closes.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "trainingManeuvers"
+}

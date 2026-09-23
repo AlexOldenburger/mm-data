@@ -21,6 +21,7 @@
     "PotentialLead.json",
     "AssassinationLead.json",
     "LookoutPoint.json",
-    "BeleagueredForces.json"
+    "BeleagueredForces.json",
+    "TrainingManeuvers.json"
   ]
 }
