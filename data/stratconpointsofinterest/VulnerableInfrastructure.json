@@ -15,8 +15,12 @@
 # <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 {
-  "pointOfInterestFileNames": [
-    "DataCache.json",
-    "VulnerableInfrastructure.json"
-  ]
+  "typeId": "VulnerableInfrastructure",
+  "displayableName": "Vulnerable Infrastructure",
+  "description": "An enemy installation left exposed to attack. Deploy any formation to destroy it, but beware, it may be a trap.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": true,
+  "lifespanDays": 0,
+  "landOnly": true,
+  "behaviorId": "vulnerableInfrastructure"
 }
