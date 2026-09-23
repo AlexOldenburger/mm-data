@@ -1,0 +1,12 @@
+{
+  "typeId": "PirateCaptain",
+  "displayableName": "Pirate Captain",
+  "description": "The leader of a pirate band has been reported in the area. Deploy a ground formation to run them down before they move on, but they may already be gone, and if not, they will fight.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "pirateCaptain"
+}
