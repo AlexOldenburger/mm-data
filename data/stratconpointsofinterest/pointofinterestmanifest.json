@@ -27,6 +27,7 @@
     "VIP.json",
     "StrategicPosition.json",
     "ScheduledParade.json",
-    "CivilDisobedience.json"
+    "CivilDisobedience.json",
+    "SabotageTarget.json"
   ]
 }
