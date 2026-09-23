@@ -25,6 +25,7 @@
     "TrainingManeuvers.json",
     "HighProfileTarget.json",
     "VIP.json",
-    "StrategicPosition.json"
+    "StrategicPosition.json",
+    "ScheduledParade.json"
   ]
 }

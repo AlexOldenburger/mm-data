@@ -1,0 +1,12 @@
+{
+  "typeId": "ScheduledParade",
+  "displayableName": "Scheduled Parade",
+  "description": "A public show of the employer's strength. Deploy any formation to march in it before the day passes, but beware, not everyone will be cheering.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "scheduledParade"
+}
