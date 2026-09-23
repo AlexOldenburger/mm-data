@@ -32,6 +32,7 @@
     "CivilianInfrastructure.json",
     "SecurityReview.json",
     "PlunderTarget.json",
-    "TargetIntelligence.json"
+    "TargetIntelligence.json",
+    "ShowOfForce.json"
   ]
 }

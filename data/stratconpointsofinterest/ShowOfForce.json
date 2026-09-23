@@ -1,0 +1,12 @@
+{
+  "typeId": "ShowOfForce",
+  "displayableName": "Show of Force",
+  "description": "A chance to parade the garrison's strength where the locals and the enemy alike will see it, calming the unrest in the region. Deploy any formation before the opportunity passes, but beware, the enemy may use the spectacle as cover for an attack.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "showOfForce"
+}
