@@ -28,6 +28,7 @@
     "StrategicPosition.json",
     "ScheduledParade.json",
     "CivilDisobedience.json",
-    "SabotageTarget.json"
+    "SabotageTarget.json",
+    "CivilianInfrastructure.json"
   ]
 }

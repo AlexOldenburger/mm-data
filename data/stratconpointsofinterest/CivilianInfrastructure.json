@@ -1,0 +1,11 @@
+{
+  "typeId": "CivilianInfrastructure",
+  "displayableName": "Civilian Infrastructure",
+  "description": "Civilian infrastructure vital to the enemy's hold on the region. Deploy any formation to destroy it, but beware, it may be defended.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": true,
+  "lifespanDays": 0,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "civilianInfrastructure"
+}
