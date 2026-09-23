@@ -1,0 +1,12 @@
+{
+  "typeId": "CivilDisobedience",
+  "displayableName": "Civil Disobedience",
+  "description": "Civil unrest that could turn violent at any moment. Deploy any formation to put it down before it spreads, but beware, it may yet become a riot.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "civilDisobedience"
+}
