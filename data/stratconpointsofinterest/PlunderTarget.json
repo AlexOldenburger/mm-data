@@ -1,0 +1,12 @@
+{
+  "typeId": "PlunderTarget",
+  "displayableName": "Plunder Target",
+  "description": "A soft target worth raiding. Deploy any formation to plunder it before the chance passes, but beware, its defenders may be waiting.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "plunderTarget"
+}

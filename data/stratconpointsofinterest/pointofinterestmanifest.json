@@ -30,6 +30,7 @@
     "CivilDisobedience.json",
     "SabotageTarget.json",
     "CivilianInfrastructure.json",
-    "SecurityReview.json"
+    "SecurityReview.json",
+    "PlunderTarget.json"
   ]
 }
