@@ -1,0 +1,12 @@
+{
+  "typeId": "AssassinationLead",
+  "displayableName": "Potential Lead",
+  "description": "A tip that may point to the target's whereabouts. Deploy a ground formation to follow it up before the trail goes cold. It may yet prove to be a dud.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "assassinationLead"
+}
