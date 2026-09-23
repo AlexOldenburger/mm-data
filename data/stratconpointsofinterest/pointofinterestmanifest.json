@@ -18,6 +18,7 @@
   "pointOfInterestFileNames": [
     "DataCache.json",
     "VulnerableInfrastructure.json",
-    "PotentialLead.json"
+    "PotentialLead.json",
+    "LookoutPoint.json"
   ]
 }

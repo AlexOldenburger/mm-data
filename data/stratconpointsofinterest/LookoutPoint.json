@@ -1,0 +1,12 @@
+{
+  "typeId": "LookoutPoint",
+  "displayableName": "Lookout Point",
+  "description": "A vantage point overlooking enemy movements. Deploy any formation to observe from it before the chance passes, but beware, the enemy may be watching it too.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "lookoutPoint"
+}
