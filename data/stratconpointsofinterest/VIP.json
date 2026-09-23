@@ -17,7 +17,7 @@
 {
   "typeId": "VIP",
   "displayableName": "VIP",
-  "description": "A person of importance awaiting extraction. Deploy a ground formation to get them out before the enemy finds them.",
+  "description": "A person of importance awaiting extraction. Deploy a formation to get them out before the enemy finds them.",
   "occupiesHex": true,
   "hiddenUntilScouted": false,
   "lifespanDays": 0,

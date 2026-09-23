@@ -17,7 +17,7 @@
 {
   "typeId": "DataCache",
   "displayableName": "Data Cache",
-  "description": "A cache of intelligence data. Deploy a ground formation to recover it before it is lost.",
+  "description": "A cache of intelligence data. Deploy a formation to recover it before it is lost.",
   "occupiesHex": true,
   "hiddenUntilScouted": false,
   "lifespanDays": 0,

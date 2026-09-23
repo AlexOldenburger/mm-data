@@ -17,7 +17,7 @@
 {
   "typeId": "SabotageTarget",
   "displayableName": "Sabotage Target",
-  "description": "An enemy asset ripe for sabotage. Deploy a ground formation to sabotage it before the chance passes, but beware, the saboteurs may be caught in the act.",
+  "description": "An enemy asset ripe for sabotage. Deploy a formation to sabotage it before the chance passes, but beware, the saboteurs may be caught in the act.",
   "occupiesHex": true,
   "hiddenUntilScouted": true,
   "lifespanDays": 0,
