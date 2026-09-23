@@ -1,0 +1,11 @@
+{
+  "typeId": "TargetIntelligence",
+  "displayableName": "Target Intelligence",
+  "description": "A lead on the enemy's installations. Deploy any formation to follow it up - it may point to a target, prove worthless, or be bait for an ambush.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": true,
+  "lifespanDays": 0,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "targetIntelligence"
+}
