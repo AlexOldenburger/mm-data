@@ -24,6 +24,7 @@
     "BeleagueredForces.json",
     "TrainingManeuvers.json",
     "HighProfileTarget.json",
-    "VIP.json"
+    "VIP.json",
+    "StrategicPosition.json"
   ]
 }

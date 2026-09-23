@@ -1,0 +1,12 @@
+{
+  "typeId": "StrategicPosition",
+  "displayableName": "Strategic Position",
+  "description": "Ground whose capture will shape the assault. Deploy a ground formation to take it before the chance passes, but beware, the enemy may hold it in strength.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "strategicPosition"
+}
