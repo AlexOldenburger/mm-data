@@ -1,0 +1,12 @@
+{
+  "typeId": "HighProfileTarget",
+  "displayableName": "High Profile Target",
+  "description": "A conspicuous enemy asset whose attack will draw the enemy's attention. Deploy any formation to strike it before the opportunity passes, but beware, the enemy may be expecting it.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "lifespanDays": 0,
+  "lifespanDieSides": 6,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "highProfileTarget"
+}
