@@ -21,7 +21,6 @@
   "occupiesHex": true,
   "hiddenUntilScouted": true,
   "lifespanDays": 0,
-  "removeOnExpiry": true,
   "landOnly": true,
   "behaviorId": "targetIntelligence"
 }

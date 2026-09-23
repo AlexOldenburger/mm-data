@@ -16,8 +16,8 @@
 # affiliated with Microsoft.
 {
   "typeId": "AssassinationLead",
-  "displayableName": "Potential Lead",
-  "description": "A tip that may point to the target's whereabouts. Deploy a formation to follow it up before the trail goes cold. It may yet prove to be a dud.",
+  "displayableName": "Assassination Target",
+  "description": "The target's suspected whereabouts - though it may be one of their body doubles. Deploy a formation to strike before the trail goes cold.",
   "occupiesHex": true,
   "hiddenUntilScouted": false,
   "lifespanDays": 0,
