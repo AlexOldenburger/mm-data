@@ -25,7 +25,6 @@ Patron,1
 Client,1
 Sponsor,1
 Contractor,1
-Employer,1
 Colleague,1
 Coworker,1
 Comrade,1
@@ -58,7 +57,6 @@ Ambassador,1
 Envoy,1
 Messenger,1
 Contact,1
-Informant,1
 Source,1
 Handler,1
 Agent,1
@@ -81,7 +79,6 @@ Sibling,1
 Parent,1
 Child,1
 Spouse,1
-Partner,1
 Friend,1
 Companion,1
 Lover,1
@@ -94,3 +91,11 @@ Owner,1
 Tenant,1
 Customer,1
 Supplier,1
+Rescuer,1
+Savior,1
+Nemesis,1
+Confidant,1
+Protege,1
+Crewmate,1
+Wingman,1
+Lancemate,1

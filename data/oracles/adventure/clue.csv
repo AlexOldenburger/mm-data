@@ -34,8 +34,6 @@ Blueprint,1
 Map,1
 Chart,1
 Diagram,1
-Recording,1
-Photograph,1
 Video,1
 Audio,1
 Transcript,1
@@ -56,7 +54,6 @@ Uniform,1
 Weapon,1
 Tool,1
 Vehicle,1
-Vehiclepart,1
 Cargo,1
 Container,1
 Package,1
@@ -70,7 +67,6 @@ Password,1
 Key,1
 Cipher,1
 Frequency,1
-Signal,1
 Beacon,1
 Distress,1
 Silence,1
@@ -80,7 +76,6 @@ Movement,1
 Route,1
 Trail,1
 Track,1
-Witness,1
 Statement,1
 Confession,1
 Admission,1
@@ -91,8 +86,16 @@ Opportunity,1
 Timeline,1
 Connection,1
 Relationship,1
-Pattern,1
 Exception,1
 Irregularity,1
 Disappearance,1
 Discovery,1
+Bootprint,1
+Shellcasing,1
+Bloodstain,1
+Ashes,1
+Tripwire,1
+Scorchmark,1
+Keycode,1
+Ledger,1
+Badge,1
