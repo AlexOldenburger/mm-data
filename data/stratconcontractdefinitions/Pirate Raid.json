@@ -29,5 +29,17 @@
   } ],
   "globalScenarioModifiers" : [ ],
   "deploymentEncounterOdds" : [ 22, 32, 32, 42 ],
-  "deploymentTimes" : [ 3, 4, 4, 4, 5 ]
+  "deploymentTimes" : [ 3, 4, 4, 4, 5 ],
+    "facilityProfile": {
+        "briefing": "The targets here are lightly held stores and factories, worth more looted than held.",
+        "typeWeights": {
+            "IndustrialFacility": 3,
+            "SpacePort": 2,
+            "SupplyDepot": 2,
+            "DataCenter": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

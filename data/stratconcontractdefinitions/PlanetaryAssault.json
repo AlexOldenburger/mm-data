@@ -60,5 +60,23 @@
         6,
         6,
         7
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy holds a network of bases anchored on its Base of Operations. Cut its supply lines to starve the outlying bases before you assault them.",
+        "typeWeights": {
+            "MekBase": 3,
+            "TankBase": 2,
+            "AirBase": 2,
+            "ArtilleryBase": 2,
+            "CommandCenter": 2,
+            "SupplyDepot": 2,
+            "OrbitalDefense": 1,
+            "EarlyWarningSystem": 1
+        },
+        "alliedShare": 0.1,
+        "tierModifier": 0,
+        "densityMultiplier": 1.25,
+        "anchorType": "BaseOfOperations",
+        "anchorOwner": "Opposing"
+    }
 }

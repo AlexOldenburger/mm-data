@@ -54,5 +54,17 @@
         6,
         6,
         7
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy's infrastructure is lightly held. Every facility you raze escalates the fighting.",
+        "typeWeights": {
+            "IndustrialFacility": 2,
+            "SpacePort": 2,
+            "DataCenter": 2,
+            "CommandCenter": 1
+        },
+        "alliedShare": 0.1,
+        "tierModifier": -1,
+        "densityMultiplier": 1.0
+    }
 }

@@ -61,5 +61,18 @@
         3,
         4,
         5
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Your employer's bases here are hard pressed. Keep their supply lines open and relieve them before they fall.",
+        "typeWeights": {
+            "SupplyDepot": 3,
+            "MekBase": 2,
+            "TankBase": 2,
+            "SpacePort": 1,
+            "CommandCenter": 1
+        },
+        "alliedShare": 0.6,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }

@@ -57,5 +57,18 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy's command posts and data centers are where your target is likely to be held.",
+        "typeWeights": {
+            "CommandCenter": 2,
+            "DataCenter": 2,
+            "MekBase": 1,
+            "TankBase": 1,
+            "SpacePort": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": 0,
+        "densityMultiplier": 0.75
+    }
 }

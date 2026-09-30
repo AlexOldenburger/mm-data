@@ -45,5 +45,16 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Enemy command posts are where your target is most likely to be found.",
+        "typeWeights": {
+            "CommandCenter": 3,
+            "DataCenter": 1,
+            "MekBase": 1
+        },
+        "alliedShare": 0.2,
+        "tierModifier": 0,
+        "densityMultiplier": 0.75
+    }
 }

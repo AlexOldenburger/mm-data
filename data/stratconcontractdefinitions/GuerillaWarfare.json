@@ -57,5 +57,18 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy holds the ground and the roads. Strike its depots and convoys rather than its strongest bases.",
+        "typeWeights": {
+            "SupplyDepot": 3,
+            "TankBase": 2,
+            "CommandCenter": 2,
+            "IndustrialFacility": 1,
+            "EarlyWarningSystem": 1
+        },
+        "alliedShare": 0.1,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }
