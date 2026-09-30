@@ -16,14 +16,29 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Data Center",
-"facilityType": "DataCenter",
-"userDescription": "An additional hostile Mek patrol will sweep through scenarios in this sector.",
-"visible": false,
-"sharedModifiers": [
-"EnemyMekPatrol.json"
-],
-"capturedDefinition": "AlliedDataCenter.json",
-"scenarioOddsModifier": 5
+  "id": "CommsCenter",
+  "displayableName": "Comms Center",
+  "facilityType": "CommandCenter",
+  "alliedProfile": {
+    "description": "This facility will coordinate additional allied reinforcements to scenarios in this sector.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "AlliedReinforcements.json"
+        ]
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Coordinates additional hostile reinforcements for scenarios in this sector.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "EnemyReinforcements.json"
+        ]
+      }
+    ]
+  }
 }

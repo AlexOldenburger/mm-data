@@ -16,18 +16,33 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Base of Operations",
-"facilityType": "BaseOfOperations",
-"userDescription": "This base is defended by well-equipped veteran troops, turrets and a commander in a Mek.\n\nThe commander will participate in scenarios in this sector.",
-"visible": false,
-"sharedModifiers": [
-"EnemyCommanderMek.json"
-],
-"localModifiers": [
-"Veterans.json",
-"GoodEquipment.json",
-"EnemyTurrets.json"
-],
-"capturedDefinition": "AlliedBaseOfOperations.json"
+  "id": "SpacePort",
+  "displayableName": "Space Port",
+  "facilityType": "SpacePort",
+  "alliedProfile": {
+    "description": "Provides 2 SP/month of allied logistical support.",
+    "effects": [
+      {
+        "effect": "monthlySupportPoints",
+        "value": 2
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Hostile forces in this sector are significantly larger due to improved logistics.",
+    "effects": [
+      {
+        "effect": "localModifiers",
+        "modifiers": [
+          "HostileBVBudgetIncrease.json"
+        ]
+      },
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "HostileBVBudgetIncrease.json"
+        ]
+      }
+    ]
+  }
 }
