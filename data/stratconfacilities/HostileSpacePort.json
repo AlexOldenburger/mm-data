@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Space Port",
 "facilityType": "SpacePort",
-"userDescription": "Hostile forces on this track are significantly larger due to improved logistics.",
+"userDescription": "Hostile forces in this sector are significantly larger due to improved logistics.",
 "visible": false,
 "sharedModifiers": [
 "HostileBVBudgetIncrease.json"

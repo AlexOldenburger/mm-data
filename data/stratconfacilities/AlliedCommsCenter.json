@@ -19,7 +19,7 @@
 "owner": "Allied",
 "displayableName": "Comms Center",
 "facilityType": "CommandCenter",
-"userDescription": "This facility will coordinate additional allied reinforcements to scenarios on this track.",
+"userDescription": "This facility will coordinate additional allied reinforcements to scenarios in this sector.",
 "visible": true,
 "sharedModifiers": [
 "AlliedReinforcements.json"

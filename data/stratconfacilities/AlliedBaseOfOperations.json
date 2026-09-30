@@ -19,7 +19,7 @@
 "owner": "Allied",
 "displayableName": "Base of Operations",
 "facilityType": "BaseOfOperations",
-"userDescription": "This base is defended by well-equipped veteran troops, turrets and a commander in a Mek.\n\nThe commander will participate in scenarios on this track.",
+"userDescription": "This base is defended by well-equipped veteran troops, turrets and a commander in a Mek.\n\nThe commander will participate in scenarios in this sector.",
 "visible": true,
 "sharedModifiers": [
 "AlliedOfficerMek.json"
