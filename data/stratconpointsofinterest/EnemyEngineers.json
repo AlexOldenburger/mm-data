@@ -15,26 +15,15 @@
 # <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 {
-  "pointOfInterestFileNames": [
-    "DataCache.json",
-    "VulnerableInfrastructure.json",
-    "PotentialLead.json",
-    "AssassinationLead.json",
-    "LookoutPoint.json",
-    "BeleagueredForces.json",
-    "TrainingManeuvers.json",
-    "HighProfileTarget.json",
-    "VIP.json",
-    "StrategicPosition.json",
-    "ScheduledParade.json",
-    "CivilDisobedience.json",
-    "SabotageTarget.json",
-    "CivilianInfrastructure.json",
-    "SecurityReview.json",
-    "PlunderTarget.json",
-    "TargetIntelligence.json",
-    "ShowOfForce.json",
-    "PirateCaptain.json",
-    "EnemyEngineers.json"
-  ]
+  "typeId": "EnemyEngineers",
+  "displayableName": "Enemy Engineers",
+  "description": "An enemy work party, with an escort, sent to build a new outpost. Deploy any formation to drive them off before they finish, or the enemy will hold another base in the sector.",
+  "occupiesHex": true,
+  "hiddenUntilScouted": false,
+  "defaultOwner": "Opposing",
+  "lifespanDays": 7,
+  "lifespanDieSides": 7,
+  "removeOnExpiry": true,
+  "landOnly": true,
+  "behaviorId": "enemyEngineers"
 }
