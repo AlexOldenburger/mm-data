@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Security Duty",
     "briefing": "Defend designated facilities.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -44,7 +42,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         14,
         24,
         24,

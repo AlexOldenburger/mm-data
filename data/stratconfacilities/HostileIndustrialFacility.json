@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Industrial Center",
 "facilityType": "IndustrialFacility",
-"userDescription": "Hostile forces on this track are larger and better equipped with factory-fresh units.",
+"userDescription": "Hostile forces in this sector are larger and better equipped with factory-fresh units.",
 "visible": false,
 "sharedModifiers": [
 "ArmednArmored.json"

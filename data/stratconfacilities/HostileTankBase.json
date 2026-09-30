@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Tank Base",
 "facilityType": "TankBase",
-"userDescription": "Hostile vehicles will participate in scenarios on this track and defend this facility.",
+"userDescription": "Hostile vehicles will participate in scenarios in this sector and defend this facility.",
 "visible": false,
 "sharedModifiers": [
 "EnemyTankReinforcements.json"

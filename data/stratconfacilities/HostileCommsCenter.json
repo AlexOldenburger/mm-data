@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Comms Center",
 "facilityType": "CommandCenter",
-"userDescription": "Coordinates additional hostile reinforcements for scenarios on this track.",
+"userDescription": "Coordinates additional hostile reinforcements for scenarios in this sector.",
 "visible": true,
 "sharedModifiers": [
 "EnemyReinforcements.json"
