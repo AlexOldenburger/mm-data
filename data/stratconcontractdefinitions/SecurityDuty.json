@@ -62,7 +62,9 @@
             "DataCenter": 2,
             "SpacePort": 2,
             "EarlyWarningSystem": 2,
-            "TankBase": 1
+            "TankBase": 1,
+            "SensorPost": 1,
+            "FieldFortifications": 1
         },
         "alliedShare": 0.7,
         "tierModifier": -1,

@@ -54,7 +54,10 @@
             "SupplyDepot": 2,
             "CommandCenter": 1,
             "IndustrialFacility": 1,
-            "SpacePort": 1
+            "SpacePort": 1,
+            "SensorPost": 1,
+            "FieldFortifications": 2,
+            "MilitiaBarracks": 1
         },
         "alliedShare": 0.8,
         "tierModifier": -1,

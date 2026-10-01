@@ -20,7 +20,7 @@
   "displayableName": "Space Port",
   "facilityType": "SpacePort",
   "alliedProfile": {
-    "description": "Provides 2 SP/month of allied logistical support.",
+    "description": "Provides 2 Employer Support each month.",
     "effects": [
       {
         "effect": "monthlySupportPoints",

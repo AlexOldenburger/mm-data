@@ -53,7 +53,9 @@
             "EarlyWarningSystem": 3,
             "DataCenter": 2,
             "AirBase": 1,
-            "ArtilleryBase": 1
+            "ArtilleryBase": 1,
+            "SensorPost": 2,
+            "JammingStation": 1
         },
         "alliedShare": 0.0,
         "tierModifier": -1,

@@ -36,7 +36,8 @@
             "CommandCenter": 2,
             "TankBase": 2,
             "IndustrialFacility": 2,
-            "DataCenter": 1
+            "DataCenter": 1,
+            "MilitiaBarracks": 2
         },
         "alliedShare": 0.8,
         "tierModifier": -1,

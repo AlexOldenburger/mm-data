@@ -59,7 +59,9 @@
             "DataCenter": 3,
             "CommandCenter": 2,
             "EarlyWarningSystem": 1,
-            "SupplyDepot": 1
+            "SupplyDepot": 1,
+            "SensorPost": 1,
+            "JammingStation": 1
         },
         "alliedShare": 0.2,
         "tierModifier": 0,

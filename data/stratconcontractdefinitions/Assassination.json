@@ -51,7 +51,9 @@
         "typeWeights": {
             "CommandCenter": 3,
             "DataCenter": 1,
-            "MekBase": 1
+            "MekBase": 1,
+            "SensorPost": 1,
+            "JammingStation": 1
         },
         "alliedShare": 0.2,
         "tierModifier": 0,

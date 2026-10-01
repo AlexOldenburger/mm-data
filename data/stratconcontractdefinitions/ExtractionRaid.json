@@ -65,7 +65,8 @@
             "DataCenter": 2,
             "MekBase": 1,
             "TankBase": 1,
-            "SpacePort": 1
+            "SpacePort": 1,
+            "JammingStation": 1
         },
         "alliedShare": 0.0,
         "tierModifier": 0,

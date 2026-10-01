@@ -44,7 +44,9 @@
             "AirBase": 1,
             "SpacePort": 1,
             "CommandCenter": 1,
-            "SupplyDepot": 1
+            "SupplyDepot": 1,
+            "FieldFortifications": 1,
+            "MilitiaBarracks": 1
         },
         "alliedShare": 0.6,
         "tierModifier": 0,

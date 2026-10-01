@@ -20,7 +20,7 @@
   "displayableName": "Industrial Center",
   "facilityType": "IndustrialFacility",
   "alliedProfile": {
-    "description": "Provides 1 SP/month of allied logistical support.",
+    "description": "Provides 1 Employer Support each month.",
     "effects": [
       {
         "effect": "monthlySupportPoints",

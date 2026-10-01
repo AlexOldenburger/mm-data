@@ -60,7 +60,9 @@
         "typeWeights": {
             "DataCenter": 3,
             "CommandCenter": 2,
-            "EarlyWarningSystem": 1
+            "EarlyWarningSystem": 1,
+            "SensorPost": 1,
+            "JammingStation": 1
         },
         "alliedShare": 0.7,
         "tierModifier": -1,

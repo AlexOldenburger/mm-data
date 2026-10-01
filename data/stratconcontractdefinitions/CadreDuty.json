@@ -49,7 +49,9 @@
             "MekBase": 2,
             "TankBase": 2,
             "IndustrialFacility": 1,
-            "SpacePort": 1
+            "SpacePort": 1,
+            "FieldFortifications": 1,
+            "MilitiaBarracks": 2
         },
         "alliedShare": 0.9,
         "tierModifier": -1,

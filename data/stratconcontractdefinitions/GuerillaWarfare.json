@@ -65,7 +65,8 @@
             "TankBase": 2,
             "CommandCenter": 2,
             "IndustrialFacility": 1,
-            "EarlyWarningSystem": 1
+            "EarlyWarningSystem": 1,
+            "MilitiaBarracks": 2
         },
         "alliedShare": 0.1,
         "tierModifier": 0,

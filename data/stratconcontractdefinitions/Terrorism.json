@@ -61,7 +61,8 @@
             "IndustrialFacility": 2,
             "SpacePort": 2,
             "DataCenter": 2,
-            "CommandCenter": 1
+            "CommandCenter": 1,
+            "MilitiaBarracks": 1
         },
         "alliedShare": 0.1,
         "tierModifier": -1,

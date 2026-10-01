@@ -56,7 +56,8 @@
             "EarlyWarningSystem": 2,
             "TankBase": 2,
             "MekBase": 1,
-            "ArtilleryBase": 1
+            "ArtilleryBase": 1,
+            "FieldFortifications": 1
         },
         "alliedShare": 0.0,
         "tierModifier": -1,

@@ -63,7 +63,9 @@
             "SpacePort": 2,
             "AirBase": 2,
             "EarlyWarningSystem": 2,
-            "TankBase": 1
+            "TankBase": 1,
+            "SensorPost": 1,
+            "MilitiaBarracks": 1
         },
         "alliedShare": 0.4,
         "tierModifier": -1,

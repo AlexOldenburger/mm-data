@@ -71,7 +71,10 @@
             "CommandCenter": 2,
             "SupplyDepot": 2,
             "OrbitalDefense": 1,
-            "EarlyWarningSystem": 1
+            "EarlyWarningSystem": 1,
+            "SensorPost": 1,
+            "JammingStation": 1,
+            "FieldFortifications": 2
         },
         "alliedShare": 0.1,
         "tierModifier": 0,
