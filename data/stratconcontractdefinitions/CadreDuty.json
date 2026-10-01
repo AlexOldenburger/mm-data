@@ -42,5 +42,19 @@
         6,
         6,
         7
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Your employer's training grounds and depots are yours to protect while you train their troops.",
+        "typeWeights": {
+            "MekBase": 2,
+            "TankBase": 2,
+            "IndustrialFacility": 1,
+            "SpacePort": 1,
+            "FieldFortifications": 1,
+            "MilitiaBarracks": 2
+        },
+        "alliedShare": 0.9,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

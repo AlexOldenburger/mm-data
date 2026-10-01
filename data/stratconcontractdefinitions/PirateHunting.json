@@ -56,5 +56,19 @@
         4,
         5,
         6
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The pirates hold a few scattered hideouts. Your employer's ports and airfields are what they are after.",
+        "typeWeights": {
+            "SpacePort": 2,
+            "AirBase": 2,
+            "EarlyWarningSystem": 2,
+            "TankBase": 1,
+            "SensorPost": 1,
+            "MilitiaBarracks": 1
+        },
+        "alliedShare": 0.4,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

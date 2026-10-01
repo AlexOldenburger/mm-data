@@ -16,16 +16,31 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Early Warning Center",
-"facilityType": "EarlyWarningSystem",
-"userDescription": "Reduces hostile reinforcement arrival time for scenarios in this sector.",
-"visible": true,
-"sharedModifiers": [
-"ReinforcementDelayReductionHostile.json"
-],
-"localModifiers": [
-"ReinforcementDelayReductionHostile.json"
-],
-"capturedDefinition": "AlliedEarlyWarningSystem.json"
+  "id": "SensorPost",
+  "displayableName": "Sensor Post",
+  "facilityType": "SensorPost",
+  "alliedProfile": {
+    "description": "A small listening post. Increases the scan range of all friendly forces in this sector by 1.",
+    "effects": [
+      {
+        "effect": "scanRange",
+        "value": 1
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Enemy spotters watch this sector: your forces run into the enemy more often here, and fights at the post may begin with an ambush.",
+    "effects": [
+      {
+        "effect": "localModifiers",
+        "modifiers": [
+          "EnemyAmbush.json"
+        ]
+      },
+      {
+        "effect": "scenarioOdds",
+        "value": 5
+      }
+    ]
+  }
 }

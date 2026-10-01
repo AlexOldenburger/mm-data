@@ -16,14 +16,31 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Data Center",
-"facilityType": "DataCenter",
-"userDescription": "An additional hostile Mek patrol will sweep through scenarios in this sector.",
-"visible": false,
-"sharedModifiers": [
-"EnemyMekPatrol.json"
-],
-"capturedDefinition": "AlliedDataCenter.json",
-"scenarioOddsModifier": 5
+  "id": "DataCenter",
+  "displayableName": "Data Center",
+  "facilityType": "DataCenter",
+  "alliedProfile": {
+    "description": "Increases the scan range of all friendly forces by 1.",
+    "effects": [
+      {
+        "effect": "scanRange",
+        "value": 1
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "An additional hostile Mek patrol will sweep through scenarios in this sector.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "EnemyMekPatrol.json"
+        ]
+      },
+      {
+        "effect": "scenarioOdds",
+        "value": 5
+      }
+    ]
+  }
 }

@@ -51,5 +51,18 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy's factories and depots are your targets. Sabotage cripples them without a stand-up fight.",
+        "typeWeights": {
+            "IndustrialFacility": 3,
+            "SupplyDepot": 2,
+            "SpacePort": 1,
+            "ArtilleryBase": 1,
+            "DataCenter": 1
+        },
+        "alliedShare": 0.1,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }

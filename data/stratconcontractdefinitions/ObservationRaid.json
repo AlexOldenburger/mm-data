@@ -47,5 +47,19 @@
         7,
         7,
         8
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy's sensor network covers this ground. Its data centers and early warning posts are worth watching.",
+        "typeWeights": {
+            "EarlyWarningSystem": 2,
+            "DataCenter": 2,
+            "CommandCenter": 1,
+            "OrbitalDefense": 1,
+            "SensorPost": 2,
+            "JammingStation": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

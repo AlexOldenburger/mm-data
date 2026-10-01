@@ -16,16 +16,27 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Allied",
-"displayableName": "Air Base",
-"facilityType": "AirBase",
-"userDescription": "Allied aircraft will participate in scenarios in this sector and defend this facility.",
-"visible": true,
-"sharedModifiers": [
-"AlliedAirSupport.json"
-],
-"localModifiers": [
-"AlliedAirGarrison.json"
-],
-"capturedDefinition": "HostileAirBase.json"
+  "id": "IndustrialFacility",
+  "displayableName": "Industrial Center",
+  "facilityType": "IndustrialFacility",
+  "alliedProfile": {
+    "description": "Provides 1 Employer Support each month.",
+    "effects": [
+      {
+        "effect": "monthlySupportPoints",
+        "value": 1
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Hostile forces in this sector are larger and better equipped with factory-fresh units.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "ArmednArmored.json"
+        ]
+      }
+    ]
+  }
 }

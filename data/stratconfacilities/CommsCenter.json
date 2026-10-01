@@ -16,18 +16,29 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Base of Operations",
-"facilityType": "BaseOfOperations",
-"userDescription": "This base is defended by well-equipped veteran troops, turrets and a commander in a Mek.\n\nThe commander will participate in scenarios in this sector.",
-"visible": false,
-"sharedModifiers": [
-"EnemyCommanderMek.json"
-],
-"localModifiers": [
-"Veterans.json",
-"GoodEquipment.json",
-"EnemyTurrets.json"
-],
-"capturedDefinition": "AlliedBaseOfOperations.json"
+  "id": "CommsCenter",
+  "displayableName": "Comms Center",
+  "facilityType": "CommandCenter",
+  "alliedProfile": {
+    "description": "This facility will coordinate additional allied reinforcements to scenarios in this sector.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "AlliedReinforcements.json"
+        ]
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Coordinates additional hostile reinforcements for scenarios in this sector.",
+    "effects": [
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "EnemyReinforcements.json"
+        ]
+      }
+    ]
+  }
 }

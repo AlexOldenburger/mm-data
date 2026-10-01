@@ -16,16 +16,15 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Air Base",
-"facilityType": "AirBase",
-"userDescription": "Hostile aircraft will participate in scenarios in this sector and defend this facility.",
-"visible": false,
-"sharedModifiers": [
-"EnemyAirSupport.json"
-],
-"localModifiers": [
-"EnemyAirGarrison.json"
-],
-"capturedDefinition": "AlliedAirBase.json"
+  "id": "SupplyDepot",
+  "displayableName": "Supply Depot",
+  "facilityType": "SupplyDepot",
+  "alliedProfile": {
+    "description": "Keeps friendly facilities within 3 hexes supplied, road or no road. Losing it can cut them off.",
+    "effects": []
+  },
+  "hostileProfile": {
+    "description": "Keeps enemy facilities within 3 hexes supplied, road or no road. Taking or destroying it can starve them.",
+    "effects": []
+  }
 }

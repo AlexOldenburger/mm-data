@@ -16,16 +16,33 @@
 # affiliated with Microsoft.
 
 {
-"owner": "Opposing",
-"displayableName": "Space Port",
-"facilityType": "SpacePort",
-"userDescription": "Hostile forces in this sector are significantly larger due to improved logistics.",
-"visible": false,
-"sharedModifiers": [
-"HostileBVBudgetIncrease.json"
-],
-"localModifiers": [
-"HostileBVBudgetIncrease.json"
-],
-"capturedDefinition": "AlliedSpacePort.json"
+  "id": "SpacePort",
+  "displayableName": "Space Port",
+  "facilityType": "SpacePort",
+  "alliedProfile": {
+    "description": "Provides 2 Employer Support each month.",
+    "effects": [
+      {
+        "effect": "monthlySupportPoints",
+        "value": 2
+      }
+    ]
+  },
+  "hostileProfile": {
+    "description": "Hostile forces in this sector are significantly larger due to improved logistics.",
+    "effects": [
+      {
+        "effect": "localModifiers",
+        "modifiers": [
+          "HostileBVBudgetIncrease.json"
+        ]
+      },
+      {
+        "effect": "sharedModifiers",
+        "modifiers": [
+          "HostileBVBudgetIncrease.json"
+        ]
+      }
+    ]
+  }
 }
