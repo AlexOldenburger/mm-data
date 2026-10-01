@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -16,18 +16,27 @@
 # affiliated with Microsoft.
 
 {
-  "contractTypeName" : "Pirate Raid",
-  "briefing" : "Plunder the target's assets and withdraw before its defenders can muster.",
-  "allowEarlyVictory" : true,
-  "allowedScenarios" : null,
-  "forbiddenScenarios" : null,
-  "objectiveParameters" : [ {
-    "objectiveType" : "SpecificScenarioVictory",
-    "objectiveCount" : 0.0,
-    "objectiveScenarios" : [ "Convoy Hijack.json" ],
-    "objectiveScenarioModifiers" : [ ]
-  } ],
-  "globalScenarioModifiers" : [ ],
-  "deploymentEncounterOdds" : [ 22, 32, 32, 42 ],
-  "deploymentTimes" : [ 3, 4, 4, 4, 5 ]
+  "name": "ST_IVES_SPLIT",
+  "date": "3030-02-19",
+  "notes": "This date represents the end of the fourth succession war and when the Federated Suns officially recognize the St. Ives Compact",
+  "affectedFactionCodes": [
+    "CC"
+  ],
+  "sides": [
+    {
+      "id": "SIC",
+      "name": "Duchess Candace Liao",
+      "role": "NOBLE",
+      "factionCode": "SIC"
+    },
+    {
+      "id": "CC",
+      "name": "Romano Liao",
+      "role": "MEKWARRIOR",
+      "factionCode": "CC"
+    }
+  ],
+  "dissenterPreference": "CC",
+  "isViolentTransition": true,
+  "divisiveness": 0
 }

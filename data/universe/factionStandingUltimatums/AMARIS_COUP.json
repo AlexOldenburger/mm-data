@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -16,18 +16,28 @@
 # affiliated with Microsoft.
 
 {
-  "contractTypeName" : "Pirate Raid",
-  "briefing" : "Plunder the target's assets and withdraw before its defenders can muster.",
-  "allowEarlyVictory" : true,
-  "allowedScenarios" : null,
-  "forbiddenScenarios" : null,
-  "objectiveParameters" : [ {
-    "objectiveType" : "SpecificScenarioVictory",
-    "objectiveCount" : 0.0,
-    "objectiveScenarios" : [ "Convoy Hijack.json" ],
-    "objectiveScenarioModifiers" : [ ]
-  } ],
-  "globalScenarioModifiers" : [ ],
-  "deploymentEncounterOdds" : [ 22, 32, 32, 42 ],
-  "deploymentTimes" : [ 3, 4, 4, 4, 5 ]
+  "name": "AMARIS_COUP",
+  "date": "2766-12-26",
+  "notes": "Represents the date when Stefan Amaris shot Richard Cameron II and caused the downfall of the Star League",
+  "affectedFactionCodes": [
+    "SL",
+    "TH"
+  ],
+  "sides": [
+    {
+      "id": "TH",
+      "name": "First Citizen Stefan Amaris",
+      "role": "NOBLE",
+      "factionCode": "TH"
+    },
+    {
+      "id": "SL",
+      "name": "General Aleksandr Kerensky",
+      "role": "MEKWARRIOR",
+      "factionCode": "SL"
+    }
+  ],
+  "dissenterPreference": "SL",
+  "isViolentTransition": true,
+  "divisiveness": 0
 }

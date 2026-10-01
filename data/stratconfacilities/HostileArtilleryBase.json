@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Artillery Base",
 "facilityType": "ArtilleryBase",
-"userDescription": "Hostile artillery will participate in scenarios on this track and defend this facility.",
+"userDescription": "Hostile artillery will participate in scenarios in this sector and defend this facility.",
 "visible": false,
 "sharedModifiers": [
 "EnemyArty.json"

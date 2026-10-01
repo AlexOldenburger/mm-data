@@ -16,18 +16,27 @@
 # affiliated with Microsoft.
 
 {
-  "contractTypeName" : "Riot Duty",
-  "briefing" : "Defend designated facilities.",
-  "allowEarlyVictory" : false,
-  "allowedScenarios" : null,
-  "forbiddenScenarios" : null,
-  "objectiveParameters" : [ {
-    "objectiveType" : "AlliedFacilityControl",
-    "objectiveCount" : -0.5,
-    "objectiveScenarios" : [ ],
-    "objectiveScenarioModifiers" : [ ]
-  } ],
-  "globalScenarioModifiers" : [ ],
-  "deploymentEncounterOdds" : [ 10, 20, 20, 30 ],
-  "deploymentTimes" : [ 4, 5, 5, 5, 6 ]
+  "name": "FED_COM_CIVIL_WAR",
+  "date": "3057-09-18",
+  "notes": "Represents the date marking the beginning of the Federated Commonwealth Civil War. Opted to go with the month Katherine Steiner-Davion chose to secede from the alliance.",
+  "affectedFactionCodes": [
+    "FC"
+  ],
+  "sides": [
+    {
+      "id": "LA",
+      "name": "Archon Katrina Steiner",
+      "role": "NOBLE",
+      "factionCode": "LA"
+    },
+    {
+      "id": "FS",
+      "name": "Archon-Prince Victor Steiner-Davion",
+      "role": "NOBLE",
+      "factionCode": "FS"
+    }
+  ],
+  "dissenterPreference": "FS",
+  "isViolentTransition": false,
+  "divisiveness": 0
 }

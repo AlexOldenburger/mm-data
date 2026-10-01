@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Air Base",
 "facilityType": "AirBase",
-"userDescription": "Hostile aircraft will participate in scenarios on this track and defend this facility.",
+"userDescription": "Hostile aircraft will participate in scenarios in this sector and defend this facility.",
 "visible": false,
 "sharedModifiers": [
 "EnemyAirSupport.json"

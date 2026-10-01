@@ -19,7 +19,7 @@
 "owner": "Opposing",
 "displayableName": "Early Warning Center",
 "facilityType": "EarlyWarningSystem",
-"userDescription": "Reduces hostile reinforcement arrival time for scenarios on this track.",
+"userDescription": "Reduces hostile reinforcement arrival time for scenarios in this sector.",
 "visible": true,
 "sharedModifiers": [
 "ReinforcementDelayReductionHostile.json"

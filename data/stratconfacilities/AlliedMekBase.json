@@ -19,7 +19,7 @@
 "owner": "Allied",
 "displayableName": "Mek Base",
 "facilityType": "MekBase",
-"userDescription": "Allied Meks will participate in scenarios on this track and defend this facility.",
+"userDescription": "Allied Meks will participate in scenarios in this sector and defend this facility.",
 "visible": true,
 "sharedModifiers": [
 "AlliedMekReinforcements.json"

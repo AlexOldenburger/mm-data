@@ -19,7 +19,7 @@
 "owner": "Allied",
 "displayableName": "Orbital Defense",
 "facilityType": "OrbitalDefense",
-"userDescription": "Prevents hostile air units from operating on this track.",
+"userDescription": "No air or space battles take place in this sector.",
 "visible": true,
 "capturedDefinition": "HostileOrbitalDefense.json",
 "preventAerospace": true
