@@ -562,21 +562,27 @@
         <chassis name='Field Artillery Platoon (Generic)' unitType='Infantry'>
             <availability>MERC:4+</availability>
             <model name='(Motorized Sniper 2200+)'>
+                <roles>mixed_artillery,paratrooper</roles>
                 <availability>MERC!A:3!B:3!C:3!D:4</availability>
             </model>
             <model name='(Motorized Thumper 2200+)'>
+                <roles>mixed_artillery,paratrooper</roles>
                 <availability>MERC!A:4!B:4!C:6!D:10</availability>
             </model>
             <model name='(Tracked Sniper 2200+)'>
+                <roles>mixed_artillery</roles>
                 <availability>MERC!A:8!B:5!C:2</availability>
             </model>
             <model name='(Tracked Thumper 2200+)'>
+                <roles>mixed_artillery</roles>
                 <availability>MERC!A:10!B:8!C:5</availability>
             </model>
             <model name='(Wheeled Sniper 2200+)'>
+                <roles>mixed_artillery,urban</roles>
                 <availability>MERC!A:7!B:6!C:5!D:2</availability>
             </model>
             <model name='(Wheeled Thumper 2200+)'>
+                <roles>mixed_artillery,urban</roles>
                 <availability>MERC!A:8!B:8!C:9!D:6</availability>
             </model>
         </chassis>
@@ -852,7 +858,7 @@
                 <availability>MERC!B:1!C:1,Periphery!A:4!B:1,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(Rifle 2200+)'>
-                <availability>MERC!A:6!B:7!C:8!D:8!F:7,Periphery!A:9!B:8!C:7!D:7!F:7,Periphery.Deep!A:8!B:8!C:7!D:6!B:5,PIR:8</availability>
+                <availability>MERC!A:6!B:7!C:8!D:8!F:7,Periphery!A:9!B:8!C:7!D:7!F:7,Periphery.Deep!A:8!B:8!C:7!D:6!F:5,PIR:8</availability>
             </model>
             <model name='(Rifle Heavy 2315+)'>
                 <availability>MERC!A:5!B:4!C:1,Periphery!A:5!B:3!C:1,Periphery.Deep:0,PIR:0</availability>
@@ -913,7 +919,7 @@
             </model>
         </chassis>
         <chassis name='Foot Squad (Generic)' unitType='Infantry'>
-            <availability>Periphery!D:2!F:9,TC:0,Periphery.Deep!C:1!D:3!F:8,PIR!C:1!D:3!C:6</availability>
+            <availability>Periphery!D:2!F:9,TC:0,Periphery.Deep!C:1!D:3!F:8,PIR!C:1!D:3!F:6</availability>
             <model name='(Rifle 2200+)'>
                 <availability>Periphery:6,Periphery.Deep:4,PIR:4</availability>
             </model>
@@ -1113,20 +1119,20 @@
                 <availability>MERC!A:3!B:3!C:3,Periphery!A:2!B:2,PIR:0</availability>
             </model>
             <model name='(Recoilless 2200+)'>
-                <availability>MERC!B:1!C:2,Periphery!A:4!B:3,PIR!A:1!C:3!D:1</availability>
+                <availability>MERC!B:1!C:2,Periphery!A:4!B:3,PIR!A:1!B:3!C:1</availability>
             </model>
             <model name='(Recoilless Heavy 2315+)'>
                 <availability>MERC!B:2!C:1,Periphery!A:1!B:1,PIR:0</availability>
             </model>
             <model name='(Rifle 2200+)'>
-                <availability>MERC!B:5!C:8,Periphery!A:6!B:8,PIR!A:6!B:7!D:7</availability>
+                <availability>MERC!B:5!C:8,Periphery!A:6!B:8,PIR!A:6!B:7!C:7</availability>
             </model>
             <model name='(Rifle Anti-Mek 2456+)'>
                 <roles>anti_mek</roles>
                 <availability>MERC!B:3</availability>
             </model>
             <model name='(Rifle Heavy 2200+)'>
-                <availability>MERC!A:4!B:6!C:5,Periphery!A:4!C:3,PIR:0</availability>
+                <availability>MERC!A:4!B:6!C:5,Periphery!A:4!B:3,PIR:0</availability>
             </model>
             <model name='(SRM 2400+)'>
                 <availability>MERC!A:4!B:3!C:1,Periphery!A:3!B:1,PIR!A:3</availability>
@@ -1566,7 +1572,7 @@
             </model>
             <model name='(MG 2200+)'>
                 <roles>anti_infantry,urban</roles>
-                <availability>MERC!A:2!B:4!C:5!D:6!C:4,Periphery:4,Periphery.Deep:7,PIR:4</availability>
+                <availability>MERC!A:2!B:4!C:5!D:6!F:4,Periphery:4,Periphery.Deep:7,PIR:4</availability>
             </model>
             <model name='(MG Heavy 2315+)'>
                 <roles>anti_infantry,urban</roles>
