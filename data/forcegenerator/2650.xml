@@ -1204,11 +1204,11 @@
             <availability>SL:3,IS:3,DC:0,CC:0,MERC:0,Periphery:0,TC:3,Periphery.Deep:0,PIR:0</availability>
             <model name='(Sniper)'>
                 <roles>artillery</roles>
-                <availability>SL3:6,IS:6,TC:6</availability>
+                <availability>SL:6,IS:6,TC:6</availability>
             </model>
             <model name='(Thumper)'>
                 <roles>artillery</roles>
-                <availability>SL3:6,IS:6,TC:6</availability>
+                <availability>SL:6,IS:6,TC:6</availability>
             </model>
         </chassis>
         <chassis name='Field Artillery Platoon (CCAF)' unitType='Infantry'>
@@ -1441,7 +1441,7 @@
             </model>
             <model name='(Tracked AC20 2502+)'>
                 <roles>field_gun</roles>
-                <availability>MERC:1+,Periphery:1+</availability>
+                <availability>MERC:1+,Periphery:1+,Periphery.Deep:0</availability>
             </model>
             <model name='(Tracked AC5 2255+)'>
                 <roles>anti_aircraft,field_gun,fire_support</roles>
@@ -2930,7 +2930,7 @@
                 <availability>MERC!A:5!B:3!C:3!D:5,Periphery!A:4!B:3!C:3!D:3,Periphery.Deep:3+,PIR:3</availability>
             </model>
             <model name='(Recoilless 2200+)'>
-                <availability>Periphery.Deep:0,PIR!B:1!C:1</availability>
+                <availability>PIR!B:1!C:1</availability>
             </model>
             <model name='(Rifle 2200+)'>
                 <roles>recon</roles>
