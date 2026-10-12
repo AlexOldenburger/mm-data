@@ -311,7 +311,7 @@
             </model>
             <model name='(Riot Police 2400+)'>
                 <roles>civilian</roles>
-                <availability>Periphery.MW:2+:2415,Periphery.ME:2+:2415</availability>
+                <availability>Periphery.MW:2+,Periphery.ME:2+</availability>
             </model>
         </chassis>
         <chassis name='Burro Heavy Support Truck' unitType='Tank'>
