@@ -2075,7 +2075,7 @@
             <availability>IS:2+,SL.R:4,DC:0,CC:0,MERC:0</availability>
             <model name='(Rifle Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
-                <availability>IS:8</availability>
+                <availability>SL.R:8,IS:8</availability>
             </model>
         </chassis>
         <chassis name='Fortress' unitType='Dropship'>
