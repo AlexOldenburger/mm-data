@@ -3624,7 +3624,7 @@
             </model>
             <model name='(Sappers 2200+)'>
                 <roles>engineer,minesweeper</roles>
-                <availability>Periphery!C:1,PIR:0</availability>
+                <availability>Periphery!C:1,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(Sappers 2315+)'>
                 <roles>engineer,minesweeper</roles>
