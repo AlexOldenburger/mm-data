@@ -4050,7 +4050,7 @@
             </model>
             <model name='(MG Heavy 2315+)'>
                 <roles>anti_infantry</roles>
-                <availability>MERC!A:5!B:3!C:2,Periphery:2+,PIR:0</availability>
+                <availability>MERC!A:5!B:3!C:2,Periphery:2+,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(Mortar 2200+)'>
                 <roles>fire_support</roles>
