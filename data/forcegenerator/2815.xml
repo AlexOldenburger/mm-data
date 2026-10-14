@@ -2505,7 +2505,7 @@
             </model>
             <model name='(Rifle Paratrooper)'>
                 <roles>paratrooper</roles>
-                <availability>IS:3,TC:0</availability>
+                <availability>IS:3</availability>
             </model>
             <model name='(Rifle)'>
                 <availability>PP:7,IS:8,TC:6</availability>
@@ -4136,7 +4136,7 @@
             <availability>PP:3+,IS:5,DC:0,CC:0,MERC:0,Periphery:0,TC:1-,Periphery.Deep:0,PIR:0</availability>
             <model name='(Demolition)'>
                 <roles>recon,engineer</roles>
-                <availability>IS:2,CLAN:0,PP:1+,TC:2</availability>
+                <availability>IS:2,PP:1+,TC:2</availability>
             </model>
             <model name='(Flamer)'>
                 <availability>PP:8,IS:8,TC:2-</availability>
