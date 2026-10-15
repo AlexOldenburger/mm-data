@@ -3074,7 +3074,7 @@
             </model>
             <model name='(SpecOps Fireteam 2456+)'>
                 <roles>anti_mek,paratrooper,recon,specops</roles>
-                <availability>MERC!A:1!B:1,Periphery!A:1,Periphery.Deep:0,PIR:0</availability>
+                <availability>MERC!A:1!B:1,Periphery:1+,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(SRM 2400+)'>
                 <availability>MERC!A:3!B:3!C:1,Periphery:3+,Periphery.Deep!A:2,PIR:3+</availability>
