@@ -2999,7 +2999,7 @@
                 <availability>MERC!A:4!B:3!C:1,Periphery:3+,Periphery.Deep!A:2,PIR:3+</availability>
             </model>
             <model name='(SRM Heavy 2400+)'>
-                <availability>MERC!A:2!B:1,Periphery!A:2,Periphery.Deep:0,PIR:0</availability>
+                <availability>MERC:2+,Periphery!A:2,Periphery.Deep:0,PIR:0</availability>
             </model>
         </chassis>
         <chassis name='Foot Platoon (Taurian)' unitType='Infantry'>
