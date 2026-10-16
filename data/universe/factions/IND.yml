@@ -33,6 +33,7 @@ color:
   red: 191
   green: 179
   blue: 153
+icon: logo_security_forces.png
 background: Independent.png
 eraMods:
   - 1

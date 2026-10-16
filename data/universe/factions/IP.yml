@@ -35,6 +35,7 @@ color:
   green: 191
   blue: 209
 logo: Periphery/Illyrian Palatinate.png
+icon: logo_illyrian_palatinate.png
 background: Periphery/Illyrian Palatinate.png
 eraMods:
   - 1

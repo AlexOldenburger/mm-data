@@ -39,6 +39,7 @@ color:
   green: 198
   blue: 237
 logo: Periphery/St. Ives Compact.png
+icon: logo_st_ives_compact.png
 nameGenerator: CC
 eraMods:
   - 0

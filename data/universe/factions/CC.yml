@@ -33,6 +33,7 @@ color:
   green: 127
   blue: 14
 logo: Inner Sphere/Capellan Confederation.png
+icon: logo_capellan_confederation.png
 background: Inner Sphere/Capellan Confederation.png
 camos: Capellan Confederation
 nameGenerator: CC

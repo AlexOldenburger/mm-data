@@ -35,6 +35,7 @@ color:
   red: 169
   green: 169
   blue: 169
+icon: logo_mercenaries.png
 background: Mercenary.png
 camos: Mercs
 eraMods:

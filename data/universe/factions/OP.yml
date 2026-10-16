@@ -36,6 +36,7 @@ color:
   green: 112
   blue: 120
 logo: Inner Sphere/Oriente Protectorate.png
+icon: logo_oriente_protectorate.png
 background: Inner Sphere/Free Worlds League.png
 nameGenerator: FWL
 ratingLevels:

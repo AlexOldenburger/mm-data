@@ -37,6 +37,7 @@ color:
   green: 168
   blue: 191
 logo: Inner Sphere/Free Rasalhague Republic.png
+icon: logo_free_rasalhague_republic.png
 background: Inner Sphere/Free Rasalhague Republic.png
 camos: Free Rasalhague Republic
 nameGenerator: FRR

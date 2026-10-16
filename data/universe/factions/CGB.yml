@@ -42,6 +42,9 @@ color:
   green: 232
   blue: 255
 logo: Clan/Clan Ghost Bear.png
+icon: logo_clan_ghost_bear.png
+iconChanges:
+  3060: logo_rasalhague_dominion.png
 background: Clan/Clan Ghost Bear.png
 camos: Clans/Ghost Bear
 nameGenerator: Clan

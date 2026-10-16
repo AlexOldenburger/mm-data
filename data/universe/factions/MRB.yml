@@ -35,5 +35,6 @@ color:
   red: 169
   green: 169
   blue: 169
+icon: logo_comstar.png
 fallBackFactions:
   - CS

@@ -38,6 +38,7 @@ color:
   green: 255
   blue: 0
 logo: Periphery/Nueva Castile.png
+icon: logo_nueva_castile.png
 background: Periphery/Nueva Castile.png
 eraMods:
   - 1

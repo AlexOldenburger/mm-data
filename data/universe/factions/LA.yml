@@ -37,6 +37,7 @@ color:
   green: 114
   blue: 188
 logo: Inner Sphere/Lyran Commonwealth.png
+icon: logo_lyran_alliance.png
 background: Inner Sphere/Lyran Commonwealth.png
 camos: Lyran Commonwealth
 nameGenerator: LA

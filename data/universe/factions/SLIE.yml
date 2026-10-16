@@ -38,6 +38,7 @@ color:
   red: 176
   green: 196
   blue: 222
+icon: logo_star_league.png
 fallBackFactions:
   - SL
 factionLeaders:

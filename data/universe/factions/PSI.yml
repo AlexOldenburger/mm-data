@@ -26,5 +26,6 @@ capital: Terra
 tags:
   - PIRATE
   - SPECIAL
+icon: logo_pirates.png
 fallBackFactions:
   - PIR

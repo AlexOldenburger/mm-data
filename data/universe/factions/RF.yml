@@ -36,6 +36,7 @@ color:
   green: 51
   blue: 51
 logo: Inner Sphere/Regulan Fiefs.png
+icon: logo_regulan_fiefs.png
 background: Inner Sphere/Free Worlds League.png
 nameGenerator: FWL
 eraMods:

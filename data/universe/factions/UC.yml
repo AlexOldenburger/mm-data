@@ -37,6 +37,7 @@ color:
   green: 255
   blue: 0
 logo: Periphery/Umayyad Caliphate.png
+icon: logo_umayyad_caliphate.png
 background: Periphery/Umayyad Caliphate.png
 eraMods:
   - 1

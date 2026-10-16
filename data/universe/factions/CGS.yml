@@ -53,6 +53,9 @@ logo: Clan/Clan Goliath Scorpion.png
 # Empire eras); the base Goliath Scorpion emblem applies before then. See Faction2.getLogo(int).
 logoChanges:
   3080: Clan/Escorpion Imperio.png
+icon: logo_clan_goliath_scorpion.png
+iconChanges:
+  3080: logo_escorpion_imperio.png
 background: Clan/Clan Goliath Scorpion.png
 backgroundChanges:
   3080: Clan/Escorpion Imperio.png

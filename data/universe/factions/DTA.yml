@@ -36,6 +36,7 @@ color:
   green: 94
   blue: 165
 logo: Inner Sphere/Duchy of Tamarind-Abbey.png
+icon: logo_duchy_of_tamarind_abbey.png
 background: Inner Sphere/Free Worlds League.png
 nameGenerator: FWL
 eraMods:

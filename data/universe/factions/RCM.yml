@@ -35,6 +35,7 @@ color:
   green: 158
   blue: 160
 logo: Inner Sphere/Rim Commonality.png
+icon: logo_rim_commonality.png
 background: Inner Sphere/Free Worlds League.png
 eraMods:
   - 0

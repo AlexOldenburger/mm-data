@@ -39,6 +39,7 @@ color:
   green: 250
   blue: 240
 logo: Inner Sphere/ComStar.png
+icon: logo_comstar.png
 background: Inner Sphere/ComStar.png
 camos: ComStar
 ratingLevels:

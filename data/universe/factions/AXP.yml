@@ -34,6 +34,7 @@ color:
   green: 50
   blue: 204
 logo: Periphery/Axumite Providence.png
+icon: logo_axumite_providence.png
 background: Periphery/Axumite Providence.png
 eraMods:
   - 1

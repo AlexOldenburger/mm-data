@@ -37,6 +37,7 @@ color:
   green: 120
   blue: 110
 logo: Clan/Raven Alliance.png
+icon: logo_raven_alliance.png
 background: Clan/Raven Alliance.png
 ratingLevels:
   - Provisional Garrison

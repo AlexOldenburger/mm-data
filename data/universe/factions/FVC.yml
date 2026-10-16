@@ -33,6 +33,7 @@ color:
   green: 228
   blue: 181
 logo: Periphery/Filtvelt Coalition.png
+icon: logo_filtvelt_coalition.png
 background: Inner Sphere/Federated Suns.png
 camos: Filtvelt Coalition
 nameGenerator: FS
