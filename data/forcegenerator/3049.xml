@@ -4274,7 +4274,7 @@
                 <availability>MERC!B:3!C:3!D:5,Periphery!A:2!B:6!C:6,Periphery.Deep!A:5!B:3</availability>
             </model>
             <model name='(Motorized Gauss 3045+)'>
-                <roles>field_gun,fire_support</roles>
+                <roles>field_gun,fire_support,paratrooper</roles>
                 <availability>MERC!B:1</availability>
             </model>
             <model name='(Motorized Heavy Cannon 2200+)'>
