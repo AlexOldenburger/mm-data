@@ -48,13 +48,13 @@ LA armor:24
 RA armor:24
 LT armor:25
 RT armor:25
-CT armor:34
+CT armor:36
 HD armor:9
 LL armor:32
 RL armor:32
 RTL armor:7
 RTR armor:7
-RTC armor:11
+RTC armor:9
 
 Weapons:6
 ER Large Laser, Left Arm
@@ -101,7 +101,7 @@ CLLRT15 (OMNIPOD)
 CLLRT15 (OMNIPOD)
 CLArtemisIV (OMNIPOD)
 Clan Ammo LRTorpedo-15 Artemis-capable (OMNIPOD)
-IS HarJel
+IS HarJel (OMNIPOD)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Endo Steel
@@ -115,7 +115,7 @@ CLLRT15 (OMNIPOD)
 CLLRT15 (OMNIPOD)
 CLArtemisIV (OMNIPOD)
 Clan Ammo LRTorpedo-15 Artemis-capable (OMNIPOD)
-IS HarJel
+IS HarJel (OMNIPOD)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Endo Steel
@@ -131,7 +131,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS HarJel
+IS HarJel (OMNIPOD)
 Clan Endo Steel
 
 Head:
