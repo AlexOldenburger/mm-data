@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 uuid:019f583e-df21-7271-869b-bb9a260d2d3d
-generator:MegaMek Suite 0.51.01 on 2026-10-20
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Archangel
 model:C-ANG-O (Berith)
 mul id:64
@@ -129,13 +129,13 @@ Fusion Engine
 Fusion Engine
 Gyro
 Gyro
+ISC3iUnit
+ISC3iUnit
 ISDoubleHeatSink (OMNIPOD)
 ISDoubleHeatSink (OMNIPOD)
 ISDoubleHeatSink (OMNIPOD)
 ISMediumVSPLaser (OMNIPOD)
 ISMediumVSPLaser (OMNIPOD)
-ISC3iUnit
-ISC3iUnit
 
 Head:
 Life Support
