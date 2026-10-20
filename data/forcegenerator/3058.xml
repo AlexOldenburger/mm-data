@@ -9787,7 +9787,7 @@
                 <availability>Periphery.Deep!A:4</availability>
             </model>
             <model name='(Recoilless Heavy 2315+)'>
-                <availability>MERC!C:3!D:2,Periphery!B:3!C:2,Periphery.Deep:0,PIR:0</availability>
+                <availability>MERC!C:1,Periphery!B:3!C:2,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(Rifle 2200+)'>
                 <availability>MERC!B:8!C:2,Periphery:6,Periphery.Deep:0,PIR:1</availability>
