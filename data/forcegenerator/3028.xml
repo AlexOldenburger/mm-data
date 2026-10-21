@@ -6372,7 +6372,7 @@
                 <availability>MERC!A:4!B:3!C:2,Periphery:3+,Periphery.Deep!A:4,PIR!A:4!B:3</availability>
             </model>
             <model name='(SRM Heavy 2400+)'>
-                <availability>MERC!A:3!B:1,Periphery:2+</availability>
+                <availability>MERC!A:3!B:1,Periphery:2+,Periphery.Deep:0,PIR:0</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon (Taurian)' unitType='Infantry'>

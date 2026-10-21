@@ -9227,7 +9227,7 @@
             </model>
             <model name='(SpecOps Fireteam 2505+)'>
                 <roles>paratrooper,recon,specops</roles>
-                <availability>MERC:1+,Periphery:1+,OA:1+:3065</availability>
+                <availability>MERC:1+,Periphery:1+</availability>
             </model>
             <model name='(SpecOps Fireteam 3068+)'>
                 <roles>paratrooper,recon,specops</roles>
@@ -9333,7 +9333,7 @@
             </model>
         </chassis>
         <chassis name='Foot Stealth Platoon' unitType='Infantry'>
-            <availability>MOC:1+,IS:2+,FS:0,LA:0,DC:0,FWL:0,DTA:0,RCM:0,CC:0,CS:1+,MERC:0,MH:0</availability>
+            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DTA:0,RCM:0,CC:0,CS:1+,MERC:0,MH:0</availability>
             <model name='(Rifle Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>IS:8</availability>
@@ -15607,7 +15607,7 @@
                 <availability>MERC!A:4!B:3!C:2,Periphery!A:4!B:2!C:1,Periphery.Deep!A:6,PIR!A:4!B:3</availability>
             </model>
             <model name='(SRM Heavy 2400+)'>
-                <availability>MERC!A:3!B:1,Periphery:2+</availability>
+                <availability>MERC!A:3!B:1,Periphery:2+,Periphery.Deep:0,PIR:0</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon (LCAF)' unitType='Infantry'>
