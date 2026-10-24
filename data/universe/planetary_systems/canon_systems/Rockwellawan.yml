@@ -144,11 +144,6 @@ planet:
         population: 19542781.0
       - date: '2850-01-01'
         population: 21280708.0
-      - date: '2850-04-09'
-        faction:
-          source: canon
-          value:
-            - IND
       - date: '2860-01-01'
         population: 22888192.0
       - date: '2864-12-31'
@@ -163,6 +158,11 @@ planet:
         population: 25485052.0
       - date: '2890-01-01'
         population: 26659320.0
+      - date: '2890-07-21'
+        faction:
+          source: canon
+          value:
+            - IND
       - date: '2900-01-01'
         population: 27832444.0
       - date: '2910-01-01'
@@ -209,11 +209,6 @@ planet:
           value: C-C-A-C-B
       - date: '3050-01-01'
         population: 31861860.0
-      - date: '3057-12-17'
-        faction:
-          source: canon
-          value:
-            - NCR
       - date: '3057-12-31'
         faction:
           source: SUCS
