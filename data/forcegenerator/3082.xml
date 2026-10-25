@@ -3527,7 +3527,7 @@
             </model>
         </chassis>
         <chassis name='Camel Squad (Generic)' unitType='Infantry'>
-            <availability>Periphery!D:1!F:1,Periphery.OS:0,Periphery.HR!F:1,TC:0,Periphery.Deep:2-,PIR!D:1!F:1</availability>
+            <availability>RA:0,Periphery!D:1!F:1,Periphery.OS:0,Periphery.HR!F:1,TC:0,Periphery.Deep:2-,PIR!D:1!F:1</availability>
             <model name='(Rifle 2200+)'>
                 <availability>Periphery:6,Periphery.Deep:4,PIR:5</availability>
             </model>
@@ -7905,11 +7905,11 @@
             </model>
             <model name='(Tracked LAC2 3070+)'>
                 <roles>anti_aircraft,field_gun,fire_support</roles>
-                <availability>MERC!C:5,Periphery!C:3</availability>
+                <availability>MERC!C:5,Periphery!C:3,Periphery.Deep:0</availability>
             </model>
             <model name='(Tracked LAC5 3070+)'>
                 <roles>anti_aircraft,field_gun,fire_support</roles>
-                <availability>MERC!C:4,Periphery!C:4</availability>
+                <availability>MERC!C:4,Periphery!C:4,Periphery.Deep:0</availability>
             </model>
             <model name='(Tracked LBX10 3040+)'>
                 <roles>anti_aircraft,field_gun</roles>
@@ -12357,7 +12357,7 @@
             </model>
             <model name='(Laser TAG 3051+)'>
                 <roles>spotter</roles>
-                <availability>MERC!A:3!B:1</availability>
+                <availability>MERC!A:3!B:1,MOC:1+</availability>
             </model>
             <model name='(LRM 3065+)'>
                 <roles>fire_support</roles>

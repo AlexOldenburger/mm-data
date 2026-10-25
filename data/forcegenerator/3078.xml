@@ -8373,11 +8373,11 @@
             </model>
             <model name='(Tracked LAC2 3070+)'>
                 <roles>anti_aircraft,field_gun,fire_support</roles>
-                <availability>MERC!C:5,Periphery!C:3</availability>
+                <availability>MERC!C:5,Periphery!C:3,Periphery.Deep:0</availability>
             </model>
             <model name='(Tracked LAC5 3070+)'>
                 <roles>anti_aircraft,field_gun,fire_support</roles>
-                <availability>MERC!C:4,Periphery!C:4</availability>
+                <availability>MERC!C:4,Periphery!C:4,Periphery.Deep:0</availability>
             </model>
             <model name='(Tracked LBX10 3040+)'>
                 <roles>anti_aircraft,field_gun</roles>
