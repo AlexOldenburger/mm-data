@@ -6259,7 +6259,7 @@
             </model>
             <model name='(Wheeled UAC5 3040+)'>
                 <roles>field_gun,fire_support,urban</roles>
-                <availability>MERC!A:3!B:4,Periphery!A:4!B:2,OA:1+</availability>
+                <availability>MERC!A:3!B:4,Periphery!A:4!B:2,OA:1+,Periphery.Deep:0</availability>
             </model>
         </chassis>
         <chassis name='Field Gun Platoon (LCAF)' unitType='Infantry'>

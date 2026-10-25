@@ -7570,7 +7570,7 @@
             </model>
             <model name='(Motorized LBX10 3040+)'>
                 <roles>anti_aircraft,field_gun,paratrooper</roles>
-                <availability>MERC!B:5!C:1,Periphery:1+</availability>
+                <availability>MERC!B:5!C:1,Periphery:1+,Periphery.Deep:0</availability>
             </model>
             <model name='(Motorized LBX2 3060+)'>
                 <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
@@ -7774,7 +7774,7 @@
             </model>
             <model name='(Wheeled UAC5 3040+)'>
                 <roles>field_gun,fire_support,urban</roles>
-                <availability>MERC!A:2!B:3,Periphery!A:4!B:2,OA:2+</availability>
+                <availability>MERC!A:2!B:3,Periphery!A:4!B:2,OA:2+,Periphery.Deep:0</availability>
             </model>
         </chassis>
         <chassis name='Field Gun Platoon (LCAF)' unitType='Infantry'>
@@ -14392,7 +14392,7 @@
             </model>
             <model name='(LRM 3065+)'>
                 <roles>fire_support</roles>
-                <availability>MERC:2+,Periphery:1+</availability>
+                <availability>MERC:2+,Periphery:1+,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(MG 2200+)'>
                 <roles>anti_infantry</roles>
