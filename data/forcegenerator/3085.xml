@@ -7207,7 +7207,7 @@
             </model>
             <model name='(Wheeled Arrow IV 3045+)'>
                 <roles>mixed_artillery,urban</roles>
-                <availability>MERC:1+,Periphery:2+,MOC:2+</availability>
+                <availability>MERC:1+,Periphery:2+</availability>
             </model>
             <model name='(Wheeled Sniper 2200+)'>
                 <roles>mixed_artillery,urban</roles>
@@ -8190,19 +8190,19 @@
             <availability>IS:4,FS:0,LA:0,DC:0,FWL:0,DA:0,DO:0,OP:0,DoO:0,DTA:0,MSC:0,PG:0,PR:0,RF:0,RCM:0,RFS:0,TP:0,CC:0,MERC:0,RA:0,Periphery:0,TC:2,MH:0,Periphery.Deep:0,PIR:0</availability>
             <model name='(AC10)'>
                 <roles>field_gun</roles>
-                <availability>General:8-</availability>
+                <availability>IS:8-,TC:8-</availability>
             </model>
             <model name='(AC2)'>
                 <roles>anti_aircraft,field_gun</roles>
-                <availability>General:7-</availability>
+                <availability>IS:7-,TC:7-</availability>
             </model>
             <model name='(AC20)'>
                 <roles>urban,field_gun</roles>
-                <availability>General:5</availability>
+                <availability>IS:5,TC:5</availability>
             </model>
             <model name='(AC5)'>
                 <roles>anti_aircraft,field_gun</roles>
-                <availability>General:8-</availability>
+                <availability>IS:8-,TC:8-</availability>
             </model>
             <model name='(Gauss)'>
                 <roles>field_gun</roles>
@@ -8920,7 +8920,7 @@
             </model>
             <model name='(SpecOps Fireteam 2505+)'>
                 <roles>paratrooper,recon,specops</roles>
-                <availability>MERC!B:1,Periphery:1+</availability>
+                <availability>MERC!B:1,Periphery:1+,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(SpecOps Fireteam 3068+)'>
                 <roles>paratrooper,recon,specops</roles>

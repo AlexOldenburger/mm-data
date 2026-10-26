@@ -8952,7 +8952,7 @@
             </model>
             <model name='(SpecOps Fireteam 2505+)'>
                 <roles>paratrooper,recon,specops</roles>
-                <availability>MERC:1+,Periphery:1+</availability>
+                <availability>MERC:1+,Periphery:1+,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(SpecOps Fireteam 3068+)'>
                 <roles>paratrooper,recon,specops</roles>
