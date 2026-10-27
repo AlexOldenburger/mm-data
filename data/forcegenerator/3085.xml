@@ -12394,7 +12394,7 @@
             </model>
             <model name='(LRM 3065+)'>
                 <roles>fire_support</roles>
-                <availability>MERC:2+,Periphery:2+,Periphery.Deep:1,PIR:1+</availability>
+                <availability>MERC:2+,Periphery:2+,Periphery.Deep:1+,PIR:1+</availability>
             </model>
             <model name='(MG 2200+)'>
                 <roles>anti_infantry</roles>

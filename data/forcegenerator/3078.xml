@@ -11168,13 +11168,6 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
-        <chassis name='Heavy Mountain Infantry' unitType='Infantry'>
-            <availability>MOC:3</availability>
-            <model name='Cavalier &apos;Mountain Men&apos; Infantry Guard; Magistracy Cavaliers'>
-                <roles>mountaineer</roles>
-                <availability>MOC:8</availability>
-            </model>
-        </chassis>
         <chassis name='Heavy Shredder Gun Emplacement' unitType='Advanced Building'>
             <availability>IS!A:2!B:2!C:3!D:3!F:4</availability>
             <model name='(3057) (Fusion)'>
