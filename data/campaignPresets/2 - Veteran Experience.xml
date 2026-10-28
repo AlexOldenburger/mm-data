@@ -653,7 +653,7 @@
 		<stratConPlayType>NORMAL</stratConPlayType>
 		<useAdvancedScouting>true</useAdvancedScouting>
 		<essentialScenariosOnly>false</essentialScenariosOnly>
-		<contractsUseSpecialMechanics>false</contractsUseSpecialMechanics>
+		<contractsUseSpecialMechanics>true</contractsUseSpecialMechanics>
 		<useEmployerLostPlanetReactions>true</useEmployerLostPlanetReactions>
 		<useFacilityOperations>true</useFacilityOperations>
 		<enemyFacilityActivity>1.0</enemyFacilityActivity>
