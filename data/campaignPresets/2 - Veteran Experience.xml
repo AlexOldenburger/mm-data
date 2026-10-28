@@ -2472,7 +2472,7 @@
 			<name>Tech/Cybernetics</name>
 			<target>9</target>
 			<isCountUp>false</isCountUp>
-			<subType>ROLEPLAY_GENERAL</subType>
+			<subType>UTILITY</subType>
 			<firstAttribute>DEXTERITY</firstAttribute>
 			<secondAttribute>INTELLIGENCE</secondAttribute>
 			<greenLvl>1</greenLvl>
