@@ -36,6 +36,8 @@
     "ShowOfForce.json",
     "PirateCaptain.json",
     "EnemyEngineers.json",
-    "DeploymentOrder.json"
+    "DeploymentOrder.json",
+    "EnemyEngineers.json",
+    "SupplyInterdiction.json"
   ]
 }
