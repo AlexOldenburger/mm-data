@@ -595,7 +595,7 @@
 		<useDiminishingContractPay>true</useDiminishingContractPay>
 		<equipmentContractBase>true</equipmentContractBase>
 		<equipmentContractSaleValue>true</equipmentContractSaleValue>
-		<blcSaleValue>true</blcSaleValue>
+		<blcSaleValue>false</blcSaleValue>
 		<overageRepaymentInFinalPayment>true</overageRepaymentInFinalPayment>
 		<xpCostMultiplier>1.0</xpCostMultiplier>
 		<scenarioXP>1</scenarioXP>
